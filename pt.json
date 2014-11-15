@@ -1,0 +1,599 @@
+{
+    "lang": {
+        "de": "Alemão",
+        "en": "Inglês",
+        "ch": "Alemão Suíço",
+        "arr": "Pirata"
+    },
+    "time": {
+        "today": "hoje",
+        "tomorrow": "amanhã",
+        "onDay": "em {day}",
+        "onTime": "{day} às {time}"
+    },
+    "admin": {
+        "title": "Painel de Administração",
+        "adminPanel": "Painel de Administração",
+        "logout": "Sair",
+        "mainFunctions": "Menu",
+        "configEditor": "Editor de configuração"
+    },
+    "credits": {
+        "title": "Créditos",
+        "twteam": "Equipa TribalWars",
+        "base": "Jogabilidade, Gráficos, Layout, JavaScript, CSS",
+        "dev": "Desenvolvimento",
+        "lead": "Líder",
+        "lang": "Tradução",
+        "comm": "O trabalho comunitário",
+        "manage": "Gestão",
+        "plugin": "Desenvolvimento de plugins",
+        "help": "Trabalho auxiliar",
+        "christmastree": "Árvore de Natal",
+        "templates": "Coleta de modelos"
+    },
+    "unit_spear": {
+        "name": "Lanceiro"
+    },
+    "unit_sword": {
+        "name": "Espadachim"
+    },
+    "unit_axe": {
+        "name": "Viking"
+    },
+    "unit_archer": {
+        "name": "Arqueiro"
+    },
+    "unit_spy": {
+        "name": "Batedor"
+    },
+    "unit_light": {
+        "name": "Cavalaria Leve"
+    },
+    "unit_marcher": {
+        "name": "Arqueiro a Cavalo"
+    },
+    "unit_heavy": {
+        "name": "Cavalaria Pesada"
+    },
+    "unit_ram": {
+        "name": "Aríete"
+    },
+    "unit_catapult": {
+        "name": "Catapulta"
+    },
+    "unit_knight": {
+        "name": "Paladino"
+    },
+    "unit_snob": {
+        "name": "Nobre"
+    },
+    "unit_militia": {
+        "name": "Milícia"
+    },
+    "building": {
+        "no_level": "não construídos",
+        "level": "Nível {x}"
+    },
+    "building_main": {
+        "name": "Edifício Principal",
+        "description": "No Edifício Principal pode construir ou melhorar outros edifícios. Quanto maior o nível, mais rápida será a construção de edifícios. Assim que o nível do Edifício Principal for superior a 15, poderá demolir edifícios.",
+        "event_building": "Atribuição de construção",
+        "event_time": "Duração",
+        "event_finish": "Realização",
+        "event_cancel": "Cancelamento",
+        "mode_build": "Construção",
+        "mode_destroy": "Demolição",
+        "level_destroy": "demolir nível",
+        "destroy_level": "Demolir um nível",
+        "cancel": "cancelar",
+        "change_order": "Aqui você pode alterar a ordem da sua fila de construção, arrastando-os para o local desejado com o rato.",
+        "queue_info": "Custo adicional para o próximo trabalho na fila de construção: {x}",
+        "queue_text": "Não há nenhum reembolso para os custos adicionais que foram acusados de colocar um edifício na fila de construção",
+        "building": "Edifícios",
+        "costs": "Requisitos",
+        "build_time": "Tempo de construção",
+        "destroy_time": "Tempo de demolição",
+        "build": "Construir",
+        "destroy": "Demolir",
+        "build_to": "Melhorar para o nível {x}",
+        "requires": "Requisitos:",
+        "tooLate": "tarde demais",
+        "change_name": "Alterar nome da aldeia",
+        "change": "Mudar",
+        "nameTooShort": "O nome da aldeia tem de conter pelo menos 3 caracteres.",
+        "hide_completed": "Ocultar edifícios concluídos",
+        "show_all_buildings": "Mostrar todos os edifícios",
+        "forgetIt": "Produção de recursos necessários",
+        "requirementsNot": "Requisitos não atendidos",
+        "cannotBuild": "Não pode ser construído na aldeia",
+        "farmTooSmall": "Fazenda demasiado pequena",
+        "storageTooSmall": "Armazém demasiado pequeno",
+        "storageTooSmallQueue": "Armazém muito pequeno para adicionar à fila de construção.",
+        "tooFewRes": "Recursos disponíveis {when}",
+        "tooFewResQueue": "Não há recursos suficientes para adicionar à fila de construção.",
+        "fully_built": "Construção concluída",
+        "fully_destroyed": "Construção não pode ser demolida",
+        "ajax_noBuilding": "Nenhuma construção!",
+        "ajax_build": "Construção adicionada à fila.",
+        "unknownBuilding": "Este edifício não existe.",
+        "noDestroy": "Você não pode demolir edifícios!",
+        "queueBuild": "Atribuições adicionais à fila de construção vão custar mais. Ainda quer adicionar esta tarefa?",
+        "orderSuccess": "Construção adicionada à fila."
+    },
+    "building_barracks": {
+        "name": "Quartel",
+        "description": "No Quartel pode treinar infantaria. Quanto maior o seu nível, mais rapidamente serão treinadas novas tropas."
+    },
+    "building_stable": {
+        "name": "Estábulo",
+        "description": "No Estábulo você pode formar novos cavaleiros. Quanto maior o seu nível, mais rapidamente poderão ser recrutadas novas tropas."
+    },
+    "building_garage": {
+        "name": "Oficina",
+        "description": "Na Oficina podem ser produzidas máquinas de guerra. Quanto maior for o nível da Oficina, mais rapidamente serão produzidas novas máquinas."
+    },
+    "building_church_f": {
+        "name": "Primeira Igreja",
+        "description": "A primeira igreja dá crença a todas as aldeias mais próxima. Quando uma aldeia tem crença, as suas tropas lutam com uma eficácia de 100% em vez de 50%. A primeira igreja foi construída por padrão na sua primeira aldeia, e só pode ser construída uma vez."
+    },
+    "building_church": {
+        "name": "Igreja",
+        "description": "A igreja ajuda os aldeões religiosos nas aldeias vizinhas. Sem uma igreja as suas tropas na região afetadas por outra igreja perderão grande capacidade de combate."
+    },
+    "building_snob": {
+        "name": "Academia",
+        "description": "Na Academia pode treinar Nobres, com os quais irá conquistar outras aldeias."
+    },
+    "building_smith": {
+        "name": "Ferreiro",
+        "description": "No Ferreiro pode pesquisar e melhorar suas armas. Quanto maior o nível do Ferreiro melhores serão as armas que poderá pesquisar e menores os tempos necessários de tais pesquisas."
+    },
+    "building_place": {
+        "name": "Praça de Reunião",
+        "description": "Na Praça de Reunião encontram-se seus guerreiros antes da batalha. Aqui poderá comandar os movimentos das suas tropas."
+    },
+    "building_statue": {
+        "name": "Estátua",
+        "description": "Perante a Estátua os habitantes da sua aldeia prestam homenagem ao seu Paladino. Caso o Paladino morra poderá apontar outro guerreiro como novo Paladino."
+    },
+    "building_market": {
+        "name": "Mercado",
+        "description": "No Mercado pode negociar com outros jogadores."
+    },
+    "building_wood": {
+        "name": "Bosque",
+        "description": "Os lenhadores cortam madeira dos bosques que rodeiam as aldeias. Tal madeira é necessária para o desenvolvimento da própria aldeia, assim como para a recruta do exército. Quanto mais alto o nível do bosque mais madeira será produzida."
+    },
+    "building_stone": {
+        "name": "Poço de Argila",
+        "description": "No Poço de Argila trabalham muitos dos seus habitantes para fornecer à sua aldeia com o importante barro. Quanto maior for o seu nível maior será a sua capacidade de produção."
+    },
+    "building_iron": {
+        "name": "Mina de Ferro",
+        "description": "Da Mina de Ferro é extraído o precioso ferro para batalhas no Tribos. Quanto maior for o seu nível, maior será a sua produção."
+    },
+    "building_farm": {
+        "name": "Fazenda",
+        "description": "A Fazenda sustenta os habitantes da sua aldeia. Sem o desenvolvimento da Fazenda a sua aldeia não poderá crescer. Quanto maior o nível da Fazenda, mais habitantes estarão à sua disposição."
+    },
+    "building_storage": {
+        "name": "Armazém",
+        "description": "No Armazém são guardados os recursos produzidos pela aldeia. Quanto maior for o nível do Armazém, maior será a sua capacidade de armazenamento.",
+        "full": "completo"
+    },
+    "building_hide": {
+        "name": "Esconderijo",
+        "description": "No Esconderijo são escondidos recursos que, em caso de ataque inimigo, estes não serão roubados. Os Batedores inimigos não conseguem descobrir quantos recursos estão guardados no Esconderijo."
+    },
+    "building_wall": {
+        "name": "Muralha",
+        "description": "A Muralha oferece proteção contra tropas inimigas. Por meio dela é aumentada tanto a defesa básica da aldeia como a força defensiva de suas tropas."
+    },
+    "admin.login": {
+        "login": "Login",
+        "password": "Senha",
+        "default": "A sua senha ainda é a padrão! <b>(editme)</b>",
+        "fail": "Senha errada!"
+    },
+    "admin.configeditor": {
+        "warningNoDefaultValues": "A configuração padrão não pôde ser encontrada.",
+        "title": "Editor de configuração",
+        "global": "Configuração global",
+        "save": "Guardar configurações",
+        "saved": "Configurações guardadas!",
+        "standard": "Valores padrão",
+        "confignotfound": "O arquivo de configuração para o editor de configuração não pôde ser encontrado",
+        "reload": "Recarregar",
+        "world": "Configuração do Mundo",
+        "newworld": "Criar novo mundo",
+        "entername": "Digite o nome do novo mundo:",
+        "worldcreated": "O mundo foi criado. Agora você pode configurá-lo como qualquer outro mundo.",
+        "worlddeleted": "O mundo foi eliminado.",
+        "worldexists": "Este mundo já existe!",
+        "invalidinput": "Sua entrada é demasiado curta ou incorreta",
+        "mkdir": "Não foi possível criar a pasta!",
+        "rmdir": "Não foi possível eliminar a pasta!",
+        "defaultWorld": "Configuração padrão do mundo",
+        "deleteworld": "Eliminar mundo",
+        "confirm": "Você tem a certeza?"
+    },
+    "admin.configeditor.types": {
+        "units": "Configuração da unidade",
+        "buildings": "Configuração da Construção"
+    },
+    "menu": {
+        "rules": "Regras",
+        "rounds": "Rondas",
+        "stats": "Estatísticas",
+        "admin": "Painel de Administração",
+        "pma": "phpMyAdmin"
+    },
+    "news": {
+        "format": "d.m.y H:i"
+    },
+    "index": {
+        "twlan": "TWLan.org",
+        "title": "TWLan - Versão Tribal Wars LAN",
+        "twlanLink": "TWLan.org",
+        "imageTitle": "Tribal Wars",
+        "descriptionTitle": "Tribal Wars - O jogo de browser",
+        "description": "Tribal Wars é um jogo online baseado na idade média. Cada jogador é senhor de uma pequena aldeia, qual deve ajudar a ganhar poder e glória.",
+        "register": "Registe-se agora!",
+        "screenshots": "Imagens do jogo de browser:",
+        "screenshotMap": "Mapa do mundo",
+        "screenshotPlace": "A praça de reunião",
+        "screenshotPaladin": "O paladino",
+        "loginTitle1": "TWLan - Login",
+        "loginTitle2": "Bem-vindo {user}!",
+        "loginText": "Clique no botão de login para entrar no jogo!",
+        "login": "Login",
+        "username": "Nome de utilizador",
+        "password": "Senha",
+        "allWorlds": "Mostrar todos os mundos",
+        "stayLoggedIn": "Permanecer ligado",
+        "differentUser": "Você não é {user}?",
+        "logout": "Sair",
+        "forgotPassword": "Esqueceu a sua senha senha/Alterar senha",
+        "changePassword": "Alterar senha",
+        "notLoggedIn": "Você não está ligado!",
+        "wrongIP": "TWLan só pode ser jogador na sua rede local!"
+    },
+    "register": {
+        "title": "Registrar",
+        "register": "Registrar",
+        "name": "Nome de utilizador",
+        "password": "Senha",
+        "passwordConfirm": "Repita a senha",
+        "nameMissing": "Nenhum nome de utilizador inserido!",
+        "nameInvalid": "Nome inválido!",
+        "nameTooShort": "O nome tem de conter pelo menos 4 caracteres!",
+        "nameTooLong": "O nome não pode exceder 50 caracteres!",
+        "nameTaken": "O nome de utilizador solicitado já está a ser usado!",
+        "passwordMissing": "Nenhuma senha inserida!",
+        "passwordEqualsName": "A senha não pode ser o mesmo que o seu nome de utilizador!",
+        "passwordTooShort": "A palavra-passe deve conter pelo menos 4 caracteres!",
+        "passwordTooLong": "A senha não pode exceder 50 caracteres!",
+        "passwordsDontMatch": "A senha deve ser digitada duas vezes, e ser exatamente a mesma.",
+        "failure": "Erro de registo!"
+    },
+    "login": {
+        "undefined": "Nenhum dado fornecido",
+        "invalidWorld": "Mundo inválido",
+        "invalidAccount": "A conta não existe",
+        "wrongPassword": "Senha inválida"
+    },
+    "sid_wrong": {
+        "title": "Sessão expirada",
+        "content": "Sua sessão expirou. Faça login outra vez em {link}.",
+        "index": "Página Inicial",
+        "title2": "Sessão não pôde ser criada.",
+        "max": "Você não faz parte dos 25 jogadores do mundo, portanto, você não pode jogar neste mundo.",
+        "link": "{t} Página Inicial"
+    },
+    "join": {
+        "title": "Juntar",
+        "description": "Descrição:",
+        "registerDeactivated": "A adesão a este mundo foi desativada.",
+        "worldFull": "O limite de jogadores para este mundo foi atingido.",
+        "settings": "{t} Configurações do Mundo {world}",
+        "wannaJoin": "Você quer se juntar {world}?",
+        "join": "Juntar"
+    },
+    "create_village": {
+        "title": "Criar uma nova aldeia",
+        "description": "Em que área gostaria que sua nova aldeia fosse colocada?",
+        "noRestart": "Você não pode criar mais novas aldeias.",
+        "noDirection": "Área não determinada.",
+        "creationFailed": "A aldeia não pode ser criada.",
+        "drandom": "Aleatório",
+        "dsw": "Sudoeste",
+        "dnw": "Noroeste",
+        "dso": "Sudeste",
+        "dno": "Nordeste",
+        "dally": "Centro da minha tribo",
+        "submit": "Confirmar"
+    },
+    "logout": {
+        "title": "Sair",
+        "over": "Sair bem sucedido",
+        "message": "Obrigado pela sua visita!",
+        "index": "{t} Página Inicial"
+    },
+    "game": {
+        "errorWorld": "O mundo {world} não existe!",
+        "ok": "OK",
+        "points": "Pontos",
+        "wood": "Madeira",
+        "stone": "Argila",
+        "iron": "Ferro",
+        "population": "População",
+        "storage": "Armazém",
+        "edit": "editar",
+        "gen_time": "gerada em {time} ms",
+        "servertime": "Hora do servidor:",
+        "time": "H:i:s",
+        "date": "d.m.Y",
+        "delimeter": "'",
+        "support": "Ajuda",
+        "buddies": "Amigos",
+        "preview": "Visualização",
+        "save": "Salvar",
+        "overdue": "vencido"
+    },
+    "game.title": {
+        "close": "fechar",
+        "group": "Grupo:",
+        "village": "Aldeia",
+        "first_village": "Para a primeira vila deste grupo",
+        "attacks": "Ataques recebidos",
+        "supports": "Apoios recebidas"
+    },
+    "game.market": {
+        "traders": "Comerciantes"
+    },
+    "game.village": {
+        "name_left": "Aldeia Bárbara",
+        "name": "{user} aldeia",
+        "username_normal": "{user}'s",
+        "username_special": "{user}'",
+        "special_chars": "sxz"
+    },
+    "game.error": {
+        "pageNotFound": "A página \"{page}\" não pôde ser encontrada.",
+        "pageNotValid": "\"{controller}\" não pode ser instanciado.",
+        "viewNotFound": "O modelo de \"{page}\" não pôde ser encontrado.",
+        "methodNotFound": "\"{Controller}\" não tem uma função chamada \"{method}\"."
+    },
+    "game.menu": {
+        "memo": "Notas",
+        "logout": "Sair",
+        "map": "Mapa",
+        "flags": "Bandeiras"
+    },
+    "game.map": {
+        "barbarian": "Aldeias bárbaras",
+        "enemys": "Inimigos",
+        "owntribe": "Sua tribo",
+        "partners": "Aliados",
+        "naps": "Pacto de não-agressão (PNA)"
+    },
+    "game.menu.overview": {
+        "title": "Visão global",
+        "combined": "Combinado",
+        "prod": "Produção",
+        "trader": "Transportes",
+        "units": "Tropas",
+        "commands": "Comandos",
+        "incomings": "Entrada",
+        "buildings": "Edifícios",
+        "tech": "Pesquisa",
+        "groups": "Grupos"
+    },
+    "game.menu.reports": {
+        "title": "Relatórios",
+        "i_new": "Novo relatório",
+        "all": "Todos os relatórios",
+        "attack": "Ataques",
+        "defense": "Defesas",
+        "support": "Apoiar",
+        "trade": "Comércio",
+        "other": "Diverso",
+        "forwarded": "Transmitido",
+        "filter": "Filtrar",
+        "block": "Bloquear remetente",
+        "public": "Relatórios divulgados"
+    },
+    "game.menu.mails": {
+        "title": "Mensagens",
+        "i_new": "Nova mensagem",
+        "in": "Mensagens",
+        "mass_out": "Mensagens circular",
+        "new": "Escrever mensagem",
+        "block": "Bloquear remetente",
+        "address": "Livro de endereços",
+        "groups": "Arquivo"
+    },
+    "game.menu.ally": {
+        "title": "Tribo",
+        "i_new": "Novas mensagens no fórum da tribo",
+        "i_old": "Não há novas mensagens no fórum da tribo",
+        "overview": "Visão global",
+        "profile": "Perfil",
+        "members": "Membros",
+        "contracts": "Diplomacia",
+        "tribalwars": "Guerras",
+        "reservations": "Planejador de nobre",
+        "forum": "Fórum Tribal"
+    },
+    "game.menu.ranking": {
+        "title": "Posição",
+        "points": "({rank}.|{points} P)",
+        "ally": "Tribos",
+        "player": "Jogadores",
+        "con_ally": "Tribos por continente",
+        "con_player": "Jogadores por continente",
+        "kill_ally": "Adversários derrotados por classificação da tribo",
+        "kill_player": "Adversários derrotados",
+        "wars": "Guerras"
+    },
+    "game.menu.settings": {
+        "title": "Configurações",
+        "profile": "Perfil",
+        "settings": "Configurações",
+        "change_passwd": "Alterar senha",
+        "delete": "Eliminar conta",
+        "notify": "Notificações",
+        "quickbar": "Editar barra rápida",
+        "logins": "Logins",
+        "poll": "Pesquisas",
+        "toolbar": "Barra de ferramentas",
+        "push": "iPhone & Android",
+        "block": "Bloco do jogador",
+        "ticket": "Pedido de ajuda"
+    },
+    "game.groups": {
+        "noun": "Grupos",
+        "create": "Criar grupo",
+        "erroralready": "Um grupo com este nome já existe.",
+        "nogroups": "não há grupos presentes",
+        "edit": "Editar grupos",
+        "rename": "Alterar nome do grupo",
+        "delete": "Eliminar grupo",
+        "all": "todos"
+    },
+    "game.overviews": {
+        "villagespersite": "Aldeias por página",
+        "amount": "Quantidade",
+        "noprod": "Nenhuma produção",
+        "norec": "Nenhum recrutamento",
+        "teccomplete": "Tecnologias totalmente pesquisadas"
+    },
+    "game.overview": {
+        "hide_levels": "Ocultar níveis de atualização",
+        "show_levels": "Mostrar níveis de atualização",
+        "build": "Atualizar edifícios",
+        "classical_overview": "mudar para visão geral clássica da aldeia",
+        "graphical_overview": "mudar para visão geral gráfica da aldeia",
+        "level": "(Level {x}{extra})",
+        "beginner_protection": "A sua proteção de iniciante termina a {date}",
+        "prod_minute": "{x} por minuto",
+        "prod_hour": "{x} por hora",
+        "cancel_build": "Tem certeza de que deseja cancelar a tarefa?",
+        "resourceLabel1": "Tempo de construção: {t}",
+        "resourceLabel2": "Tempo de construção: {t1} população livre: {t2}",
+        "reset": "» Reiniciar visão geral",
+        "setDefault": "» Usar como padrão",
+        "forAll": "» Usar para todas as aldeias",
+        "forAllConfirm": "Realmente usar para todas as aldeias?",
+        "show_all": "Ver todos os widgets"
+    },
+    "game.bbcode": {
+        "bold": "Negrito",
+        "italic": "Itálico",
+        "underline": "Sublinhar",
+        "strikethrough": "Anuladas",
+        "quote": "Citar",
+        "spoiler": "Spoiler",
+        "address": "Endereço",
+        "player": "Jogador",
+        "ally": "Tribo",
+        "coords": "Coordenada",
+        "report": "Relatório",
+        "size": "Tamanho do texto",
+        "picture": "Imagem",
+        "color": "Cor",
+        "table": "Tabela",
+        "units": "Unidade",
+        "main": "Edifício"
+    },
+    "game.tribe": {
+        "tribe": "Tribo",
+        "enter": "Para participar numa tribo, você deve ter um convite.",
+        "invitations": "Convites",
+        "doFound": "Criar tribo",
+        "nameOfTribe": "Nome da tribo",
+        "expression": "Abreviatura",
+        "max": "não mais do que {max} letras",
+        "reasons": "Criar",
+        "invalidinput": "Entrada inválida",
+        "alreadyexists": "Este ID já está a ser usado por outra tribo.",
+        "date": "Data",
+        "event": "Evento",
+        "announcement": "Anúncios internos",
+        "defaultAnnouncement": "Em caso de dúvidas entre em contato com [player={owner}][/player].[br][br][i] Este texto pode ser alterado pela aristocracia tribal.[/i]",
+        "defaultDescription": "Se você tiver dúvidas entre em contato com [player={owner}][/player].[br][br][i] Este texto pode ser alterado pelos diplomatas tribais.[/i]",
+        "leave": "Deixar a tribo",
+        "confirmLeave": "Tem certeza de que quer deixar a sua tribo?",
+        "accept": "Aceitar",
+        "reject": "Recusar",
+        "notfound": "Tribo não encontrada"
+    },
+    "game.tribe.diplomaty": {
+        "head": "Nesta página pode administrar as suas relações com outras tribos. As configurações são <strong>não vinculativas dentro do jogo</strong>, mas as aldeias vão ser coloridas no mapa. O estado é visível apenas para os membros da tribo e podem ser alteradas apenas por diplomatas.",
+        "new": "Adicione relacionamento",
+        "tag": "TAG da tribo",
+        "enemy": "Inimigos",
+        "partner": "Aliados",
+        "nap": "Pacto de não-agressão (PNA)",
+        "alreadyrelation": "Já existe uma relação com esta tribo.",
+        "end": "terminar"
+    },
+    "game.tribe.navi": {
+        "overview": "Visão global",
+        "profile": "Perfil",
+        "members": "Membros",
+        "contracts": "Diplomacia",
+        "wars": "Guerras",
+        "reservations": "Planejador de nobre",
+        "invite": "Recrutamento",
+        "intro_igm": "Bem-vindo",
+        "properties": "Propriedades",
+        "forum": "Fórum Tribal"
+    },
+    "game.tribe.events": {
+        "1": "A tribo foi fundada por {fromPlayer}.",
+        "2": "{fromPlayer} mudou o anúncio interno.",
+        "3": "A tribo é agora aliado com {toTribe}.",
+        "4": "A tribo tem agora um PNA com {toTribe}.",
+        "5": "A tribo é agora inimiga de {toTribe}.",
+        "6": "{toPlayer} foi convidado por {fromPlayer}.",
+        "7": "{fromPlayer} mudou os atributos da tribo.",
+        "8": "O convite para {toPlayer} foi retirado por {fromPlayer}.",
+        "9": "{fromPlayer} mudou os privilégios e título de {toPlayer}.",
+        "10": "{fromPlayer} deixou a tribo.",
+        "11": "{toPlayer} foi indeferido por {fromPlayer}.",
+        "12": "{fromPlayer} mudou a descrição da tribo.",
+        "13": "{fromPlayer} entrou para a tribo.",
+        "14": "{fromPlayer} recusou o convite.",
+        "666": "A tribo cancelou sua relação com {toTribe}."
+    },
+    "game.tribe.invite": {
+        "invitations": "Convites",
+        "invite": "Convidar",
+        "name": "Nome",
+        "not": "O jogador não existe",
+        "selfnot": "Você não pode convidar a si mesmo.",
+        "notagain": "Este jogador já recebeu um convite.",
+        "redraw": "Retirar"
+    },
+    "game.overview.widgets": {
+        "summary": "edifícios",
+        "incoming_units": "Tropas de entrada",
+        "outgoing_units": "Suas tropas",
+        "newbie": "proteção de iniciantes",
+        "prod": "Produção",
+        "units": "Unidades",
+        "mood": "Lealdade",
+        "belief": "Crença",
+        "flags": "Bandeiras",
+        "groups": "Grupo de associação",
+        "notes": "Notas",
+        "buildqueue": "Fila de construção",
+        "secret": "Segredo"
+    },
+    "game.train": {
+        "mode_train": "Recrutamento",
+        "mode_decommission": "Desativação"
+    }
+}
