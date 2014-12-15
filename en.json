@@ -9,7 +9,11 @@
         "today": "today",
         "tomorrow": "tomorrow",
         "onDay": "on {day}",
-        "onTime": "{day} at {time}"
+        "onTime": "{day} at {time}",
+        "days": "days",
+        "ident": "at",
+        "ident_day": "on",
+        "ident_noun": "<span class=\"empty\"></span>"
     },
     "admin": {
         "title": "Admin Panel",
@@ -33,40 +37,75 @@
         "templates": "Collecting templates"
     },
     "unit_spear": {
-        "name": "Spear fighter"
+        "name": "Spear fighter",
+        "short": "Spear fighter",
+        "plural": "Spear fighters",
+        "desc": "The spear fighter is the most basic unit. It is good in defending against cavalry and to start plundering other villages."
     },
     "unit_sword": {
-        "name": "Swordsman"
+        "name": "Swordsman",
+        "short": "Swordsman",
+        "plural": "Swordsman",
+        "desc": "The swordsman is a relatively slow unit effective as defense especially against infantry."
     },
     "unit_axe": {
-        "name": "Axeman"
+        "name": "Axeman",
+        "desc": "The axeman is a strong offensive unit. They easily forget to protect themselves though.",
+        "plural": "Axeman",
+        "short": "Axeman"
     },
     "unit_archer": {
-        "name": "Archer"
+        "name": "Archer",
+        "desc": "The archer is a very effective defensive unit. Their arrows destroy even the hardest armor.",
+        "plural": "Archer",
+        "short": "Archer"
     },
     "unit_spy": {
-        "name": "Scout"
+        "name": "Scout",
+        "short": "Scout",
+        "plural": "Scout",
+        "desc": "The scout creeps into your enemies' villages to get valuable information."
     },
     "unit_light": {
-        "name": "Light cavalry"
+        "name": "Light cavalry",
+        "desc": "The light cavalry is a good offensive unit. One of its advantages is its speed.",
+        "plural": "Light cavalry",
+        "short": "Light cavalry"
     },
     "unit_marcher": {
-        "name": "Mounted archer"
+        "name": "Mounted archer",
+        "desc": "The mounted archer is especially useful to disable your enemies archers on the Walls.",
+        "plural": "Mounted archer",
+        "short": "Mounted archer"
     },
     "unit_heavy": {
-        "name": "Heavy cavalry"
+        "name": "Heavy cavalry",
+        "desc": "The heavy cavalry are your elite troops. The noble knights have hardened weapons and strong armor.",
+        "short": "Heavy cavalry",
+        "plural": "Heavy cavalry"
     },
     "unit_ram": {
-        "name": "Ram"
+        "name": "Ram",
+        "desc": "Rams support your troops in your attacks as it damages your enemies' Wall.",
+        "short": "Ram",
+        "plural": "Ram"
     },
     "unit_catapult": {
-        "name": "Catapult"
+        "name": "Catapult",
+        "desc": "Catapults are especially good in destroying your enemies' buildings.",
+        "short": "Catapult",
+        "plural": "Catapult"
     },
     "unit_knight": {
-        "name": "Paladin"
+        "name": "Paladin",
+        "desc": "The noble paladin protects you and your allies' villages from enemy attacks. Each player may only have one paladin.",
+        "short": "Paladin"
     },
     "unit_snob": {
-        "name": "Nobleman"
+        "name": "Nobleman",
+        "desc": "A nobleman will reduce the loyalty of your enemies' villages. If its loyalty falls under 0 you conquer that village. The costs for each nobleman increase with every conquered village and every nobleman that is available or in production.",
+        "plural": "Nobleman",
+        "short": "Nobleman"
     },
     "unit_militia": {
         "name": "Militia"
@@ -103,7 +142,6 @@
         "change": "Change",
         "nameTooShort": "The village name has to contain at least 3 characters.",
         "hide_completed": "Hide completed buildings",
-        "show_all_buildings": "Show all buildings",
         "forgetIt": "Resource production required",
         "requirementsNot": "Requirements not met",
         "cannotBuild": "Can't be built in this village",
@@ -119,7 +157,9 @@
         "unknownBuilding": "This building doesn't exist.",
         "noDestroy": "You can't demolish buildings!",
         "queueBuild": "Assignments added to the building queue will cost more. Do you still want to add this assignment?",
-        "orderSuccess": "The building order was successfully queued."
+        "orderSuccess": "The building order was successfully queued.",
+        "requirements": "Requirements",
+        "unmet": "Not available"
     },
     "building_barracks": {
         "name": "Barracks",
@@ -143,19 +183,45 @@
     },
     "building_snob": {
         "name": "Academy",
-        "description": "In the academy you can educate noblemen. They will help you conquer other villages."
+        "description": "In the academy you can educate noblemen. They will help you conquer other villages.",
+        "farmTooSmall": "Farm too small",
+        "res_available": "Resources are available",
+        "coins_singular": "Coin",
+        "coins_plural": "Coins",
+        "coin_minted": "You have minted a gold coin",
+        "created": "You have minted {x}!",
+        "create_coins": "Mint gold coins",
+        "action_create_coin": "Mint",
+        "overall": "Overall"
     },
     "building_smith": {
         "name": "Smithy",
-        "description": "In the smithy you can research and improve weapons. Upgrading the smithy allows the research of better weapons and decreases the research time."
+        "description": "In the smithy you can research and improve weapons. Upgrading the smithy allows the research of better weapons and decreases the research time.",
+        "event_finish": "Completion",
+        "event_time": "Duration",
+        "costs": "Requirements",
+        "research": "Research",
+        "event_cancel": "Cancellation"
     },
     "building_place": {
         "name": "Rally point",
-        "description": "On the rally point your fighters meet. Here you can command your armies."
+        "description": "On the rally point your fighters meet. Here you can command your armies.",
+        "duration": "Duration",
+        "units": "Unit",
+        "wall": "Wall",
+        "church": "Church",
+        "withdraw": "Withdraw",
+        "simulator": "Simulator",
+        "target": "Target",
+        "total": "Overall",
+        "all": "all"
     },
     "building_statue": {
         "name": "Statue",
-        "description": "At the statue the villagers render homage to your paladin. If your paladin dies you can appoint one of your fighters to become the new paladin."
+        "description": "At the statue the villagers render homage to your paladin. If your paladin dies you can appoint one of your fighters to become the new paladin.",
+        "mode_index": "Paladin",
+        "pala_name": "Name",
+        "mode_inventory": "Inventory"
     },
     "building_market": {
         "name": "Market",
@@ -180,7 +246,8 @@
     "building_storage": {
         "name": "Warehouse",
         "description": "The warehouse stores your resources. The higher its level the more resources can be stored.",
-        "full": "full"
+        "full": "full",
+        "capacity": "Storage capacity"
     },
     "building_hide": {
         "name": "Hiding place",
@@ -334,12 +401,13 @@
         "servertime": "Server time:",
         "time": "H:i:s",
         "date": "d.m.Y",
-        "delimeter": "'",
         "support": "Support",
         "buddies": "Friends",
         "preview": "Preview",
         "save": "Save",
-        "overdue": "overdue"
+        "overdue": "overdue",
+        "village": "Village",
+        "confirm": "Confirm"
     },
     "game.title": {
         "close": "close",
@@ -486,7 +554,9 @@
         "setDefault": "» Use as default",
         "forAll": "» Use for all villages",
         "forAllConfirm": "Really use for all villages?",
-        "show_all": "Show all widgets"
+        "show_all": "Show all widgets",
+        "prod_second": "{x} per second",
+        "recruit": "» recruit"
     },
     "game.bbcode": {
         "bold": "Bold",
@@ -514,17 +584,18 @@
         "newbie": "Beginners protection",
         "prod": "Production",
         "units": "Units",
-        "mood": "Loyalty",
         "belief": "Belief",
         "flags": "Flags",
         "groups": "Group association",
         "notes": "Notes",
         "buildqueue": "Building queue",
-        "secret": "Secret"
+        "secret": "Secret",
+        "loyalty": "loyalty"
     },
     "game.train": {
         "mode_train": "Recruitment",
-        "mode_decommission": "Decommissioning"
+        "mode_decommission": "Decommissioning",
+        "not_enough": "Not enough resources available"
     },
     "game.train.queue": {
         "train": "Training",
@@ -607,5 +678,169 @@
         "selfnot": "You cannot invite yourself.",
         "notagain": "This player has already received an invitation.",
         "redraw": "Withdraw"
+    },
+    "error": {
+        "technical": "A technical error occurred :("
+    },
+    "building_snob_navi": {
+        "train": "Create",
+        "coin": "Mint gold coins"
+    },
+    "building_place_navi": {
+        "command": "Commands",
+        "secrets": "Secret",
+        "units": "Troops",
+        "sim": "Simulator",
+        "templates": "Troop-Templates"
+    },
+    "building_res": {
+        "prod": "Production"
+    },
+    "game.unit": {
+        "not_available": "Not available"
+    },
+    "game.mail": {
+        "msgs": "Mail"
+    },
+    "game.mail.modes": {
+        "new": "Write message",
+        "mass_out": "Circular mail",
+        "in": "Mail",
+        "block": "Block sender"
+    },
+    "game.menu.profile": {
+        "title": "Profile",
+        "friends": "Friends",
+        "inventory": "inventory",
+        "achievements": "achievements",
+        "statistics": "statistics",
+        "block_list": "Blocked players"
+    },
+    "game.ally.forum": {
+        "add": "add",
+        "end_poll_after": "End the poll after",
+        "show_results": "Show results before voting",
+        "modify": "modify",
+        "title": "title",
+        "question": "question",
+        "edit": "edit",
+        "edited_by": "Last edited by",
+        "create": "Create",
+        "confirm": "Confirm",
+        "forum": "Forum",
+        "newthread": "New Thread",
+        "newpoll": "New Poll",
+        "create_newpoll": "Create New Poll",
+        "create_newthread": "Create new Thread",
+        "markasread": "Mark forum as read",
+        "markallasread": "Mark all forums as read",
+        "topics": "Topics",
+        "author": "Author",
+        "last_post": "Last post",
+        "reply": "Reply",
+        "replies": "Replies",
+        "poll": "Poll",
+        "is_read": "Read",
+        "choose_all": "select all",
+        "delete": "delete",
+        "confirm_delete_thread": "Are you sure, you want to delete this thread?",
+        "confirm_delete_threads": "Are you sure, you want to delete this threads?",
+        "open": "open",
+        "close": "close",
+        "is_closed": "closed",
+        "move": "move",
+        "vote": "vote"
+    },
+    "game.ally.forum.type": {
+        "public": "public",
+        "private": "private",
+        "trusted": "hidden forum"
+    },
+    "game.ally.forum.admin": {
+        "visibility": "visibility",
+        "access": "access",
+        "action": "action",
+        "rename": "rename",
+        "add_tribes": "Add Tribes",
+        "modifyable_order": "You can change the order of the folder-entries by dragging them to the wished target destination (Use your mouse)",
+        "not_yet_confirmed": "This tribe has not yet agreed to sharing the forum",
+        "create_new": "Create new forum",
+        "forum_name": "Forumname",
+        "access_to_this_forum": "Access to this forum",
+        "loading": "Loading"
+    },
+    "knight_items_desc": {
+        "spear": "Increases the offensive fighting power of your spear fighters by %atk and the defensive fighting power  by  %def.",
+        "sword": "Increases the offensive fighting power of your swordsmen by %atk and the defensive fighting power  by  %def.",
+        "axe": "Increases the offensive fighting power of your axemen by %atk and the defensive fighting power  by  %def.",
+        "archer": "Increases the offensive fighting power of your archers by %atk and the defensive fighting power  by  %def.",
+        "spy": "Scouts can see units from the scouted village that are not at home.",
+        "light": "Increases the offensive fighting power of your light cavalry by %atk and the defensive fighting power  by  %def.",
+        "heavy": "Increases the offensive fighting power of your heavy cavalry by %atk and the defensive fighting power  by  %def.",
+        "marcher": "Increases the offensive fighting power of your mounted archers by %atk and the defensive fighting power  by  %def.",
+        "ram": "Increases the damage caused by rams by %special",
+        "catapult": "Increases the damage by catapults by %special",
+        "snob": "The nobleman lowers the loyalty by at least %special."
+    },
+    "knight": {
+        "items": "Items",
+        "nothing": "No item",
+        "spear": "Halberd of Guan Yu",
+        "sword": "Paracelsus' Longsword",
+        "axe": "Thorgard's battle axe",
+        "archer": "Nimrod's long-bow",
+        "spy": "Kalid's telescope",
+        "light": "Mieszko's lance",
+        "heavy": "Baptiste's Banner",
+        "marcher": "Nimrod's composite bow",
+        "ram": "Carol's morning star",
+        "catapult": "Aletheia's Bonfire",
+        "snob": "Vasco's Scepter"
+    },
+    "game.report": {
+        "title": "Reports",
+        "rename": "rename",
+        "amount": "Amount",
+        "units": "Units",
+        "subject": "Subject",
+        "received": "Received",
+        "time": "Time",
+        "won": "{player} has won",
+        "attacker": "Attacker",
+        "defender": "Defender",
+        "luck": "Attackerluck",
+        "normal_luck": "luck",
+        "badluck": "bad luck",
+        "from": "from",
+        "to": "to",
+        "origin": "origin",
+        "losses": "losses",
+        "target": "target",
+        "select_all": "select all",
+        "new": "new",
+        "loyalty": "loyalty",
+        "loyalty_change": "Loyalty loss from <b>{from}</b> to <b>{to}</b>",
+        "attack": "{fromUser} ({fromVillage}) attacks {toVillage}",
+        "support": "{fromUser} ({fromVillage}) supports {toVillage}"
+    },
+    "game.report.navi": {
+        "all": "all",
+        "attack": "attacks",
+        "defense": "Defenses",
+        "support": "support",
+        "trade": "trade",
+        "other": "other",
+        "forwarded": "forwarded",
+        "public": "public",
+        "filter": "Filter",
+        "groups": "Ordner"
+    },
+    "unit_movement": {
+        "attack": "Attack on {to}",
+        "support": "Support for {to}",
+        "cancel": "Cancelled attack on {from}",
+        "back": "Retreat of {to}",
+        "return": "Return of {from}",
+        "other_back": "Returned by {to}"
     }
 }
