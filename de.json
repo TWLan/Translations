@@ -25,20 +25,6 @@
         "mainFunctions": "Menü",
         "configEditor": "Config Editor"
     },
-    "credits": {
-        "title": "Credits",
-        "twteam": "Stämme-Team",
-        "base": "Spielprinzip, Grafiken, Layout, JavaScript, CSS",
-        "dev": "Entwicklung",
-        "lead": "Leitung",
-        "lang": "Übersetzung",
-        "comm": "Communityarbeit",
-        "manage": "Management",
-        "plugin": "Pluginentwicklung",
-        "help": "Hilfsarbeiten",
-        "christmastree": "Weihnachtsbaum",
-        "templates": "Templates sammeln"
-    },
     "unit_spear": {
         "short": "Speer",
         "name": "Speerträger",
@@ -774,7 +760,8 @@
         "units": "Einheiten",
         "new": "neu",
         "loyalty": "Zustimmung",
-        "loyalty_change": "Gesunken von <b>{from}</b> auf <b>{to}</b>"
+        "loyalty_change": "Gesunken von <b>{from}</b> auf <b>{to}</b>",
+        "no_def_info": "Keiner deiner Kämpfer ist lebend zurückgekehrt. <br>Es konnten keine Informationen über die Truppenstärke des Gegners erlangt werden."
     },
     "game.report.navi": {
         "all": "Alle",
