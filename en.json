@@ -13,7 +13,7 @@
         "days": "days",
         "ident": "at",
         "ident_day": "on",
-        "ident_noun": "<span class=\"empty\"></span>"
+        "ident_noun": "<span class=\"empty\"><\/span>"
     },
     "admin": {
         "title": "Admin Panel",
@@ -260,7 +260,7 @@
     "admin.login": {
         "login": "Login",
         "password": "Password",
-        "default": "Your password is still the default one! <b>(editme)</b>",
+        "default": "Your password is still the default one! <b>(editme)<\/b>",
         "fail": "Wrong password!"
     },
     "admin.configeditor": {
@@ -321,7 +321,7 @@
         "stayLoggedIn": "Stay logged in",
         "differentUser": "You are not {user}?",
         "logout": "Logout",
-        "forgotPassword": "Lost password/Change password",
+        "forgotPassword": "Lost password\/Change password",
         "changePassword": "Change password",
         "notLoggedIn": "Not logged in!",
         "wrongIP": "TWLan may only be player in your local network!"
@@ -623,8 +623,8 @@
         "date": "Date",
         "event": "Event",
         "announcement": "Internal Announcements",
-        "defaultAnnouncement": "For questions please contact  [player={owner}][/player][br][br][i]This text may be changed by the tribal aristocracy.[/i]",
-        "defaultDescription": "If you have questions please contact [player={owner}][/player].[br][br][i]This text can be changed by the tribal diplomats.[/i]",
+        "defaultAnnouncement": "For questions please contact  [player={owner}][\/player][br][br][i]This text may be changed by the tribal aristocracy.[\/i]",
+        "defaultDescription": "If you have questions please contact [player={owner}][\/player].[br][br][i]This text can be changed by the tribal diplomats.[\/i]",
         "leave": "Leave tribe",
         "confirmLeave": "Are you sure you want to leave your tribe?",
         "accept": "Accept",
@@ -632,7 +632,7 @@
         "notfound": "Tribe not found"
     },
     "game.ally.diplomaty": {
-        "head": "On this page your relations with other tribes are administered. The settings are <strong>non-binding within the game</strong>, but villages will be coloured accordingly on the map. The status is visible only to tribe members and may be changed by tribal diplomats only.",
+        "head": "On this page your relations with other tribes are administered. The settings are <strong>non-binding within the game<\/strong>, but villages will be coloured accordingly on the map. The status is visible only to tribe members and may be changed by tribal diplomats only.",
         "new": "Add relationship",
         "tag": "Tribe tag",
         "enemy": "Enemies",
@@ -819,7 +819,7 @@
         "select_all": "select all",
         "new": "new",
         "loyalty": "loyalty",
-        "loyalty_change": "Loyalty loss from <b>{from}</b> to <b>{to}</b>",
+        "loyalty_change": "Loyalty loss from <b>{from}<\/b> to <b>{to}<\/b>",
         "attack": "{fromUser} ({fromVillage}) attacks {toVillage}",
         "support": "{fromUser} ({fromVillage}) supports {toVillage}"
     },

@@ -193,7 +193,7 @@
     "admin.login": {
         "login": "Uživatel",
         "password": "Heslo",
-        "default": "Vaše heslo je stále výchozí! <b>(editme)</b>",
+        "default": "Vaše heslo je stále výchozí! <b>(editme)<\/b>",
         "fail": "Špatné heslo!"
     },
     "admin.configeditor": {
@@ -254,7 +254,7 @@
         "stayLoggedIn": "Zůstat přihlášen",
         "differentUser": "Nejsi {user}?",
         "logout": "Odhlášení",
-        "forgotPassword": "Ztracené heslo/Změna hesla",
+        "forgotPassword": "Ztracené heslo\/Změna hesla",
         "changePassword": "Změnit heslo",
         "notLoggedIn": "Nejste přihlášen!",
         "wrongIP": "TWLan může hrát pouze hráč v lokální síti!"
@@ -521,8 +521,8 @@
         "date": "Datum",
         "event": "Událost",
         "announcement": "Interní oznámení",
-        "defaultAnnouncement": "Pokud máte otázky, kontaktujte [player={owner}][/player][br][br][i]Tento text může být změněn kmenem aristokratů.[/i]",
-        "defaultDescription": "Jestliže máte otázky, kontaktujte [player={owner}][/player].[br][br][i]Tento text může být změněn kmenem aristokratů..[/i]",
+        "defaultAnnouncement": "Pokud máte otázky, kontaktujte [player={owner}][\/player][br][br][i]Tento text může být změněn kmenem aristokratů.[\/i]",
+        "defaultDescription": "Jestliže máte otázky, kontaktujte [player={owner}][\/player].[br][br][i]Tento text může být změněn kmenem aristokratů..[\/i]",
         "leave": "Opustit kmen",
         "confirmLeave": "Opravdu chcete opustit kmen?",
         "accept": "Souhlasím",
@@ -530,7 +530,7 @@
         "notfound": "Kmen neexistuje"
     },
     "game.tribe.diplomaty": {
-        "head": "Na této stránce jsou podávány informace o vztazích s ostatními kmeny. Nastavení jsou <strong>nezávazná</strong> barevně budou označeny na mapě. Stav je viditelný pouze pro členy kmene. Nastavení může změnit jen diplomat.",
+        "head": "Na této stránce jsou podávány informace o vztazích s ostatními kmeny. Nastavení jsou <strong>nezávazná<\/strong> barevně budou označeny na mapě. Stav je viditelný pouze pro členy kmene. Nastavení může změnit jen diplomat.",
         "new": "Přidat vztahy",
         "tag": "Kmenový tag",
         "enemy": "Nepřátelé",

@@ -193,7 +193,7 @@
     "admin.login": {
         "login": "Login",
         "password": "Senha",
-        "default": "Sua senha ainda é uma predefinição! <b>(editme)</b>",
+        "default": "Sua senha ainda é uma predefinição! <b>(editme)<\/b>",
         "fail": "Senha incorreta!"
     },
     "admin.configeditor": {
@@ -254,7 +254,7 @@
         "stayLoggedIn": "Permanecer conectado",
         "differentUser": "Você não é {user}?",
         "logout": "Sair",
-        "forgotPassword": "Esqueci a senha/Alterar senha",
+        "forgotPassword": "Esqueci a senha\/Alterar senha",
         "changePassword": "Alterar senha",
         "notLoggedIn": "Você não está logado!",
         "wrongIP": "TWLan só pode ser jogado em sua rede local!"
@@ -521,8 +521,8 @@
         "date": "Data",
         "event": "Evento",
         "announcement": "Anúncios Internos",
-        "defaultAnnouncement": "Em caso de dúvidas contacte  [player={owner}][/player][br][br][i]Esse texto pode ser modificado pelos Aristocratas da tribo.[/i]",
-        "defaultDescription": "Em caso de dúvidas contacte [player={owner}][/player].[br][br][i]Esse texto pode ser modificado pelos Diplomatas da tribo.[/i]",
+        "defaultAnnouncement": "Em caso de dúvidas contacte  [player={owner}][\/player][br][br][i]Esse texto pode ser modificado pelos Aristocratas da tribo.[\/i]",
+        "defaultDescription": "Em caso de dúvidas contacte [player={owner}][\/player].[br][br][i]Esse texto pode ser modificado pelos Diplomatas da tribo.[\/i]",
         "leave": "Deixar tribo",
         "confirmLeave": "Tem certeza que quer abandonar sua tribo?",
         "accept": "Aceitar",
@@ -530,7 +530,7 @@
         "notfound": "Tribo não encontrada"
     },
     "game.tribe.diplomaty": {
-        "head": "Nesta página as suas relações com outras tribos são administradas. As configurações são <strong>não obrigatório no jogo</strong>, mas aldeias vão ser coloridas de acordo no mapa. O status é visível apenas aos membros da tribo e só podem ser alteradas por diplomatas da tribo.",
+        "head": "Nesta página as suas relações com outras tribos são administradas. As configurações são <strong>não obrigatório no jogo<\/strong>, mas aldeias vão ser coloridas de acordo no mapa. O status é visível apenas aos membros da tribo e só podem ser alteradas por diplomatas da tribo.",
         "new": "Adicionar relação",
         "tag": "Tag da tribo",
         "enemy": "Inimigos",

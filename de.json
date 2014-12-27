@@ -260,8 +260,8 @@
         "losses": "Verluste",
         "ram_damage": "Schaden durch Rammböcke",
         "catapult_damage": "Schaden durch Katapultbeschuss",
-        "damaged_building": "Gebäude beschädigt von Level <b>{before}</b> auf Level <b>{after}</b>",
-        "damaged_wall": "Wall beschädigt von Level <b>{before}</b> auf Level <b>{after}</b>",
+        "damaged_building": "Gebäude beschädigt von Level <b>{before}<\/b> auf Level <b>{after}<\/b>",
+        "damaged_wall": "Wall beschädigt von Level <b>{before}<\/b> auf Level <b>{after}<\/b>",
         "error_invalid_target": "Ziel nicht vorhanden",
         "error_not_enough_troops": "Nicht genügend Truppen vorhanden",
         "error_no_troops": "Keine Einheiten ausgewählt",
@@ -296,7 +296,7 @@
         "unit": "Unit",
         "need": "Requirements",
         "time": "Time",
-        "amount": "Here/total",
+        "amount": "Here\/total",
         "do_recruit": "Recruit",
         "create": "Train a Paladin",
         "pala_name": "Name",
@@ -374,7 +374,7 @@
     "admin.login": {
         "login": "Login",
         "password": "Passwort",
-        "default": "Das Passwort ist noch immer das standardmässige! <b>(editme)</b>",
+        "default": "Das Passwort ist noch immer das standardmässige! <b>(editme)<\/b>",
         "fail": "Falsches passwort!"
     },
     "admin.configeditor": {
@@ -427,7 +427,7 @@
         "password": "Passwort",
         "stayLoggedIn": "Dauerhaft einloggen",
         "logout": "Logout",
-        "forgotPassword": "Passwort vergessen/ändern",
+        "forgotPassword": "Passwort vergessen\/ändern",
         "wrongIP": "TWLan darf nur im lokalen Netzwerk gespielt werden!",
         "followUs": "Folge uns auf"
     },
@@ -508,7 +508,7 @@
         "edit": "bearbeiten",
         "gen_time": "generiert in {time} ms",
         "servertime": "Serverzeit:",
-        "time": "H:i:s:\\<\\s\\m\\a\\l\\l \\c\\l\\a\\s\\s\\=\"\\g\\r\\e\\y \\s\\m\\a\\l\\l\"\\>u\\<\\/\\s\\m\\a\\l\\l\\>",
+        "time": "H:i:s:\\<\\s\\m\\a\\l\\l \\c\\l\\a\\s\\s\\=\"\\g\\r\\e\\y \\s\\m\\a\\l\\l\"\\>u\\<\\\/\\s\\m\\a\\l\\l\\>",
         "date": "d.m.Y",
         "thousand_delimeter": "'",
         "decimal_delimeter": ".",
@@ -525,7 +525,7 @@
         "options": "Optionen",
         "important": "Wichtig",
         "unit": "Einheit",
-        "in_village": "Im Dorf/Insgesamt",
+        "in_village": "Im Dorf\/Insgesamt",
         "resources": "Rohstoffe",
         "_none": "keine",
         "chose": "Auswählen",
@@ -760,7 +760,7 @@
         "units": "Einheiten",
         "new": "neu",
         "loyalty": "Zustimmung",
-        "loyalty_change": "Gesunken von <b>{from}</b> auf <b>{to}</b>",
+        "loyalty_change": "Gesunken von <b>{from}<\/b> auf <b>{to}<\/b>",
         "no_def_info": "Keiner deiner Kämpfer ist lebend zurückgekehrt. <br>Es konnten keine Informationen über die Truppenstärke des Gegners erlangt werden."
     },
     "game.report.navi": {
@@ -849,8 +849,8 @@
         "date": "Datum",
         "event": "Ereignis",
         "announcement": "Interne Ankündigungen",
-        "defaultAnnouncement": "Wendet euch bei Fragen an [player={owner}][/player].[br][i]Dieser Text kann von der Stammesführung geändert werden.[/i]",
-        "defaultDescription": "Wendet euch bei Fragen an [player={owner}][/player].[br][i]Dieser Text kann von den Diplomaten des Stammes geändert werden.[/i]",
+        "defaultAnnouncement": "Wendet euch bei Fragen an [player={owner}][\/player].[br][i]Dieser Text kann von der Stammesführung geändert werden.[\/i]",
+        "defaultDescription": "Wendet euch bei Fragen an [player={owner}][\/player].[br][i]Dieser Text kann von den Diplomaten des Stammes geändert werden.[\/i]",
         "leave": "Stamm verlassen",
         "confirmLeave": "Sind sie sicher, dass sie den Stamm verlassen wollen?",
         "accept": "Akzeptieren",
@@ -858,7 +858,7 @@
         "notfound": "Stamm nicht gefunden"
     },
     "game.ally.diplomaty": {
-        "head": "Auf dieser Seite werden die Beziehungen zu anderen Stämmen verwaltet.\r\nDie Einstellungen sind <strong>spielerisch nicht bindend</strong>,\r\nDörfer auf<br/>der Karte werden aber passend eingefärbt. Der Status ist\r\nnur für Stammesmitglieder sichtbar und lässt sich nur von Diplomaten<br/>\r\nändern.",
+        "head": "Auf dieser Seite werden die Beziehungen zu anderen Stämmen verwaltet.\r\nDie Einstellungen sind <strong>spielerisch nicht bindend<\/strong>,\r\nDörfer auf<br\/>der Karte werden aber passend eingefärbt. Der Status ist\r\nnur für Stammesmitglieder sichtbar und lässt sich nur von Diplomaten<br\/>\r\nändern.",
         "new": "Neue Beziehung hinzufügen",
         "tag": "Stammestag",
         "enemy": "Feinde",
