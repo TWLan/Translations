@@ -793,7 +793,8 @@
     "game.train": {
         "mode_train": "Rekrutierung",
         "mode_decommission": "Ausmusterung",
-        "not_enough": "Nicht genügend Ressourcen vorhanden"
+        "not_enough": "Nicht genügend Ressourcen vorhanden",
+        "desc": "In dieser Übersicht kannst du jegliche Art von Einheiten produzieren, insofern du über die notwendigen Gebäude und Technologien verfügst."
     },
     "game.train.queue": {
         "train": "Rekrutierung",

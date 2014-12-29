@@ -595,7 +595,8 @@
     "game.train": {
         "mode_train": "Recruitment",
         "mode_decommission": "Decommissioning",
-        "not_enough": "Not enough resources available"
+        "not_enough": "Not enough resources available",
+        "desc": "In this overview you can recruit all types of units if you have constructed the required buildings and researched the needed technologies."
     },
     "game.train.queue": {
         "train": "Training",
