@@ -1,1 +1,377 @@
-[]
+{
+    "admin": {
+        "logout": "Deconectează-te"
+    },
+    "admin.configeditor": {
+        "reload": "Reîncărcare",
+        "save": "Salvează setările"
+    },
+    "admin.login": {
+        "login": "Conectare",
+        "password": "Parolă"
+    },
+    "building_barracks": {
+        "name": "Cazarmă"
+    },
+    "building_church": {
+        "name": "Biserică"
+    },
+    "building_farm": {
+        "name": "Fermă"
+    },
+    "building_garage": {
+        "name": "Atelier"
+    },
+    "building_iron": {
+        "name": "Mină de Fier"
+    },
+    "building_main": {
+        "build": "Construieşte",
+        "build_time": "Timpul de construcţie",
+        "building": "Clădiri",
+        "cancel": "Anulează",
+        "change_name": "Schimbă numele satului",
+        "event_time": "Durata",
+        "mode_build": "Construieşte",
+        "mode_destroy": "Demolare",
+        "name": "Clădirea Principală"
+    },
+    "building_market": {
+        "name": "Piaţa"
+    },
+    "building_place": {
+        "all": "Toate",
+        "arrival": "Sosire",
+        "arrival_in": "Sosire în",
+        "attack": "Atac",
+        "attacker": "Atacator",
+        "attackingArmy": "Atacator",
+        "church": "Biserică",
+        "defender": "Apărător",
+        "defendingArmy": "Apărător",
+        "duration": "Durata",
+        "losses": "Victime",
+        "moral": "Moral",
+        "support": "Sprijin",
+        "target": "Ţintă",
+        "total": "Total",
+        "units": "Unităţi",
+        "wall": "Zid",
+        "withdraw": "Retrage"
+    },
+    "building_place_navi": {
+        "command": "Comenzi"
+    },
+    "building_res": {
+        "prod": "Producţie"
+    },
+    "building_smith": {
+        "event_time": "Durata"
+    },
+    "building_snob": {
+        "overall": "Total"
+    },
+    "building_snob_navi": {
+        "train": "Creează"
+    },
+    "building_stable": {
+        "name": "Grajd"
+    },
+    "building_statue": {
+        "do_cancel": "Cancel",
+        "mode_index": "Paladin",
+        "mode_inventory": "Inventar",
+        "name": "Statuie",
+        "pala_name": "Nume"
+    },
+    "building_stone": {
+        "name": "Carieră de Lut"
+    },
+    "building_storage": {
+        "capacity": "Capacitatea de stocare",
+        "name": "Depozitare",
+        "table_head": "Capacitate de depozitare plină"
+    },
+    "building_wall": {
+        "basic_defense": "Apărare de bază",
+        "name": "Zid"
+    },
+    "building_wood": {
+        "name": "Exploatare Forestieră"
+    },
+    "create_village": {
+        "submit": "Confirmă"
+    },
+    "game": {
+        "_none": "Niciuna",
+        "booty": "Prada",
+        "buddies": "Prieteni",
+        "cancel": "Anulează",
+        "confirm": "Confirmă",
+        "costs": "Costuri",
+        "current": "Curent",
+        "iron": "Fier",
+        "ok": "OK",
+        "options": "Opţiuni",
+        "points": "Puncte",
+        "resources": "Resurse",
+        "save": "Salvează",
+        "send": "Trimite",
+        "speed": "Viteză",
+        "stone": "Lut",
+        "storage": "Capacitatea de stocare",
+        "support": "Asistenţă",
+        "text": "Text",
+        "unit": "Unitate",
+        "village": "Sat",
+        "wood": "Lemn"
+    },
+    "game.ally": {
+        "date": "Data",
+        "doFound": "Deschide tribul",
+        "invitations": "Invitaţii",
+        "leave": "Părăseşte Tribul",
+        "nameOfTribe": "Numele Tribului",
+        "reject": "Refuză",
+        "tribe": "Trib"
+    },
+    "game.ally.diplomaty": {
+        "enemy": "Inamici",
+        "partner": "Aliaţi"
+    },
+    "game.ally.forum": {
+        "add": "Adaugă",
+        "author": "Autor",
+        "close": "Închide",
+        "confirm": "Confirmă",
+        "create": "Creează",
+        "delete": "Şterge",
+        "forum": "Forum",
+        "last_post": "Ultimul mesaj",
+        "newpoll": "Sondaj nou",
+        "replies": "Răspunde",
+        "reply": "Răspuns",
+        "title": "Titlu"
+    },
+    "game.ally.forum.admin": {
+        "action": "Acţiune",
+        "loading": "Încărcare"
+    },
+    "game.ally.invite": {
+        "invitations": "Invitaţii",
+        "invite": "Invită",
+        "name": "Nume",
+        "redraw": "Retrage"
+    },
+    "game.ally.navi": {
+        "contracts": "Diplomaţie",
+        "forum": "Forumul tribului",
+        "invite": "Recrutează",
+        "members": "Membri",
+        "overview": "Prezentare generală",
+        "profile": "Profil",
+        "reservations": "Planificator Nobil"
+    },
+    "game.bbcode": {
+        "ally": "Trib",
+        "bold": "Îngroșat",
+        "color": "Culoare",
+        "coords": "Coordonate",
+        "italic": "Înclinat",
+        "main": "Clădiri",
+        "player": "Jucător",
+        "report": "Raport",
+        "spoiler": "Tezaur",
+        "underline": "Subliniat",
+        "units": "Unităţi"
+    },
+    "game.groups": {
+        "all": "Toate",
+        "delete": "Şterge grupul"
+    },
+    "game.mail": {
+        "msgs": "Mesaje"
+    },
+    "game.mail.modes": {
+        "in": "Mesaje"
+    },
+    "game.map": {
+        "enemys": "Inamici",
+        "partners": "Aliaţi"
+    },
+    "game.market": {
+        "traders": "Negustori"
+    },
+    "game.menu": {
+        "logout": "Delogare"
+    },
+    "game.menu.ally": {
+        "contracts": "Diplomaţie",
+        "forum": "Forumul tribului",
+        "members": "Membri",
+        "overview": "Prezentare generală",
+        "profile": "Profil",
+        "reservations": "Planificator Nobil",
+        "title": "Trib"
+    },
+    "game.menu.mails": {
+        "i_new": "Mesaj nou",
+        "in": "Mesaje",
+        "title": "Mesaje"
+    },
+    "game.menu.overview": {
+        "buildings": "Clădiri",
+        "combined": "Combinată",
+        "commands": "Comenzi",
+        "groups": "Grupuri",
+        "prod": "Producţie",
+        "title": "Prezentări"
+    },
+    "game.menu.profile": {
+        "friends": "Prieteni",
+        "inventory": "Inventar",
+        "title": "Profil"
+    },
+    "game.menu.ranking": {
+        "ally": "Triburi",
+        "kill_player": "Adversari învinşi",
+        "player": "Jucător",
+        "title": "Clasamente"
+    },
+    "game.menu.reports": {
+        "attack": "Atacuri",
+        "defense": "Apărare",
+        "filter": "Filtrează",
+        "forwarded": "Redirecţionat",
+        "other": "Diverse",
+        "support": "Sprijin",
+        "title": "Rapoarte",
+        "trade": "Comerţ"
+    },
+    "game.menu.settings": {
+        "change_passwd": "Schimbă parola",
+        "poll": "Sondaje",
+        "profile": "Profil",
+        "settings": "Setări",
+        "title": "Setări"
+    },
+    "game.overview": {
+        "build": "Modernizează clădirea"
+    },
+    "game.overview.widgets": {
+        "buildqueue": "Lista de aşteptare",
+        "newbie": "Protecţie la Atac",
+        "prod": "Producţie",
+        "summary": "Clădiri",
+        "units": "Unităţi"
+    },
+    "game.report": {
+        "attacker": "Atacator",
+        "badluck": "Ghinion",
+        "defender": "Apărător",
+        "from": "de la",
+        "losses": "Victime",
+        "normal_luck": "Noroc",
+        "origin": "Punct de plecare",
+        "target": "Ţintă",
+        "title": "Rapoarte",
+        "units": "Unităţi"
+    },
+    "game.report.navi": {
+        "all": "Toate",
+        "attack": "Atacuri",
+        "defense": "Apărare",
+        "filter": "Filtrează",
+        "trade": "Comerţ"
+    },
+    "game.title": {
+        "close": "Închide",
+        "village": "Sat"
+    },
+    "game.train": {
+        "mode_train": "Recrutează"
+    },
+    "game.train.queue": {
+        "cancel": "Anulează",
+        "duration": "Durata",
+        "train": "Recrutează"
+    },
+    "game.unit": {
+        "attack_strength": "Forţa de atac"
+    },
+    "game.village": {
+        "name_left": "Sat Barbar"
+    },
+    "index": {
+        "availableWorlds": "Lumi deschise",
+        "login": "Conectare",
+        "logout": "Deconectează-te",
+        "password": "Parolă",
+        "username": "Utilizator"
+    },
+    "knight": {
+        "archer": "Arcul Mare al lui Nimrod",
+        "axe": "Securea de Luptă a lui Thorgard",
+        "catapult": "Focul Aletheiei",
+        "heavy": "Stindardul lui Baptiste",
+        "light": "Lancea lui Mieszko",
+        "marcher": "Arcul Compus al lui Nimrod",
+        "ram": "Buzduganul lui Carol",
+        "snob": "Sceptrul lui Vasco",
+        "spear": "Halebarda lui Guan Yu",
+        "sword": "Spada lui Paracelsus"
+    },
+    "logout": {
+        "title": "Deconectează-te"
+    },
+    "register": {
+        "password": "Parolă",
+        "passwordConfirm": "Repetă parolă ",
+        "register": "Înregistrare",
+        "title": "Înregistrare"
+    },
+    "sid_wrong": {
+        "index": "Acasă"
+    },
+    "unit_archer": {
+        "name": "Arcaş",
+        "short": "Arcaş"
+    },
+    "unit_axe": {
+        "name": "Luptător cu Secure",
+        "plural": "Luptător cu Secure",
+        "short": "Secure"
+    },
+    "unit_catapult": {
+        "name": "Catapultă"
+    },
+    "unit_heavy": {
+        "name": "Cavalerie Grea",
+        "plural": "Cavalerie Grea"
+    },
+    "unit_knight": {
+        "name": "Paladin"
+    },
+    "unit_light": {
+        "name": "Cavalerie Uşoară",
+        "plural": "Cavalerie Uşoară"
+    },
+    "unit_marcher": {
+        "name": "Arcaş Călare"
+    },
+    "unit_ram": {
+        "name": "Berbec",
+        "short": "Berbec"
+    },
+    "unit_snob": {
+        "name": "Nobil"
+    },
+    "unit_spear": {
+        "short": "Lance"
+    },
+    "unit_sword": {
+        "name": "Spadasin",
+        "plural": "Spadasin",
+        "short": "Spadă"
+    }
+}

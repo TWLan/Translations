@@ -1,1 +1,377 @@
-[]
+{
+    "admin": {
+        "logout": "Uitloggen"
+    },
+    "admin.configeditor": {
+        "reload": "Opnieuw laden",
+        "save": "Instellingen opslaan"
+    },
+    "admin.login": {
+        "login": "Inloggen",
+        "password": "Wachtwoord"
+    },
+    "building_barracks": {
+        "name": "Kazerne"
+    },
+    "building_church": {
+        "name": "Kerk"
+    },
+    "building_farm": {
+        "name": "Boerderij"
+    },
+    "building_garage": {
+        "name": "Werkplaats"
+    },
+    "building_iron": {
+        "name": "IJzermijn"
+    },
+    "building_main": {
+        "build": "Bouwen",
+        "build_time": "Bouwtijd",
+        "building": "Gebouwen",
+        "cancel": "Annuleren",
+        "change_name": "Pas dorpsnaam aan",
+        "event_time": "Duur",
+        "mode_build": "Bouwen",
+        "mode_destroy": "Sloop",
+        "name": "Hoofdgebouw"
+    },
+    "building_market": {
+        "name": "Marktplaats"
+    },
+    "building_place": {
+        "all": "Alle",
+        "arrival": "Aankomst",
+        "arrival_in": "Aankomst in",
+        "attack": "aanvallen",
+        "attacker": "Aanvaller",
+        "attackingArmy": "Aanvaller",
+        "church": "Kerk",
+        "defender": "Verdediger",
+        "defendingArmy": "Verdediger",
+        "duration": "Duur",
+        "losses": "Slachtoffers",
+        "moral": "Moraal",
+        "support": "ondersteunen",
+        "target": "Bestemming",
+        "total": "Totaal",
+        "units": "Eenheden",
+        "wall": "Muur",
+        "withdraw": "Intrekken"
+    },
+    "building_place_navi": {
+        "command": "Bevelen"
+    },
+    "building_res": {
+        "prod": "Productie"
+    },
+    "building_smith": {
+        "event_time": "Duur"
+    },
+    "building_snob": {
+        "overall": "Totaal"
+    },
+    "building_snob_navi": {
+        "train": "Aanmaken"
+    },
+    "building_stable": {
+        "name": "Stal"
+    },
+    "building_statue": {
+        "do_cancel": "Cancel",
+        "mode_index": "Paladijn",
+        "mode_inventory": "Inventaris",
+        "name": "Standbeeld",
+        "pala_name": "Naam"
+    },
+    "building_stone": {
+        "name": "Leemgroeve"
+    },
+    "building_storage": {
+        "capacity": "Opslagcapaciteit",
+        "name": "Opslag",
+        "table_head": "Opslag vol"
+    },
+    "building_wall": {
+        "basic_defense": "Basisverdediging",
+        "name": "Muur"
+    },
+    "building_wood": {
+        "name": "Houthakkers"
+    },
+    "create_village": {
+        "submit": "Bevestigen"
+    },
+    "game": {
+        "_none": "Geen",
+        "booty": "Buit",
+        "buddies": "Vrienden",
+        "cancel": "Annuleren",
+        "confirm": "Bevestigen",
+        "costs": "Kosten",
+        "current": "Momenteel",
+        "iron": "Ijzer",
+        "ok": "OK",
+        "options": "Opties",
+        "points": "Punten",
+        "resources": "Resources",
+        "save": "Opslaan",
+        "send": "Sturen",
+        "speed": "Snelheid",
+        "stone": "Leem",
+        "storage": "Opslagcapaciteit",
+        "support": "Support",
+        "text": "Tekst",
+        "unit": "Eenheid",
+        "village": "Dorp",
+        "wood": "Hout"
+    },
+    "game.ally": {
+        "date": "Datum",
+        "doFound": "Stam openen",
+        "invitations": "Uitnodigingen",
+        "leave": "Stam verlaten",
+        "nameOfTribe": "Stamnaam",
+        "reject": "Weigeren",
+        "tribe": "Stam"
+    },
+    "game.ally.diplomaty": {
+        "enemy": "Vijanden",
+        "partner": "Bondgenoten"
+    },
+    "game.ally.forum": {
+        "add": "Toevoegen",
+        "author": "Auteur",
+        "close": "Sluiten",
+        "confirm": "Bevestigen",
+        "create": "Aanmaken",
+        "delete": "Verwijderen",
+        "forum": "Forum",
+        "last_post": "Laatste bericht",
+        "newpoll": "Nieuwe enquête",
+        "replies": "Beantwoorden",
+        "reply": "Beantwoorden",
+        "title": "Titel"
+    },
+    "game.ally.forum.admin": {
+        "action": "Actie",
+        "loading": "Laden"
+    },
+    "game.ally.invite": {
+        "invitations": "Uitnodigingen",
+        "invite": "Uitnodigen",
+        "name": "Naam",
+        "redraw": "Intrekken"
+    },
+    "game.ally.navi": {
+        "contracts": "Diplomatie",
+        "forum": "Stamforum",
+        "invite": "Rekruteren",
+        "members": "Leden",
+        "overview": "Overzicht",
+        "profile": "Profiel",
+        "reservations": "Adelplanner"
+    },
+    "game.bbcode": {
+        "ally": "Stam",
+        "bold": "Vet",
+        "color": "Kleur",
+        "coords": "Coördinaten",
+        "italic": "Cursief",
+        "main": "Gebouwen",
+        "player": "Speler",
+        "report": "Rapport",
+        "spoiler": "Spoiler",
+        "underline": "Onderstreept",
+        "units": "Eenheden"
+    },
+    "game.groups": {
+        "all": "Alle",
+        "delete": "Groep verwijderen"
+    },
+    "game.mail": {
+        "msgs": "Berichten"
+    },
+    "game.mail.modes": {
+        "in": "Berichten"
+    },
+    "game.map": {
+        "enemys": "Vijanden",
+        "partners": "Bondgenoten"
+    },
+    "game.market": {
+        "traders": "Handelaren"
+    },
+    "game.menu": {
+        "logout": "Afmelden"
+    },
+    "game.menu.ally": {
+        "contracts": "Diplomatie",
+        "forum": "Stamforum",
+        "members": "Leden",
+        "overview": "Overzicht",
+        "profile": "Profiel",
+        "reservations": "Adelplanner",
+        "title": "Stam"
+    },
+    "game.menu.mails": {
+        "i_new": "Nieuw bericht",
+        "in": "Berichten",
+        "title": "Berichten"
+    },
+    "game.menu.overview": {
+        "buildings": "Gebouwen",
+        "combined": "Combinatie",
+        "commands": "Bevelen",
+        "groups": "Groepen",
+        "prod": "Productie",
+        "title": "Overzichten"
+    },
+    "game.menu.profile": {
+        "friends": "Vrienden",
+        "inventory": "Inventaris",
+        "title": "Profiel"
+    },
+    "game.menu.ranking": {
+        "ally": "Stammen",
+        "kill_player": "Tegenstanders verslagen",
+        "player": "Speler",
+        "title": "Ranglijst"
+    },
+    "game.menu.reports": {
+        "attack": "Aanvallen",
+        "defense": "Verdediging",
+        "filter": "Filter",
+        "forwarded": "Doorgestuurd",
+        "other": "Overige",
+        "support": "Ondersteuning",
+        "title": "Rapporten",
+        "trade": "Handel"
+    },
+    "game.menu.settings": {
+        "change_passwd": "Wachtwoord wijzigen",
+        "poll": "Enquêtes",
+        "profile": "Profiel",
+        "settings": "Instellingen",
+        "title": "Instellingen"
+    },
+    "game.overview": {
+        "build": "Gebouw upgraden"
+    },
+    "game.overview.widgets": {
+        "buildqueue": "Wachtrij",
+        "newbie": "Aanvalsbescherming",
+        "prod": "Productie",
+        "summary": "Gebouwen",
+        "units": "Eenheden"
+    },
+    "game.report": {
+        "attacker": "Aanvaller",
+        "badluck": "Pech",
+        "defender": "Verdediger",
+        "from": "van",
+        "losses": "Slachtoffers",
+        "normal_luck": "Geluk",
+        "origin": "Afkomst",
+        "target": "Bestemming",
+        "title": "Rapporten",
+        "units": "Eenheden"
+    },
+    "game.report.navi": {
+        "all": "Alle",
+        "attack": "Aanvallen",
+        "defense": "Verdediging",
+        "filter": "Filter",
+        "trade": "Handel"
+    },
+    "game.title": {
+        "close": "Sluiten",
+        "village": "Dorp"
+    },
+    "game.train": {
+        "mode_train": "Rekruteren"
+    },
+    "game.train.queue": {
+        "cancel": "Annuleren",
+        "duration": "Duur",
+        "train": "Rekruteren"
+    },
+    "game.unit": {
+        "attack_strength": "Aanvallende kracht"
+    },
+    "game.village": {
+        "name_left": "Barbarendorp"
+    },
+    "index": {
+        "availableWorlds": "Open werelden",
+        "login": "Inloggen",
+        "logout": "Uitloggen",
+        "password": "Wachtwoord",
+        "username": "Gebruikersnaam"
+    },
+    "knight": {
+        "archer": "Nimrod's Handboog",
+        "axe": "Thorgard's Krijgsbijl",
+        "catapult": "Aletheia's Signaalvuur",
+        "heavy": "Baptiste's Banier",
+        "light": "Mieszko's Lans",
+        "marcher": "Nimrod's Compositieboog ",
+        "ram": "Carol's Morgenster",
+        "snob": "Vasco's Scepter",
+        "spear": "Guan Yu's Hellebaard",
+        "sword": "Paracelsus' Langzwaard"
+    },
+    "logout": {
+        "title": "Uitloggen"
+    },
+    "register": {
+        "password": "Wachtwoord",
+        "passwordConfirm": "Herhaal wachtwoord",
+        "register": "Registreren",
+        "title": "Registreren"
+    },
+    "sid_wrong": {
+        "index": "Home"
+    },
+    "unit_archer": {
+        "name": "Boogschutter",
+        "short": "Boogschutter"
+    },
+    "unit_axe": {
+        "name": "Bijlvechter",
+        "plural": "Bijlvechter",
+        "short": "Bijl"
+    },
+    "unit_catapult": {
+        "name": "Katapult"
+    },
+    "unit_heavy": {
+        "name": "Gepantserde Cavalerist",
+        "plural": "Gepantserde Cavalerist"
+    },
+    "unit_knight": {
+        "name": "Paladijn"
+    },
+    "unit_light": {
+        "name": "Cavalerist",
+        "plural": "Cavalerist"
+    },
+    "unit_marcher": {
+        "name": "Boogschutter te paard"
+    },
+    "unit_ram": {
+        "name": "Ram",
+        "short": "Ram"
+    },
+    "unit_snob": {
+        "name": "Edelman"
+    },
+    "unit_spear": {
+        "short": "Speer"
+    },
+    "unit_sword": {
+        "name": "Zwaardvechter",
+        "plural": "Zwaardvechter",
+        "short": "Zwaard"
+    }
+}

@@ -1,0 +1,377 @@
+{
+    "admin": {
+        "logout": "Αποσύνδεση"
+    },
+    "admin.configeditor": {
+        "reload": "Επαναφόρτωση",
+        "save": "Αποθήκευση ρυθμίσεων"
+    },
+    "admin.login": {
+        "login": "Σύνδεση",
+        "password": "Κωδικός πρόσβασης"
+    },
+    "building_barracks": {
+        "name": "Στρατώνες"
+    },
+    "building_church": {
+        "name": "Εκκλησία"
+    },
+    "building_farm": {
+        "name": "Αγρόκτημα"
+    },
+    "building_garage": {
+        "name": "Εργαστήρι"
+    },
+    "building_iron": {
+        "name": "Ορυχείο σιδήρου"
+    },
+    "building_main": {
+        "build": "Κατασκευή",
+        "build_time": "Χρόνος κατασκευής",
+        "building": "Κτίρια",
+        "cancel": "Ακύρωση",
+        "change_name": "Άλλαξε το ονόμα του χωριού",
+        "event_time": "Διάρκεια",
+        "mode_build": "Κατασκευή",
+        "mode_destroy": "Κατεδάφιση",
+        "name": "Διοικητήριο"
+    },
+    "building_market": {
+        "name": "Αγορά"
+    },
+    "building_place": {
+        "all": "Όλες",
+        "arrival": "Άφιξη",
+        "arrival_in": "Άφιξη σε",
+        "attack": "επίθεση",
+        "attacker": "Επιτιθέμενος",
+        "attackingArmy": "Επιτιθέμενος",
+        "church": "Εκκλησία",
+        "defender": "Αμυνόμενος",
+        "defendingArmy": "Αμυνόμενος",
+        "duration": "Διάρκεια",
+        "losses": "Απώλειες",
+        "moral": "Ηθικό",
+        "support": "Υποστήριξη",
+        "target": "Στόχος",
+        "total": "Σύνολο",
+        "units": "Μονάδες",
+        "wall": "Τείχος",
+        "withdraw": "Ανάκληση"
+    },
+    "building_place_navi": {
+        "command": "Εντολές"
+    },
+    "building_res": {
+        "prod": "Παραγωγή"
+    },
+    "building_smith": {
+        "event_time": "Διάρκεια"
+    },
+    "building_snob": {
+        "overall": "Σύνολο"
+    },
+    "building_snob_navi": {
+        "train": "Δημιουργία"
+    },
+    "building_stable": {
+        "name": "Στάβλος"
+    },
+    "building_statue": {
+        "do_cancel": "Cancel",
+        "mode_index": "paladin",
+        "mode_inventory": "Απόθεμα",
+        "name": "Άγαλμα",
+        "pala_name": "Όνομα"
+    },
+    "building_stone": {
+        "name": "Ορυχείο Πηλού"
+    },
+    "building_storage": {
+        "capacity": "Αποθηκευτική ικανότητα",
+        "name": "Αποθήκευση",
+        "table_head": "Αποθηκευτικός χώρος πλήρης"
+    },
+    "building_wall": {
+        "basic_defense": "Βασική άμυνα",
+        "name": "Τείχος"
+    },
+    "building_wood": {
+        "name": "Εργοτάξιο Ξύλου"
+    },
+    "create_village": {
+        "submit": "Επιβεβαίωση"
+    },
+    "game": {
+        "_none": "Κανένα",
+        "booty": "Λάφυρα",
+        "buddies": "Φίλοι",
+        "cancel": "Ακύρωση",
+        "confirm": "Επιβεβαίωση",
+        "costs": "Κόστος",
+        "current": "Τρέχον",
+        "iron": "Σίδηρος",
+        "ok": "OK",
+        "options": "Επιλογές",
+        "points": "Πόντοι",
+        "resources": "Πόροι",
+        "save": "Αποθήκευση",
+        "send": "Αποστολή",
+        "speed": "Ταχύτητα",
+        "stone": "Πηλός",
+        "storage": "Αποθηκευτική ικανότητα",
+        "support": "Υποστήριξη",
+        "text": "Κείμενο",
+        "unit": "Μονάδα",
+        "village": "Χωριό",
+        "wood": "Ξύλο"
+    },
+    "game.ally": {
+        "date": "Ημερομηνία",
+        "doFound": "Άνοιγμα φυλής",
+        "invitations": "Προσκλήσεις",
+        "leave": "Αποχώρηση από τη Φυλή",
+        "nameOfTribe": "Όνομα Φυλής",
+        "reject": "Απόρριψη",
+        "tribe": "Φυλή"
+    },
+    "game.ally.diplomaty": {
+        "enemy": "Εχθροί",
+        "partner": "Σύμμαχοι"
+    },
+    "game.ally.forum": {
+        "add": "Προσθήκη",
+        "author": "Συντάκτης",
+        "close": "Κλείσιμο",
+        "confirm": "Επιβεβαίωση",
+        "create": "Δημιουργία",
+        "delete": "Διαγραφή",
+        "forum": "Φόρουμ",
+        "last_post": "Τελευταία δημοσίευση",
+        "newpoll": "Νέα έρευνα",
+        "replies": "Απάντηση",
+        "reply": "Απάντηση",
+        "title": "Τίτλος"
+    },
+    "game.ally.forum.admin": {
+        "action": "Ενέργεια",
+        "loading": "Φόρτωση"
+    },
+    "game.ally.invite": {
+        "invitations": "Προσκλήσεις",
+        "invite": "Πρόσκληση",
+        "name": "Όνομα",
+        "redraw": "Ανάκληση"
+    },
+    "game.ally.navi": {
+        "contracts": "Διπλωματία",
+        "forum": "Φόρουμ φυλής",
+        "invite": "Στρατολόγηση",
+        "members": "Μέλη",
+        "overview": "Επισκόπηση",
+        "profile": "Προφίλ",
+        "reservations": "Πλάνο κατακτήσεων"
+    },
+    "game.bbcode": {
+        "ally": "Φυλή",
+        "bold": "Έντονα",
+        "color": "Χρώμα",
+        "coords": "Συντεταγμένες",
+        "italic": "Πλάγια",
+        "main": "Κτίρια",
+        "player": "Παίκτης",
+        "report": "Αναφορά",
+        "spoiler": "Spoiler",
+        "underline": "Υπογράμμιση",
+        "units": "Μονάδες"
+    },
+    "game.groups": {
+        "all": "Όλες",
+        "delete": "Διαγραφή ομάδας"
+    },
+    "game.mail": {
+        "msgs": "Μηνύματα"
+    },
+    "game.mail.modes": {
+        "in": "Μηνύματα"
+    },
+    "game.map": {
+        "enemys": "Εχθροί",
+        "partners": "Σύμμαχοι"
+    },
+    "game.market": {
+        "traders": "Έμποροι"
+    },
+    "game.menu": {
+        "logout": "Αποσύνδεση"
+    },
+    "game.menu.ally": {
+        "contracts": "Διπλωματία",
+        "forum": "Φόρουμ φυλής",
+        "members": "Μέλη",
+        "overview": "Επισκόπηση",
+        "profile": "Προφίλ",
+        "reservations": "Πλάνο κατακτήσεων",
+        "title": "Φυλή"
+    },
+    "game.menu.mails": {
+        "i_new": "Νέο μήνυμα",
+        "in": "Μηνύματα",
+        "title": "Μηνύματα"
+    },
+    "game.menu.overview": {
+        "buildings": "Κτίρια",
+        "combined": "Συνδυασμός",
+        "commands": "Εντολές",
+        "groups": "Ομάδες",
+        "prod": "Παραγωγή",
+        "title": "Επισκοπήσεις"
+    },
+    "game.menu.profile": {
+        "friends": "Φίλοι",
+        "inventory": "Απόθεμα",
+        "title": "Προφίλ"
+    },
+    "game.menu.ranking": {
+        "ally": "Φυλές",
+        "kill_player": "Ηττημένοι αντίπαλοι",
+        "player": "Παίκτης",
+        "title": "Κατάταξη"
+    },
+    "game.menu.reports": {
+        "attack": "Επιθέσεις",
+        "defense": "Άμυνα",
+        "filter": "Φίλτρο",
+        "forwarded": "Προωθήθηκε",
+        "other": "Διάφορα",
+        "support": "Υποστήριξη",
+        "title": "Αναφορές",
+        "trade": "Εμπόριο"
+    },
+    "game.menu.settings": {
+        "change_passwd": "Αλλαγή κωδικού πρόσβασης",
+        "poll": "Έρευνες",
+        "profile": "Προφίλ",
+        "settings": "Ρυθμίσεις",
+        "title": "Ρυθμίσεις"
+    },
+    "game.overview": {
+        "build": "Αναβάθμιση κτιρίου"
+    },
+    "game.overview.widgets": {
+        "buildqueue": "Ουρά αναμονής",
+        "newbie": "Προστασία από επιθέσεις",
+        "prod": "Παραγωγή",
+        "summary": "Κτίρια",
+        "units": "Μονάδες"
+    },
+    "game.report": {
+        "attacker": "Επιτιθέμενος",
+        "badluck": "Ατυχία",
+        "defender": "Αμυνόμενος",
+        "from": "από",
+        "losses": "Απώλειες",
+        "normal_luck": "Τύχη",
+        "origin": "Προέλευση",
+        "target": "Στόχος",
+        "title": "Αναφορές",
+        "units": "Μονάδες"
+    },
+    "game.report.navi": {
+        "all": "Όλες",
+        "attack": "Επιθέσεις",
+        "defense": "Άμυνα",
+        "filter": "Φίλτρο",
+        "trade": "Εμπόριο"
+    },
+    "game.title": {
+        "close": "Κλείσιμο",
+        "village": "Χωριό"
+    },
+    "game.train": {
+        "mode_train": "Στρατολόγηση"
+    },
+    "game.train.queue": {
+        "cancel": "Ακύρωση",
+        "duration": "Διάρκεια",
+        "train": "Στρατολόγηση"
+    },
+    "game.unit": {
+        "attack_strength": "Επιθετική δύναμη"
+    },
+    "game.village": {
+        "name_left": "Χωριό βαρβάρων"
+    },
+    "index": {
+        "availableWorlds": "Ανοιχτοί Κόσμοι",
+        "login": "Σύνδεση",
+        "logout": "Αποσύνδεση",
+        "password": "Κωδικός πρόσβασης",
+        "username": "Όνομα χρήστη"
+    },
+    "knight": {
+        "archer": "Μακρύ Τόξο του Νεβρώδ",
+        "axe": "Πολεμικός Πέλεκυς του Θόργκαρντ",
+        "catapult": "Πυρ της Αλήθειας",
+        "heavy": "Λάβαρο του Βαπτιστή",
+        "light": "Δόρυ του Μιέσκο",
+        "marcher": "Σύνθετο Τόξο του Νεβρώδ",
+        "ram": "Κεφαλοθραύστης του Καρόλου",
+        "snob": "Σκήπτρο του Βάσκο",
+        "spear": "Λογχοπέλεκυς Γκουάν Γιου",
+        "sword": "Μακρύ σπαθί του Παράκελσου"
+    },
+    "logout": {
+        "title": "Αποσύνδεση"
+    },
+    "register": {
+        "password": "Κωδικός πρόσβασης",
+        "passwordConfirm": "Επανάλαβε τον κωδικό πρόσβασης",
+        "register": "Εγγραφή",
+        "title": "Εγγραφή"
+    },
+    "sid_wrong": {
+        "index": "Αρχική"
+    },
+    "unit_archer": {
+        "name": "Τοξότης",
+        "short": "Τοξότης"
+    },
+    "unit_axe": {
+        "name": "Τσεκουρομάχος",
+        "plural": "Τσεκουρομάχος",
+        "short": "Τσεκούρι"
+    },
+    "unit_catapult": {
+        "name": "Καταπέλτης"
+    },
+    "unit_heavy": {
+        "name": "Βαρύ Ιππικό",
+        "plural": "Βαρύ Ιππικό"
+    },
+    "unit_knight": {
+        "name": "paladin"
+    },
+    "unit_light": {
+        "name": "Ελαφρύ Ιππικό",
+        "plural": "Ελαφρύ Ιππικό"
+    },
+    "unit_marcher": {
+        "name": "Έφιππος Τοξότης"
+    },
+    "unit_ram": {
+        "name": "Πολιορκητικός Κριός",
+        "short": "Πολιορκητικός Κριός"
+    },
+    "unit_snob": {
+        "name": "Αριστοκράτης"
+    },
+    "unit_spear": {
+        "short": "Λόγχη"
+    },
+    "unit_sword": {
+        "name": "Ξιφομάχος",
+        "plural": "Ξιφομάχος",
+        "short": "Ξίφος"
+    }
+}

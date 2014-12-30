@@ -1,6 +1,6 @@
 {
     "admin": {
-        "logout": "Cerrar sesión"
+        "logout": "Cerrá sesión"
     },
     "admin.configeditor": {
         "reload": "Volver a cargar",
@@ -11,7 +11,7 @@
         "password": "Contraseña"
     },
     "building_barracks": {
-        "name": "Barracones"
+        "name": "Cuartel"
     },
     "building_church": {
         "name": "Iglesia"
@@ -23,25 +23,25 @@
         "name": "Taller"
     },
     "building_iron": {
-        "name": "Mina de hierro"
+        "name": "Mina de Hierro"
     },
     "building_main": {
         "build": "Construir",
         "build_time": "Tiempo de construcción",
         "building": "Edificios",
         "cancel": "Cancelar",
-        "change_name": "Cambiar el nombre del pueblo",
+        "change_name": "Cambiar nombre del pueblo",
         "event_time": "Duración",
         "mode_build": "Construir",
         "mode_destroy": "Demolición",
-        "name": "Cuartel General"
+        "name": "Edificio Principal"
     },
     "building_market": {
         "name": "Mercado"
     },
     "building_place": {
         "all": "Todas",
-        "arrival": "Llegada",
+        "arrival": "Arribo",
         "arrival_in": "Llegada en",
         "attack": "Atacar",
         "attacker": "Atacante",
@@ -50,13 +50,13 @@
         "defender": "Defensor",
         "defendingArmy": "Defensor",
         "duration": "Duración",
-        "losses": "Bajas",
+        "losses": "Algunas Bajas",
         "moral": "Moral",
-        "support": "Ayudar",
+        "support": "Apoyo",
         "target": "Objetivo",
         "total": "Total",
         "units": "Unidades",
-        "wall": "Muralla",
+        "wall": "Muro",
         "withdraw": "Retirar"
     },
     "building_place_navi": {
@@ -85,16 +85,16 @@
         "pala_name": "Nombre"
     },
     "building_stone": {
-        "name": "Pozo de arcilla"
+        "name": "Cantera de Arcilla"
     },
     "building_storage": {
-        "capacity": "Capacidad de almacenamiento",
+        "capacity": "Capacidad de Almacenamiento",
         "name": "Almacenamiento",
         "table_head": "Almacén completo"
     },
     "building_wall": {
         "basic_defense": "Defensa base",
-        "name": "Muralla"
+        "name": "Muro"
     },
     "building_wood": {
         "name": "Aserradero"
@@ -108,10 +108,10 @@
         "buddies": "Amigos",
         "cancel": "Cancelar",
         "confirm": "Confirmar",
-        "costs": "Costes",
+        "costs": "Costo",
         "current": "Actual",
         "iron": "Hierro",
-        "ok": "De acuerdo",
+        "ok": "Aceptar",
         "options": "Opciones",
         "points": "Puntos",
         "resources": "Recursos",
@@ -119,8 +119,8 @@
         "send": "Enviar",
         "speed": "Velocidad",
         "stone": "Arcilla",
-        "storage": "Capacidad de almacenamiento",
-        "support": "Soporte",
+        "storage": "Capacidad de Almacenamiento",
+        "support": "Ayuda",
         "text": "Texto",
         "unit": "Unidad",
         "village": "Pueblo",
@@ -140,15 +140,15 @@
         "partner": "Aliados"
     },
     "game.ally.forum": {
-        "add": "Añadir",
+        "add": "Agregar",
         "author": "Autor",
         "close": "Cerrar",
         "confirm": "Confirmar",
         "create": "Crear",
         "delete": "Eliminar",
         "forum": "Foro",
-        "last_post": "Última publicación",
-        "newpoll": "Nueva encuesta",
+        "last_post": "Último Post",
+        "newpoll": "Nueva Encuesta",
         "replies": "Responder",
         "reply": "Respuesta",
         "title": "Título"
@@ -168,9 +168,9 @@
         "forum": "Foro de la Tribu",
         "invite": "Reclutar",
         "members": "Miembros",
-        "overview": "Resumen",
+        "overview": "Visión General",
         "profile": "Perfil",
-        "reservations": "Planificador de conquistas"
+        "reservations": "Planificador de Nobles"
     },
     "game.bbcode": {
         "ally": "Tribu",
@@ -180,7 +180,7 @@
         "italic": "Cursiva",
         "main": "Edificios",
         "player": "Jugador",
-        "report": "Informe",
+        "report": "Reporte",
         "spoiler": "Spoiler",
         "underline": "Subrayado",
         "units": "Unidades"
@@ -203,15 +203,15 @@
         "traders": "Comerciantes"
     },
     "game.menu": {
-        "logout": "Desconectarse"
+        "logout": "Cerrar Sesión"
     },
     "game.menu.ally": {
         "contracts": "Diplomacia",
         "forum": "Foro de la Tribu",
         "members": "Miembros",
-        "overview": "Resumen",
+        "overview": "Visión General",
         "profile": "Perfil",
-        "reservations": "Planificador de conquistas",
+        "reservations": "Planificador de Nobles",
         "title": "Tribu"
     },
     "game.menu.mails": {
@@ -225,7 +225,7 @@
         "commands": "Órdenes",
         "groups": "Grupos",
         "prod": "Producción",
-        "title": "Resumen"
+        "title": "Visión General"
     },
     "game.menu.profile": {
         "friends": "Amigos",
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Tribus",
-        "kill_player": "Enemigos derrotados",
+        "kill_player": "Enemigos Derrotados",
         "player": "Jugador",
         "title": "Clasificación"
     },
@@ -245,7 +245,7 @@
         "forwarded": "Reenviado",
         "other": "Otros",
         "support": "Apoyo",
-        "title": "Informes",
+        "title": "Reportes",
         "trade": "Comercio"
     },
     "game.menu.settings": {
@@ -256,25 +256,25 @@
         "title": "Configuración"
     },
     "game.overview": {
-        "build": "Mejorar edificio"
+        "build": "Mejorar Edificio"
     },
     "game.overview.widgets": {
         "buildqueue": "Cola",
-        "newbie": "Protección contra los ataques",
+        "newbie": "Protección contra Ataques",
         "prod": "Producción",
         "summary": "Edificios",
         "units": "Unidades"
     },
     "game.report": {
         "attacker": "Atacante",
-        "badluck": "Mala suerte",
+        "badluck": "Mala Suerte",
         "defender": "Defensor",
         "from": "de",
-        "losses": "Bajas",
+        "losses": "Algunas Bajas",
         "normal_luck": "Suerte",
         "origin": "Origen",
         "target": "Objetivo",
-        "title": "Informes",
+        "title": "Reportes",
         "units": "Unidades"
     },
     "game.report.navi": {
@@ -297,38 +297,38 @@
         "train": "Reclutar"
     },
     "game.unit": {
-        "attack_strength": "Poder de ataque"
+        "attack_strength": "Poder de Ataque"
     },
     "game.village": {
-        "name_left": "Pueblo bárbaro"
+        "name_left": "Pueblo Bárbaro"
     },
     "index": {
-        "availableWorlds": "Mundos abiertos",
+        "availableWorlds": "Mundos Abiertos",
         "login": "Iniciar sesión",
-        "logout": "Cerrar sesión",
+        "logout": "Cerrá sesión",
         "password": "Contraseña",
-        "username": "Nombre de usuario"
+        "username": "Nombre de Usuario"
     },
     "knight": {
         "archer": "Arco Largo de Nimrod",
-        "axe": "Hacha de Batalla de Thorgard",
-        "catapult": "Fanal de Aletheia",
+        "axe": "Hacha de Combate de Thorgard",
+        "catapult": "Antorcha de Aletheia",
         "heavy": "Estandarte de Baptiste",
         "light": "Lanza de Mieszko",
         "marcher": "Arco Compuesto de Nimrod",
-        "ram": "Lucero del Alba de Carol",
+        "ram": "Lucero de Carol",
         "snob": "Cetro de Vasco",
         "spear": "Alabarda de Guan Yu",
-        "sword": "Espadon de Paracelsus"
+        "sword": "Espada Larga de Paracelsus"
     },
     "logout": {
-        "title": "Cerrar sesión"
+        "title": "Cerrá sesión"
     },
     "register": {
         "password": "Contraseña",
-        "passwordConfirm": "Repite la contraseña",
-        "register": "Registrarse",
-        "title": "Registrarse"
+        "passwordConfirm": "Repetir contraseña",
+        "register": "Registrarme",
+        "title": "Registrarme"
     },
     "sid_wrong": {
         "index": "Inicio"
@@ -338,8 +338,8 @@
         "short": "Arquero"
     },
     "unit_axe": {
-        "name": "Guerrero con Hacha",
-        "plural": "Guerrero con Hacha",
+        "name": "Hachero",
+        "plural": "Hachero",
         "short": "Hacha"
     },
     "unit_catapult": {
@@ -357,7 +357,7 @@
         "plural": "Caballería Ligera"
     },
     "unit_marcher": {
-        "name": "Arquero Montado"
+        "name": "Arquero a Caballo"
     },
     "unit_ram": {
         "name": "Ariete",

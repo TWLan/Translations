@@ -1,1 +1,377 @@
-[]
+{
+    "admin": {
+        "logout": "Logg ut"
+    },
+    "admin.configeditor": {
+        "reload": "Last på nytt",
+        "save": "Lagre innstillinger"
+    },
+    "admin.login": {
+        "login": "Innlogging",
+        "password": "Passord"
+    },
+    "building_barracks": {
+        "name": "Brakker"
+    },
+    "building_church": {
+        "name": "Kirke"
+    },
+    "building_farm": {
+        "name": "Gård"
+    },
+    "building_garage": {
+        "name": "Verksted"
+    },
+    "building_iron": {
+        "name": "Jerngruve"
+    },
+    "building_main": {
+        "build": "Bygg",
+        "build_time": "Konstruksjonstid",
+        "building": "Bygninger",
+        "cancel": "Avbryt",
+        "change_name": "Bytt landsbynavn",
+        "event_time": "Varighet",
+        "mode_build": "Bygg",
+        "mode_destroy": "Rivning",
+        "name": "Hovedkvarter"
+    },
+    "building_market": {
+        "name": "Marked"
+    },
+    "building_place": {
+        "all": "Alle",
+        "arrival": "Ankomst",
+        "arrival_in": "Ankomst om",
+        "attack": "Angrep",
+        "attacker": "Angriper",
+        "attackingArmy": "Angriper",
+        "church": "Kirke",
+        "defender": "Forsvarer",
+        "defendingArmy": "Forsvarer",
+        "duration": "Varighet",
+        "losses": "Tap",
+        "moral": "Moral",
+        "support": "Støtte",
+        "target": "Mål",
+        "total": "Totalt",
+        "units": "Enheter",
+        "wall": "Mur",
+        "withdraw": "Trekk tilbake"
+    },
+    "building_place_navi": {
+        "command": "Kommandoer"
+    },
+    "building_res": {
+        "prod": "Produksjon"
+    },
+    "building_smith": {
+        "event_time": "Varighet"
+    },
+    "building_snob": {
+        "overall": "Totalt"
+    },
+    "building_snob_navi": {
+        "train": "Opprett"
+    },
+    "building_stable": {
+        "name": "Stall"
+    },
+    "building_statue": {
+        "do_cancel": "Cancel",
+        "mode_index": "Paladin",
+        "mode_inventory": "Lagerbeholdning",
+        "name": "Statue",
+        "pala_name": "Navn"
+    },
+    "building_stone": {
+        "name": "Leiregrav"
+    },
+    "building_storage": {
+        "capacity": "Varehuskapasitet",
+        "name": "Lager",
+        "table_head": "Varehus fullt"
+    },
+    "building_wall": {
+        "basic_defense": "Grunnleggende forsvar",
+        "name": "Mur"
+    },
+    "building_wood": {
+        "name": "Tømmerleir"
+    },
+    "create_village": {
+        "submit": "Bekreft"
+    },
+    "game": {
+        "_none": "Ingen",
+        "booty": "Bytte",
+        "buddies": "Venner",
+        "cancel": "Avbryt",
+        "confirm": "Bekreft",
+        "costs": "Kostnader",
+        "current": "Nåværende",
+        "iron": "Jern",
+        "ok": "OK",
+        "options": "Alternativer",
+        "points": "Poeng",
+        "resources": "Ressurser",
+        "save": "Lagre",
+        "send": "Send",
+        "speed": "Hastighet",
+        "stone": "Leire",
+        "storage": "Varehuskapasitet",
+        "support": "Kundeservice",
+        "text": "Tekst",
+        "unit": "Enhet",
+        "village": "Landsby",
+        "wood": "Tre"
+    },
+    "game.ally": {
+        "date": "Dato",
+        "doFound": "Åpne stamme",
+        "invitations": "Invitasjoner",
+        "leave": "Forlat stamme",
+        "nameOfTribe": "Stammenavn",
+        "reject": "Avslå",
+        "tribe": "Stamme"
+    },
+    "game.ally.diplomaty": {
+        "enemy": "Fiender",
+        "partner": "Allierte"
+    },
+    "game.ally.forum": {
+        "add": "Legg til",
+        "author": "Forfatter",
+        "close": "Lukk",
+        "confirm": "Bekreft",
+        "create": "Opprett",
+        "delete": "Slett",
+        "forum": "Forum",
+        "last_post": "Siste innlegg",
+        "newpoll": "Ny undersøkelse",
+        "replies": "Svar",
+        "reply": "Svar",
+        "title": "Tittel"
+    },
+    "game.ally.forum.admin": {
+        "action": "Handling",
+        "loading": "Laster inn"
+    },
+    "game.ally.invite": {
+        "invitations": "Invitasjoner",
+        "invite": "Inviter",
+        "name": "Navn",
+        "redraw": "Trekk tilbake"
+    },
+    "game.ally.navi": {
+        "contracts": "Diplomati",
+        "forum": "Stammeforum",
+        "invite": "Rekrutter",
+        "members": "Medlemmer",
+        "overview": "Oversikt",
+        "profile": "Profil",
+        "reservations": "Adlingsplanlegger"
+    },
+    "game.bbcode": {
+        "ally": "Stamme",
+        "bold": "Fet",
+        "color": "Farge",
+        "coords": "Koordinater",
+        "italic": "Kursiv",
+        "main": "Bygninger",
+        "player": "Spiller",
+        "report": "Rapport",
+        "spoiler": "Spoiler",
+        "underline": "Understreket",
+        "units": "Enheter"
+    },
+    "game.groups": {
+        "all": "Alle",
+        "delete": "Slett gruppe"
+    },
+    "game.mail": {
+        "msgs": "Meldinger"
+    },
+    "game.mail.modes": {
+        "in": "Meldinger"
+    },
+    "game.map": {
+        "enemys": "Fiender",
+        "partners": "Allierte"
+    },
+    "game.market": {
+        "traders": "Handelsmenn"
+    },
+    "game.menu": {
+        "logout": "Logg ut"
+    },
+    "game.menu.ally": {
+        "contracts": "Diplomati",
+        "forum": "Stammeforum",
+        "members": "Medlemmer",
+        "overview": "Oversikt",
+        "profile": "Profil",
+        "reservations": "Adlingsplanlegger",
+        "title": "Stamme"
+    },
+    "game.menu.mails": {
+        "i_new": "Ny melding",
+        "in": "Meldinger",
+        "title": "Meldinger"
+    },
+    "game.menu.overview": {
+        "buildings": "Bygninger",
+        "combined": "Kombinert",
+        "commands": "Kommandoer",
+        "groups": "Grupper",
+        "prod": "Produksjon",
+        "title": "Oversikter"
+    },
+    "game.menu.profile": {
+        "friends": "Venner",
+        "inventory": "Lagerbeholdning",
+        "title": "Profil"
+    },
+    "game.menu.ranking": {
+        "ally": "Stammer",
+        "kill_player": "Motstandere bekjempet",
+        "player": "Spiller",
+        "title": "Rangeringer"
+    },
+    "game.menu.reports": {
+        "attack": "Angrep",
+        "defense": "Forsvar",
+        "filter": "Filter",
+        "forwarded": "Videresendt",
+        "other": "Div.",
+        "support": "Støtte",
+        "title": "Rapporter",
+        "trade": "Handel"
+    },
+    "game.menu.settings": {
+        "change_passwd": "Endre passord",
+        "poll": "Undersøkelser",
+        "profile": "Profil",
+        "settings": "Innstillinger",
+        "title": "Innstillinger"
+    },
+    "game.overview": {
+        "build": "Oppgrader bygning"
+    },
+    "game.overview.widgets": {
+        "buildqueue": "Kø",
+        "newbie": "Angrepsbeskyttelse",
+        "prod": "Produksjon",
+        "summary": "Bygninger",
+        "units": "Enheter"
+    },
+    "game.report": {
+        "attacker": "Angriper",
+        "badluck": "Ulykke",
+        "defender": "Forsvarer",
+        "from": "fra",
+        "losses": "Tap",
+        "normal_luck": "Lykke",
+        "origin": "Opprinnelse",
+        "target": "Mål",
+        "title": "Rapporter",
+        "units": "Enheter"
+    },
+    "game.report.navi": {
+        "all": "Alle",
+        "attack": "Angrep",
+        "defense": "Forsvar",
+        "filter": "Filter",
+        "trade": "Handel"
+    },
+    "game.title": {
+        "close": "Lukk",
+        "village": "Landsby"
+    },
+    "game.train": {
+        "mode_train": "Rekrutter"
+    },
+    "game.train.queue": {
+        "cancel": "Avbryt",
+        "duration": "Varighet",
+        "train": "Rekrutter"
+    },
+    "game.unit": {
+        "attack_strength": "Angrepsstyrke"
+    },
+    "game.village": {
+        "name_left": "Barbarlandsby"
+    },
+    "index": {
+        "availableWorlds": "Åpne verdener",
+        "login": "Innlogging",
+        "logout": "Logg ut",
+        "password": "Passord",
+        "username": "Brukernavn"
+    },
+    "knight": {
+        "archer": "Nimrods langbue",
+        "axe": "Thorgards stridsøks",
+        "catapult": "Aletheias fakkel ",
+        "heavy": "Baptistes banner",
+        "light": "Mieszkos lanse",
+        "marcher": "Nimrods langbue",
+        "ram": "Carols morgenstjerne",
+        "snob": "Vascos septer",
+        "spear": "Guan Yus halberd",
+        "sword": "Paracelsus langsverd"
+    },
+    "logout": {
+        "title": "Logg ut"
+    },
+    "register": {
+        "password": "Passord",
+        "passwordConfirm": "Gjenta passord",
+        "register": "Registrer",
+        "title": "Registrer"
+    },
+    "sid_wrong": {
+        "index": "Hjem"
+    },
+    "unit_archer": {
+        "name": "Bueskytter",
+        "short": "Bueskytter"
+    },
+    "unit_axe": {
+        "name": "Øksekriger",
+        "plural": "Øksekriger",
+        "short": "Øks"
+    },
+    "unit_catapult": {
+        "name": "Katapult"
+    },
+    "unit_heavy": {
+        "name": "Tungt kavaleri",
+        "plural": "Tungt kavaleri"
+    },
+    "unit_knight": {
+        "name": "Paladin"
+    },
+    "unit_light": {
+        "name": "Lett kavaleri",
+        "plural": "Lett kavaleri"
+    },
+    "unit_marcher": {
+        "name": "Ridende bueskytter"
+    },
+    "unit_ram": {
+        "name": "Rambukk",
+        "short": "Rambukk"
+    },
+    "unit_snob": {
+        "name": "Adelsmann"
+    },
+    "unit_spear": {
+        "short": "Spyd"
+    },
+    "unit_sword": {
+        "name": "Sverdmann",
+        "plural": "Sverdmann",
+        "short": "Sverd"
+    }
+}

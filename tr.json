@@ -1,1 +1,377 @@
-[]
+{
+    "admin": {
+        "logout": "Oturumu Kapat"
+    },
+    "admin.configeditor": {
+        "reload": "Yeniden Yükle",
+        "save": "Ayarları kaydet"
+    },
+    "admin.login": {
+        "login": "Oturum Aç",
+        "password": "Parola"
+    },
+    "building_barracks": {
+        "name": "Kışla"
+    },
+    "building_church": {
+        "name": "Hamam"
+    },
+    "building_farm": {
+        "name": "Çiftlik"
+    },
+    "building_garage": {
+        "name": "Atölye"
+    },
+    "building_iron": {
+        "name": "Demir Madeni"
+    },
+    "building_main": {
+        "build": "İnşa Et",
+        "build_time": "İnşaat süresi",
+        "building": "Binalar",
+        "cancel": "İptal",
+        "change_name": "Köy ismini değiştir",
+        "event_time": "Süre",
+        "mode_build": "İnşa Et",
+        "mode_destroy": "Yıkım",
+        "name": "Karargah"
+    },
+    "building_market": {
+        "name": "Pazar"
+    },
+    "building_place": {
+        "all": "Tümü",
+        "arrival": "Varış",
+        "arrival_in": "Varış;",
+        "attack": "saldır",
+        "attacker": "Saldıran",
+        "attackingArmy": "Saldıran",
+        "church": "Hamam",
+        "defender": "Savunan",
+        "defendingArmy": "Savunan",
+        "duration": "Süre",
+        "losses": "Kayıplar",
+        "moral": "Moral",
+        "support": "Destek ver",
+        "target": "Hedef",
+        "total": "Toplam",
+        "units": "Birimler",
+        "wall": "Duvar",
+        "withdraw": "Geri Çek"
+    },
+    "building_place_navi": {
+        "command": "Emirler"
+    },
+    "building_res": {
+        "prod": "Üretim"
+    },
+    "building_smith": {
+        "event_time": "Süre"
+    },
+    "building_snob": {
+        "overall": "Toplam"
+    },
+    "building_snob_navi": {
+        "train": "Oluştur"
+    },
+    "building_stable": {
+        "name": "Ahır"
+    },
+    "building_statue": {
+        "do_cancel": "Cancel",
+        "mode_index": "Kutsal Şövalye",
+        "mode_inventory": "Envanter",
+        "name": "Heykel",
+        "pala_name": "İsim"
+    },
+    "building_stone": {
+        "name": "Kil Ocağı"
+    },
+    "building_storage": {
+        "capacity": "Depolama kapasitesi",
+        "name": "Depolama",
+        "table_head": "Depo dolu"
+    },
+    "building_wall": {
+        "basic_defense": "Temel savunma",
+        "name": "Duvar"
+    },
+    "building_wood": {
+        "name": "Kereste Kampı"
+    },
+    "create_village": {
+        "submit": "Onayla"
+    },
+    "game": {
+        "_none": "Yok",
+        "booty": "Ganimet",
+        "buddies": "Arkadaşlar",
+        "cancel": "İptal",
+        "confirm": "Onayla",
+        "costs": "Maliyetler",
+        "current": "Mevcut",
+        "iron": "Demir",
+        "ok": "TAMAM",
+        "options": "Seçenekler",
+        "points": "Puanlar",
+        "resources": "Kaynaklar",
+        "save": "Kaydet",
+        "send": "Gönder",
+        "speed": "Hız",
+        "stone": "Kil",
+        "storage": "Depolama kapasitesi",
+        "support": "Destek",
+        "text": "Metin",
+        "unit": "Birim",
+        "village": "Köy",
+        "wood": "Odun"
+    },
+    "game.ally": {
+        "date": "Tarih",
+        "doFound": "Klanı aç",
+        "invitations": "Davetler",
+        "leave": "Klandan ayrıl",
+        "nameOfTribe": "Klan ismi",
+        "reject": "Reddet",
+        "tribe": "Klan"
+    },
+    "game.ally.diplomaty": {
+        "enemy": "Düşmanlar",
+        "partner": "Müttefikler"
+    },
+    "game.ally.forum": {
+        "add": "Ekle",
+        "author": "Yazar",
+        "close": "Kapat",
+        "confirm": "Onayla",
+        "create": "Oluştur",
+        "delete": "Sil",
+        "forum": "Forum",
+        "last_post": "Son gönderi",
+        "newpoll": "Yeni anket",
+        "replies": "Yanıt",
+        "reply": "Cevap",
+        "title": "Başlık"
+    },
+    "game.ally.forum.admin": {
+        "action": "Eylem",
+        "loading": "Yükleniyor"
+    },
+    "game.ally.invite": {
+        "invitations": "Davetler",
+        "invite": "Davet et",
+        "name": "İsim",
+        "redraw": "Geri Çek"
+    },
+    "game.ally.navi": {
+        "contracts": "Diplomasi",
+        "forum": "Klan Forumu",
+        "invite": "İstihdam",
+        "members": "Üyeler",
+        "overview": "Genel Bakış",
+        "profile": "Profil",
+        "reservations": "Soylu Ajandası"
+    },
+    "game.bbcode": {
+        "ally": "Klan",
+        "bold": "Kalın",
+        "color": "Renk",
+        "coords": "Koordinatlar",
+        "italic": "İtalik",
+        "main": "Binalar",
+        "player": "Oyuncu",
+        "report": "Rapor",
+        "spoiler": "Ek Bilgi",
+        "underline": "Altı Çizili",
+        "units": "Birimler"
+    },
+    "game.groups": {
+        "all": "Tümü",
+        "delete": "Grubu sil"
+    },
+    "game.mail": {
+        "msgs": "Mesajlar"
+    },
+    "game.mail.modes": {
+        "in": "Mesajlar"
+    },
+    "game.map": {
+        "enemys": "Düşmanlar",
+        "partners": "Müttefikler"
+    },
+    "game.market": {
+        "traders": "Tiüccarlar"
+    },
+    "game.menu": {
+        "logout": "Çıkış yap"
+    },
+    "game.menu.ally": {
+        "contracts": "Diplomasi",
+        "forum": "Klan Forumu",
+        "members": "Üyeler",
+        "overview": "Genel Bakış",
+        "profile": "Profil",
+        "reservations": "Soylu Ajandası",
+        "title": "Klan"
+    },
+    "game.menu.mails": {
+        "i_new": "Yeni mesaj",
+        "in": "Mesajlar",
+        "title": "Mesajlar"
+    },
+    "game.menu.overview": {
+        "buildings": "Binalar",
+        "combined": "Birleştirilmiş",
+        "commands": "Emirler",
+        "groups": "Gruplar",
+        "prod": "Üretim",
+        "title": "Genel Bakış"
+    },
+    "game.menu.profile": {
+        "friends": "Arkadaşlar",
+        "inventory": "Envanter",
+        "title": "Profil"
+    },
+    "game.menu.ranking": {
+        "ally": "Klanlar",
+        "kill_player": "Alt edilen rakipler",
+        "player": "Oyuncu",
+        "title": "Sıralamalar"
+    },
+    "game.menu.reports": {
+        "attack": "Saldırılar",
+        "defense": "Savunma",
+        "filter": "Filtre",
+        "forwarded": "İletildi",
+        "other": "Diğer",
+        "support": "Destek",
+        "title": "Raporlar",
+        "trade": "Ticaret"
+    },
+    "game.menu.settings": {
+        "change_passwd": "Parolayı değiştir",
+        "poll": "Anketler",
+        "profile": "Profil",
+        "settings": "Ayarlar",
+        "title": "Ayarlar"
+    },
+    "game.overview": {
+        "build": "Binayı yükselt"
+    },
+    "game.overview.widgets": {
+        "buildqueue": "Kuyruk",
+        "newbie": "Saldırı Koruması",
+        "prod": "Üretim",
+        "summary": "Binalar",
+        "units": "Birimler"
+    },
+    "game.report": {
+        "attacker": "Saldıran",
+        "badluck": "Şanssızlık",
+        "defender": "Savunan",
+        "from": "geldiği yer",
+        "losses": "Kayıplar",
+        "normal_luck": "Şans",
+        "origin": "Kaynak",
+        "target": "Hedef",
+        "title": "Raporlar",
+        "units": "Birimler"
+    },
+    "game.report.navi": {
+        "all": "Tümü",
+        "attack": "Saldırılar",
+        "defense": "Savunma",
+        "filter": "Filtre",
+        "trade": "Ticaret"
+    },
+    "game.title": {
+        "close": "Kapat",
+        "village": "Köy"
+    },
+    "game.train": {
+        "mode_train": "İstihdam"
+    },
+    "game.train.queue": {
+        "cancel": "İptal",
+        "duration": "Süre",
+        "train": "İstihdam"
+    },
+    "game.unit": {
+        "attack_strength": "Saldırı Gücü"
+    },
+    "game.village": {
+        "name_left": "Barbar Köyü"
+    },
+    "index": {
+        "availableWorlds": "Açık Dünyalar",
+        "login": "Oturum Aç",
+        "logout": "Oturumu Kapat",
+        "password": "Parola",
+        "username": "Kullanıcı Adı"
+    },
+    "knight": {
+        "archer": "Nimrod'un Uzun Yayı",
+        "axe": "Thorgard'ın Muharebe Baltası",
+        "catapult": "Aletheia'nın Şenlik Ateşi",
+        "heavy": "Baptiste'nin Flaması",
+        "light": "Mieszko'nun Kargısı",
+        "marcher": "Nimrod'un Kompozit Yayı",
+        "ram": "Carol'un Çivili Gürzü",
+        "snob": "Vasco'nun Asası",
+        "spear": "Guan Yu'nun Baltalı Kargısı",
+        "sword": "Paracelsus'un Uzun Kılıcı"
+    },
+    "logout": {
+        "title": "Oturumu Kapat"
+    },
+    "register": {
+        "password": "Parola",
+        "passwordConfirm": "Parolayı tekrarla",
+        "register": "Kayıt Ol",
+        "title": "Kayıt Ol"
+    },
+    "sid_wrong": {
+        "index": "Ana Ekran"
+    },
+    "unit_archer": {
+        "name": "Okçu",
+        "short": "Okçu"
+    },
+    "unit_axe": {
+        "name": "Baltalı Dövüşçü",
+        "plural": "Baltalı Dövüşçü",
+        "short": "Balta"
+    },
+    "unit_catapult": {
+        "name": "Mancınık"
+    },
+    "unit_heavy": {
+        "name": "Ağır Süvari",
+        "plural": "Ağır Süvari"
+    },
+    "unit_knight": {
+        "name": "Kutsal Şövalye"
+    },
+    "unit_light": {
+        "name": "Hafif Süvari",
+        "plural": "Hafif Süvari"
+    },
+    "unit_marcher": {
+        "name": "Atlı Okçu"
+    },
+    "unit_ram": {
+        "name": "Koçbaşı",
+        "short": "Koçbaşı"
+    },
+    "unit_snob": {
+        "name": "Asilzade"
+    },
+    "unit_spear": {
+        "short": "Mızrak"
+    },
+    "unit_sword": {
+        "name": "Kılıçlı",
+        "plural": "Kılıçlı",
+        "short": "Kılıç"
+    }
+}

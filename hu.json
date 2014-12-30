@@ -1,0 +1,377 @@
+{
+    "admin": {
+        "logout": "Kijelentkezés"
+    },
+    "admin.configeditor": {
+        "reload": "Újratöltés\n\\t",
+        "save": "Beállítások mentése"
+    },
+    "admin.login": {
+        "login": "Belépés",
+        "password": "Jelszó"
+    },
+    "building_barracks": {
+        "name": "Barakk"
+    },
+    "building_church": {
+        "name": "Templom"
+    },
+    "building_farm": {
+        "name": "Tanya"
+    },
+    "building_garage": {
+        "name": "Műhely"
+    },
+    "building_iron": {
+        "name": "Vasbánya"
+    },
+    "building_main": {
+        "build": "Építés",
+        "build_time": "Építési idő",
+        "building": "Épületek",
+        "cancel": "Mégse",
+        "change_name": "Változtassa meg a falu nevét",
+        "event_time": "Időtartam",
+        "mode_build": "Építés",
+        "mode_destroy": "Lebontás",
+        "name": "Főhadiszállás"
+    },
+    "building_market": {
+        "name": "Piac"
+    },
+    "building_place": {
+        "all": "Összes",
+        "arrival": "Érkezés",
+        "arrival_in": "Érkezés:",
+        "attack": "Támadás",
+        "attacker": "Támadó",
+        "attackingArmy": "Támadó",
+        "church": "Templom",
+        "defender": "Védekező",
+        "defendingArmy": "Védekező",
+        "duration": "Időtartam",
+        "losses": "Veszteségek",
+        "moral": "Morál",
+        "support": "Támogatás",
+        "target": "Cél",
+        "total": "Összesen",
+        "units": "Egységek",
+        "wall": "Fal",
+        "withdraw": "Visszavonás"
+    },
+    "building_place_navi": {
+        "command": "Parancsok"
+    },
+    "building_res": {
+        "prod": "Gyártás"
+    },
+    "building_smith": {
+        "event_time": "Időtartam"
+    },
+    "building_snob": {
+        "overall": "Összesen"
+    },
+    "building_snob_navi": {
+        "train": "Létrehozás"
+    },
+    "building_stable": {
+        "name": "Istálló"
+    },
+    "building_statue": {
+        "do_cancel": "Cancel",
+        "mode_index": "Lovag",
+        "mode_inventory": "Jutalomtár",
+        "name": "Szobor",
+        "pala_name": "Név"
+    },
+    "building_stone": {
+        "name": "Agyagbánya"
+    },
+    "building_storage": {
+        "capacity": "Tárolási kapacitás",
+        "name": "Tárolás",
+        "table_head": "Raktár teljes feltöltése"
+    },
+    "building_wall": {
+        "basic_defense": "Alapvédelem",
+        "name": "Fal"
+    },
+    "building_wood": {
+        "name": "Fatelep"
+    },
+    "create_village": {
+        "submit": "Megerősítés"
+    },
+    "game": {
+        "_none": "Nincs",
+        "booty": "Zsákmány",
+        "buddies": "Barátok",
+        "cancel": "Mégse",
+        "confirm": "Megerősítés",
+        "costs": "Költségek",
+        "current": "Aktuális",
+        "iron": "Vas",
+        "ok": "OK",
+        "options": "Opciók",
+        "points": "Pontok",
+        "resources": "Nersanyagok",
+        "save": "Mentés",
+        "send": "Küldés",
+        "speed": "Sebesség",
+        "stone": "Agyag",
+        "storage": "Tárolási kapacitás",
+        "support": "Ügyfélszolgálat",
+        "text": "Szöveg",
+        "unit": "Egység",
+        "village": "Falu",
+        "wood": "Fa"
+    },
+    "game.ally": {
+        "date": "Dátum",
+        "doFound": "Klán megnyitása",
+        "invitations": "Meghívások",
+        "leave": "Klán elhagyása",
+        "nameOfTribe": "Klán neve",
+        "reject": "Elutasítás",
+        "tribe": "Klán"
+    },
+    "game.ally.diplomaty": {
+        "enemy": "Ellenségek",
+        "partner": "Szövetségesek"
+    },
+    "game.ally.forum": {
+        "add": "Hozzáadás",
+        "author": "Szerző",
+        "close": "Bezárás",
+        "confirm": "Megerősítés",
+        "create": "Létrehozás",
+        "delete": "Törlés",
+        "forum": "Fórum",
+        "last_post": "Utolsó hozzászólás",
+        "newpoll": "Új felmérés",
+        "replies": "Válasz",
+        "reply": "Válasz",
+        "title": "Cím"
+    },
+    "game.ally.forum.admin": {
+        "action": "Művelet",
+        "loading": "Töltés"
+    },
+    "game.ally.invite": {
+        "invitations": "Meghívások",
+        "invite": "Meghívás",
+        "name": "Név",
+        "redraw": "Visszavonás"
+    },
+    "game.ally.navi": {
+        "contracts": "Diplomácia",
+        "forum": "Klán fórum",
+        "invite": "Toborzás",
+        "members": "Tagok",
+        "overview": "Áttekintés",
+        "profile": "Profil",
+        "reservations": "Falufoglalási tervező"
+    },
+    "game.bbcode": {
+        "ally": "Klán",
+        "bold": "Félkövér",
+        "color": "Szín",
+        "coords": "Koordináták",
+        "italic": "Dőlt",
+        "main": "Épületek",
+        "player": "Játékos",
+        "report": "Jelentés",
+        "spoiler": "Spoiler",
+        "underline": "Aláhúzott",
+        "units": "Egységek"
+    },
+    "game.groups": {
+        "all": "Összes",
+        "delete": "Csoport törlése"
+    },
+    "game.mail": {
+        "msgs": "Üzenetek"
+    },
+    "game.mail.modes": {
+        "in": "Üzenetek"
+    },
+    "game.map": {
+        "enemys": "Ellenségek",
+        "partners": "Szövetségesek"
+    },
+    "game.market": {
+        "traders": "Kereskedők"
+    },
+    "game.menu": {
+        "logout": "Kijelentkezés"
+    },
+    "game.menu.ally": {
+        "contracts": "Diplomácia",
+        "forum": "Klán fórum",
+        "members": "Tagok",
+        "overview": "Áttekintés",
+        "profile": "Profil",
+        "reservations": "Falufoglalási tervező",
+        "title": "Klán"
+    },
+    "game.menu.mails": {
+        "i_new": "Új üzenet",
+        "in": "Üzenetek",
+        "title": "Üzenetek"
+    },
+    "game.menu.overview": {
+        "buildings": "Épületek",
+        "combined": "Kombinált",
+        "commands": "Parancsok",
+        "groups": "Csoportok",
+        "prod": "Gyártás",
+        "title": "Áttekintés"
+    },
+    "game.menu.profile": {
+        "friends": "Barátok",
+        "inventory": "Jutalomtár",
+        "title": "Profil"
+    },
+    "game.menu.ranking": {
+        "ally": "Klánok",
+        "kill_player": "Legyőzött ellenfelek",
+        "player": "Játékos",
+        "title": "Ranglista"
+    },
+    "game.menu.reports": {
+        "attack": "Támadások",
+        "defense": "Védekezés",
+        "filter": "Szűrő",
+        "forwarded": "Továbbítva",
+        "other": "Egyéb",
+        "support": "Támogatás",
+        "title": "Jelentések",
+        "trade": "Kereskedelem"
+    },
+    "game.menu.settings": {
+        "change_passwd": "Jelszó módosítása",
+        "poll": "Felmérések",
+        "profile": "Profil",
+        "settings": "Beállítások",
+        "title": "Beállítások"
+    },
+    "game.overview": {
+        "build": "Épület fejlesztése"
+    },
+    "game.overview.widgets": {
+        "buildqueue": "Várólista",
+        "newbie": "Támadási védelem",
+        "prod": "Gyártás",
+        "summary": "Épületek",
+        "units": "Egységek"
+    },
+    "game.report": {
+        "attacker": "Támadó",
+        "badluck": "Balszerencse",
+        "defender": "Védekező",
+        "from": "Ettől a játékostól:",
+        "losses": "Veszteségek",
+        "normal_luck": "Szerencse",
+        "origin": "Kiindulás",
+        "target": "Cél",
+        "title": "Jelentések",
+        "units": "Egységek"
+    },
+    "game.report.navi": {
+        "all": "Összes",
+        "attack": "Támadások",
+        "defense": "Védekezés",
+        "filter": "Szűrő",
+        "trade": "Kereskedelem"
+    },
+    "game.title": {
+        "close": "Bezárás",
+        "village": "Falu"
+    },
+    "game.train": {
+        "mode_train": "Toborzás"
+    },
+    "game.train.queue": {
+        "cancel": "Mégse",
+        "duration": "Időtartam",
+        "train": "Toborzás"
+    },
+    "game.unit": {
+        "attack_strength": "Támadóerő"
+    },
+    "game.village": {
+        "name_left": "Barbár falu"
+    },
+    "index": {
+        "availableWorlds": "Nyílt világok",
+        "login": "Belépés",
+        "logout": "Kijelentkezés",
+        "password": "Jelszó",
+        "username": "Felhasználónév"
+    },
+    "knight": {
+        "archer": "Nimrod hosszúíja",
+        "axe": "Thorgard harci fejszéje",
+        "catapult": "Aletheia fáklyája",
+        "heavy": "Baptiste lobogója",
+        "light": "Mieszko dárdája",
+        "marcher": "Nimrod összetett íja",
+        "ram": "Carol buzogánya",
+        "snob": "Vasco jogara",
+        "spear": "Guan Yu alabárdja",
+        "sword": "Paracelsus hosszúkardja"
+    },
+    "logout": {
+        "title": "Kijelentkezés"
+    },
+    "register": {
+        "password": "Jelszó",
+        "passwordConfirm": "Jelszó ismétlése",
+        "register": "Regisztráció",
+        "title": "Regisztráció"
+    },
+    "sid_wrong": {
+        "index": "Kezdőlap"
+    },
+    "unit_archer": {
+        "name": "Íjász",
+        "short": "Íjász"
+    },
+    "unit_axe": {
+        "name": "Bárdos",
+        "plural": "Bárdos",
+        "short": "Fejsze"
+    },
+    "unit_catapult": {
+        "name": "Katapult"
+    },
+    "unit_heavy": {
+        "name": "Nehézlovas",
+        "plural": "Nehézlovas"
+    },
+    "unit_knight": {
+        "name": "Lovag"
+    },
+    "unit_light": {
+        "name": "Könnyűlovas",
+        "plural": "Könnyűlovas"
+    },
+    "unit_marcher": {
+        "name": "Lovasíjász"
+    },
+    "unit_ram": {
+        "name": "Faltörő kos",
+        "short": "Faltörő kos"
+    },
+    "unit_snob": {
+        "name": "Nemes"
+    },
+    "unit_spear": {
+        "short": "Lándzsa"
+    },
+    "unit_sword": {
+        "name": "Kardforgató",
+        "plural": "Kardforgató",
+        "short": "Kard"
+    }
+}
