@@ -323,7 +323,7 @@
         "_none": "None",
         "booty": "Loot",
         "buddies": "Friends",
-        "cancel": "Cancel",
+        "cancel": "Cancellation",
         "confirm": "Confirm",
         "costs": "Costs",
         "current": "Current",
@@ -360,7 +360,14 @@
         "page": "Page",
         "thousand_delimeter": ".",
         "vote": "vote",
-        "votes": "votes"
+        "votes": "votes",
+        "name": "name",
+        "rank": "rank",
+        "global_rank": "Global Ranking",
+        "villages": "Villages",
+        "yes": "Yes",
+        "birthday": "Birthday",
+        "banned": "Banned"
     },
     "game.ally": {
         "accept": "Accept",
@@ -473,6 +480,23 @@
         "redraw": "Withdraw",
         "selfnot": "You cannot invite yourself."
     },
+    "game.ally.members": {
+        "founder": "Founder",
+        "lead": "Leader",
+        "invite": "Invite",
+        "diplomacy": "Cancel",
+        "mass_mail": "Mass Mail",
+        "forum_mod": "Moderator of internal forum",
+        "internal_forum": "Internal Forum",
+        "trusted_member": "Trusted Member",
+        "choose_action": "Choose Action...",
+        "rights": "Rights and Titles",
+        "kick": "Kick",
+        "edit_rights": "Edit Rights",
+        "status": "Status",
+        "active": "Active",
+        "save_rights": "Save rights"
+    },
     "game.ally.navi": {
         "contracts": "Diplomacy",
         "forum": "Tribal forum",
@@ -502,7 +526,12 @@
         "strikethrough": "Crossed out",
         "table": "List",
         "underline": "Under scored",
-        "units": "Unit"
+        "units": "Unit",
+        "very_small": "Very small",
+        "small": "Small",
+        "normal": "Normal",
+        "large": "Large",
+        "very_large": "Very large"
     },
     "game.error": {
         "methodNotFound": "\"{controller}\" doesn't have a function called \"{method}\".",
@@ -721,7 +750,9 @@
         "desc": "In this overview you can recruit all types of units if you have constructed the required buildings and researched the needed technologies.",
         "mode_decommission": "Decommissioning",
         "mode_train": "Recruitment",
-        "not_enough": "Not enough resources available"
+        "not_enough": "Not enough resources available",
+        "mode_massrecruitment": "Mass Recruitment",
+        "mode_massdecomission": "Mass Decommissioning"
     },
     "game.train.queue": {
         "cancel": "cancel",

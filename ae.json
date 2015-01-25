@@ -1,16 +1,4 @@
 {
-    "lang": {
-        "de": "ألماني",
-        "en": "الإنجليزية",
-        "ch": "السويسرية الألمانية",
-        "arr": "قرصان"
-    },
-    "time": {
-        "today": "اليوم",
-        "tomorrow": "غداً",
-        "onDay": "في {day}",
-        "onTime": "{day} على {time}"
-    },
     "admin": {
         "title": "لوحة التحكم",
         "adminPanel": "لوحة التحكم",
@@ -18,62 +6,69 @@
         "mainFunctions": "قائمة",
         "configEditor": "تعديل الخصائص"
     },
-    "credits": {
-        "title": "المساهمين",
-        "twteam": "فريق حرب القبائل",
-        "base": "اللعبة, جرافيك, تخطيط, جافاسكريبت, سي اس اس",
-        "dev": "التطوير",
-        "lead": "قيادة",
-        "lang": "ترجمة",
-        "comm": "فريق العمل",
-        "manage": "ادارة",
-        "plugin": "تطوير الإضافات",
-        "help": "مساعد في العمل",
-        "christmastree": "شجرة عيد الميلاد",
-        "templates": "جمع القوالب"
+    "admin.configeditor": {
+        "warningNoDefaultValues": "لا يمكن العثور على التكوين الافتراضي",
+        "title": "تعديل الخصائص",
+        "global": "مواصفات العالم",
+        "save": "حفظ الخيارات",
+        "saved": "تم حفظ الخيارات!",
+        "standard": "القيم الإفتراضية",
+        "confignotfound": "لا يمكن العثور على محرر ملف التكوين",
+        "reload": "تحديث الصفحة",
+        "world": "خصائص العالم",
+        "newworld": "إنشاء عالم جديد",
+        "entername": "ادخل اسم العالم الجديد:",
+        "worldcreated": "تم انشاء العالم. تستطيع الآن التحكم مثل أي عالم آخر.",
+        "worlddeleted": "تم حذف العالم.",
+        "worldexists": "هذا العالم موجود سابقاً!",
+        "invalidinput": "المعلومات التي قمت بإدخالها صغيرة جدا أو خاطئة",
+        "mkdir": "لا يمكن انشاء المجلد !",
+        "rmdir": "لا يمكن انشاء المجلد !",
+        "defaultWorld": "خصائص العالم الافتراضية",
+        "deleteworld": "حذف العالم",
+        "confirm": "هل أنت متأكد؟"
     },
-    "unit_spear": {
-        "name": "مقاتل الرمح"
+    "admin.configeditor.types": {
+        "units": "خصائص الوحدات",
+        "buildings": "خصائص المباني"
     },
-    "unit_sword": {
-        "name": "مقاتل السيف"
-    },
-    "unit_axe": {
-        "name": "مقاتل الفأس"
-    },
-    "unit_archer": {
-        "name": "رماة الأسهم"
-    },
-    "unit_spy": {
-        "name": "الكشافة"
-    },
-    "unit_light": {
-        "name": "فارس خفيف"
-    },
-    "unit_marcher": {
-        "name": "فارس القوس"
-    },
-    "unit_heavy": {
-        "name": "فارس ثقيل"
-    },
-    "unit_ram": {
-        "name": "محطمة الحائط"
-    },
-    "unit_catapult": {
-        "name": "المقلاع"
-    },
-    "unit_knight": {
-        "name": "قائد الفرسان"
-    },
-    "unit_snob": {
-        "name": "النبيل"
-    },
-    "unit_militia": {
-        "name": "مليشيات"
+    "admin.login": {
+        "login": "تسجيل ادخول",
+        "password": "كلمة المرور",
+        "default": "كلمة السر الخاصة بك مازلت الإفتراضية <b>(editme)<\/b>",
+        "fail": "كلمة مرور خاطئة!"
     },
     "building": {
         "no_level": "لم يتم البناء",
         "level": "المستوى {x}"
+    },
+    "building_barracks": {
+        "name": "الثكنات",
+        "description": "في الثكنات تستطيع تدريب الوحدات. كلما قمت بتطوير الثكنات كلما كانت عملية التدريب اسرع. "
+    },
+    "building_church": {
+        "name": "الكنيسة",
+        "description": "The church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%."
+    },
+    "building_church_f": {
+        "name": "الكتدرائية",
+        "description": "The first church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%. The first church is built by default in your first village, and can only be built once."
+    },
+    "building_farm": {
+        "name": "المزارع",
+        "description": "المزارع تقوم بامداد عمالك و قواتك بالطعام. من دون تطوير المزارع قريتك لن تستطيع النمو. كلما زادت مستوي المزارع كلما استطعت رفع التعداد السكاني لقريتك."
+    },
+    "building_garage": {
+        "name": "الورشة",
+        "description": "في الورشة تستطيع بناء محطمة الحائط و المقاليع. كلما قمت بتطوير الورشة كلما كانت عملية البناء اسرع."
+    },
+    "building_hide": {
+        "name": "المخابئ",
+        "description": "المخابئ تستخدم لتخبئة مواردك من السرقة عن طريق هجمات اللاعبين الاخرين. كلما تم تطويرها و زاد مستواها كلما استطيع تخبئة المزيد من الموارد. حتى كشافة اعدائك لا يستطيعون رصد هذه الموارد المخبئة!"
+    },
+    "building_iron": {
+        "name": "منجم الحديد",
+        "description": "في منجم الحديد يقوم عمالك بالحفر لاسخراج الحديد اللازم لتطوير مملكتك. كلما زاد المستوى زادت قدرتهم الانتاجية."
     },
     "building_main": {
         "name": "المبنى الرئيسي",
@@ -121,184 +116,46 @@
         "queueBuild": "إضافى المزيد من أوامر البناء يكلفك أكثر , هل مازلت تريد إضافة هذه المهمة ؟",
         "orderSuccess": "تم ترتيب المباني بنجاح"
     },
-    "building_barracks": {
-        "name": "الثكنات",
-        "description": "في الثكنات تستطيع تدريب الوحدات. كلما قمت بتطوير الثكنات كلما كانت عملية التدريب اسرع. "
-    },
-    "building_stable": {
-        "name": "الاسطبل",
-        "description": "في الاسطبل تستطيع تدريب الفرسان. كلما قمت بتطوير الاسطبل كلما كانت عمليت التدريب اسرع."
-    },
-    "building_garage": {
-        "name": "الورشة",
-        "description": "في الورشة تستطيع بناء محطمة الحائط و المقاليع. كلما قمت بتطوير الورشة كلما كانت عملية البناء اسرع."
-    },
-    "building_church_f": {
-        "name": "الكتدرائية",
-        "description": "The first church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%. The first church is built by default in your first village, and can only be built once."
-    },
-    "building_church": {
-        "name": "الكنيسة",
-        "description": "The church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%."
-    },
-    "building_snob": {
-        "name": "الاكاديمية",
-        "description": "في الاكاديمية تستطيع تدريب النبلاء. فهم يساعدوك على احتلال القري الاخرى."
-    },
-    "building_smith": {
-        "name": "الحداد",
-        "description": "في الحداد تستطيع تطوير و تحسين الاسلحة. تطوير الحداد يمنحك المزيد من التحسين و التطوير على الاسلحة كما انه يسرع عمليات التطوير"
+    "building_market": {
+        "name": "السوق",
+        "description": "في السوق تستطيع التجارة مع اللاعبين الاخرين."
     },
     "building_place": {
         "name": "نقطة التجمع",
         "description": "في نقطة التجمع يتم تجمع جميع وحداتك و محاربيك. هنا تستطيع اصدار الاوامر لهم و تحريك جيوشك."
     },
+    "building_smith": {
+        "name": "الحداد",
+        "description": "في الحداد تستطيع تطوير و تحسين الاسلحة. تطوير الحداد يمنحك المزيد من التحسين و التطوير على الاسلحة كما انه يسرع عمليات التطوير"
+    },
+    "building_snob": {
+        "name": "الاكاديمية",
+        "description": "في الاكاديمية تستطيع تدريب النبلاء. فهم يساعدوك على احتلال القري الاخرى."
+    },
+    "building_stable": {
+        "name": "الاسطبل",
+        "description": "في الاسطبل تستطيع تدريب الفرسان. كلما قمت بتطوير الاسطبل كلما كانت عمليت التدريب اسرع."
+    },
     "building_statue": {
         "name": "النصب التذكاري",
         "description": "تمثال الملك هو غرفة قائد الفرسان , عند موت قائد الفرسان يمكنك تدريبه مرة أخرى من هنا"
     },
-    "building_market": {
-        "name": "السوق",
-        "description": "في السوق تستطيع التجارة مع اللاعبين الاخرين."
-    },
-    "building_wood": {
-        "name": "الخشاب",
-        "description": "خارج اسوار قلعتك في الغابة المظلمة يقوم الخشابون بقطع الاشجار العملاقة في الغابة لعمل الاخشاب, والتي تحتاجها للبناء و تسليح جيوشك بالاسلحة المختلفة. كلما زاد مستوي الخشاب زادت طاقتة انتاجهم."
-    },
     "building_stone": {
         "name": "حفرة الطمي",
         "description": "في حفرة الطمي يقوم عمالك باستخراج الطمي, وهو مهم جدا للمباني الجديدة. كلما زاد المستوى زادت قدرتهم الانتاجية."
-    },
-    "building_iron": {
-        "name": "منجم الحديد",
-        "description": "في منجم الحديد يقوم عمالك بالحفر لاسخراج الحديد اللازم لتطوير مملكتك. كلما زاد المستوى زادت قدرتهم الانتاجية."
-    },
-    "building_farm": {
-        "name": "المزارع",
-        "description": "المزارع تقوم بامداد عمالك و قواتك بالطعام. من دون تطوير المزارع قريتك لن تستطيع النمو. كلما زادت مستوي المزارع كلما استطعت رفع التعداد السكاني لقريتك."
     },
     "building_storage": {
         "name": "المخازن",
         "description": "يتم تخزين مواردك في المخازن. كلما زاد مستوي مخازنك كلما استطعت تخزين كمية اكبر. ",
         "full": "ممتلئ"
     },
-    "building_hide": {
-        "name": "المخابئ",
-        "description": "المخابئ تستخدم لتخبئة مواردك من السرقة عن طريق هجمات اللاعبين الاخرين. كلما تم تطويرها و زاد مستواها كلما استطيع تخبئة المزيد من الموارد. حتى كشافة اعدائك لا يستطيعون رصد هذه الموارد المخبئة!"
-    },
     "building_wall": {
         "name": "الحائط",
         "description": "الحائط يقوم بالدفاع عن قريتك من هجمات اللاعبين الاخرين. كلما زاد مستوي الحائط كلما ضاعفت قوة دفاعاتك ضد هذه الهجمات. "
     },
-    "admin.login": {
-        "login": "تسجيل ادخول",
-        "password": "كلمة المرور",
-        "default": "كلمة السر الخاصة بك مازلت الإفتراضية <b>(editme)<\/b>",
-        "fail": "كلمة مرور خاطئة!"
-    },
-    "admin.configeditor": {
-        "warningNoDefaultValues": "لا يمكن العثور على التكوين الافتراضي",
-        "title": "تعديل الخصائص",
-        "global": "مواصفات العالم",
-        "save": "حفظ الخيارات",
-        "saved": "تم حفظ الخيارات!",
-        "standard": "القيم الإفتراضية",
-        "confignotfound": "لا يمكن العثور على محرر ملف التكوين",
-        "reload": "تحديث الصفحة",
-        "world": "خصائص العالم",
-        "newworld": "إنشاء عالم جديد",
-        "entername": "ادخل اسم العالم الجديد:",
-        "worldcreated": "تم انشاء العالم. تستطيع الآن التحكم مثل أي عالم آخر.",
-        "worlddeleted": "تم حذف العالم.",
-        "worldexists": "هذا العالم موجود سابقاً!",
-        "invalidinput": "المعلومات التي قمت بإدخالها صغيرة جدا أو خاطئة",
-        "mkdir": "لا يمكن انشاء المجلد !",
-        "rmdir": "لا يمكن انشاء المجلد !",
-        "defaultWorld": "خصائص العالم الافتراضية",
-        "deleteworld": "حذف العالم",
-        "confirm": "هل أنت متأكد؟"
-    },
-    "admin.configeditor.types": {
-        "units": "خصائص الوحدات",
-        "buildings": "خصائص المباني"
-    },
-    "menu": {
-        "rules": "القوانين",
-        "rounds": "الجولات",
-        "stats": "الاحصائيات",
-        "admin": "لوحة التحكم",
-        "pma": "phpMyAdmin"
-    },
-    "news": {
-        "format": "d.m.y H:i"
-    },
-    "index": {
-        "twlan": "TWLan.org",
-        "title": "TWLan - حرب القبائل النسخة المحلية",
-        "twlanLink": "TWLan.org",
-        "imageTitle": "حرب القبائل",
-        "descriptionTitle": "حرب القبائل - لعبة متصفح",
-        "description": "حرب القبائل هي لعبة على المتصفح لا تحتاج الى تحميل, تسير احداثها في العصور الوسطى. كل لاعب يتحكم في قرية صغيرة و يسعي للحصول على المجد و الشهرة.",
-        "register": "سجل الآن!",
-        "screenshots": "صور من داخل اللعبه:",
-        "screenshotMap": "خريطة العالم",
-        "screenshotPlace": "نقطة التجمع",
-        "screenshotPaladin": "قائد الفرسان",
-        "loginTitle1": "حرب القبائل - تسجيل الدخول",
-        "loginTitle2": "مرحباً {user}!",
-        "loginText": "اظغط على زر تسجيل الدخول للدخول الى اللعبة!",
-        "login": "تسجيل الدخول",
-        "username": "اسم المستخدم",
-        "password": "كلمة المرور",
-        "allWorlds": "اظهر جميع العوالم",
-        "stayLoggedIn": "البقاء متصل",
-        "differentUser": "إذا كنت لست {user}؟",
-        "logout": "تسحيل الخروج",
-        "forgotPassword": "نسيت كلمة المرور\/تغير كلمة المرور",
-        "changePassword": "تغير كلمة المرور",
-        "notLoggedIn": "لم تسجل الدخول بعد!",
-        "wrongIP": "لا تستطيع اللعب في TWLan الا بالشبكة المحلية!"
-    },
-    "register": {
-        "title": "تسجيل",
-        "register": "تسجيل",
-        "name": "اسم المستخدم",
-        "password": "كلمة المرور",
-        "passwordConfirm": "اعادة كتابة كلمة المرور",
-        "nameMissing": "لا يوجد اسم مستحدم",
-        "nameInvalid": "اسم غير متاح!",
-        "nameTooShort": " الاسم يجب ان يتحوي على 4 حروف على الاقل!",
-        "nameTooLong": "يجب ان يكون الاسم اقل من 50 حرف !",
-        "nameTaken": "هذا الاسم مستخدم بالفعل !",
-        "passwordMissing": "لا توجد كلمة مرور",
-        "passwordEqualsName": "يجب أن تكون كلمة المرور مختلفة عن اسم الحساب",
-        "passwordTooShort": "كلمة المرور يجب أن تكون أكثر من 4 حروف",
-        "passwordTooLong": "يجب أن تكون كلمة المرور أقل من 50 حرف",
-        "passwordsDontMatch": "كلمة المرور يجب كتابتها مرتين, و يجب ان تكون مطابقة تماماً.",
-        "failure": "خطأ في التسجيل"
-    },
-    "login": {
-        "undefined": "لا توجد بيانات",
-        "invalidWorld": "العالم غير متاح",
-        "invalidAccount": "حساب غير موجود",
-        "wrongPassword": "كلمة المرور خاطئة"
-    },
-    "sid_wrong": {
-        "title": "انتهت الجلسة",
-        "content": "{link} انتهت مدة الجلسة الخاصة بك الرجاء اعادة تسجيل الدخول من خلال",
-        "index": "الصفحة الرئيسية",
-        "title2": "لا يمكن انشاء الجلسة",
-        "max": "لم تكن جزءا من اللاعبين 25 , لذلك لا يمكن ان تلعب على هذا العالم.",
-        "link": "{t} الصفحة الرئيسية"
-    },
-    "join": {
-        "title": "انضم",
-        "description": "الوصف:",
-        "registerDeactivated": "تم تعطيل الانضمام لهذا العالم.",
-        "worldFull": "هذا العالم وصل للحد الأقصى من من اللاعبين.",
-        "settings": "{t} خصائص العالم {world}",
-        "wannaJoin": "هل تريد الانضمام للـ {world}?",
-        "join": "انضم"
+    "building_wood": {
+        "name": "الخشاب",
+        "description": "خارج اسوار قلعتك في الغابة المظلمة يقوم الخشابون بقطع الاشجار العملاقة في الغابة لعمل الاخشاب, والتي تحتاجها للبناء و تسليح جيوشك بالاسلحة المختلفة. كلما زاد مستوي الخشاب زادت طاقتة انتاجهم."
     },
     "create_village": {
         "title": "انشاء قرية جديدة",
@@ -314,11 +171,19 @@
         "dally": "وسط قبيلتي",
         "submit": "تأكيد"
     },
-    "logout": {
-        "title": "تسجيل الخروج",
-        "over": "تم تسجيل الخروج بنجاح",
-        "message": "شكراً على زيارتك",
-        "index": "{t} الصفحة الرئيسيى"
+    "credits": {
+        "title": "المساهمين",
+        "twteam": "فريق حرب القبائل",
+        "base": "اللعبة, جرافيك, تخطيط, جافاسكريبت, سي اس اس",
+        "dev": "التطوير",
+        "lead": "قيادة",
+        "lang": "ترجمة",
+        "comm": "فريق العمل",
+        "manage": "ادارة",
+        "plugin": "تطوير الإضافات",
+        "help": "مساعد في العمل",
+        "christmastree": "شجرة عيد الميلاد",
+        "templates": "جمع القوالب"
     },
     "game": {
         "errorWorld": "العالم {world} غير موجود!",
@@ -341,23 +206,24 @@
         "save": "حفظ",
         "overdue": "متأخر"
     },
-    "game.title": {
-        "close": "مغلق",
-        "group": "المجموعة:",
-        "village": "القرية",
-        "first_village": "إلى أول قرية في هذه المجموعة",
-        "attacks": "الهجمات القادمة",
-        "supports": "الدعم القادم"
-    },
-    "game.market": {
-        "traders": "التجار"
-    },
-    "game.village": {
-        "name_left": "قرية بربرية",
-        "name": "قرية {user} ",
-        "username_normal": "{user}",
-        "username_special": "{user}",
-        "special_chars": "sxz"
+    "game.bbcode": {
+        "bold": "مائل",
+        "italic": "خط أسفل الكتابة",
+        "underline": "مشطوب",
+        "strikethrough": "إقتباس",
+        "quote": "سوبلير",
+        "spoiler": "رابط",
+        "address": "لاعب",
+        "player": "قبيلة",
+        "ally": "احداثيات",
+        "coords": "تقرير",
+        "report": "حجم الخط",
+        "size": "صورة",
+        "picture": "اللون",
+        "color": "قائمة",
+        "table": "وحدات",
+        "units": "مباني",
+        "main": "القبيلة"
     },
     "game.error": {
         "pageNotFound": "\"{page}\" لا يمكن إيجاد الصفحة",
@@ -365,11 +231,15 @@
         "viewNotFound": "\"{page}\" لا يمكن إيجاد القالب",
         "methodNotFound": "\"{controller}\" لا يملك وظيفة تسمى \"{method}\"."
     },
-    "game.menu": {
-        "memo": "دفتر الملاحظات",
-        "logout": "تسجيل الخروج",
-        "map": "الخريطة",
-        "flags": "الأعلام"
+    "game.groups": {
+        "noun": "إنشاء مجموعة",
+        "create": "توجد موجوعة تحمل نفس الاسم",
+        "erroralready": "لا توجد مجموعات قديمة",
+        "nogroups": "تعديل المجموعات",
+        "edit": "إعادة تسمية المجموعة",
+        "rename": "حذف المجموعة",
+        "delete": "الكل",
+        "all": "القري في كل صفحة"
     },
     "game.map": {
         "barbarian": "القري المهجورة",
@@ -377,6 +247,37 @@
         "owntribe": "اعضاء القبيلة",
         "partners": "الحلفاء",
         "naps": "ميثاق عدم اعتداء"
+    },
+    "game.market": {
+        "traders": "التجار"
+    },
+    "game.menu": {
+        "memo": "دفتر الملاحظات",
+        "logout": "تسجيل الخروج",
+        "map": "الخريطة",
+        "flags": "الأعلام"
+    },
+    "game.menu.ally": {
+        "title": "مواضيع جديدة في منتدى القبيلة",
+        "i_new": "ليس هناك مواضيع جديدة في منتدى القبيلة",
+        "i_old": "الرئيسية",
+        "overview": "الملف الشخصي",
+        "profile": "الأعضاء",
+        "members": "العلاقات الدبلوماسية",
+        "contracts": "الحروب",
+        "tribalwars": "مخطط حجز احتلال القرى",
+        "reservations": "منتدى القبيلة",
+        "forum": "الترتيب"
+    },
+    "game.menu.mails": {
+        "title": "البريد ",
+        "i_new": "رسالة جديدة",
+        "in": "الرسائل العامة",
+        "mass_out": "كتابة رسالة ",
+        "new": "تجاهل المرسل",
+        "block": "دفتر العناوين",
+        "address": "الأرشيف",
+        "groups": "القبيلة"
     },
     "game.menu.overview": {
         "title": "الشكل العام",
@@ -389,6 +290,17 @@
         "buildings": "المباني",
         "tech": "بحث",
         "groups": "المجموعات"
+    },
+    "game.menu.ranking": {
+        "title": "({rank}.|{points} ن)",
+        "points": "القبائل",
+        "ally": "اللاعبين",
+        "player": "القبائل في القارة",
+        "con_ally": "الاعبين في القارة",
+        "con_player": "ترتيب أفضل القبائل",
+        "kill_ally": "افضل لاعب",
+        "kill_player": "الحروب",
+        "wars": "الخيارات"
     },
     "game.menu.reports": {
         "title": "التقارير",
@@ -404,39 +316,6 @@
         "block": "تجاهل المرسل ",
         "public": "نشر التقرير"
     },
-    "game.menu.mails": {
-        "title": "البريد ",
-        "i_new": "رسالة جديدة",
-        "in": "الرسائل العامة",
-        "mass_out": "كتابة رسالة ",
-        "new": "تجاهل المرسل",
-        "block": "دفتر العناوين",
-        "address": "الأرشيف",
-        "groups": "القبيلة"
-    },
-    "game.menu.ally": {
-        "title": "مواضيع جديدة في منتدى القبيلة",
-        "i_new": "ليس هناك مواضيع جديدة في منتدى القبيلة",
-        "i_old": "الرئيسية",
-        "overview": "الملف الشخصي",
-        "profile": "الأعضاء",
-        "members": "العلاقات الدبلوماسية",
-        "contracts": "الحروب",
-        "tribalwars": "مخطط حجز احتلال القرى",
-        "reservations": "منتدى القبيلة",
-        "forum": "الترتيب"
-    },
-    "game.menu.ranking": {
-        "title": "({rank}.|{points} ن)",
-        "points": "القبائل",
-        "ally": "اللاعبين",
-        "player": "القبائل في القارة",
-        "con_ally": "الاعبين في القارة",
-        "con_player": "ترتيب أفضل القبائل",
-        "kill_ally": "افضل لاعب",
-        "kill_player": "الحروب",
-        "wars": "الخيارات"
-    },
     "game.menu.settings": {
         "title": "الملف الشخصي",
         "profile": "الخيارات",
@@ -451,23 +330,6 @@
         "push": "تجاهل اللاعب",
         "block": "الدعم الفني",
         "ticket": "المجموعات"
-    },
-    "game.groups": {
-        "noun": "إنشاء مجموعة",
-        "create": "توجد موجوعة تحمل نفس الاسم",
-        "erroralready": "لا توجد مجموعات قديمة",
-        "nogroups": "تعديل المجموعات",
-        "edit": "إعادة تسمية المجموعة",
-        "rename": "حذف المجموعة",
-        "delete": "الكل",
-        "all": "القري في كل صفحة"
-    },
-    "game.overviews": {
-        "villagespersite": "كمية",
-        "amount": "لا يوجد انتاج",
-        "noprod": "لا يوجد جنود",
-        "norec": "تم التطوير",
-        "teccomplete": "اخفاء المستوى"
     },
     "game.overview": {
         "hide_levels": "اظهار المستوى",
@@ -488,24 +350,39 @@
         "forAllConfirm": "اظهر جميع الاضافات",
         "show_all": "غليظ"
     },
-    "game.bbcode": {
-        "bold": "مائل",
-        "italic": "خط أسفل الكتابة",
-        "underline": "مشطوب",
-        "strikethrough": "إقتباس",
-        "quote": "سوبلير",
-        "spoiler": "رابط",
-        "address": "لاعب",
-        "player": "قبيلة",
-        "ally": "احداثيات",
-        "coords": "تقرير",
-        "report": "حجم الخط",
-        "size": "صورة",
-        "picture": "اللون",
-        "color": "قائمة",
-        "table": "وحدات",
-        "units": "مباني",
-        "main": "القبيلة"
+    "game.overview.widgets": {
+        "summary": "الجيوش القادمة",
+        "incoming_units": "قواتك",
+        "outgoing_units": "حماية المبتدئين",
+        "newbie": "الإنتاج",
+        "prod": "الوحدات",
+        "units": "الولاء",
+        "mood": "ايمان",
+        "belief": "الأعلام",
+        "flags": "ربط المجموعات",
+        "groups": "دفتر الملاحظات",
+        "notes": "أوامر البناء",
+        "buildqueue": "سر",
+        "secret": "تدريب"
+    },
+    "game.overviews": {
+        "villagespersite": "كمية",
+        "amount": "لا يوجد انتاج",
+        "noprod": "لا يوجد جنود",
+        "norec": "تم التطوير",
+        "teccomplete": "اخفاء المستوى"
+    },
+    "game.title": {
+        "close": "مغلق",
+        "group": "المجموعة:",
+        "village": "القرية",
+        "first_village": "إلى أول قرية في هذه المجموعة",
+        "attacks": "الهجمات القادمة",
+        "supports": "الدعم القادم"
+    },
+    "game.train": {
+        "mode_train": "تسريح",
+        "mode_decommission": ""
     },
     "game.tribe": {
         "tribe": "للأنضمام الى قبيلة ما ... يجب ان تستلم دعوة منها اولاً.",
@@ -539,18 +416,6 @@
         "alreadyrelation": "حذف",
         "end": "الرئيسية "
     },
-    "game.tribe.navi": {
-        "overview": "الملف الشخصي",
-        "profile": "الاعضاء",
-        "members": "العلاقات الدبلوماسية",
-        "contracts": "الحروب ",
-        "wars": "مخطط حجز احتلال القري",
-        "reservations": "الدعوات",
-        "invite": "رسالة الترحيب",
-        "intro_igm": "الاختيارات",
-        "properties": "منتدي القبيلة ",
-        "forum": "لقد تم انشاء هذه القبيلة من قبل الملك {fromPlayer}."
-    },
     "game.tribe.events": {
         "1": "{fromPlayer} قد قام بتغير الاعلانات الدخلية.",
         "2": "{fromPlayer} قام بتغير معلومات القبيلة.",
@@ -577,23 +442,158 @@
         "notagain": "سحب",
         "redraw": "المباني"
     },
-    "game.overview.widgets": {
-        "summary": "الجيوش القادمة",
-        "incoming_units": "قواتك",
-        "outgoing_units": "حماية المبتدئين",
-        "newbie": "الإنتاج",
-        "prod": "الوحدات",
-        "units": "الولاء",
-        "mood": "ايمان",
-        "belief": "الأعلام",
-        "flags": "ربط المجموعات",
-        "groups": "دفتر الملاحظات",
-        "notes": "أوامر البناء",
-        "buildqueue": "سر",
-        "secret": "تدريب"
+    "game.tribe.navi": {
+        "overview": "الملف الشخصي",
+        "profile": "الاعضاء",
+        "members": "العلاقات الدبلوماسية",
+        "contracts": "الحروب ",
+        "wars": "مخطط حجز احتلال القري",
+        "reservations": "الدعوات",
+        "invite": "رسالة الترحيب",
+        "intro_igm": "الاختيارات",
+        "properties": "منتدي القبيلة ",
+        "forum": "لقد تم انشاء هذه القبيلة من قبل الملك {fromPlayer}."
     },
-    "game.train": {
-        "mode_train": "تسريح",
-        "mode_decommission": ""
+    "game.village": {
+        "name_left": "قرية بربرية",
+        "name": "قرية {user} ",
+        "username_normal": "{user}",
+        "username_special": "{user}",
+        "special_chars": "sxz"
+    },
+    "index": {
+        "twlan": "TWLan.org",
+        "title": "TWLan - حرب القبائل النسخة المحلية",
+        "twlanLink": "TWLan.org",
+        "imageTitle": "حرب القبائل",
+        "descriptionTitle": "حرب القبائل - لعبة متصفح",
+        "description": "حرب القبائل هي لعبة على المتصفح لا تحتاج الى تحميل, تسير احداثها في العصور الوسطى. كل لاعب يتحكم في قرية صغيرة و يسعي للحصول على المجد و الشهرة.",
+        "register": "سجل الآن!",
+        "screenshots": "صور من داخل اللعبه:",
+        "screenshotMap": "خريطة العالم",
+        "screenshotPlace": "نقطة التجمع",
+        "screenshotPaladin": "قائد الفرسان",
+        "loginTitle1": "حرب القبائل - تسجيل الدخول",
+        "loginTitle2": "مرحباً {user}!",
+        "loginText": "اظغط على زر تسجيل الدخول للدخول الى اللعبة!",
+        "login": "تسجيل الدخول",
+        "username": "اسم المستخدم",
+        "password": "كلمة المرور",
+        "allWorlds": "اظهر جميع العوالم",
+        "stayLoggedIn": "البقاء متصل",
+        "differentUser": "إذا كنت لست {user}؟",
+        "logout": "تسحيل الخروج",
+        "forgotPassword": "نسيت كلمة المرور\/تغير كلمة المرور",
+        "changePassword": "تغير كلمة المرور",
+        "notLoggedIn": "لم تسجل الدخول بعد!",
+        "wrongIP": "لا تستطيع اللعب في TWLan الا بالشبكة المحلية!"
+    },
+    "join": {
+        "title": "انضم",
+        "description": "الوصف:",
+        "registerDeactivated": "تم تعطيل الانضمام لهذا العالم.",
+        "worldFull": "هذا العالم وصل للحد الأقصى من من اللاعبين.",
+        "settings": "{t} خصائص العالم {world}",
+        "wannaJoin": "هل تريد الانضمام للـ {world}?",
+        "join": "انضم"
+    },
+    "lang": {
+        "de": "ألماني",
+        "en": "الإنجليزية",
+        "ch": "السويسرية الألمانية",
+        "arr": "قرصان"
+    },
+    "login": {
+        "undefined": "لا توجد بيانات",
+        "invalidWorld": "العالم غير متاح",
+        "invalidAccount": "حساب غير موجود",
+        "wrongPassword": "كلمة المرور خاطئة"
+    },
+    "logout": {
+        "title": "تسجيل الخروج",
+        "over": "تم تسجيل الخروج بنجاح",
+        "message": "شكراً على زيارتك",
+        "index": "{t} الصفحة الرئيسيى"
+    },
+    "menu": {
+        "rules": "القوانين",
+        "rounds": "الجولات",
+        "stats": "الاحصائيات",
+        "admin": "لوحة التحكم",
+        "pma": "phpMyAdmin"
+    },
+    "news": {
+        "format": "d.m.y H:i"
+    },
+    "register": {
+        "title": "تسجيل",
+        "register": "تسجيل",
+        "name": "اسم المستخدم",
+        "password": "كلمة المرور",
+        "passwordConfirm": "اعادة كتابة كلمة المرور",
+        "nameMissing": "لا يوجد اسم مستحدم",
+        "nameInvalid": "اسم غير متاح!",
+        "nameTooShort": " الاسم يجب ان يتحوي على 4 حروف على الاقل!",
+        "nameTooLong": "يجب ان يكون الاسم اقل من 50 حرف !",
+        "nameTaken": "هذا الاسم مستخدم بالفعل !",
+        "passwordMissing": "لا توجد كلمة مرور",
+        "passwordEqualsName": "يجب أن تكون كلمة المرور مختلفة عن اسم الحساب",
+        "passwordTooShort": "كلمة المرور يجب أن تكون أكثر من 4 حروف",
+        "passwordTooLong": "يجب أن تكون كلمة المرور أقل من 50 حرف",
+        "passwordsDontMatch": "كلمة المرور يجب كتابتها مرتين, و يجب ان تكون مطابقة تماماً.",
+        "failure": "خطأ في التسجيل"
+    },
+    "sid_wrong": {
+        "title": "انتهت الجلسة",
+        "content": "{link} انتهت مدة الجلسة الخاصة بك الرجاء اعادة تسجيل الدخول من خلال",
+        "index": "الصفحة الرئيسية",
+        "title2": "لا يمكن انشاء الجلسة",
+        "max": "لم تكن جزءا من اللاعبين 25 , لذلك لا يمكن ان تلعب على هذا العالم.",
+        "link": "{t} الصفحة الرئيسية"
+    },
+    "time": {
+        "today": "اليوم",
+        "tomorrow": "غداً",
+        "onDay": "في {day}",
+        "onTime": "{day} على {time}"
+    },
+    "unit_archer": {
+        "name": "رماة الأسهم"
+    },
+    "unit_axe": {
+        "name": "مقاتل الفأس"
+    },
+    "unit_catapult": {
+        "name": "المقلاع"
+    },
+    "unit_heavy": {
+        "name": "فارس ثقيل"
+    },
+    "unit_knight": {
+        "name": "قائد الفرسان"
+    },
+    "unit_light": {
+        "name": "فارس خفيف"
+    },
+    "unit_marcher": {
+        "name": "فارس القوس"
+    },
+    "unit_militia": {
+        "name": "مليشيات"
+    },
+    "unit_ram": {
+        "name": "محطمة الحائط"
+    },
+    "unit_snob": {
+        "name": "النبيل"
+    },
+    "unit_spear": {
+        "name": "مقاتل الرمح"
+    },
+    "unit_spy": {
+        "name": "الكشافة"
+    },
+    "unit_sword": {
+        "name": "مقاتل السيف"
     }
 }

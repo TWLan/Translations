@@ -272,6 +272,23 @@
         "partner": "Spojenci",
         "tag": "Kmenový tag"
     },
+    "game.ally.events": {
+        "1": "Kmen nalezen od hráče {fromPlayer}.",
+        "2": "{fromPlayer} změnil interní oznámení.",
+        "3": "Kmen navázal spojenectví s {toTribe}.",
+        "4": "Kmen nastavil DoN s {toTribe}.",
+        "5": "Kmem je nepřítelem {toTribe}.",
+        "6": "{toPlayer} byl pozván od {fromPlayer}.",
+        "7": "{fromPlayer} změnil popis kmene.",
+        "8": "Pozvání {toPlayer} bylo zrušeno {fromPlayer}.",
+        "9": "{fromPlayer} změnil práva a popis {toPlayer}.",
+        "10": "{fromPlayer} opustil kmen.",
+        "11": "{toPlayer} zamítnul hráče {fromPlayer}.",
+        "12": "{fromPlayer} změnil popis kmene.",
+        "13": "{fromPlayer} vstoupil do kmene.",
+        "14": "{fromPlayer} odmítl pozvání.",
+        "666": "Kmen yrušil vztah s {toTribe}."
+    },
     "game.ally.forum": {
         "add": "Přidat",
         "author": "Autor",
@@ -677,22 +694,5 @@
         "name": "Šermíř",
         "plural": "Šermíř",
         "short": "Meč"
-    },
-    "game.ally.events": {
-        "1": "Kmen nalezen od hráče {fromPlayer}.",
-        "2": "{fromPlayer} změnil interní oznámení.",
-        "3": "Kmen navázal spojenectví s {toTribe}.",
-        "4": "Kmen nastavil DoN s {toTribe}.",
-        "5": "Kmem je nepřítelem {toTribe}.",
-        "6": "{toPlayer} byl pozván od {fromPlayer}.",
-        "7": "{fromPlayer} změnil popis kmene.",
-        "8": "Pozvání {toPlayer} bylo zrušeno {fromPlayer}.",
-        "9": "{fromPlayer} změnil práva a popis {toPlayer}.",
-        "10": "{fromPlayer} opustil kmen.",
-        "11": "{toPlayer} zamítnul hráče {fromPlayer}.",
-        "12": "{fromPlayer} změnil popis kmene.",
-        "13": "{fromPlayer} vstoupil do kmene.",
-        "14": "{fromPlayer} odmítl pozvání.",
-        "666": "Kmen yrušil vztah s {toTribe}."
     }
 }

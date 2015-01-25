@@ -360,7 +360,14 @@
         "village": "Dorf",
         "vote": "Stimme",
         "votes": "Stimmen",
-        "wood": "Holz"
+        "wood": "Holz",
+        "name": "Name",
+        "rank": "Rang",
+        "global_rank": "Globaler Rang",
+        "villages": "Dörfer",
+        "yes": "Ja",
+        "birthday": "Geburtstag",
+        "banned": "Gesperrt"
     },
     "game.ally": {
         "accept": "Akzeptieren",
@@ -473,6 +480,23 @@
         "redraw": "Zurückziehen",
         "selfnot": "Du kannst dich nicht selbst als Freund einladen."
     },
+    "game.ally.members": {
+        "founder": "Stammesgründer",
+        "lead": "Stammesführung",
+        "invite": "Einladen",
+        "diplomacy": "Diplomatie",
+        "mass_mail": "Rundschreiben",
+        "forum_mod": "Moderator im internen Forum",
+        "internal_forum": "Versteckte Foren",
+        "trusted_member": "Vertrauenswürdiges Mitglied",
+        "choose_action": "Aktion wählen...",
+        "rights": "Rechte und Titel",
+        "kick": "Entlassen",
+        "edit_rights": "Rechte bearbeiten",
+        "status": "Status",
+        "active": "Aktiv",
+        "save_rights": "Rechte speichern"
+    },
     "game.ally.navi": {
         "contracts": "Diplomatie",
         "forum": "Stammesforum",
@@ -502,7 +526,12 @@
         "strikethrough": "Durchgestrichen",
         "table": "Tabelle",
         "underline": "Unterstrichen",
-        "units": "Einheiten"
+        "units": "Einheiten",
+        "very_small": "Sehr klein",
+        "small": "Klein",
+        "normal": "Normal",
+        "large": "Groß",
+        "very_large": "Sehr groß"
     },
     "game.error": {
         "methodNotFound": "\"{controller}\" hat keine Funktion \"{method}\".",
@@ -721,7 +750,9 @@
         "desc": "In dieser Übersicht kannst du jegliche Art von Einheiten produzieren, insofern du über die notwendigen Gebäude und Technologien verfügst.",
         "mode_decommission": "Ausmusterung",
         "mode_train": "Rekrutierung",
-        "not_enough": "Nicht genügend Ressourcen vorhanden"
+        "not_enough": "Nicht genügend Ressourcen vorhanden",
+        "mode_massrecruitment": "Massenrekrutierung",
+        "mode_massdecomission": "Massenausmusterung"
     },
     "game.train.queue": {
         "cancel": "abbrechen",

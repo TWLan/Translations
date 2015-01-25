@@ -272,6 +272,23 @@
         "partner": "Aliados",
         "tag": "TAG da tribo"
     },
+    "game.ally.events": {
+        "1": "A tribo foi fundada por {fromPlayer}.",
+        "2": "{fromPlayer} mudou o anúncio interno.",
+        "3": "A tribo é agora aliado com {toTribe}.",
+        "4": "A tribo tem agora um PNA com {toTribe}.",
+        "5": "A tribo é agora inimiga de {toTribe}.",
+        "6": "{toPlayer} foi convidado por {fromPlayer}.",
+        "7": "{fromPlayer} mudou os atributos da tribo.",
+        "8": "O convite para {toPlayer} foi retirado por {fromPlayer}.",
+        "9": "{fromPlayer} mudou os privilégios e título de {toPlayer}.",
+        "10": "{fromPlayer} deixou a tribo.",
+        "11": "{toPlayer} foi indeferido por {fromPlayer}.",
+        "12": "{fromPlayer} mudou a descrição da tribo.",
+        "13": "{fromPlayer} entrou para a tribo.",
+        "14": "{fromPlayer} recusou o convite.",
+        "666": "A tribo cancelou sua relação com {toTribe}."
+    },
     "game.ally.forum": {
         "add": "Adicionar",
         "author": "Autor",
@@ -677,22 +694,5 @@
         "name": "Espadachim",
         "plural": "Espadachim",
         "short": "Espada"
-    },
-    "game.ally.events": {
-        "1": "A tribo foi fundada por {fromPlayer}.",
-        "2": "{fromPlayer} mudou o anúncio interno.",
-        "3": "A tribo é agora aliado com {toTribe}.",
-        "4": "A tribo tem agora um PNA com {toTribe}.",
-        "5": "A tribo é agora inimiga de {toTribe}.",
-        "6": "{toPlayer} foi convidado por {fromPlayer}.",
-        "7": "{fromPlayer} mudou os atributos da tribo.",
-        "8": "O convite para {toPlayer} foi retirado por {fromPlayer}.",
-        "9": "{fromPlayer} mudou os privilégios e título de {toPlayer}.",
-        "10": "{fromPlayer} deixou a tribo.",
-        "11": "{toPlayer} foi indeferido por {fromPlayer}.",
-        "12": "{fromPlayer} mudou a descrição da tribo.",
-        "13": "{fromPlayer} entrou para a tribo.",
-        "14": "{fromPlayer} recusou o convite.",
-        "666": "A tribo cancelou sua relação com {toTribe}."
     }
 }
