@@ -64,7 +64,12 @@
     },
     "building_hide": {
         "description": "Resources in your hiding place cannot be plundered by your enemies. The bigger it is, the more it can hold. There is no place to hide your troops though. Even your enemies' scouts cannot spot the resources hidden in your hiding place.",
-        "name": "Hiding place"
+        "name": "Hiding place",
+        "current_size": "Current capacity",
+        "market_plunder": "Offers on the market can be plundered even if the resources fit into your hiding place.",
+        "plunder_res": "Plunderable resources",
+        "size_at_level": "Size on level {lvl}",
+        "size": "Current size"
     },
     "building_iron": {
         "description": "In the iron mine your workers dig the war-crucial iron. The higher its level the more iron is produced.",
@@ -142,7 +147,34 @@
         "total": "Overall",
         "units": "Unit",
         "wall": "Wall",
-        "withdraw": "Withdraw"
+        "withdraw": "Withdraw",
+        "believing": "Religious",
+        "calculate": "Calculate",
+        "catapult": "Level of catapult target",
+        "catapult_damage": "Damage by catapults",
+        "command": "Give commands",
+        "damaged_wall": "The wall has been damaged and downgraded from level <b>{before}<\/b> to level <b>{after}<\/b>",
+        "error_no_troops": "No units selected",
+        "confirm_attack": "Confirm attack on {name}",
+        "confirm_support": "Confirm support for {name}",
+        "damaged_building": "The building has been damaged and downgraded from level <b>{before}<\/b> to level <b>{after}<\/b>",
+        "defender_bonus": "100% wall bonus",
+        "error_invalid_target": "Target does not exist",
+        "error_no_target": "You need to enter the x and y coordinates of the destination",
+        "error_not_enough_troops": "Not enough units available",
+        "foreign_commands": "Enemy commands",
+        "from_this_village": "From this village",
+        "luck": "Luck (from negative 25% to positive 25%)",
+        "moral_calc": "Morale calculation",
+        "ram_damage": "Damage by rams",
+        "reset_attacker": "Reset attacker",
+        "reset_defender": "Reset defender",
+        "night": "Night",
+        "own_commands": "Own commands",
+        "sendback": "Send back",
+        "some": "Some",
+        "troop_movements": "Troop Movements",
+        "troops_other_villages": "Troops in other villages"
     },
     "building_place_navi": {
         "command": "Commands",
@@ -152,7 +184,11 @@
         "units": "Troops"
     },
     "building_res": {
-        "prod": "Production"
+        "prod": "Production",
+        "base_prod": "Base production",
+        "current_prod": "Current production",
+        "amount_per_hour_lvl": "Units per hour at level {lvl}",
+        "amount_per_hour": "Units per hour"
     },
     "building_smith": {
         "costs": "Requirements",
@@ -161,7 +197,12 @@
         "event_finish": "Completion",
         "event_time": "Duration",
         "name": "Smithy",
-        "research": "Research"
+        "research": "Research",
+        "event_research": "Research assignment",
+        "research_conditions_unmet": "Building requirements unmet",
+        "technology": "technology",
+        "completly_researched": "Technology fully researched",
+        "error_max_level": "Technology fully researched"
     },
     "building_snob": {
         "action_create_coin": "Mint",
@@ -174,7 +215,23 @@
         "farmTooSmall": "Farm too small",
         "name": "Academy",
         "overall": "Overall",
-        "res_available": "Resources are available"
+        "res_available": "Resources are available",
+        "already_created": "Already saved for the limit of noblemen {x}",
+        "amount_creatable": "Number of nobleman that can be educated",
+        "amount_ennobled": "Number of conquered villages",
+        "amount_still_producable": "You can still educate",
+        "current_amount": "Existing noblemen",
+        "current_limit": "Current limit of noblemen",
+        "current_prod_amount": "Noblemen in education",
+        "limit": "Noblemen limit",
+        "still_missing": "Still missing for the limit of noblemen {x}",
+        "coin_hint": "To educate more noblemen you have to mint gold coins. The more gold coins you have, the more villages you can have.",
+        "limit_reached": "No more noblemen can be produced",
+        "do_create_header": "Produce",
+        "res_enough": "Resources available",
+        "storage_toosmall": "The warehouse is too small",
+        "chose_amount": "Choose Amount",
+        "do_create": "Produce Unit"
     },
     "building_snob_navi": {
         "coin": "Mint gold coins",
@@ -190,7 +247,34 @@
         "mode_index": "Paladin",
         "mode_inventory": "Inventory",
         "name": "Statue",
-        "pala_name": "Name"
+        "pala_name": "Name",
+        "do_recruit": "Recruit",
+        "duration": "Duration",
+        "finding_progress": "Progress until finding the next item:",
+        "finish": "Completion",
+        "inventory_des": "Items are effective only for units joined by a Paladin equipped with that particular item.",
+        "need": "Requirements",
+        "pala_att": "%p is attacking %v.",
+        "pala_do_rename": "rename",
+        "pala_exists": "Each player may only have one paladin",
+        "pala_idle": "%p is stationed in %v.",
+        "pala_move": "» Move to this village",
+        "pala_moving": "%p is moving to %v. Arrival: %t",
+        "pala_name_error": "Name must be between 3 and 50 characters",
+        "pala_rename": "Rename your Paladin",
+        "pala_return": "%p is returning from %v.",
+        "pala_supp": "%p is supporting %v.",
+        "recruit": "Recruitment",
+        "this_village1": "this village",
+        "this_village2": "this village",
+        "time": "Time",
+        "unit": "Unit",
+        "your_pala": "Your paladin",
+        "create": "Train a Paladin",
+        "cancel_info": "ninety percent of the used resources are refunded to your storage unit",
+        "cancel": "Cancellation",
+        "amount": "Here\/total",
+        "all_items_found": "Your Palading already found all items."
     },
     "building_stone": {
         "description": "In the clay pit your workers extract clay, which is important for new buildings. The higher its level the more clay is produced.",
@@ -201,12 +285,18 @@
         "description": "The warehouse stores your resources. The higher its level the more resources can be stored.",
         "full": "full",
         "name": "Warehouse",
-        "table_head": "Storage full"
+        "table_head": "Storage full",
+        "capacity_at_level": "Storage capacity on level",
+        "current_capacity": "Current storage capacity",
+        "amount_per_res": "Units per resource",
+        "time_description": "Time (hh:mm:ss)",
+        "is_full": "Warehouse is full. No more resources can be stored!"
     },
     "building_wall": {
         "basic_defense": "Basic defense",
         "description": "The wall defends your village against your enemies' troops. The higher its level the better the basic defense of your village. It also increases the defensive strength the troops stationed in the village.",
-        "name": "Wall"
+        "name": "Wall",
+        "defensive_bonus": "Defensive bonus"
     },
     "building_wood": {
         "description": "Outside of your village in the dark forests your lumberjacks cut massive trees to produce wood in the timber camp, which is needed for buildings and weapons. The higher its level the more wood is produced.",
@@ -260,7 +350,17 @@
         "time": "H:i:s",
         "unit": "Unit",
         "village": "Village",
-        "wood": "Wood"
+        "wood": "Wood",
+        "chose": "Chose",
+        "decimal_delimeter": ".",
+        "important": "Important",
+        "in_village": "In the village\/total",
+        "notexist": "{user} does not exist!",
+        "on_level": "At level {level}",
+        "page": "Page",
+        "thousand_delimeter": ".",
+        "vote": "vote",
+        "votes": "votes"
     },
     "game.ally": {
         "accept": "Accept",
@@ -594,7 +694,8 @@
         "title": "Reports",
         "to": "to",
         "units": "Units",
-        "won": "{player} has won"
+        "won": "{player} has won",
+        "no_def_info": "None of your troops have returned.<br> No information about the strength of your enemy's army could be collected"
     },
     "game.report.navi": {
         "all": "all",
@@ -636,7 +737,19 @@
     },
     "game.unit": {
         "attack_strength": "Attack Power",
-        "not_available": "Not available"
+        "not_available": "Not available",
+        "recruit": "recruit",
+        "capacity": "Carrying capacity",
+        "combat_values": "Battle statistics",
+        "defense_archer": "Archer Defense",
+        "defense_cav": "Cavalry Defense",
+        "defense_general": "General Defense",
+        "research_costs": "Research costs",
+        "tech_level": "Tech-level",
+        "research_time": "Research time",
+        "recruit_started": "Recruitment started",
+        "requirements": "Requirements",
+        "already_researched": "already researched"
     },
     "game.village": {
         "name": "{user} village",
@@ -658,7 +771,10 @@
         "twlan": "TWLan.org",
         "twlanLink": "TWLan.org",
         "username": "User name",
-        "wrongIP": "TWLan may only be player in your local network!"
+        "wrongIP": "TWLan may only be player in your local network!",
+        "activeWorlds": "Active worlds",
+        "followUs": "Follow uns on",
+        "loginTitle": "Hello {user}, on which world would you like to play?"
     },
     "join": {
         "description": "Description:",
