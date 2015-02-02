@@ -780,7 +780,8 @@
         "requirements": "Voraussetzungen um die Einheit zu erforschen",
         "research_costs": "Forschungskosten",
         "research_time": "Forschungszeit",
-        "tech_level": "Tech-Level"
+        "tech_level": "Tech-Level",
+        "decommission": "Ausmustern"
     },
     "game.village": {
         "name": "{user} Dorf",

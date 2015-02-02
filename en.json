@@ -768,8 +768,8 @@
     },
     "game.unit": {
         "attack_strength": "Attack Power",
-        "not_available": "Not available",
-        "recruit": "recruit",
+        "not_available": "recruit",
+        "recruit": "Recruit",
         "capacity": "Carrying capacity",
         "combat_values": "Battle statistics",
         "defense_archer": "Archer Defense",
@@ -780,7 +780,8 @@
         "research_time": "Research time",
         "recruit_started": "Recruitment started",
         "requirements": "Requirements",
-        "already_researched": "already researched"
+        "already_researched": "already researched",
+        "decommission": "Decomission"
     },
     "game.village": {
         "name": "{user} village",
