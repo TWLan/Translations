@@ -389,7 +389,14 @@
         "notfound": "Stamm nicht gefunden",
         "reasons": "Gründen",
         "reject": "Ablehnen",
-        "tribe": "Stamm"
+        "tribe": "Stamm",
+        "description": "Beschreibung",
+        "application": "Bewerbung",
+        "may_apply": "Spieler können sich beim Stamm bewerben",
+        "apply_template": "Vorlage",
+        "disband": "Stamm auflösen",
+        "disband_confirm": "Willst du wirklich deinen Stamm auflösen?",
+        "coat_of_arms": "Stammeswappen"
     },
     "game.ally.diplomaty": {
         "alreadyrelation": "Es existiert schon eine Beziehung zu dem Stamm.",
@@ -495,7 +502,14 @@
         "edit_rights": "Rechte bearbeiten",
         "status": "Status",
         "active": "Aktiv",
-        "save_rights": "Rechte speichern"
+        "save_rights": "Rechte speichern",
+        "modify_permissions": "Rechte verändern von {player}",
+        "permission_desc": "Hier kannst du auswählen, welche Rechte der Spieler deines Stammes\nerlangen soll. Das Gründerrecht solltest du nur an Spieler vergeben,\ndie du sehr gut kennst und denen du vertrauen kannst.",
+        "founder_desc": "Ernennt den Spieler zum Stammesgründer. Er besitzt damit alle\nStammesrechte, kann den Stamm auflösen und umbenennen,\nStammeshomepage und IRC-Channel eintragen, das interne Forum\nadministrieren und andere zum Gründer ernennen.",
+        "lead_desc": "Mitglieder der Stammesführung können Rechte und Titel anderer\nSpieler festlegen, Spieler entlassen und haben alle weiteren Rechte.",
+        "title": "Titel",
+        "title_inally": "Titel im Stamm",
+        "external_title": "Titel nach außen sichtbar"
     },
     "game.ally.navi": {
         "contracts": "Diplomatie",
@@ -508,6 +522,17 @@
         "properties": "Eigenschaften",
         "reservations": "Adelsplaner",
         "wars": "Stammeskriege"
+    },
+    "game.ally.profile": {
+        "properties": "Eigenschaften",
+        "member_count": "Mitgliederanzahl",
+        "points_best40": "Punkte der 40 besten Spieler",
+        "points_overall": "Punkte insgesamt",
+        "points_average": "Punktedurchschnitt",
+        "defeated_enemies": "Besiegte Gegner",
+        "members": "Mitglieder",
+        "startpage": "Startseite",
+        "irc": "IRC-Channel"
     },
     "game.bbcode": {
         "address": "Adresse",
@@ -547,7 +572,9 @@
         "erroralready": "Es existiert bereits eine Gruppe mit diesem Namen.",
         "nogroups": "keine Gruppen vorhanden",
         "noun": "Groups",
-        "rename": "Gruppe umbenennen"
+        "rename": "Gruppe umbenennen",
+        "apply_groups": "Gruppen setzen",
+        "assigned_groups": "Gruppenzugehörigkeit"
     },
     "game.mail": {
         "msgs": "Nachrichten"
@@ -830,7 +857,8 @@
         "snob": "Vascos Zepter",
         "spear": "Eidgenössische Hellebarde",
         "spy": "Kalids Fernrohr",
-        "sword": "Ullrichs Langschwert"
+        "sword": "Ullrichs Langschwert",
+        "no_item": "Kein Gegenstand"
     },
     "knight_items_desc": {
         "archer": "Erhöht die Kampfkraft der Bogenschützen im Angriff um %atk und um %def in der Verteidigung.",
