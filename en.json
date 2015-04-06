@@ -4,7 +4,9 @@
         "configEditor": "Config Editor",
         "logout": "Logout",
         "mainFunctions": "Menu",
-        "title": "Admin Panel"
+        "title": "Admin Panel",
+        "insufficient_permissions": "Insufficient permissions!",
+        "admin_task_status": "{tasks} admin tasks in queue - current task: {task} <b>({progress})<\/b>"
     },
     "admin.configeditor": {
         "confignotfound": "The configuration file for the config editor could not be found",
@@ -37,6 +39,22 @@
         "fail": "Wrong password!",
         "login": "Login",
         "password": "Password"
+    },
+    "admin.manage_villages": {
+        "create_abandoned": "Create abandoned villages",
+        "unit_amount": "Unit amount",
+        "general_settings": "General Settings",
+        "village_amount": "Amount of villages",
+        "create_villages": "Create villages"
+    },
+    "admin.nav": {
+        "dashboard": "Dashboard",
+        "worlds": "Worlds",
+        "manage_villages": "manage villages"
+    },
+    "admin.world": {
+        "general_info": "General information",
+        "players": "Players"
     },
     "building": {
         "level": "Level {x}",
@@ -367,7 +385,9 @@
         "villages": "Villages",
         "yes": "Yes",
         "birthday": "Birthday",
-        "banned": "Banned"
+        "banned": "Banned",
+        "based_on": "Based on",
+        "version": "Version"
     },
     "game.ally": {
         "accept": "Accept",
@@ -389,7 +409,14 @@
         "notfound": "Tribe not found",
         "reasons": "Establish",
         "reject": "Decline",
-        "tribe": "Tribe"
+        "tribe": "Tribe",
+        "description": "Description",
+        "application": "Application",
+        "may_apply": "Players may apply",
+        "apply_template": "Template",
+        "disband": "Disband tribe",
+        "disband_confirm": "Do you really want to disband your tribe?",
+        "coat_of_arms": "Coat of arms"
     },
     "game.ally.diplomaty": {
         "alreadyrelation": "There is already a relationship to this tribe.",
@@ -495,7 +522,14 @@
         "edit_rights": "Edit Rights",
         "status": "Status",
         "active": "Active",
-        "save_rights": "Save rights"
+        "save_rights": "Save rights",
+        "modify_permissions": "Change privileges on Player {player}",
+        "permission_desc": "Here you can set the privileges for the players in your tribe. The duke privileges should only be given to players you know VERY well and that you can fully trust.",
+        "founder_desc": "Sets status to duke. A duke possesses all tribal privileges, can disband or rename the tribe, set the homepage and chat-channel, administer the tribal forum and name other members dukes.",
+        "lead_desc": "Barons can set privileges and titles of other members and disband members. They can receive other privileges as well that can be given by the dukes.",
+        "title": "title",
+        "external_title": "Tribal status visible to outsiders",
+        "title_inally": "Tribal status"
     },
     "game.ally.navi": {
         "contracts": "Diplomacy",
@@ -508,6 +542,17 @@
         "properties": "Properties",
         "reservations": "Noble planner",
         "wars": "Wars"
+    },
+    "game.ally.profile": {
+        "properties": "Properties",
+        "member_count": "Number of members",
+        "points_best40": "Points of the best 40 players",
+        "points_overall": "Total points",
+        "points_average": "Average points",
+        "defeated_enemies": "Opponents defeated",
+        "members": "Members",
+        "startpage": "Homepage",
+        "irc": "IRC-Channel"
     },
     "game.bbcode": {
         "address": "Address",
@@ -547,7 +592,9 @@
         "erroralready": "A group with this name already exists.",
         "nogroups": "no groups present",
         "noun": "Groups",
-        "rename": "Rename group"
+        "rename": "Rename group",
+        "apply_groups": "Set groups",
+        "assigned_groups": "Group association"
     },
     "game.mail": {
         "msgs": "Mail"
@@ -830,7 +877,8 @@
         "snob": "Vasco's Scepter",
         "spear": "Halberd of Guan Yu",
         "spy": "Kalid's telescope",
-        "sword": "Paracelsus' Longsword"
+        "sword": "Paracelsus' Longsword",
+        "no_item": "No item"
     },
     "knight_items_desc": {
         "archer": "Increases the offensive fighting power of your archers by %atk and the defensive fighting power  by  %def.",
