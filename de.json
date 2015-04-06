@@ -4,7 +4,9 @@
         "configEditor": "Config Editor",
         "logout": "Logout",
         "mainFunctions": "Menü",
-        "title": "Admin Panel"
+        "title": "Admin Panel",
+        "insufficient_permissions": "Nicht genügend Rechte!",
+        "admin_task_status": "{tasks} Aktionen in Bearbeitung - Aktuelle Aktion: {task} <b>({progress})<\/b>"
     },
     "admin.configeditor": {
         "confignotfound": "Die Konfigurationsdatei für den Konfigeditor konnte nicht gefunden werden",
@@ -37,6 +39,22 @@
         "fail": "Falsches passwort!",
         "login": "Login",
         "password": "Passwort"
+    },
+    "admin.manage_villages": {
+        "create_abandoned": "Barbarendörfer erstellen",
+        "unit_amount": "Anzahl",
+        "general_settings": "Allgemeine Einstellungen",
+        "village_amount": "Dörferanzahl",
+        "create_villages": "Dörfer erstellen"
+    },
+    "admin.nav": {
+        "dashboard": "Übersicht",
+        "worlds": "Welten",
+        "manage_villages": "Dörfer verwalten"
+    },
+    "admin.world": {
+        "general_info": "Generelle Informationen",
+        "players": "Spieler"
     },
     "building": {
         "level": "Stufe {x}",
@@ -367,7 +385,9 @@
         "villages": "Dörfer",
         "yes": "Ja",
         "birthday": "Geburtstag",
-        "banned": "Gesperrt"
+        "banned": "Gesperrt",
+        "based_on": "Basierend auf",
+        "version": "Version"
     },
     "game.ally": {
         "accept": "Akzeptieren",
