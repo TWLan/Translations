@@ -48,9 +48,14 @@
         "create_villages": "Dörfer erstellen"
     },
     "admin.nav": {
+        "global": "Global",
         "dashboard": "Übersicht",
+        "adminer": "Adminer",
         "worlds": "Welten",
-        "manage_villages": "Dörfer verwalten"
+        "players": "Spieler",
+        "villages": "Dörfer",
+        "create": "Erstellen",
+        "edit": "Bearbeiten"
     },
     "admin.world": {
         "general_info": "Generelle Informationen",
