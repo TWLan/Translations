@@ -55,7 +55,8 @@
         "players": "Spieler",
         "villages": "Dörfer",
         "create": "Erstellen",
-        "edit": "Bearbeiten"
+        "edit": "Bearbeiten",
+        "subnode": "{parent} - {child}"
     },
     "admin.world": {
         "general_info": "Generelle Informationen",
