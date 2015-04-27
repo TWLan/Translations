@@ -6,7 +6,8 @@
         "mainFunctions": "Menü",
         "title": "Admin Panel",
         "insufficient_permissions": "Nicht genügend Rechte!",
-        "admin_task_status": "{tasks} Aktionen in Bearbeitung - Aktuelle Aktion: {task} <b>({progress})<\/b>"
+        "admin_task_status": "{tasks} Aktionen in Bearbeitung - Aktuelle Aktion: {task} <b>({progress})<\/b>",
+        "fileNotFound": "Datei nicht gefunden: {path}"
     },
     "admin.configeditor": {
         "confignotfound": "Die Konfigurationsdatei für den Konfigeditor konnte nicht gefunden werden",
