@@ -10,39 +10,39 @@
         "login": "Σύνδεση",
         "password": "Κωδικός πρόσβασης"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Στρατώνες"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Εκκλησία"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Αγρόκτημα"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Εργαστήρι"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Ορυχείο σιδήρου"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Κατασκευή",
-        "build_time": "Χρόνος κατασκευής",
+        "buildTime": "Χρόνος κατασκευής",
         "building": "Κτίρια",
         "cancel": "Ακύρωση",
-        "change_name": "Άλλαξε το ονόμα του χωριού",
-        "event_time": "Διάρκεια",
-        "mode_build": "Κατασκευή",
-        "mode_destroy": "Κατεδάφιση",
+        "changeName": "Άλλαξε το ονόμα του χωριού",
+        "eventTime": "Διάρκεια",
+        "modeBuild": "Κατασκευή",
+        "modeDestroy": "Κατεδάφιση",
         "name": "Διοικητήριο"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Αγορά"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Όλες",
         "arrival": "Άφιξη",
-        "arrival_in": "Άφιξη σε",
+        "arrivalIn": "Άφιξη σε",
         "attack": "επίθεση",
         "attacker": "Επιτιθέμενος",
         "attackingArmy": "Επιτιθέμενος",
@@ -59,51 +59,51 @@
         "wall": "Τείχος",
         "withdraw": "Ανάκληση"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Εντολές"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Παραγωγή"
     },
-    "building_smith": {
-        "event_time": "Διάρκεια"
+    "buildingSmith": {
+        "eventTime": "Διάρκεια"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Σύνολο"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Δημιουργία"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Στάβλος"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "paladin",
-        "mode_inventory": "Απόθεμα",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "paladin",
+        "modeInventory": "Απόθεμα",
         "name": "Άγαλμα",
-        "pala_name": "Όνομα"
+        "palaName": "Όνομα"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Ορυχείο Πηλού"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Αποθηκευτική ικανότητα",
         "name": "Αποθήκευση",
-        "table_head": "Αποθηκευτικός χώρος πλήρης"
+        "tableHead": "Αποθηκευτικός χώρος πλήρης"
     },
-    "building_wall": {
-        "basic_defense": "Βασική άμυνα",
+    "buildingWall": {
+        "basicDefense": "Βασική άμυνα",
         "name": "Τείχος"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Εργοτάξιο Ξύλου"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Επιβεβαίωση"
     },
     "game": {
-        "_none": "Κανένα",
+        "None": "Κανένα",
         "booty": "Λάφυρα",
         "buddies": "Φίλοι",
         "cancel": "Ακύρωση",
@@ -147,7 +147,7 @@
         "create": "Δημιουργία",
         "delete": "Διαγραφή",
         "forum": "Φόρουμ",
-        "last_post": "Τελευταία δημοσίευση",
+        "lastPost": "Τελευταία δημοσίευση",
         "newpoll": "Νέα έρευνα",
         "replies": "Απάντηση",
         "reply": "Απάντηση",
@@ -215,7 +215,7 @@
         "title": "Φυλή"
     },
     "game.menu.mails": {
-        "i_new": "Νέο μήνυμα",
+        "iNew": "Νέο μήνυμα",
         "in": "Μηνύματα",
         "title": "Μηνύματα"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Φυλές",
-        "kill_player": "Ηττημένοι αντίπαλοι",
+        "killPlayer": "Ηττημένοι αντίπαλοι",
         "player": "Παίκτης",
         "title": "Κατάταξη"
     },
@@ -249,7 +249,7 @@
         "trade": "Εμπόριο"
     },
     "game.menu.settings": {
-        "change_passwd": "Αλλαγή κωδικού πρόσβασης",
+        "changePasswd": "Αλλαγή κωδικού πρόσβασης",
         "poll": "Έρευνες",
         "profile": "Προφίλ",
         "settings": "Ρυθμίσεις",
@@ -271,7 +271,7 @@
         "defender": "Αμυνόμενος",
         "from": "από",
         "losses": "Απώλειες",
-        "normal_luck": "Τύχη",
+        "normalLuck": "Τύχη",
         "origin": "Προέλευση",
         "target": "Στόχος",
         "title": "Αναφορές",
@@ -289,7 +289,7 @@
         "village": "Χωριό"
     },
     "game.train": {
-        "mode_train": "Στρατολόγηση"
+        "modeTrain": "Στρατολόγηση"
     },
     "game.train.queue": {
         "cancel": "Ακύρωση",
@@ -297,10 +297,10 @@
         "train": "Στρατολόγηση"
     },
     "game.unit": {
-        "attack_strength": "Επιθετική δύναμη"
+        "attackStrength": "Επιθετική δύναμη"
     },
     "game.village": {
-        "name_left": "Χωριό βαρβάρων"
+        "nameLeft": "Χωριό βαρβάρων"
     },
     "index": {
         "availableWorlds": "Ανοιχτοί Κόσμοι",
@@ -330,46 +330,46 @@
         "register": "Εγγραφή",
         "title": "Εγγραφή"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Αρχική"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Τοξότης",
         "short": "Τοξότης"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Τσεκουρομάχος",
         "plural": "Τσεκουρομάχος",
         "short": "Τσεκούρι"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Καταπέλτης"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Βαρύ Ιππικό",
         "plural": "Βαρύ Ιππικό"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Ελαφρύ Ιππικό",
         "plural": "Ελαφρύ Ιππικό"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Έφιππος Τοξότης"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Πολιορκητικός Κριός",
         "short": "Πολιορκητικός Κριός"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Αριστοκράτης"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Λόγχη"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Ξιφομάχος",
         "plural": "Ξιφομάχος",
         "short": "Ξίφος"

@@ -10,39 +10,39 @@
         "login": "Conectare",
         "password": "Parolă"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Cazarmă"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Biserică"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Fermă"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Atelier"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Mină de Fier"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Construieşte",
-        "build_time": "Timpul de construcţie",
+        "buildTime": "Timpul de construcţie",
         "building": "Clădiri",
         "cancel": "Anulează",
-        "change_name": "Schimbă numele satului",
-        "event_time": "Durata",
-        "mode_build": "Construieşte",
-        "mode_destroy": "Demolare",
+        "changeName": "Schimbă numele satului",
+        "eventTime": "Durata",
+        "modeBuild": "Construieşte",
+        "modeDestroy": "Demolare",
         "name": "Clădirea Principală"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Piaţa"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Toate",
         "arrival": "Sosire",
-        "arrival_in": "Sosire în",
+        "arrivalIn": "Sosire în",
         "attack": "Atac",
         "attacker": "Atacator",
         "attackingArmy": "Atacator",
@@ -59,51 +59,51 @@
         "wall": "Zid",
         "withdraw": "Retrage"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Comenzi"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Producţie"
     },
-    "building_smith": {
-        "event_time": "Durata"
+    "buildingSmith": {
+        "eventTime": "Durata"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Total"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Creează"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Grajd"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventar",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventar",
         "name": "Statuie",
-        "pala_name": "Nume"
+        "palaName": "Nume"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Carieră de Lut"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Capacitatea de stocare",
         "name": "Depozitare",
-        "table_head": "Capacitate de depozitare plină"
+        "tableHead": "Capacitate de depozitare plină"
     },
-    "building_wall": {
-        "basic_defense": "Apărare de bază",
+    "buildingWall": {
+        "basicDefense": "Apărare de bază",
         "name": "Zid"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Exploatare Forestieră"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Confirmă"
     },
     "game": {
-        "_none": "Niciuna",
+        "None": "Niciuna",
         "booty": "Prada",
         "buddies": "Prieteni",
         "cancel": "Anulează",
@@ -147,7 +147,7 @@
         "create": "Creează",
         "delete": "Şterge",
         "forum": "Forum",
-        "last_post": "Ultimul mesaj",
+        "lastPost": "Ultimul mesaj",
         "newpoll": "Sondaj nou",
         "replies": "Răspunde",
         "reply": "Răspuns",
@@ -215,7 +215,7 @@
         "title": "Trib"
     },
     "game.menu.mails": {
-        "i_new": "Mesaj nou",
+        "iNew": "Mesaj nou",
         "in": "Mesaje",
         "title": "Mesaje"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Triburi",
-        "kill_player": "Adversari învinşi",
+        "killPlayer": "Adversari învinşi",
         "player": "Jucător",
         "title": "Clasamente"
     },
@@ -249,7 +249,7 @@
         "trade": "Comerţ"
     },
     "game.menu.settings": {
-        "change_passwd": "Schimbă parola",
+        "changePasswd": "Schimbă parola",
         "poll": "Sondaje",
         "profile": "Profil",
         "settings": "Setări",
@@ -271,7 +271,7 @@
         "defender": "Apărător",
         "from": "de la",
         "losses": "Victime",
-        "normal_luck": "Noroc",
+        "normalLuck": "Noroc",
         "origin": "Punct de plecare",
         "target": "Ţintă",
         "title": "Rapoarte",
@@ -289,7 +289,7 @@
         "village": "Sat"
     },
     "game.train": {
-        "mode_train": "Recrutează"
+        "modeTrain": "Recrutează"
     },
     "game.train.queue": {
         "cancel": "Anulează",
@@ -297,10 +297,10 @@
         "train": "Recrutează"
     },
     "game.unit": {
-        "attack_strength": "Forţa de atac"
+        "attackStrength": "Forţa de atac"
     },
     "game.village": {
-        "name_left": "Sat Barbar"
+        "nameLeft": "Sat Barbar"
     },
     "index": {
         "availableWorlds": "Lumi deschise",
@@ -330,46 +330,46 @@
         "register": "Înregistrare",
         "title": "Înregistrare"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Acasă"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Arcaş",
         "short": "Arcaş"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Luptător cu Secure",
         "plural": "Luptător cu Secure",
         "short": "Secure"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Catapultă"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Cavalerie Grea",
         "plural": "Cavalerie Grea"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Cavalerie Uşoară",
         "plural": "Cavalerie Uşoară"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Arcaş Călare"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Berbec",
         "short": "Berbec"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Nobil"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Lance"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Spadasin",
         "plural": "Spadasin",
         "short": "Spadă"

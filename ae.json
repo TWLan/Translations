@@ -39,66 +39,66 @@
         "fail": "كلمة مرور خاطئة!"
     },
     "building": {
-        "no_level": "لم يتم البناء",
+        "noLevel": "لم يتم البناء",
         "level": "المستوى {x}"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "الثكنات",
         "description": "في الثكنات تستطيع تدريب الوحدات. كلما قمت بتطوير الثكنات كلما كانت عملية التدريب اسرع. "
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "الكنيسة",
         "description": "The church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%."
     },
-    "building_church_f": {
+    "buildingChurchF": {
         "name": "الكتدرائية",
         "description": "The first church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%. The first church is built by default in your first village, and can only be built once."
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "المزارع",
         "description": "المزارع تقوم بامداد عمالك و قواتك بالطعام. من دون تطوير المزارع قريتك لن تستطيع النمو. كلما زادت مستوي المزارع كلما استطعت رفع التعداد السكاني لقريتك."
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "الورشة",
         "description": "في الورشة تستطيع بناء محطمة الحائط و المقاليع. كلما قمت بتطوير الورشة كلما كانت عملية البناء اسرع."
     },
-    "building_hide": {
+    "buildingHide": {
         "name": "المخابئ",
         "description": "المخابئ تستخدم لتخبئة مواردك من السرقة عن طريق هجمات اللاعبين الاخرين. كلما تم تطويرها و زاد مستواها كلما استطيع تخبئة المزيد من الموارد. حتى كشافة اعدائك لا يستطيعون رصد هذه الموارد المخبئة!"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "منجم الحديد",
         "description": "في منجم الحديد يقوم عمالك بالحفر لاسخراج الحديد اللازم لتطوير مملكتك. كلما زاد المستوى زادت قدرتهم الانتاجية."
     },
-    "building_main": {
+    "buildingMain": {
         "name": "المبنى الرئيسي",
         "description": "في المبنى الرئيسي تستطيع بناء مباني جديدة و تطوير المباني الموجودة. كلما قمت بتطوير المبني الرئيسي زادت سرعة تطوير و بناء المباني الاخرى. عند وصول المبني الرئيسي الى مستوي 15, سيمكنك هدم المباني.",
-        "event_building": "البناء الواجب",
-        "event_time": "المدة",
-        "event_finish": "إتمام",
-        "event_cancel": "إلغاء",
-        "mode_build": "بناء",
-        "mode_destroy": "هدم",
-        "level_destroy": "هدم مستوى",
-        "destroy_level": "خفض مستوي واحد",
+        "eventBuilding": "البناء الواجب",
+        "eventTime": "المدة",
+        "eventFinish": "إتمام",
+        "eventCancel": "إلغاء",
+        "modeBuild": "بناء",
+        "modeDestroy": "هدم",
+        "levelDestroy": "هدم مستوى",
+        "destroyLevel": "خفض مستوي واحد",
         "cancel": "إلغاء",
-        "change_order": "هنا يمكنك تغيير ترتيب قائمة انتظار المبنى الخاصة بك عن طريق سحبها إلى الموقع المطلوب باستخدام الماوس .",
-        "queue_info": "تكلفة إضافية للمهمة القادمة في قائمة الانتظار بناء: {x}",
-        "queue_text": "ليس هناك رد لتكاليف الإضافية التي وجهت لوضع مبنى في قائمة الانتظار بناء",
+        "changeOrder": "هنا يمكنك تغيير ترتيب قائمة انتظار المبنى الخاصة بك عن طريق سحبها إلى الموقع المطلوب باستخدام الماوس .",
+        "queueInfo": "تكلفة إضافية للمهمة القادمة في قائمة الانتظار بناء: {x}",
+        "queueText": "ليس هناك رد لتكاليف الإضافية التي وجهت لوضع مبنى في قائمة الانتظار بناء",
         "building": "المباني",
         "costs": "المتطلبات",
-        "build_time": "وقت البناء",
-        "destroy_time": "وقت الهدم",
+        "buildTime": "وقت البناء",
+        "destroyTime": "وقت الهدم",
         "build": "بناء",
         "destroy": "هدم",
-        "build_to": "التطوير للمستوى {x}",
+        "buildTo": "التطوير للمستوى {x}",
         "requires": "المتطلبات:",
         "tooLate": "متأخر جدا",
-        "change_name": "تغير اسم القرية",
+        "changeName": "تغير اسم القرية",
         "change": "تغير",
         "nameTooShort": "اسم القرية يجب ان يكون اكثر من 3 حروف.",
-        "hide_completed": "إخفاء المباني المكتملة",
-        "show_all_buildings": "اظهر جميع المباني",
+        "hideCompleted": "إخفاء المباني المكتملة",
+        "showAllBuildings": "اظهر جميع المباني",
         "forgetIt": "إنتاج الموارد المطلوبة",
         "requirementsNot": "لم تتحق المتطلبات",
         "cannotBuild": "لا يمكنك البناء في هذه القرية",
@@ -107,57 +107,57 @@
         "storageTooSmallQueue": "المخازن صغيرة جدا , لا يمكنك إضافة المزيد من اوامر البناء",
         "tooFewRes": "الموارد متاحة {when}",
         "tooFewResQueue": "الموارد غير كافية لإضافة المزيد من اوامر البناء",
-        "fully_built": "تم بناء المبني بالكامل",
-        "fully_destroyed": "لا يمكنك هدم المزيد من المباني",
-        "ajax_noBuilding": "لا توجد أوامر بناء",
-        "ajax_build": "تم ترتيب أوامر البناء بنجاح",
+        "fullyBuilt": "تم بناء المبني بالكامل",
+        "fullyDestroyed": "لا يمكنك هدم المزيد من المباني",
+        "ajaxNoBuilding": "لا توجد أوامر بناء",
+        "ajaxBuild": "تم ترتيب أوامر البناء بنجاح",
         "unknownBuilding": "هذا المبنى غير موجود",
         "noDestroy": "لا يمكنك هدم المباني",
         "queueBuild": "إضافى المزيد من أوامر البناء يكلفك أكثر , هل مازلت تريد إضافة هذه المهمة ؟",
         "orderSuccess": "تم ترتيب المباني بنجاح"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "السوق",
         "description": "في السوق تستطيع التجارة مع اللاعبين الاخرين."
     },
-    "building_place": {
+    "buildingPlace": {
         "name": "نقطة التجمع",
         "description": "في نقطة التجمع يتم تجمع جميع وحداتك و محاربيك. هنا تستطيع اصدار الاوامر لهم و تحريك جيوشك."
     },
-    "building_smith": {
+    "buildingSmith": {
         "name": "الحداد",
         "description": "في الحداد تستطيع تطوير و تحسين الاسلحة. تطوير الحداد يمنحك المزيد من التحسين و التطوير على الاسلحة كما انه يسرع عمليات التطوير"
     },
-    "building_snob": {
+    "buildingSnob": {
         "name": "الاكاديمية",
         "description": "في الاكاديمية تستطيع تدريب النبلاء. فهم يساعدوك على احتلال القري الاخرى."
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "الاسطبل",
         "description": "في الاسطبل تستطيع تدريب الفرسان. كلما قمت بتطوير الاسطبل كلما كانت عمليت التدريب اسرع."
     },
-    "building_statue": {
+    "buildingStatue": {
         "name": "النصب التذكاري",
         "description": "تمثال الملك هو غرفة قائد الفرسان , عند موت قائد الفرسان يمكنك تدريبه مرة أخرى من هنا"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "حفرة الطمي",
         "description": "في حفرة الطمي يقوم عمالك باستخراج الطمي, وهو مهم جدا للمباني الجديدة. كلما زاد المستوى زادت قدرتهم الانتاجية."
     },
-    "building_storage": {
+    "buildingStorage": {
         "name": "المخازن",
         "description": "يتم تخزين مواردك في المخازن. كلما زاد مستوي مخازنك كلما استطعت تخزين كمية اكبر. ",
         "full": "ممتلئ"
     },
-    "building_wall": {
+    "buildingWall": {
         "name": "الحائط",
         "description": "الحائط يقوم بالدفاع عن قريتك من هجمات اللاعبين الاخرين. كلما زاد مستوي الحائط كلما ضاعفت قوة دفاعاتك ضد هذه الهجمات. "
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "الخشاب",
         "description": "خارج اسوار قلعتك في الغابة المظلمة يقوم الخشابون بقطع الاشجار العملاقة في الغابة لعمل الاخشاب, والتي تحتاجها للبناء و تسليح جيوشك بالاسلحة المختلفة. كلما زاد مستوي الخشاب زادت طاقتة انتاجهم."
     },
-    "create_village": {
+    "createVillage": {
         "title": "انشاء قرية جديدة",
         "description": "اختر الجهة التي تريد ان تكون بها قريتيك !",
         "noRestart": "لا يمكنك انشاء قرى جديدة أخرى",
@@ -195,7 +195,7 @@
         "population": "السكان",
         "storage": "مساحة التخزين",
         "edit": "تعديل",
-        "gen_time": "تم انشائه في {time} ms",
+        "genTime": "تم انشائه في {time} ms",
         "servertime": "توقيت السيرفر:",
         "time": "H:i:s",
         "date": "d.m.Y",
@@ -259,8 +259,8 @@
     },
     "game.menu.ally": {
         "title": "مواضيع جديدة في منتدى القبيلة",
-        "i_new": "ليس هناك مواضيع جديدة في منتدى القبيلة",
-        "i_old": "الرئيسية",
+        "iNew": "ليس هناك مواضيع جديدة في منتدى القبيلة",
+        "iOld": "الرئيسية",
         "overview": "الملف الشخصي",
         "profile": "الأعضاء",
         "members": "العلاقات الدبلوماسية",
@@ -271,9 +271,9 @@
     },
     "game.menu.mails": {
         "title": "البريد ",
-        "i_new": "رسالة جديدة",
+        "iNew": "رسالة جديدة",
         "in": "الرسائل العامة",
-        "mass_out": "كتابة رسالة ",
+        "massOut": "كتابة رسالة ",
         "new": "تجاهل المرسل",
         "block": "دفتر العناوين",
         "address": "الأرشيف",
@@ -296,15 +296,15 @@
         "points": "القبائل",
         "ally": "اللاعبين",
         "player": "القبائل في القارة",
-        "con_ally": "الاعبين في القارة",
-        "con_player": "ترتيب أفضل القبائل",
-        "kill_ally": "افضل لاعب",
-        "kill_player": "الحروب",
+        "conAlly": "الاعبين في القارة",
+        "conPlayer": "ترتيب أفضل القبائل",
+        "killAlly": "افضل لاعب",
+        "killPlayer": "الحروب",
         "wars": "الخيارات"
     },
     "game.menu.reports": {
         "title": "التقارير",
-        "i_new": "تقرير جديد",
+        "iNew": "تقرير جديد",
         "all": "كل التقارير",
         "attack": "الهجمات",
         "defense": "تقارير الدفاع ",
@@ -320,7 +320,7 @@
         "title": "الملف الشخصي",
         "profile": "الخيارات",
         "settings": "تغيير كلمة المرور",
-        "change_passwd": "حذف الحساب",
+        "changePasswd": "حذف الحساب",
         "delete": "الإشعارات",
         "notify": "تعديل البار السريع",
         "quickbar": "تسجيل الدخول",
@@ -332,28 +332,28 @@
         "ticket": "المجموعات"
     },
     "game.overview": {
-        "hide_levels": "اظهار المستوى",
-        "show_levels": "تطوير المباني",
+        "hideLevels": "اظهار المستوى",
+        "showLevels": "تطوير المباني",
         "build": "الى المنظر العام الكلاسيكي للقرية",
-        "classical_overview": "انتقل الى النسخة المصورة للقرية",
-        "graphical_overview": "(مستوى {x}{extra})",
+        "classicalOverview": "انتقل الى النسخة المصورة للقرية",
+        "graphicalOverview": "(مستوى {x}{extra})",
         "level": "{date} حماية المبتدئين الخاصة بك تنتهي في",
-        "beginner_protection": "{x} في الدقيقة",
-        "prod_minute": "{x} في الساعة ",
-        "prod_hour": "هل انت متأكد انك تريد انهاء المهمة ؟",
-        "cancel_build": "وقت البناء: {t}",
+        "beginnerProtection": "{x} في الدقيقة",
+        "prodMinute": "{x} في الساعة ",
+        "prodHour": "هل انت متأكد انك تريد انهاء المهمة ؟",
+        "cancelBuild": "وقت البناء: {t}",
         "resourceLabel1": "وقت البناء: {t1}لا يوجد سكان: {t2}",
         "resourceLabel2": "» إعادة تعيين نظرة عامة",
         "reset": "» استخدام كافتراضي",
         "setDefault": "» استخدام في كل القرى",
         "forAll": "هل انت متأكد انك تريد استخدامه في كل القرى ؟",
         "forAllConfirm": "اظهر جميع الاضافات",
-        "show_all": "غليظ"
+        "showAll": "غليظ"
     },
     "game.overview.widgets": {
         "summary": "الجيوش القادمة",
-        "incoming_units": "قواتك",
-        "outgoing_units": "حماية المبتدئين",
+        "incomingUnits": "قواتك",
+        "outgoingUnits": "حماية المبتدئين",
         "newbie": "الإنتاج",
         "prod": "الوحدات",
         "units": "الولاء",
@@ -376,13 +376,13 @@
         "close": "مغلق",
         "group": "المجموعة:",
         "village": "القرية",
-        "first_village": "إلى أول قرية في هذه المجموعة",
+        "firstVillage": "إلى أول قرية في هذه المجموعة",
         "attacks": "الهجمات القادمة",
         "supports": "الدعم القادم"
     },
     "game.train": {
-        "mode_train": "تسريح",
-        "mode_decommission": ""
+        "modeTrain": "تسريح",
+        "modeDecommission": ""
     },
     "game.tribe": {
         "tribe": "للأنضمام الى قبيلة ما ... يجب ان تستلم دعوة منها اولاً.",
@@ -450,16 +450,16 @@
         "wars": "مخطط حجز احتلال القري",
         "reservations": "الدعوات",
         "invite": "رسالة الترحيب",
-        "intro_igm": "الاختيارات",
+        "introIgm": "الاختيارات",
         "properties": "منتدي القبيلة ",
         "forum": "لقد تم انشاء هذه القبيلة من قبل الملك {fromPlayer}."
     },
     "game.village": {
-        "name_left": "قرية بربرية",
+        "nameLeft": "قرية بربرية",
         "name": "قرية {user} ",
-        "username_normal": "{user}",
-        "username_special": "{user}",
-        "special_chars": "sxz"
+        "usernameNormal": "{user}",
+        "usernameSpecial": "{user}",
+        "specialChars": "sxz"
     },
     "index": {
         "twlan": "TWLan.org",
@@ -543,7 +543,7 @@
         "passwordsDontMatch": "كلمة المرور يجب كتابتها مرتين, و يجب ان تكون مطابقة تماماً.",
         "failure": "خطأ في التسجيل"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "title": "انتهت الجلسة",
         "content": "{link} انتهت مدة الجلسة الخاصة بك الرجاء اعادة تسجيل الدخول من خلال",
         "index": "الصفحة الرئيسية",
@@ -557,43 +557,43 @@
         "onDay": "في {day}",
         "onTime": "{day} على {time}"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "رماة الأسهم"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "مقاتل الفأس"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "المقلاع"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "فارس ثقيل"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "قائد الفرسان"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "فارس خفيف"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "فارس القوس"
     },
-    "unit_militia": {
+    "unitMilitia": {
         "name": "مليشيات"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "محطمة الحائط"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "النبيل"
     },
-    "unit_spear": {
+    "unitSpear": {
         "name": "مقاتل الرمح"
     },
-    "unit_spy": {
+    "unitSpy": {
         "name": "الكشافة"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "مقاتل السيف"
     }
 }

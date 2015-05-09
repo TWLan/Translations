@@ -5,8 +5,8 @@
         "logout": "Logout",
         "mainFunctions": "Menu",
         "title": "Admin Panel",
-        "insufficient_permissions": "Insufficient permissions!",
-        "admin_task_status": "{tasks} admin tasks in queue - current task: {task} <b>({progress})<\/b>"
+        "insufficientPermissions": "Insufficient permissions!",
+        "adminTaskStatus": "{tasks} admin tasks in queue - current task: {task} <b>({progress})<\/b>"
     },
     "admin.configeditor": {
         "confignotfound": "The configuration file for the config editor could not be found",
@@ -40,95 +40,95 @@
         "login": "Login",
         "password": "Password"
     },
-    "admin.manage_villages": {
-        "create_abandoned": "Create abandoned villages",
-        "unit_amount": "Unit amount",
-        "general_settings": "General Settings",
-        "village_amount": "Amount of villages",
-        "create_villages": "Create villages"
+    "admin.manageVillages": {
+        "createAbandoned": "Create abandoned villages",
+        "unitAmount": "Unit amount",
+        "generalSettings": "General Settings",
+        "villageAmount": "Amount of villages",
+        "createVillages": "Create villages"
     },
     "admin.nav": {
         "dashboard": "Dashboard",
         "worlds": "Worlds",
-        "manage_villages": "manage villages"
+        "manageVillages": "manage villages"
     },
     "admin.world": {
-        "general_info": "General information",
+        "generalInfo": "General information",
         "players": "Players"
     },
     "building": {
         "level": "Level {x}",
-        "no_level": "not constructed"
+        "noLevel": "not constructed"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "description": "In the barracks you can recruit infantry. The higher its level the faster the recruitment of troops will be finished.",
         "name": "Barracks"
     },
-    "building_church": {
+    "buildingChurch": {
         "description": "The church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%.",
         "name": "Church"
     },
-    "building_church_f": {
+    "buildingChurchF": {
         "description": "The first church gives all the villages in the nearby area belief. When a village has belief, its troops fight at 100% effectiveness instead of 50%. The first church is built by default in your first village, and can only be built once.",
         "name": "First church"
     },
-    "building_farm": {
+    "buildingFarm": {
         "description": "The farm supplies your workers and troops with food. Without extending your farm your village cannot grow. The higher its level the more villagers can be supplied.",
         "name": "Farm"
     },
-    "building_garage": {
+    "buildingGarage": {
         "description": "In the workshop you can produce rams and catapults. The higher its level the faster the recruitment will be finished.",
         "name": "Workshop"
     },
-    "building_hide": {
+    "buildingHide": {
         "description": "Resources in your hiding place cannot be plundered by your enemies. The bigger it is, the more it can hold. There is no place to hide your troops though. Even your enemies' scouts cannot spot the resources hidden in your hiding place.",
         "name": "Hiding place",
-        "current_size": "Current capacity",
-        "market_plunder": "Offers on the market can be plundered even if the resources fit into your hiding place.",
-        "plunder_res": "Plunderable resources",
-        "size_at_level": "Size on level {lvl}",
+        "currentSize": "Current capacity",
+        "marketPlunder": "Offers on the market can be plundered even if the resources fit into your hiding place.",
+        "plunderRes": "Plunderable resources",
+        "sizeAtLevel": "Size on level {lvl}",
         "size": "Current size"
     },
-    "building_iron": {
+    "buildingIron": {
         "description": "In the iron mine your workers dig the war-crucial iron. The higher its level the more iron is produced.",
         "name": "Iron mine"
     },
-    "building_main": {
-        "ajax_build": "The building order was successfully queued.",
-        "ajax_noBuilding": "No building given!",
+    "buildingMain": {
+        "ajaxBuild": "The building order was successfully queued.",
+        "ajaxNoBuilding": "No building given!",
         "build": "Construct",
-        "build_time": "Building time",
-        "build_to": "Expansion to level {x}",
+        "buildTime": "Building time",
+        "buildTo": "Expansion to level {x}",
         "building": "Buildings",
         "cancel": "cancel",
         "cannotBuild": "Can't be built in this village",
         "change": "Change",
-        "change_name": "Change village name",
-        "change_order": "Here you can change the order of your building queue by dragging them to the desired location with your mouse.",
+        "changeName": "Change village name",
+        "changeOrder": "Here you can change the order of your building queue by dragging them to the desired location with your mouse.",
         "costs": "Requirements",
         "description": "In the village headquarters you can construct new buildings or upgrade existing ones. The higher the level of your headquarters, the faster the constructions will be finished. As soon as your Village Headquarters are upgraded to level 15, you will be able to demolish buildings in this village.",
         "destroy": "Demolish",
-        "destroy_level": "Downgrade one level",
-        "destroy_time": "Demolition time",
-        "event_building": "Construction assignment",
-        "event_cancel": "Cancellation",
-        "event_finish": "Completion",
-        "event_time": "Duration",
+        "destroyLevel": "Downgrade one level",
+        "destroyTime": "Demolition time",
+        "eventBuilding": "Construction assignment",
+        "eventCancel": "Cancellation",
+        "eventFinish": "Completion",
+        "eventTime": "Duration",
         "farmTooSmall": "Farm too small",
         "forgetIt": "Resource production required",
-        "fully_built": "Building fully constructed",
-        "fully_destroyed": "Building can not be demolished any further",
-        "hide_completed": "Hide completed buildings",
-        "level_destroy": "demolish level",
-        "mode_build": "Construct",
-        "mode_destroy": "Demolition",
+        "fullyBuilt": "Building fully constructed",
+        "fullyDestroyed": "Building can not be demolished any further",
+        "hideCompleted": "Hide completed buildings",
+        "levelDestroy": "demolish level",
+        "modeBuild": "Construct",
+        "modeDestroy": "Demolition",
         "name": "Village Headquarters",
         "nameTooShort": "The village name has to contain at least 3 characters.",
         "noDestroy": "You can't demolish buildings!",
         "orderSuccess": "The building order was successfully queued.",
         "queueBuild": "Assignments added to the building queue will cost more. Do you still want to add this assignment?",
-        "queue_info": "Additional cost for the next assignment in the building queue: {x}",
-        "queue_text": "There is no refund for the additional costs that were charged for putting a building into the building queue",
+        "queueInfo": "Additional cost for the next assignment in the building queue: {x}",
+        "queueText": "There is no refund for the additional costs that were charged for putting a building into the building queue",
         "requirements": "Requirements",
         "requirementsNot": "Requirements not met",
         "requires": "Required:",
@@ -140,14 +140,14 @@
         "unknownBuilding": "This building doesn't exist.",
         "unmet": "Not available"
     },
-    "building_market": {
+    "buildingMarket": {
         "description": "On the market you can trade with other players.",
         "name": "Market"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "all",
         "arrival": "Arrival",
-        "arrival_in": "Arrival in",
+        "arrivalIn": "Arrival in",
         "attack": "Attack",
         "attacker": "Attacker",
         "attackingArmy": "Attacker",
@@ -169,158 +169,158 @@
         "believing": "Religious",
         "calculate": "Calculate",
         "catapult": "Level of catapult target",
-        "catapult_damage": "Damage by catapults",
+        "catapultDamage": "Damage by catapults",
         "command": "Give commands",
-        "damaged_wall": "The wall has been damaged and downgraded from level <b>{before}<\/b> to level <b>{after}<\/b>",
-        "error_no_troops": "No units selected",
-        "confirm_attack": "Confirm attack on {name}",
-        "confirm_support": "Confirm support for {name}",
-        "damaged_building": "The building has been damaged and downgraded from level <b>{before}<\/b> to level <b>{after}<\/b>",
-        "defender_bonus": "100% wall bonus",
-        "error_invalid_target": "Target does not exist",
-        "error_no_target": "You need to enter the x and y coordinates of the destination",
-        "error_not_enough_troops": "Not enough units available",
-        "foreign_commands": "Enemy commands",
-        "from_this_village": "From this village",
+        "damagedWall": "The wall has been damaged and downgraded from level <b>{before}<\/b> to level <b>{after}<\/b>",
+        "errorNoTroops": "No units selected",
+        "confirmAttack": "Confirm attack on {name}",
+        "confirmSupport": "Confirm support for {name}",
+        "damagedBuilding": "The building has been damaged and downgraded from level <b>{before}<\/b> to level <b>{after}<\/b>",
+        "defenderBonus": "100% wall bonus",
+        "errorInvalidTarget": "Target does not exist",
+        "errorNoTarget": "You need to enter the x and y coordinates of the destination",
+        "errorNotEnoughTroops": "Not enough units available",
+        "foreignCommands": "Enemy commands",
+        "fromThisVillage": "From this village",
         "luck": "Luck (from negative 25% to positive 25%)",
-        "moral_calc": "Morale calculation",
-        "ram_damage": "Damage by rams",
-        "reset_attacker": "Reset attacker",
-        "reset_defender": "Reset defender",
+        "moralCalc": "Morale calculation",
+        "ramDamage": "Damage by rams",
+        "resetAttacker": "Reset attacker",
+        "resetDefender": "Reset defender",
         "night": "Night",
-        "own_commands": "Own commands",
+        "ownCommands": "Own commands",
         "sendback": "Send back",
         "some": "Some",
-        "troop_movements": "Troop Movements",
-        "troops_other_villages": "Troops in other villages"
+        "troopMovements": "Troop Movements",
+        "troopsOtherVillages": "Troops in other villages"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Commands",
         "secrets": "Secret",
         "sim": "Simulator",
         "templates": "Troop-Templates",
         "units": "Troops"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Production",
-        "base_prod": "Base production",
-        "current_prod": "Current production",
-        "amount_per_hour_lvl": "Units per hour at level {lvl}",
-        "amount_per_hour": "Units per hour"
+        "baseProd": "Base production",
+        "currentProd": "Current production",
+        "amountPerHourLvl": "Units per hour at level {lvl}",
+        "amountPerHour": "Units per hour"
     },
-    "building_smith": {
+    "buildingSmith": {
         "costs": "Requirements",
         "description": "In the smithy you can research and improve weapons. Upgrading the smithy allows the research of better weapons and decreases the research time.",
-        "event_cancel": "Cancellation",
-        "event_finish": "Completion",
-        "event_time": "Duration",
+        "eventCancel": "Cancellation",
+        "eventFinish": "Completion",
+        "eventTime": "Duration",
         "name": "Smithy",
         "research": "Research",
-        "event_research": "Research assignment",
-        "research_conditions_unmet": "Building requirements unmet",
+        "eventResearch": "Research assignment",
+        "researchConditionsUnmet": "Building requirements unmet",
         "technology": "technology",
-        "completly_researched": "Technology fully researched",
-        "error_max_level": "Technology fully researched"
+        "completlyResearched": "Technology fully researched",
+        "errorMaxLevel": "Technology fully researched"
     },
-    "building_snob": {
-        "action_create_coin": "Mint",
-        "coin_minted": "You have minted a gold coin",
-        "coins_plural": "Coins",
-        "coins_singular": "Coin",
-        "create_coins": "Mint gold coins",
+    "buildingSnob": {
+        "actionCreateCoin": "Mint",
+        "coinMinted": "You have minted a gold coin",
+        "coinsPlural": "Coins",
+        "coinsSingular": "Coin",
+        "createCoins": "Mint gold coins",
         "created": "You have minted {x}!",
         "description": "In the academy you can educate noblemen. They will help you conquer other villages.",
         "farmTooSmall": "Farm too small",
         "name": "Academy",
         "overall": "Overall",
-        "res_available": "Resources are available",
-        "already_created": "Already saved for the limit of noblemen {x}",
-        "amount_creatable": "Number of nobleman that can be educated",
-        "amount_ennobled": "Number of conquered villages",
-        "amount_still_producable": "You can still educate",
-        "current_amount": "Existing noblemen",
-        "current_limit": "Current limit of noblemen",
-        "current_prod_amount": "Noblemen in education",
+        "resAvailable": "Resources are available",
+        "alreadyCreated": "Already saved for the limit of noblemen {x}",
+        "amountCreatable": "Number of nobleman that can be educated",
+        "amountEnnobled": "Number of conquered villages",
+        "amountStillProducable": "You can still educate",
+        "currentAmount": "Existing noblemen",
+        "currentLimit": "Current limit of noblemen",
+        "currentProdAmount": "Noblemen in education",
         "limit": "Noblemen limit",
-        "still_missing": "Still missing for the limit of noblemen {x}",
-        "coin_hint": "To educate more noblemen you have to mint gold coins. The more gold coins you have, the more villages you can have.",
-        "limit_reached": "No more noblemen can be produced",
-        "do_create_header": "Produce",
-        "res_enough": "Resources available",
-        "storage_toosmall": "The warehouse is too small",
-        "chose_amount": "Choose Amount",
-        "do_create": "Produce Unit"
+        "stillMissing": "Still missing for the limit of noblemen {x}",
+        "coinHint": "To educate more noblemen you have to mint gold coins. The more gold coins you have, the more villages you can have.",
+        "limitReached": "No more noblemen can be produced",
+        "doCreateHeader": "Produce",
+        "resEnough": "Resources available",
+        "storageToosmall": "The warehouse is too small",
+        "choseAmount": "Choose Amount",
+        "doCreate": "Produce Unit"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "coin": "Mint gold coins",
         "train": "Create"
     },
-    "building_stable": {
+    "buildingStable": {
         "description": "In the stables you can recruit cavalry. The higher its level the faster the recruitment of the troops will be finished.",
         "name": "Stable"
     },
-    "building_statue": {
+    "buildingStatue": {
         "description": "At the statue the villagers render homage to your paladin. If your paladin dies you can appoint one of your fighters to become the new paladin.",
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventory",
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventory",
         "name": "Statue",
-        "pala_name": "Name",
-        "do_recruit": "Recruit",
+        "palaName": "Name",
+        "doRecruit": "Recruit",
         "duration": "Duration",
-        "finding_progress": "Progress until finding the next item:",
+        "findingProgress": "Progress until finding the next item:",
         "finish": "Completion",
-        "inventory_des": "Items are effective only for units joined by a Paladin equipped with that particular item.",
+        "inventoryDes": "Items are effective only for units joined by a Paladin equipped with that particular item.",
         "need": "Requirements",
-        "pala_att": "%p is attacking %v.",
-        "pala_do_rename": "rename",
-        "pala_exists": "Each player may only have one paladin",
-        "pala_idle": "%p is stationed in %v.",
-        "pala_move": "» Move to this village",
-        "pala_moving": "%p is moving to %v. Arrival: %t",
-        "pala_name_error": "Name must be between 3 and 50 characters",
-        "pala_rename": "Rename your Paladin",
-        "pala_return": "%p is returning from %v.",
-        "pala_supp": "%p is supporting %v.",
+        "palaAtt": "%p is attacking %v.",
+        "palaDoRename": "rename",
+        "palaExists": "Each player may only have one paladin",
+        "palaIdle": "%p is stationed in %v.",
+        "palaMove": "» Move to this village",
+        "palaMoving": "%p is moving to %v. Arrival: %t",
+        "palaNameError": "Name must be between 3 and 50 characters",
+        "palaRename": "Rename your Paladin",
+        "palaReturn": "%p is returning from %v.",
+        "palaSupp": "%p is supporting %v.",
         "recruit": "Recruitment",
-        "this_village1": "this village",
-        "this_village2": "this village",
+        "thisVillage1": "this village",
+        "thisVillage2": "this village",
         "time": "Time",
         "unit": "Unit",
-        "your_pala": "Your paladin",
+        "yourPala": "Your paladin",
         "create": "Train a Paladin",
-        "cancel_info": "ninety percent of the used resources are refunded to your storage unit",
+        "cancelInfo": "ninety percent of the used resources are refunded to your storage unit",
         "cancel": "Cancellation",
         "amount": "Here\/total",
-        "all_items_found": "Your Palading already found all items."
+        "allItemsFound": "Your Palading already found all items."
     },
-    "building_stone": {
+    "buildingStone": {
         "description": "In the clay pit your workers extract clay, which is important for new buildings. The higher its level the more clay is produced.",
         "name": "Clay pit"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Storage capacity",
         "description": "The warehouse stores your resources. The higher its level the more resources can be stored.",
         "full": "full",
         "name": "Warehouse",
-        "table_head": "Storage full",
-        "capacity_at_level": "Storage capacity on level",
-        "current_capacity": "Current storage capacity",
-        "amount_per_res": "Units per resource",
-        "time_description": "Time (hh:mm:ss)",
-        "is_full": "Warehouse is full. No more resources can be stored!"
+        "tableHead": "Storage full",
+        "capacityAtLevel": "Storage capacity on level",
+        "currentCapacity": "Current storage capacity",
+        "amountPerRes": "Units per resource",
+        "timeDescription": "Time (hh:mm:ss)",
+        "isFull": "Warehouse is full. No more resources can be stored!"
     },
-    "building_wall": {
-        "basic_defense": "Basic defense",
+    "buildingWall": {
+        "basicDefense": "Basic defense",
         "description": "The wall defends your village against your enemies' troops. The higher its level the better the basic defense of your village. It also increases the defensive strength the troops stationed in the village.",
         "name": "Wall",
-        "defensive_bonus": "Defensive bonus"
+        "defensiveBonus": "Defensive bonus"
     },
-    "building_wood": {
+    "buildingWood": {
         "description": "Outside of your village in the dark forests your lumberjacks cut massive trees to produce wood in the timber camp, which is needed for buildings and weapons. The higher its level the more wood is produced.",
         "name": "Timber camp"
     },
-    "create_village": {
+    "createVillage": {
         "creationFailed": "The village couldn't be created.",
         "dally": "Center of my tribe",
         "description": "In which area would you like your new village to be placed?",
@@ -338,7 +338,7 @@
         "technical": "A technical error occurred :("
     },
     "game": {
-        "_none": "None",
+        "None": "None",
         "booty": "Loot",
         "buddies": "Friends",
         "cancel": "Cancellation",
@@ -348,7 +348,7 @@
         "date": "d.m.Y",
         "edit": "edit",
         "errorWorld": "The world {world} doesn't exist!",
-        "gen_time": "generated in {time} ms",
+        "genTime": "generated in {time} ms",
         "iron": "Iron",
         "ok": "OK",
         "options": "Options",
@@ -371,23 +371,23 @@
         "village": "Village",
         "wood": "Wood",
         "chose": "Chose",
-        "decimal_delimeter": ".",
+        "decimalDelimeter": ".",
         "important": "Important",
-        "in_village": "In the village\/total",
+        "inVillage": "In the village\/total",
         "notexist": "{user} does not exist!",
-        "on_level": "At level {level}",
+        "onLevel": "At level {level}",
         "page": "Page",
-        "thousand_delimeter": ".",
+        "thousandDelimeter": ".",
         "vote": "vote",
         "votes": "votes",
         "name": "name",
         "rank": "rank",
-        "global_rank": "Global Ranking",
+        "globalRank": "Global Ranking",
         "villages": "Villages",
         "yes": "Yes",
         "birthday": "Birthday",
         "banned": "Banned",
-        "based_on": "Based on",
+        "basedOn": "Based on",
         "version": "Version"
     },
     "game.ally": {
@@ -413,11 +413,11 @@
         "tribe": "Tribe",
         "description": "Description",
         "application": "Application",
-        "may_apply": "Players may apply",
-        "apply_template": "Template",
+        "mayApply": "Players may apply",
+        "applyTemplate": "Template",
         "disband": "Disband tribe",
-        "disband_confirm": "Do you really want to disband your tribe?",
-        "coat_of_arms": "Coat of arms"
+        "disbandConfirm": "Do you really want to disband your tribe?",
+        "coatOfArms": "Coat of arms"
     },
     "game.ally.diplomaty": {
         "alreadyrelation": "There is already a relationship to this tribe.",
@@ -449,22 +449,22 @@
     "game.ally.forum": {
         "add": "add",
         "author": "Author",
-        "choose_all": "select all",
+        "chooseAll": "select all",
         "close": "close",
         "confirm": "Confirm",
-        "confirm_delete_thread": "Are you sure, you want to delete this thread?",
-        "confirm_delete_threads": "Are you sure, you want to delete this threads?",
+        "confirmDeleteThread": "Are you sure, you want to delete this thread?",
+        "confirmDeleteThreads": "Are you sure, you want to delete this threads?",
         "create": "Create",
-        "create_newpoll": "Create New Poll",
-        "create_newthread": "Create new Thread",
+        "createNewpoll": "Create New Poll",
+        "createNewthread": "Create new Thread",
         "delete": "delete",
         "edit": "edit",
-        "edited_by": "Last edited by",
-        "end_poll_after": "End the poll after",
+        "editedBy": "Last edited by",
+        "endPollAfter": "End the poll after",
         "forum": "Forum",
-        "is_closed": "closed",
-        "is_read": "Read",
-        "last_post": "Last post",
+        "isClosed": "closed",
+        "isRead": "Read",
+        "lastPost": "Last post",
         "markallasread": "Mark all forums as read",
         "markasread": "Mark forum as read",
         "modify": "modify",
@@ -476,21 +476,21 @@
         "question": "question",
         "replies": "Replies",
         "reply": "Reply",
-        "show_results": "Show results before voting",
+        "showResults": "Show results before voting",
         "title": "title",
         "topics": "Topics",
         "vote": "vote"
     },
     "game.ally.forum.admin": {
         "access": "access",
-        "access_to_this_forum": "Access to this forum",
+        "accessToThisForum": "Access to this forum",
         "action": "action",
-        "add_tribes": "Add Tribes",
-        "create_new": "Create new forum",
-        "forum_name": "Forumname",
+        "addTribes": "Add Tribes",
+        "createNew": "Create new forum",
+        "forumName": "Forumname",
         "loading": "Loading",
-        "modifyable_order": "You can change the order of the folder-entries by dragging them to the wished target destination (Use your mouse)",
-        "not_yet_confirmed": "This tribe has not yet agreed to sharing the forum",
+        "modifyableOrder": "You can change the order of the folder-entries by dragging them to the wished target destination (Use your mouse)",
+        "notYetConfirmed": "This tribe has not yet agreed to sharing the forum",
         "rename": "rename",
         "visibility": "visibility"
     },
@@ -513,29 +513,29 @@
         "lead": "Leader",
         "invite": "Invite",
         "diplomacy": "Cancel",
-        "mass_mail": "Mass Mail",
-        "forum_mod": "Moderator of internal forum",
-        "internal_forum": "Internal Forum",
-        "trusted_member": "Trusted Member",
-        "choose_action": "Choose Action...",
+        "massMail": "Mass Mail",
+        "forumMod": "Moderator of internal forum",
+        "internalForum": "Internal Forum",
+        "trustedMember": "Trusted Member",
+        "chooseAction": "Choose Action...",
         "rights": "Rights and Titles",
         "kick": "Kick",
-        "edit_rights": "Edit Rights",
+        "editRights": "Edit Rights",
         "status": "Status",
         "active": "Active",
-        "save_rights": "Save rights",
-        "modify_permissions": "Change privileges on Player {player}",
-        "permission_desc": "Here you can set the privileges for the players in your tribe. The duke privileges should only be given to players you know VERY well and that you can fully trust.",
-        "founder_desc": "Sets status to duke. A duke possesses all tribal privileges, can disband or rename the tribe, set the homepage and chat-channel, administer the tribal forum and name other members dukes.",
-        "lead_desc": "Barons can set privileges and titles of other members and disband members. They can receive other privileges as well that can be given by the dukes.",
+        "saveRights": "Save rights",
+        "modifyPermissions": "Change privileges on Player {player}",
+        "permissionDesc": "Here you can set the privileges for the players in your tribe. The duke privileges should only be given to players you know VERY well and that you can fully trust.",
+        "founderDesc": "Sets status to duke. A duke possesses all tribal privileges, can disband or rename the tribe, set the homepage and chat-channel, administer the tribal forum and name other members dukes.",
+        "leadDesc": "Barons can set privileges and titles of other members and disband members. They can receive other privileges as well that can be given by the dukes.",
         "title": "title",
-        "external_title": "Tribal status visible to outsiders",
-        "title_inally": "Tribal status"
+        "externalTitle": "Tribal status visible to outsiders",
+        "titleInally": "Tribal status"
     },
     "game.ally.navi": {
         "contracts": "Diplomacy",
         "forum": "Tribal forum",
-        "intro_igm": "Welcome",
+        "introIgm": "Welcome",
         "invite": "Recruitment",
         "members": "Members",
         "overview": "Overview",
@@ -546,11 +546,11 @@
     },
     "game.ally.profile": {
         "properties": "Properties",
-        "member_count": "Number of members",
-        "points_best40": "Points of the best 40 players",
-        "points_overall": "Total points",
-        "points_average": "Average points",
-        "defeated_enemies": "Opponents defeated",
+        "memberCount": "Number of members",
+        "pointsBest40": "Points of the best 40 players",
+        "pointsOverall": "Total points",
+        "pointsAverage": "Average points",
+        "defeatedEnemies": "Opponents defeated",
         "members": "Members",
         "startpage": "Homepage",
         "irc": "IRC-Channel"
@@ -573,11 +573,11 @@
         "table": "List",
         "underline": "Under scored",
         "units": "Unit",
-        "very_small": "Very small",
+        "verySmall": "Very small",
         "small": "Small",
         "normal": "Normal",
         "large": "Large",
-        "very_large": "Very large"
+        "veryLarge": "Very large"
     },
     "game.error": {
         "methodNotFound": "\"{controller}\" doesn't have a function called \"{method}\".",
@@ -594,8 +594,8 @@
         "nogroups": "no groups present",
         "noun": "Groups",
         "rename": "Rename group",
-        "apply_groups": "Set groups",
-        "assigned_groups": "Group association"
+        "applyGroups": "Set groups",
+        "assignedGroups": "Group association"
     },
     "game.mail": {
         "msgs": "Mail"
@@ -603,7 +603,7 @@
     "game.mail.modes": {
         "block": "Block sender",
         "in": "Mail",
-        "mass_out": "Circular mail",
+        "massOut": "Circular mail",
         "new": "Write message"
     },
     "game.map": {
@@ -625,8 +625,8 @@
     "game.menu.ally": {
         "contracts": "Diplomacy",
         "forum": "Tribal forum",
-        "i_new": "New posts in the tribe forum",
-        "i_old": "No new posts in the tribe forum",
+        "iNew": "New posts in the tribe forum",
+        "iOld": "No new posts in the tribe forum",
         "members": "Members",
         "overview": "Overview",
         "profile": "Profile",
@@ -638,9 +638,9 @@
         "address": "Address book",
         "block": "Block sender",
         "groups": "Ordner",
-        "i_new": "New mail",
+        "iNew": "New mail",
         "in": "Mail",
-        "mass_out": "Circular mail",
+        "massOut": "Circular mail",
         "new": "Write message",
         "title": "Mail"
     },
@@ -658,7 +658,7 @@
     },
     "game.menu.profile": {
         "achievements": "achievements",
-        "block_list": "Blocked players",
+        "blockList": "Blocked players",
         "friends": "Friends",
         "inventory": "inventory",
         "statistics": "statistics",
@@ -666,10 +666,10 @@
     },
     "game.menu.ranking": {
         "ally": "Tribes",
-        "con_ally": "Continent Tribes",
-        "con_player": "Continent Players",
-        "kill_ally": "Opponents defeated tribal ranking",
-        "kill_player": "Opponents defeated",
+        "conAlly": "Continent Tribes",
+        "conPlayer": "Continent Players",
+        "killAlly": "Opponents defeated tribal ranking",
+        "killPlayer": "Opponents defeated",
         "player": "Players",
         "points": "({rank}.|{points} P)",
         "title": "Ranking",
@@ -682,7 +682,7 @@
         "defense": "Defenses",
         "filter": "Filter",
         "forwarded": "Forwarded",
-        "i_new": "New report",
+        "iNew": "New report",
         "other": "Miscellaneous",
         "public": "Publicized reports",
         "support": "Support",
@@ -691,7 +691,7 @@
     },
     "game.menu.settings": {
         "block": "Block player",
-        "change_passwd": "Change password",
+        "changePasswd": "Change password",
         "delete": "Delete account",
         "logins": "Logins",
         "notify": "Notifications",
@@ -705,36 +705,36 @@
         "toolbar": "Toolbar"
     },
     "game.overview": {
-        "beginner_protection": "Your beginner protection ends {date}",
+        "beginnerProtection": "Your beginner protection ends {date}",
         "build": "Upgrade buildings",
-        "cancel_build": "Are you sure you want to cancel the assignment?",
-        "classical_overview": "to classical village overview",
+        "cancelBuild": "Are you sure you want to cancel the assignment?",
+        "classicalOverview": "to classical village overview",
         "forAll": "» Use for all villages",
         "forAllConfirm": "Really use for all villages?",
-        "graphical_overview": "switch to graphical village overview",
-        "hide_levels": "Hide upgrade levels",
+        "graphicalOverview": "switch to graphical village overview",
+        "hideLevels": "Hide upgrade levels",
         "level": "(Level {x}{extra})",
-        "prod_hour": "{x} per hour",
-        "prod_minute": "{x} per minute",
-        "prod_second": "{x} per second",
+        "prodHour": "{x} per hour",
+        "prodMinute": "{x} per minute",
+        "prodSecond": "{x} per second",
         "recruit": "» recruit",
         "reset": "» Reset overview",
         "resourceLabel1": "Building time: {t}",
         "resourceLabel2": "Building time: {t1}free population: {t2}",
         "setDefault": "» Use as default",
-        "show_all": "Show all widgets",
-        "show_levels": "Show upgrade levels"
+        "showAll": "Show all widgets",
+        "showLevels": "Show upgrade levels"
     },
     "game.overview.widgets": {
         "belief": "Belief",
         "buildqueue": "Building queue",
         "flags": "Flags",
         "groups": "Group association",
-        "incoming_units": "Incoming troops",
+        "incomingUnits": "Incoming troops",
         "loyalty": "loyalty",
         "newbie": "Beginners protection",
         "notes": "Notes",
-        "outgoing_units": "Your troops",
+        "outgoingUnits": "Your troops",
         "prod": "Production",
         "secret": "Secret",
         "summary": "Buildings",
@@ -756,14 +756,14 @@
         "from": "from",
         "losses": "losses",
         "loyalty": "loyalty",
-        "loyalty_change": "Loyalty loss from <b>{from}<\/b> to <b>{to}<\/b>",
+        "loyaltyChange": "Loyalty loss from <b>{from}<\/b> to <b>{to}<\/b>",
         "luck": "Attackerluck",
         "new": "new",
-        "normal_luck": "luck",
+        "normalLuck": "luck",
         "origin": "origin",
         "received": "Received",
         "rename": "rename",
-        "select_all": "select all",
+        "selectAll": "select all",
         "subject": "Subject",
         "support": "{fromUser} ({fromVillage}) supports {toVillage}",
         "target": "target",
@@ -772,7 +772,7 @@
         "to": "to",
         "units": "Units",
         "won": "{player} has won",
-        "no_def_info": "None of your troops have returned.<br> No information about the strength of your enemy's army could be collected"
+        "noDefInfo": "None of your troops have returned.<br> No information about the strength of your enemy's army could be collected"
     },
     "game.report.navi": {
         "all": "all",
@@ -789,25 +789,25 @@
     "game.title": {
         "attacks": "Incoming attacks",
         "close": "close",
-        "first_village": "To the first village of this group",
+        "firstVillage": "To the first village of this group",
         "group": "Group:",
         "supports": "Incoming support",
         "village": "Village"
     },
     "game.train": {
         "desc": "In this overview you can recruit all types of units if you have constructed the required buildings and researched the needed technologies.",
-        "mode_decommission": "Decommissioning",
-        "mode_train": "Recruitment",
-        "not_enough": "Not enough resources available",
-        "mode_massrecruitment": "Mass Recruitment",
-        "mode_massdecomission": "Mass Decommissioning"
+        "modeDecommission": "Decommissioning",
+        "modeTrain": "Recruitment",
+        "notEnough": "Not enough resources available",
+        "modeMassrecruitment": "Mass Recruitment",
+        "modeMassdecomission": "Mass Decommissioning"
     },
     "game.train.queue": {
         "cancel": "cancel",
-        "cancel_all": "cancel all",
-        "cancel_back": "* (ninety percent of the used resources are refunded to your storage unit)",
-        "cancel_sure": "Are you sure you want to cancel all recruitment orders?",
-        "cancel_title": "Cancel *",
+        "cancelAll": "cancel all",
+        "cancelBack": "* (ninety percent of the used resources are refunded to your storage unit)",
+        "cancelSure": "Are you sure you want to cancel all recruitment orders?",
+        "cancelTitle": "Cancel *",
         "completion": "Completion",
         "drag": "Here you can change the order of your queue by dragging them to the desired location with your mouse.",
         "duration": "Duration",
@@ -815,28 +815,28 @@
         "train": "Training"
     },
     "game.unit": {
-        "attack_strength": "Attack Power",
-        "not_available": "recruit",
+        "attackStrength": "Attack Power",
+        "notAvailable": "recruit",
         "recruit": "Recruit",
         "capacity": "Carrying capacity",
-        "combat_values": "Battle statistics",
-        "defense_archer": "Archer Defense",
-        "defense_cav": "Cavalry Defense",
-        "defense_general": "General Defense",
-        "research_costs": "Research costs",
-        "tech_level": "Tech-level",
-        "research_time": "Research time",
-        "recruit_started": "Recruitment started",
+        "combatValues": "Battle statistics",
+        "defenseArcher": "Archer Defense",
+        "defenseCav": "Cavalry Defense",
+        "defenseGeneral": "General Defense",
+        "researchCosts": "Research costs",
+        "techLevel": "Tech-level",
+        "researchTime": "Research time",
+        "recruitStarted": "Recruitment started",
         "requirements": "Requirements",
-        "already_researched": "already researched",
+        "alreadyResearched": "already researched",
         "decommission": "Decomission"
     },
     "game.village": {
         "name": "{user} village",
-        "name_left": "Barbarian village",
-        "special_chars": "sxz",
-        "username_normal": "{user}'s",
-        "username_special": "{user}'"
+        "nameLeft": "Barbarian village",
+        "specialChars": "sxz",
+        "usernameNormal": "{user}'s",
+        "usernameSpecial": "{user}'"
     },
     "index": {
         "availableWorlds": "Open Worlds",
@@ -879,9 +879,9 @@
         "spear": "Halberd of Guan Yu",
         "spy": "Kalid's telescope",
         "sword": "Paracelsus' Longsword",
-        "no_item": "No item"
+        "noItem": "No item"
     },
-    "knight_items_desc": {
+    "knightItemsDesc": {
         "archer": "Increases the offensive fighting power of your archers by %atk and the defensive fighting power  by  %def.",
         "axe": "Increases the offensive fighting power of your axemen by %atk and the defensive fighting power  by  %def.",
         "catapult": "Increases the damage by catapults by %special",
@@ -940,7 +940,7 @@
         "register": "Register",
         "title": "Register"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "content": "Your session has expired. Please log in again at {link}.",
         "index": "Homepage",
         "link": "{t} Homepage",
@@ -951,90 +951,90 @@
     "time": {
         "days": "days",
         "ident": "at",
-        "ident_day": "on",
-        "ident_noun": "<span class=\"empty\"><\/span>",
+        "identDay": "on",
+        "identNoun": "<span class=\"empty\"><\/span>",
         "onDay": "on {day}",
         "onTime": "{day} at {time}",
         "today": "today",
         "tomorrow": "tomorrow"
     },
-    "unit_archer": {
+    "unitArcher": {
         "desc": "The archer is a very effective defensive unit. Their arrows destroy even the hardest armor.",
         "name": "Archer",
         "plural": "Archer",
         "short": "Archer"
     },
-    "unit_axe": {
+    "unitAxe": {
         "desc": "The axeman is a strong offensive unit. They easily forget to protect themselves though.",
         "name": "Axeman",
         "plural": "Axeman",
         "short": "Axeman"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "desc": "Catapults are especially good in destroying your enemies' buildings.",
         "name": "Catapult",
         "plural": "Catapult",
         "short": "Catapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "desc": "The heavy cavalry are your elite troops. The noble knights have hardened weapons and strong armor.",
         "name": "Heavy cavalry",
         "plural": "Heavy cavalry",
         "short": "Heavy cavalry"
     },
-    "unit_knight": {
+    "unitKnight": {
         "desc": "The noble paladin protects you and your allies' villages from enemy attacks. Each player may only have one paladin.",
         "name": "Paladin",
         "short": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "desc": "The light cavalry is a good offensive unit. One of its advantages is its speed.",
         "name": "Light cavalry",
         "plural": "Light cavalry",
         "short": "Light cavalry"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "desc": "The mounted archer is especially useful to disable your enemies archers on the Walls.",
         "name": "Mounted archer",
         "plural": "Mounted archer",
         "short": "Mounted archer"
     },
-    "unit_militia": {
+    "unitMilitia": {
         "name": "Militia"
     },
-    "unit_movement": {
+    "unitMovement": {
         "attack": "Attack on {to}",
         "back": "Retreat of {to}",
         "cancel": "Cancelled attack on {from}",
-        "other_back": "Returned by {to}",
+        "otherBack": "Returned by {to}",
         "return": "Return of {from}",
         "support": "Support for {to}"
     },
-    "unit_ram": {
+    "unitRam": {
         "desc": "Rams support your troops in your attacks as it damages your enemies' Wall.",
         "name": "Ram",
         "plural": "Ram",
         "short": "Ram"
     },
-    "unit_snob": {
+    "unitSnob": {
         "desc": "A nobleman will reduce the loyalty of your enemies' villages. If its loyalty falls under 0 you conquer that village. The costs for each nobleman increase with every conquered village and every nobleman that is available or in production.",
         "name": "Nobleman",
         "plural": "Nobleman",
         "short": "Nobleman"
     },
-    "unit_spear": {
+    "unitSpear": {
         "desc": "The spear fighter is the most basic unit. It is good in defending against cavalry and to start plundering other villages.",
         "name": "Spear fighter",
         "plural": "Spear fighters",
         "short": "Spear fighter"
     },
-    "unit_spy": {
+    "unitSpy": {
         "desc": "The scout creeps into your enemies' villages to get valuable information.",
         "name": "Scout",
         "plural": "Scout",
         "short": "Scout"
     },
-    "unit_sword": {
+    "unitSword": {
         "desc": "The swordsman is a relatively slow unit effective as defense especially against infantry.",
         "name": "Swordsman",
         "plural": "Swordsman",

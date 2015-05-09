@@ -10,39 +10,39 @@
         "login": "Log ind",
         "password": "Kodeord"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Kaserne"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Kirke"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Bondegård"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Værksted"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Jernmine"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Byg",
-        "build_time": "Byggetid",
+        "buildTime": "Byggetid",
         "building": "Bygninger",
         "cancel": "Afbryd",
-        "change_name": "Skift navn for landsby",
-        "event_time": "Varighed",
-        "mode_build": "Byg",
-        "mode_destroy": "Nedrivning",
+        "changeName": "Skift navn for landsby",
+        "eventTime": "Varighed",
+        "modeBuild": "Byg",
+        "modeDestroy": "Nedrivning",
         "name": "Hovedkvarter"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Marked"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Alle",
         "arrival": "Ankomst",
-        "arrival_in": "Ankommer om",
+        "arrivalIn": "Ankommer om",
         "attack": "Angrib",
         "attacker": "Angriber",
         "attackingArmy": "Angriber",
@@ -59,51 +59,51 @@
         "wall": "Mur",
         "withdraw": "Træk ansøgningen tilbage"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Kommandoer"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produktion"
     },
-    "building_smith": {
-        "event_time": "Varighed"
+    "buildingSmith": {
+        "eventTime": "Varighed"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "I alt"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Opret"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Stald"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Beholdning",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Beholdning",
         "name": "Statue",
-        "pala_name": "Navn"
+        "palaName": "Navn"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Lergrav"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Lagerkapacitet",
         "name": "Opbevaring",
-        "table_head": "Lageret er fyldt"
+        "tableHead": "Lageret er fyldt"
     },
-    "building_wall": {
-        "basic_defense": "Grundforsvar",
+    "buildingWall": {
+        "basicDefense": "Grundforsvar",
         "name": "Mur"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Skovhuggeri"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Bekræft"
     },
     "game": {
-        "_none": "Ingen",
+        "None": "Ingen",
         "booty": "Plyndring",
         "buddies": "Venner",
         "cancel": "Afbryd",
@@ -147,7 +147,7 @@
         "create": "Opret",
         "delete": "Slet",
         "forum": "Forum",
-        "last_post": "Seneste indlæg",
+        "lastPost": "Seneste indlæg",
         "newpoll": "Ny spørgeundersøgelse",
         "replies": "Besvar",
         "reply": "Svar",
@@ -215,7 +215,7 @@
         "title": "Stamme"
     },
     "game.menu.mails": {
-        "i_new": "Ny besked",
+        "iNew": "Ny besked",
         "in": "Beskeder",
         "title": "Beskeder"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Stammer",
-        "kill_player": "Besejrede modstandere",
+        "killPlayer": "Besejrede modstandere",
         "player": "Spiller",
         "title": "Rangliste"
     },
@@ -249,7 +249,7 @@
         "trade": "Handel"
     },
     "game.menu.settings": {
-        "change_passwd": "Skift kodeord",
+        "changePasswd": "Skift kodeord",
         "poll": "Spørgeundersøgelser",
         "profile": "Profil",
         "settings": "Indstillinger",
@@ -271,7 +271,7 @@
         "defender": "Forsvarer",
         "from": "fra",
         "losses": "Med tab",
-        "normal_luck": "Held",
+        "normalLuck": "Held",
         "origin": "Oprindelse",
         "target": "Mål",
         "title": "Rapporter",
@@ -289,7 +289,7 @@
         "village": "Landsby"
     },
     "game.train": {
-        "mode_train": "Rekruttér"
+        "modeTrain": "Rekruttér"
     },
     "game.train.queue": {
         "cancel": "Afbryd",
@@ -297,10 +297,10 @@
         "train": "Rekruttér"
     },
     "game.unit": {
-        "attack_strength": "Angrebsstyrke"
+        "attackStrength": "Angrebsstyrke"
     },
     "game.village": {
-        "name_left": "Barbarby"
+        "nameLeft": "Barbarby"
     },
     "index": {
         "availableWorlds": "Åbne verdener",
@@ -330,46 +330,46 @@
         "register": "Registrer",
         "title": "Registrer"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Startside"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Bueskytte",
         "short": "Bueskytte"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Øksekriger",
         "plural": "Øksekriger",
         "short": "Økse"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Tungt kavaleri",
         "plural": "Tungt kavaleri"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Let kavaleri",
         "plural": "Let kavaleri"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Ridende bueskyttere"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Rambuk",
         "short": "Rambuk"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Adelsmand"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Spyd"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Sværdmand",
         "plural": "Sværdmand",
         "short": "Sværd"

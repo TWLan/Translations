@@ -10,39 +10,39 @@
         "login": "Вход",
         "password": "Пароль"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Казарма"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Церковь"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Ферма"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Мастерская"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Железный рудник"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Строить",
-        "build_time": "Время строительства",
+        "buildTime": "Время строительства",
         "building": "Здания",
         "cancel": "Отменить",
-        "change_name": "Изменить название деревни",
-        "event_time": "Длительность",
-        "mode_build": "Строить",
-        "mode_destroy": "Снос",
+        "changeName": "Изменить название деревни",
+        "eventTime": "Длительность",
+        "modeBuild": "Строить",
+        "modeDestroy": "Снос",
         "name": "Ратуша"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Рынок"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Все",
         "arrival": "Прибытие",
-        "arrival_in": "Прибытие через",
+        "arrivalIn": "Прибытие через",
         "attack": "атака",
         "attacker": "Нападающий",
         "attackingArmy": "Нападающий",
@@ -59,51 +59,51 @@
         "wall": "Стена",
         "withdraw": "Отозвать"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Команды"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Производство"
     },
-    "building_smith": {
-        "event_time": "Длительность"
+    "buildingSmith": {
+        "eventTime": "Длительность"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Всего"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Создать"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Конюшня"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Паладин",
-        "mode_inventory": "Инвентарь",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Паладин",
+        "modeInventory": "Инвентарь",
         "name": "Статуя",
-        "pala_name": "Имя"
+        "palaName": "Имя"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Глиняный карьер"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Вместимость",
         "name": "Хранилище",
-        "table_head": "Склад заполнен"
+        "tableHead": "Склад заполнен"
     },
-    "building_wall": {
-        "basic_defense": "Базовая защита",
+    "buildingWall": {
+        "basicDefense": "Базовая защита",
         "name": "Стена"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Лесопилка"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Подтвердить"
     },
     "game": {
-        "_none": "Нет",
+        "None": "Нет",
         "booty": "Добыча",
         "buddies": "Друзья",
         "cancel": "Отменить",
@@ -147,7 +147,7 @@
         "create": "Создать",
         "delete": "Удалить",
         "forum": "Форум",
-        "last_post": "Последнее сообщение",
+        "lastPost": "Последнее сообщение",
         "newpoll": "Новый опрос",
         "replies": "Ответить",
         "reply": "Ответ",
@@ -215,7 +215,7 @@
         "title": "Племя"
     },
     "game.menu.mails": {
-        "i_new": "Создать сообщение",
+        "iNew": "Создать сообщение",
         "in": "Сообщения",
         "title": "Сообщения"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Племена",
-        "kill_player": "Побеждено противников",
+        "killPlayer": "Побеждено противников",
         "player": "Игрок",
         "title": "Рейтинг"
     },
@@ -249,7 +249,7 @@
         "trade": "Торговля"
     },
     "game.menu.settings": {
-        "change_passwd": "Сменить пароль",
+        "changePasswd": "Сменить пароль",
         "poll": "Опросы",
         "profile": "Профиль",
         "settings": "Настройки",
@@ -271,7 +271,7 @@
         "defender": "Обороняющийся",
         "from": "из",
         "losses": "Потери",
-        "normal_luck": "Удача",
+        "normalLuck": "Удача",
         "origin": "Происхождение",
         "target": "Цель",
         "title": "Отчеты",
@@ -289,7 +289,7 @@
         "village": "Деревня"
     },
     "game.train": {
-        "mode_train": "Вербовка"
+        "modeTrain": "Вербовка"
     },
     "game.train.queue": {
         "cancel": "Отменить",
@@ -297,10 +297,10 @@
         "train": "Вербовка"
     },
     "game.unit": {
-        "attack_strength": "Сила атаки"
+        "attackStrength": "Сила атаки"
     },
     "game.village": {
-        "name_left": "Деревня варваров"
+        "nameLeft": "Деревня варваров"
     },
     "index": {
         "availableWorlds": "Другие миры",
@@ -330,46 +330,46 @@
         "register": "Регистрация",
         "title": "Регистрация"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Главная"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Лучник",
         "short": "Лучник"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Топорник",
         "plural": "Топорник",
         "short": "Топор"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Катапульта"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Тяжелый кавалерист",
         "plural": "Тяжелый кавалерист"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Паладин"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Легкий кавалерист",
         "plural": "Легкий кавалерист"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Конный лучник"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Таран",
         "short": "Таран"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Дворянин"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Копье"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Мечник",
         "plural": "Мечник",
         "short": "Меч"

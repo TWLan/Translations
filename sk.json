@@ -10,39 +10,39 @@
         "login": "Prihlásenie",
         "password": "Heslo"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Kasárne"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Kostol"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Farma"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Dielňa"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Železná baňa"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Postaviť",
-        "build_time": "Čas výstavby",
+        "buildTime": "Čas výstavby",
         "building": "Budovy",
         "cancel": "Zrušiť",
-        "change_name": "Zmeniť názov dediny",
-        "event_time": "Trvanie",
-        "mode_build": "Postaviť",
-        "mode_destroy": "Búranie",
+        "changeName": "Zmeniť názov dediny",
+        "eventTime": "Trvanie",
+        "modeBuild": "Postaviť",
+        "modeDestroy": "Búranie",
         "name": "Hlavná budova"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Trhovisko"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Všetky",
         "arrival": "Príchod",
-        "arrival_in": "Príchod o",
+        "arrivalIn": "Príchod o",
         "attack": "útočiť",
         "attacker": "Útočník",
         "attackingArmy": "Útočník",
@@ -59,51 +59,51 @@
         "wall": "Hradby",
         "withdraw": "Stiahnuť"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Príkazy"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produkcia"
     },
-    "building_smith": {
-        "event_time": "Trvanie"
+    "buildingSmith": {
+        "eventTime": "Trvanie"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Celkovo"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Vytvoriť"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Stajňa"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventár",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventár",
         "name": "Socha",
-        "pala_name": "Meno"
+        "palaName": "Meno"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Hlinisko"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Kapacita skladu",
         "name": "Sklad",
-        "table_head": "Sklad je plný"
+        "tableHead": "Sklad je plný"
     },
-    "building_wall": {
-        "basic_defense": "Základná obrana",
+    "buildingWall": {
+        "basicDefense": "Základná obrana",
         "name": "Hradby"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Drevorubač"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Potvrdiť"
     },
     "game": {
-        "_none": "Žiadne",
+        "None": "Žiadne",
         "booty": "Korisť",
         "buddies": "Priatelia",
         "cancel": "Zrušiť",
@@ -147,7 +147,7 @@
         "create": "Vytvoriť",
         "delete": "Vymazať",
         "forum": "Fórum",
-        "last_post": "Posledná pošta",
+        "lastPost": "Posledná pošta",
         "newpoll": "Nový prieskum",
         "replies": "Odpovedať",
         "reply": "Odpoveď",
@@ -215,7 +215,7 @@
         "title": "Kmeň"
     },
     "game.menu.mails": {
-        "i_new": "Nová správa",
+        "iNew": "Nová správa",
         "in": "Správy",
         "title": "Správy"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Kmene",
-        "kill_player": "Protivníci sú porazení",
+        "killPlayer": "Protivníci sú porazení",
         "player": "Hráč",
         "title": "Hodnotenia"
     },
@@ -249,7 +249,7 @@
         "trade": "Obchod"
     },
     "game.menu.settings": {
-        "change_passwd": "Zmeniť heslo",
+        "changePasswd": "Zmeniť heslo",
         "poll": "Prieskumy",
         "profile": "Profil",
         "settings": "Nastavenia",
@@ -271,7 +271,7 @@
         "defender": "Obranca",
         "from": "z",
         "losses": "Straty",
-        "normal_luck": "Šťastie",
+        "normalLuck": "Šťastie",
         "origin": "Pôvod",
         "target": "Cieľ",
         "title": "Hlásenia",
@@ -289,7 +289,7 @@
         "village": "Dedina"
     },
     "game.train": {
-        "mode_train": "Pozvánky"
+        "modeTrain": "Pozvánky"
     },
     "game.train.queue": {
         "cancel": "Zrušiť",
@@ -297,10 +297,10 @@
         "train": "Pozvánky"
     },
     "game.unit": {
-        "attack_strength": "Útočná sila"
+        "attackStrength": "Útočná sila"
     },
     "game.village": {
-        "name_left": "Barbarská dedina"
+        "nameLeft": "Barbarská dedina"
     },
     "index": {
         "availableWorlds": "Otvorené svety",
@@ -330,46 +330,46 @@
         "register": "Registrovať",
         "title": "Registrovať"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Domov"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Lukostrelec",
         "short": "Lukostrelec"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Bojovník so sekerou",
         "plural": "Bojovník so sekerou",
         "short": "Sekera"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Ťažká jazda",
         "plural": "Ťažká jazda"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Ľahká jazda",
         "plural": "Ľahká jazda"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Lukostrelec na koni"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Baranidlo",
         "short": "Baranidlo"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Šľachtic"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Kopija"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Šermiar",
         "plural": "Šermiar",
         "short": "Meč"

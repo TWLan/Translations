@@ -10,39 +10,39 @@
         "login": "Oturum Aç",
         "password": "Parola"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Kışla"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Hamam"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Çiftlik"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Atölye"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Demir Madeni"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "İnşa Et",
-        "build_time": "İnşaat süresi",
+        "buildTime": "İnşaat süresi",
         "building": "Binalar",
         "cancel": "İptal",
-        "change_name": "Köy ismini değiştir",
-        "event_time": "Süre",
-        "mode_build": "İnşa Et",
-        "mode_destroy": "Yıkım",
+        "changeName": "Köy ismini değiştir",
+        "eventTime": "Süre",
+        "modeBuild": "İnşa Et",
+        "modeDestroy": "Yıkım",
         "name": "Karargah"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Pazar"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Tümü",
         "arrival": "Varış",
-        "arrival_in": "Varış;",
+        "arrivalIn": "Varış;",
         "attack": "saldır",
         "attacker": "Saldıran",
         "attackingArmy": "Saldıran",
@@ -59,51 +59,51 @@
         "wall": "Duvar",
         "withdraw": "Geri Çek"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Emirler"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Üretim"
     },
-    "building_smith": {
-        "event_time": "Süre"
+    "buildingSmith": {
+        "eventTime": "Süre"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Toplam"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Oluştur"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Ahır"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Kutsal Şövalye",
-        "mode_inventory": "Envanter",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Kutsal Şövalye",
+        "modeInventory": "Envanter",
         "name": "Heykel",
-        "pala_name": "İsim"
+        "palaName": "İsim"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Kil Ocağı"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Depolama kapasitesi",
         "name": "Depolama",
-        "table_head": "Depo dolu"
+        "tableHead": "Depo dolu"
     },
-    "building_wall": {
-        "basic_defense": "Temel savunma",
+    "buildingWall": {
+        "basicDefense": "Temel savunma",
         "name": "Duvar"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Kereste Kampı"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Onayla"
     },
     "game": {
-        "_none": "Yok",
+        "None": "Yok",
         "booty": "Ganimet",
         "buddies": "Arkadaşlar",
         "cancel": "İptal",
@@ -147,7 +147,7 @@
         "create": "Oluştur",
         "delete": "Sil",
         "forum": "Forum",
-        "last_post": "Son gönderi",
+        "lastPost": "Son gönderi",
         "newpoll": "Yeni anket",
         "replies": "Yanıt",
         "reply": "Cevap",
@@ -215,7 +215,7 @@
         "title": "Klan"
     },
     "game.menu.mails": {
-        "i_new": "Yeni mesaj",
+        "iNew": "Yeni mesaj",
         "in": "Mesajlar",
         "title": "Mesajlar"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Klanlar",
-        "kill_player": "Alt edilen rakipler",
+        "killPlayer": "Alt edilen rakipler",
         "player": "Oyuncu",
         "title": "Sıralamalar"
     },
@@ -249,7 +249,7 @@
         "trade": "Ticaret"
     },
     "game.menu.settings": {
-        "change_passwd": "Parolayı değiştir",
+        "changePasswd": "Parolayı değiştir",
         "poll": "Anketler",
         "profile": "Profil",
         "settings": "Ayarlar",
@@ -271,7 +271,7 @@
         "defender": "Savunan",
         "from": "geldiği yer",
         "losses": "Kayıplar",
-        "normal_luck": "Şans",
+        "normalLuck": "Şans",
         "origin": "Kaynak",
         "target": "Hedef",
         "title": "Raporlar",
@@ -289,7 +289,7 @@
         "village": "Köy"
     },
     "game.train": {
-        "mode_train": "İstihdam"
+        "modeTrain": "İstihdam"
     },
     "game.train.queue": {
         "cancel": "İptal",
@@ -297,10 +297,10 @@
         "train": "İstihdam"
     },
     "game.unit": {
-        "attack_strength": "Saldırı Gücü"
+        "attackStrength": "Saldırı Gücü"
     },
     "game.village": {
-        "name_left": "Barbar Köyü"
+        "nameLeft": "Barbar Köyü"
     },
     "index": {
         "availableWorlds": "Açık Dünyalar",
@@ -330,46 +330,46 @@
         "register": "Kayıt Ol",
         "title": "Kayıt Ol"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Ana Ekran"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Okçu",
         "short": "Okçu"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Baltalı Dövüşçü",
         "plural": "Baltalı Dövüşçü",
         "short": "Balta"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Mancınık"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Ağır Süvari",
         "plural": "Ağır Süvari"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Kutsal Şövalye"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Hafif Süvari",
         "plural": "Hafif Süvari"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Atlı Okçu"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Koçbaşı",
         "short": "Koçbaşı"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Asilzade"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Mızrak"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Kılıçlı",
         "plural": "Kılıçlı",
         "short": "Kılıç"

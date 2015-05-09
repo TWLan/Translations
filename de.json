@@ -5,8 +5,8 @@
         "logout": "Logout",
         "mainFunctions": "Menü",
         "title": "Admin Panel",
-        "insufficient_permissions": "Nicht genügend Rechte!",
-        "admin_task_status": "{tasks} Aktionen in Bearbeitung - Aktuelle Aktion: {task} <b>({progress})<\/b>",
+        "insufficientPermissions": "Nicht genügend Rechte!",
+        "adminTaskStatus": "{tasks} Aktionen in Bearbeitung - Aktuelle Aktion: {task} <b>({progress})<\/b>",
         "fileNotFound": "Datei nicht gefunden: {path}"
     },
     "admin.configeditor": {
@@ -41,12 +41,12 @@
         "login": "Login",
         "password": "Passwort"
     },
-    "admin.manage_villages": {
-        "create_abandoned": "Barbarendörfer erstellen",
-        "unit_amount": "Anzahl",
-        "general_settings": "Allgemeine Einstellungen",
-        "village_amount": "Dörferanzahl",
-        "create_villages": "Dörfer erstellen"
+    "admin.manageVillages": {
+        "createAbandoned": "Barbarendörfer erstellen",
+        "unitAmount": "Anzahl",
+        "generalSettings": "Allgemeine Einstellungen",
+        "villageAmount": "Dörferanzahl",
+        "createVillages": "Dörfer erstellen"
     },
     "admin.nav": {
         "global": "Global",
@@ -60,82 +60,82 @@
         "subnode": "{parent} - {child}"
     },
     "admin.world": {
-        "general_info": "Generelle Informationen",
+        "generalInfo": "Generelle Informationen",
         "players": "Spieler"
     },
     "building": {
         "level": "Stufe {x}",
-        "no_level": "nicht vorhanden"
+        "noLevel": "nicht vorhanden"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "description": "In der Kaserne kannst du Infanterie rekrutieren. Je höher die Ausbaustufe der Kaserne, desto schneller kannst du deine Truppen ausbilden.",
         "name": "Kaserne"
     },
-    "building_church": {
+    "buildingChurch": {
         "description": "Die Kirche stärkt den Glauben der Bewohner der umliegenden Dörfer. Ohne Kirche kämpfen die Einheiten dieses Dorfes und der Dörfer im Einflussbereich der Kirche schlechter.",
         "name": "Kirche"
     },
-    "building_church_f": {
+    "buildingChurchF": {
         "description": "Die Erste Kirche stärkt den Glauben der Bewohner der umliegenden Dörfer. Die Erste Kirche kann nur einmal gebaut werden. Ohne Kirche kämpfen die Einheiten dieses Dorfes und der Dörfer im Einflussbereich der Kirche schlechter.",
         "name": "Erste Kirche"
     },
-    "building_farm": {
+    "buildingFarm": {
         "description": "Der Bauernhof versorgt deine Arbeiter und Truppen mit Nahrung. Ohne Ausbau des Bauernhofs kann dein Dorf nicht wachsen. Je höher die Ausbaustufe des Bauernhofs, desto mehr Bewohner können versorgt werden.",
         "name": "Bauernhof"
     },
-    "building_garage": {
+    "buildingGarage": {
         "description": "In der Werkstatt kannst du Belagerungswaffen herstellen. Je höher die Ausbaustufe der Werkstatt, desto schneller kannst du deine Truppen ausbilden.",
         "name": "Werkstatt"
     },
-    "building_hide": {
-        "current_size": "Aktuelle Größe",
+    "buildingHide": {
+        "currentSize": "Aktuelle Größe",
         "description": "Im Versteck werden Rohstoffe versteckt, so dass der Gegner diese nicht plündern kann. Auch feindliche Späher können nicht ermitteln, wie viele Rohstoffe sich in dem Versteck befinden.",
-        "market_plunder": "Angebote auf dem Marktplatz können geplündert werden.",
+        "marketPlunder": "Angebote auf dem Marktplatz können geplündert werden.",
         "name": "Versteck",
-        "plunder_res": "Plünderbare Rohstoffe",
+        "plunderRes": "Plünderbare Rohstoffe",
         "size": "Größe des Verstecks",
-        "size_at_level": "Größe bei Stufe {lvl}"
+        "sizeAtLevel": "Größe bei Stufe {lvl}"
     },
-    "building_iron": {
+    "buildingIron": {
         "description": "In der Eisenmine schürfen deine Arbeiter das kriegsentscheidende Eisen. Je höher die Ausbaustufe der Eisenmine, desto mehr Eisen wird produziert.",
         "name": "Eisenmine"
     },
-    "building_main": {
-        "ajax_build": "Das Gebäude wurde in Auftrag gegeben.",
-        "ajax_noBuilding": "Kein Gebäude angegeben!",
+    "buildingMain": {
+        "ajaxBuild": "Das Gebäude wurde in Auftrag gegeben.",
+        "ajaxNoBuilding": "Kein Gebäude angegeben!",
         "build": "Bauen",
-        "build_time": "Bauzeit",
-        "build_to": "Stufe {x}",
+        "buildTime": "Bauzeit",
+        "buildTo": "Stufe {x}",
         "building": "Gebäude",
         "cancel": "abbrechen",
         "cannotBuild": "Kann in diesem Dorf nicht gebaut werden.",
         "change": "Ändern",
-        "change_name": "Dorfnamen ändern",
-        "change_order": "Du kannst die Reihenfolge der Bauaufträge verändern, indem du sie mit der Maus an die gewünschte Position ziehst.",
+        "changeName": "Dorfnamen ändern",
+        "changeOrder": "Du kannst die Reihenfolge der Bauaufträge verändern, indem du sie mit der Maus an die gewünschte Position ziehst.",
         "costs": "Bedarf",
         "description": "Im Hauptgebäude können neue Gebäude errichtet oder vorhandene Gebäude verbessert werden. Je höher die Stufe, desto schneller können neue Gebäude errichtet werden. Sobald dein Hauptgebäude Stufe 15 erreicht hat, bist du in der Lage Gebäude abzureißen.",
         "destroy": "Abreißen",
-        "destroy_level": "Abreißen",
-        "destroy_time": "Abrisszeit",
-        "event_building": "Bauauftrag",
-        "event_cancel": "Abbruch",
-        "event_finish": "Fertigstellung",
-        "event_time": "Dauer",
+        "destroyLevel": "Abreißen",
+        "destroyTime": "Abrisszeit",
+        "eventBuilding": "Bauauftrag",
+        "eventCancel": "Abbruch",
+        "eventFinish": "Fertigstellung",
+        "eventTime": "Dauer",
         "farmTooSmall": "Der Bauernhof ist zu klein",
         "forgetIt": "Rohstoffproduktion benötigt",
-        "fully_built": "Gebäude vollständig ausgebaut",
-        "fully_destroyed": "Gebäude kann nicht weiter abgerissen werden",
-        "hide_completed": "Komplett ausgebaute Gebäude ausblenden",
-        "level_destroy": "Stufe abreißen",
-        "mode_build": "Bauen",
-        "mode_destroy": "Abriss",
+        "fullyBuilt": "Gebäude vollständig ausgebaut",
+        "fullyDestroyed": "Gebäude kann nicht weiter abgerissen werden",
+        "hideCompleted": "Komplett ausgebaute Gebäude ausblenden",
+        "levelDestroy": "Stufe abreißen",
+        "modeBuild": "Bauen",
+        "modeDestroy": "Abriss",
         "name": "Hauptgebäude",
         "nameTooShort": "Der Dorfname muss mindestens 3 Zeichen lang sein!",
         "noDestroy": "Du kannst keine Gebäude abreissen!",
         "orderSuccess": "Der Bauauftrag wurde erfolgreich eingestellt.",
         "queueBuild": "Aufträge in der Bauschleife kosten extra. Dennoch bauen?",
-        "queue_info": "Zusatzkosten für den nächsten Bauauftrag in der Bauwarteschlange: {x}",
-        "queue_text": "Die durch die Bauschleife erzeugten Zusatzkosten werden beim Abbruch nicht erstattet",
+        "queueInfo": "Zusatzkosten für den nächsten Bauauftrag in der Bauwarteschlange: {x}",
+        "queueText": "Die durch die Bauschleife erzeugten Zusatzkosten werden beim Abbruch nicht erstattet",
         "requirements": "Anforderungen",
         "requirementsNot": "Gebäudevoraussetzungen nicht erfüllt",
         "requires": "Benötigt:",
@@ -147,187 +147,187 @@
         "unknownBuilding": "Dieses Gebäude existiert nicht.",
         "unmet": "Noch nicht verfügbar"
     },
-    "building_market": {
+    "buildingMarket": {
         "description": "Auf dem Marktplatz kannst du mit anderen Spielern Handel betreiben oder ihnen Rohstoffe schicken.",
         "name": "Markt"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Alle",
         "arrival": "Ankunft",
-        "arrival_in": "Ankunft in",
+        "arrivalIn": "Ankunft in",
         "attack": "Angreifen",
         "attacker": "Angreifer",
         "attackingArmy": "Angreifer",
         "believing": "Gläubig",
         "calculate": "Berechnen",
         "catapult": "Katapultziel Gebäudelevel",
-        "catapult_damage": "Schaden durch Katapultbeschuss",
+        "catapultDamage": "Schaden durch Katapultbeschuss",
         "church": "Kirche",
         "command": "Befehle erteilen",
-        "confirm_attack": "Angriff auf {name} bestätigen",
-        "confirm_support": "Unterstützung für {name} bestätigen",
-        "damaged_building": "Gebäude beschädigt von Level <b>{before}<\/b> auf Level <b>{after}<\/b>",
-        "damaged_wall": "Wall beschädigt von Level <b>{before}<\/b> auf Level <b>{after}<\/b>",
+        "confirmAttack": "Angriff auf {name} bestätigen",
+        "confirmSupport": "Unterstützung für {name} bestätigen",
+        "damagedBuilding": "Gebäude beschädigt von Level <b>{before}<\/b> auf Level <b>{after}<\/b>",
+        "damagedWall": "Wall beschädigt von Level <b>{before}<\/b> auf Level <b>{after}<\/b>",
         "defender": "Verteidiger",
-        "defender_bonus": "100% Verteidigerbonus",
+        "defenderBonus": "100% Verteidigerbonus",
         "defendingArmy": "Verteidiger",
         "description": "Auf dem Versammlungsplatz treffen sich deine Krieger. Hier kannst du Angriffsbefehle erteilen und Truppen verlagern.",
         "duration": "Dauer",
-        "error_invalid_target": "Ziel nicht vorhanden",
-        "error_no_target": "Du musst ein Ziel auswählen!",
-        "error_no_troops": "Keine Einheiten ausgewählt",
-        "error_not_enough_troops": "Nicht genügend Truppen vorhanden",
-        "foreign_commands": "Fremde Befehle",
-        "from_this_village": "Aus diesem Dorf",
+        "errorInvalidTarget": "Ziel nicht vorhanden",
+        "errorNoTarget": "Du musst ein Ziel auswählen!",
+        "errorNoTroops": "Keine Einheiten ausgewählt",
+        "errorNotEnoughTroops": "Nicht genügend Truppen vorhanden",
+        "foreignCommands": "Fremde Befehle",
+        "fromThisVillage": "Aus diesem Dorf",
         "losses": "Verluste",
         "luck": "Glück (von -25% bis +25%)",
         "moral": "Moral",
-        "moral_calc": "Moralrechner",
+        "moralCalc": "Moralrechner",
         "name": "Versammlungsplatz",
         "night": "Nacht",
-        "own_commands": "Eigene Befehle",
-        "ram_damage": "Schaden durch Rammböcke",
-        "reset_attacker": "Angreifer zurücksetzen",
-        "reset_defender": "Verteidiger zurücksetzen",
+        "ownCommands": "Eigene Befehle",
+        "ramDamage": "Schaden durch Rammböcke",
+        "resetAttacker": "Angreifer zurücksetzen",
+        "resetDefender": "Verteidiger zurücksetzen",
         "sendback": "Zurückschicken",
         "simulator": "Simulator",
         "some": "Einige",
         "support": "Unterstützen",
         "target": "Ziel",
         "total": "Insgesamt",
-        "troop_movements": "Truppenbewegungen",
-        "troops_other_villages": "Truppen in anderen Dörfern",
+        "troopMovements": "Truppenbewegungen",
+        "troopsOtherVillages": "Truppen in anderen Dörfern",
         "units": "Einheiten",
         "wall": "Wall",
         "withdraw": "Zurückziehen"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Befehle",
         "secrets": "Geheimnis",
         "sim": "Simulator",
         "templates": "Truppen-Vorlagen",
         "units": "Truppen"
     },
-    "building_res": {
-        "amount_per_hour": "Einheiten pro Stunde",
-        "amount_per_hour_lvl": "Einheiten pro Stunde bei Stufe {lvl}",
-        "base_prod": "Basisproduktion",
-        "current_prod": "Derzeitige Produktion",
+    "buildingRes": {
+        "amountPerHour": "Einheiten pro Stunde",
+        "amountPerHourLvl": "Einheiten pro Stunde bei Stufe {lvl}",
+        "baseProd": "Basisproduktion",
+        "currentProd": "Derzeitige Produktion",
         "prod": "Produktion"
     },
-    "building_smith": {
-        "completly_researched": "Technologie vollständig erforscht",
+    "buildingSmith": {
+        "completlyResearched": "Technologie vollständig erforscht",
         "costs": "Bedarf",
         "description": "In der Schmiede werden Waffen erforscht und verbessert. Je höher die Ausbaustufe der Schmiede, desto bessere Waffen kannst du erforschen. Außerdem wird die Forschzeit verringert.",
-        "error_max_level": "Die maximale Stufe wurde bereits erforscht.",
-        "event_cancel": "Abbruch",
-        "event_finish": "Fertigstellung",
-        "event_research": "Forschungsauftrag",
-        "event_time": "Dauer",
+        "errorMaxLevel": "Die maximale Stufe wurde bereits erforscht.",
+        "eventCancel": "Abbruch",
+        "eventFinish": "Fertigstellung",
+        "eventResearch": "Forschungsauftrag",
+        "eventTime": "Dauer",
         "name": "Schmiede",
         "research": "Forschung",
-        "research_conditions_unmet": "Gebäudebedingungen nicht erfüllt",
+        "researchConditionsUnmet": "Gebäudebedingungen nicht erfüllt",
         "technology": "Technologie"
     },
-    "building_snob": {
-        "action_create_coin": "Prägen",
-        "already_created": "Für AG-Limit {x} bereits angespart",
-        "amount_creatable": "Anzahl Adelsgeschlechter, die noch erzeugt werden können",
-        "amount_ennobled": "Anzahl eroberter Dörfer",
-        "amount_still_producable": "Es können noch erzeugt werden",
-        "chose_amount": "Anzahl wählen",
-        "coin_hint": "Um weitere Adelsgeschlechter zu erschaffen, musst du Goldmünzen prägen. Je mehr Goldmünzen du besitzt, desto mehr Dörfer kannst du beherrschen.",
-        "coin_minted": "Du hast eine Goldmünze geprägt.",
-        "coins_plural": "Goldmünzen",
-        "coins_singular": "Goldmünze",
-        "create_coins": "Goldmünzen prägen",
+    "buildingSnob": {
+        "actionCreateCoin": "Prägen",
+        "alreadyCreated": "Für AG-Limit {x} bereits angespart",
+        "amountCreatable": "Anzahl Adelsgeschlechter, die noch erzeugt werden können",
+        "amountEnnobled": "Anzahl eroberter Dörfer",
+        "amountStillProducable": "Es können noch erzeugt werden",
+        "choseAmount": "Anzahl wählen",
+        "coinHint": "Um weitere Adelsgeschlechter zu erschaffen, musst du Goldmünzen prägen. Je mehr Goldmünzen du besitzt, desto mehr Dörfer kannst du beherrschen.",
+        "coinMinted": "Du hast eine Goldmünze geprägt.",
+        "coinsPlural": "Goldmünzen",
+        "coinsSingular": "Goldmünze",
+        "createCoins": "Goldmünzen prägen",
         "created": "Du hast {x} geprägt!",
-        "current_amount": "AGs vorhanden",
-        "current_limit": "Aktuelles AG-Limit",
-        "current_prod_amount": "AGs in Produktion",
+        "currentAmount": "AGs vorhanden",
+        "currentLimit": "Aktuelles AG-Limit",
+        "currentProdAmount": "AGs in Produktion",
         "description": "Im Adelshof kannst du Adelsgeschlechter erzeugen, mit denen du andere Dörfer erobern kannst.",
-        "do_create": "Einheit erzeugen",
-        "do_create_header": "Erzeugen",
+        "doCreate": "Einheit erzeugen",
+        "doCreateHeader": "Erzeugen",
         "farmTooSmall": "Der Bauernhof ist zu klein",
         "limit": "AG-Limit",
-        "limit_reached": "Es können keine weiteren Adelsgeschlechter erzeugt werden",
+        "limitReached": "Es können keine weiteren Adelsgeschlechter erzeugt werden",
         "name": "Adelshof",
         "overall": "Insgesamt",
-        "res_available": "Rohstoffe sind verfügbar.",
-        "res_enough": "Genug Rohstoffe in",
-        "still_missing": "Für AG-Limit {x} fehlen noch",
-        "storage_toosmall": "Der Speicher ist zu klein, um die benötigten Rohstoffe zu lagern."
+        "resAvailable": "Rohstoffe sind verfügbar.",
+        "resEnough": "Genug Rohstoffe in",
+        "stillMissing": "Für AG-Limit {x} fehlen noch",
+        "storageToosmall": "Der Speicher ist zu klein, um die benötigten Rohstoffe zu lagern."
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "coin": "Goldmünzen prägen",
         "train": "Erstellen"
     },
-    "building_stable": {
+    "buildingStable": {
         "description": "Im Stall kannst du Reiter ausbilden. Je höher die Ausbaustufe des Stalls, desto schneller kannst du deine Truppen ausbilden.",
         "name": "Stall"
     },
-    "building_statue": {
-        "all_items_found": "Dein Paladin hat alle Gegenstände gefunden",
+    "buildingStatue": {
+        "allItemsFound": "Dein Paladin hat alle Gegenstände gefunden",
         "amount": "Im Dorf\/Insgesamt",
         "cancel": "Abbrechen",
-        "cancel_info": "90% der verwendeten Rohstoffe werden erstattet",
+        "cancelInfo": "90% der verwendeten Rohstoffe werden erstattet",
         "create": "Einen Paladin rekrutieren",
         "description": "An der Statue huldigen die Dorfbewohner deinem Paladin. Sollte dein Paladin einmal fallen, kannst du hier einen deiner Kämpfer zum neuen Paladin ernennen.",
-        "do_cancel": "cancel",
-        "do_recruit": "Rekrutieren",
+        "doCancel": "cancel",
+        "doRecruit": "Rekrutieren",
         "duration": "Dauer",
-        "finding_progress": "Fortschritt bis zum Finden des nächsten Gegenstandes",
+        "findingProgress": "Fortschritt bis zum Finden des nächsten Gegenstandes",
         "finish": "Fertigstellung",
-        "inventory_des": "Gegenstände wirken nur auf Truppen, die von einem Paladin mit diesem Gegenstand begleitet werden",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventar",
+        "inventoryDes": "Gegenstände wirken nur auf Truppen, die von einem Paladin mit diesem Gegenstand begleitet werden",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventar",
         "name": "Statue",
         "need": "Bedarf",
-        "pala_att": "%p greift %v an.",
-        "pala_do_rename": "Umbenennen",
-        "pala_exists": "Jeder Spieler darf nur einen Paladin haben",
-        "pala_idle": "%p ist in %v stationiert.",
-        "pala_move": "» In dieses Dorf bewegen",
-        "pala_moving": "%p ist auf dem Weg nach %v. Ankunft: %t",
-        "pala_name": "Name",
-        "pala_name_error": "Der Name muss zwischen 3 und 50 Zeichen lang sein.",
-        "pala_rename": "Paladin umbenennen",
-        "pala_return": "%p kehrt von %v zurück.",
-        "pala_supp": "%p unterstützt %v.",
+        "palaAtt": "%p greift %v an.",
+        "palaDoRename": "Umbenennen",
+        "palaExists": "Jeder Spieler darf nur einen Paladin haben",
+        "palaIdle": "%p ist in %v stationiert.",
+        "palaMove": "» In dieses Dorf bewegen",
+        "palaMoving": "%p ist auf dem Weg nach %v. Ankunft: %t",
+        "palaName": "Name",
+        "palaNameError": "Der Name muss zwischen 3 und 50 Zeichen lang sein.",
+        "palaRename": "Paladin umbenennen",
+        "palaReturn": "%p kehrt von %v zurück.",
+        "palaSupp": "%p unterstützt %v.",
         "recruit": "Rekrutierung",
-        "this_village1": "dieses Dorf",
-        "this_village2": "dieses Dorf",
+        "thisVillage1": "dieses Dorf",
+        "thisVillage2": "dieses Dorf",
         "time": "Zeit",
         "unit": "Einheit",
-        "your_pala": "Dein Paladin"
+        "yourPala": "Dein Paladin"
     },
-    "building_stone": {
+    "buildingStone": {
         "description": "In der Lehmgrube fördern deine Arbeiter den für den Aufbau deines Dorfes wichtigen Lehm. Je höher die Ausbaustufe, desto mehr Lehm wird gefördert.",
         "name": "Lehmgrube"
     },
-    "building_storage": {
-        "amount_per_res": "Einheiten je Rohstoff",
+    "buildingStorage": {
+        "amountPerRes": "Einheiten je Rohstoff",
         "capacity": "Speicherkapazität",
-        "capacity_at_level": "Speicherkapazität bei Stufe",
-        "current_capacity": "Aktuelle Speicherkapazität",
+        "capacityAtLevel": "Speicherkapazität bei Stufe",
+        "currentCapacity": "Aktuelle Speicherkapazität",
         "description": "Im Speicher können die von deinem Dorf produzierten Rohstoffe gelagert werden. Je höher die Ausbaustufe des Speichers, desto mehr Rohstoffe können eingelagert werden.",
         "full": "voll",
-        "is_full": "Speicher ist voll. Es können keine weiteren Rohstoffe mehr eingelagert werden!",
+        "isFull": "Speicher ist voll. Es können keine weiteren Rohstoffe mehr eingelagert werden!",
         "name": "Speicher",
-        "table_head": "Speicher voll",
-        "time_description": "Zeit (hh:mm:ss)"
+        "tableHead": "Speicher voll",
+        "timeDescription": "Zeit (hh:mm:ss)"
     },
-    "building_wall": {
-        "basic_defense": "Grundverteidigung",
-        "defensive_bonus": "Defensive bonus",
+    "buildingWall": {
+        "basicDefense": "Grundverteidigung",
+        "defensiveBonus": "Defensive bonus",
         "description": "Der Wall schützt dein Dorf vor feindlichen Truppen. Durch den Wall wird sowohl die Grundverteidigung als auch der Verteidigungswert deiner Truppen erhöht.",
         "name": "Wall"
     },
-    "building_wood": {
+    "buildingWood": {
         "description": "Deine Holzfäller schlagen in den dichten Wäldern außerhalb deines Dorfes das massive Holz, das sowohl für den Aufbau deiner Siedlung als auch für die Bewaffnung deines Heeres benötigt wird. Je höher die Ausbaustufe des Holzfällers, desto mehr Nutzholz kann produziert werden.",
         "name": "Holzfäller"
     },
-    "create_village": {
+    "createVillage": {
         "creationFailed": "Das Dorf konnte nicht erstellt werden.",
         "dally": "Im Zentrum meines Stammes",
         "description": "In welcher Himmelsrichtung soll dein neues Dorf erbaut werden?",
@@ -345,7 +345,7 @@
         "technical": "Technischer Fehler aufgetreten! :("
     },
     "game": {
-        "_none": "keine",
+        "None": "keine",
         "booty": "Beute",
         "buddies": "Freunde",
         "cancel": "Abbrechen",
@@ -354,16 +354,16 @@
         "costs": "Kosten",
         "current": "Aktuell",
         "date": "d.m.Y",
-        "decimal_delimeter": ".",
+        "decimalDelimeter": ".",
         "edit": "bearbeiten",
         "errorWorld": "Die Welt {world} existiert nicht!",
-        "gen_time": "generiert in {time} ms",
+        "genTime": "generiert in {time} ms",
         "important": "Wichtig",
-        "in_village": "Im Dorf\/Insgesamt",
+        "inVillage": "Im Dorf\/Insgesamt",
         "iron": "Eisen",
         "notexist": "{user} existiert nicht!",
         "ok": "OK",
-        "on_level": "Auf Stufe {level}",
+        "onLevel": "Auf Stufe {level}",
         "options": "Optionen",
         "overdue": "überfällig",
         "page": "Seite",
@@ -379,7 +379,7 @@
         "storage": "Speicherkapazität",
         "support": "Support",
         "text": "Text",
-        "thousand_delimeter": "'",
+        "thousandDelimeter": "'",
         "time": "H:i:s",
         "microtime": "H:i:s:\\<\\s\\m\\a\\l\\l \\c\\l\\a\\s\\s\\=\"\\g\\r\\e\\y \\s\\m\\a\\l\\l\"\\>u\\<\\\/\\s\\m\\a\\l\\l\\>",
         "unit": "Einheit",
@@ -389,12 +389,12 @@
         "wood": "Holz",
         "name": "Name",
         "rank": "Rang",
-        "global_rank": "Globaler Rang",
+        "globalRank": "Globaler Rang",
         "villages": "Dörfer",
         "yes": "Ja",
         "birthday": "Geburtstag",
         "banned": "Gesperrt",
-        "based_on": "Basierend auf",
+        "basedOn": "Basierend auf",
         "version": "Version"
     },
     "game.ally": {
@@ -420,11 +420,11 @@
         "tribe": "Stamm",
         "description": "Beschreibung",
         "application": "Bewerbung",
-        "may_apply": "Spieler können sich beim Stamm bewerben",
-        "apply_template": "Vorlage",
+        "mayApply": "Spieler können sich beim Stamm bewerben",
+        "applyTemplate": "Vorlage",
         "disband": "Stamm auflösen",
-        "disband_confirm": "Willst du wirklich deinen Stamm auflösen?",
-        "coat_of_arms": "Stammeswappen"
+        "disbandConfirm": "Willst du wirklich deinen Stamm auflösen?",
+        "coatOfArms": "Stammeswappen"
     },
     "game.ally.diplomaty": {
         "alreadyrelation": "Es existiert schon eine Beziehung zu dem Stamm.",
@@ -456,22 +456,22 @@
     "game.ally.forum": {
         "add": "hinzufügen",
         "author": "Autor",
-        "choose_all": "alle auswählen",
+        "chooseAll": "alle auswählen",
         "close": "Schließen",
         "confirm": "bestätigen",
-        "confirm_delete_thread": "Soll dieses Thema wirklich gelöscht werden?",
-        "confirm_delete_threads": "Themen wirklich löschen?",
+        "confirmDeleteThread": "Soll dieses Thema wirklich gelöscht werden?",
+        "confirmDeleteThreads": "Themen wirklich löschen?",
         "create": "Erstellen",
-        "create_newpoll": "Neue Umfrage erstellen",
-        "create_newthread": "Neues Thema erstellen",
+        "createNewpoll": "Neue Umfrage erstellen",
+        "createNewthread": "Neues Thema erstellen",
         "delete": "Löschen",
         "edit": "Bearbeiten",
-        "edited_by": "Zuletzt bearbeitet von",
-        "end_poll_after": "Beende Umfrage nach",
+        "editedBy": "Zuletzt bearbeitet von",
+        "endPollAfter": "Beende Umfrage nach",
         "forum": "Forum",
-        "is_closed": "geschlossen",
-        "is_read": "Gelesen",
-        "last_post": "Letzter Beitrag",
+        "isClosed": "geschlossen",
+        "isRead": "Gelesen",
+        "lastPost": "Letzter Beitrag",
         "markallasread": "Alle Foren als gelesen markieren",
         "markasread": "Forum als gelesen markieren",
         "modify": "ändern",
@@ -483,21 +483,21 @@
         "question": "Frage",
         "replies": "Antworten",
         "reply": "Antwort",
-        "show_results": "Ergebnisse anzeigen, wenn noch nicht abgestimmt wurde.",
+        "showResults": "Ergebnisse anzeigen, wenn noch nicht abgestimmt wurde.",
         "title": "Titel",
         "topics": "Themen",
         "vote": "Abstimmen"
     },
     "game.ally.forum.admin": {
         "access": "Zugriff",
-        "access_to_this_forum": "Zugriff auf dieses Forum",
+        "accessToThisForum": "Zugriff auf dieses Forum",
         "action": "Aktion",
-        "add_tribes": "Stämme hinzufügen",
-        "create_new": "Neues Forum erstellen",
-        "forum_name": "Forumname",
+        "addTribes": "Stämme hinzufügen",
+        "createNew": "Neues Forum erstellen",
+        "forumName": "Forumname",
         "loading": "Lädt",
-        "modifyable_order": "Du kannst die Reihenfolge der Ordner-Einträge verändern, indem du sie mit der Maus an die gewünschte Position ziehst.",
-        "not_yet_confirmed": "Dieser Stamm hat dem Teilen des Forums noch nicht zugestimmt",
+        "modifyableOrder": "Du kannst die Reihenfolge der Ordner-Einträge verändern, indem du sie mit der Maus an die gewünschte Position ziehst.",
+        "notYetConfirmed": "Dieser Stamm hat dem Teilen des Forums noch nicht zugestimmt",
         "rename": "Umbenennen",
         "visibility": "Sichtbarkeit"
     },
@@ -520,29 +520,29 @@
         "lead": "Stammesführung",
         "invite": "Einladen",
         "diplomacy": "Diplomatie",
-        "mass_mail": "Rundschreiben",
-        "forum_mod": "Moderator im internen Forum",
-        "internal_forum": "Versteckte Foren",
-        "trusted_member": "Vertrauenswürdiges Mitglied",
-        "choose_action": "Aktion wählen...",
+        "massMail": "Rundschreiben",
+        "forumMod": "Moderator im internen Forum",
+        "internalForum": "Versteckte Foren",
+        "trustedMember": "Vertrauenswürdiges Mitglied",
+        "chooseAction": "Aktion wählen...",
         "rights": "Rechte und Titel",
         "kick": "Entlassen",
-        "edit_rights": "Rechte bearbeiten",
+        "editRights": "Rechte bearbeiten",
         "status": "Status",
         "active": "Aktiv",
-        "save_rights": "Rechte speichern",
-        "modify_permissions": "Rechte verändern von {player}",
-        "permission_desc": "Hier kannst du auswählen, welche Rechte der Spieler deines Stammes\nerlangen soll. Das Gründerrecht solltest du nur an Spieler vergeben,\ndie du sehr gut kennst und denen du vertrauen kannst.",
-        "founder_desc": "Ernennt den Spieler zum Stammesgründer. Er besitzt damit alle\nStammesrechte, kann den Stamm auflösen und umbenennen,\nStammeshomepage und IRC-Channel eintragen, das interne Forum\nadministrieren und andere zum Gründer ernennen.",
-        "lead_desc": "Mitglieder der Stammesführung können Rechte und Titel anderer\nSpieler festlegen, Spieler entlassen und haben alle weiteren Rechte.",
+        "saveRights": "Rechte speichern",
+        "modifyPermissions": "Rechte verändern von {player}",
+        "permissionDesc": "Hier kannst du auswählen, welche Rechte der Spieler deines Stammes\nerlangen soll. Das Gründerrecht solltest du nur an Spieler vergeben,\ndie du sehr gut kennst und denen du vertrauen kannst.",
+        "founderDesc": "Ernennt den Spieler zum Stammesgründer. Er besitzt damit alle\nStammesrechte, kann den Stamm auflösen und umbenennen,\nStammeshomepage und IRC-Channel eintragen, das interne Forum\nadministrieren und andere zum Gründer ernennen.",
+        "leadDesc": "Mitglieder der Stammesführung können Rechte und Titel anderer\nSpieler festlegen, Spieler entlassen und haben alle weiteren Rechte.",
         "title": "Titel",
-        "title_inally": "Titel im Stamm",
-        "external_title": "Titel nach außen sichtbar"
+        "titleInally": "Titel im Stamm",
+        "externalTitle": "Titel nach außen sichtbar"
     },
     "game.ally.navi": {
         "contracts": "Diplomatie",
         "forum": "Stammesforum",
-        "intro_igm": "Begrüßung",
+        "introIgm": "Begrüßung",
         "invite": "Rekrutierung",
         "members": "Mitglieder",
         "overview": "Übersicht",
@@ -553,11 +553,11 @@
     },
     "game.ally.profile": {
         "properties": "Eigenschaften",
-        "member_count": "Mitgliederanzahl",
-        "points_best40": "Punkte der 40 besten Spieler",
-        "points_overall": "Punkte insgesamt",
-        "points_average": "Punktedurchschnitt",
-        "defeated_enemies": "Besiegte Gegner",
+        "memberCount": "Mitgliederanzahl",
+        "pointsBest40": "Punkte der 40 besten Spieler",
+        "pointsOverall": "Punkte insgesamt",
+        "pointsAverage": "Punktedurchschnitt",
+        "defeatedEnemies": "Besiegte Gegner",
         "members": "Mitglieder",
         "startpage": "Startseite",
         "irc": "IRC-Channel"
@@ -580,11 +580,11 @@
         "table": "Tabelle",
         "underline": "Unterstrichen",
         "units": "Einheiten",
-        "very_small": "Sehr klein",
+        "verySmall": "Sehr klein",
         "small": "Klein",
         "normal": "Normal",
         "large": "Groß",
-        "very_large": "Sehr groß"
+        "veryLarge": "Sehr groß"
     },
     "game.error": {
         "methodNotFound": "\"{controller}\" hat keine Funktion \"{method}\".",
@@ -601,8 +601,8 @@
         "nogroups": "keine Gruppen vorhanden",
         "noun": "Groups",
         "rename": "Gruppe umbenennen",
-        "apply_groups": "Gruppen setzen",
-        "assigned_groups": "Gruppenzugehörigkeit"
+        "applyGroups": "Gruppen setzen",
+        "assignedGroups": "Gruppenzugehörigkeit"
     },
     "game.mail": {
         "msgs": "Nachrichten"
@@ -610,7 +610,7 @@
     "game.mail.modes": {
         "block": "Absender blockieren",
         "in": "Nachrichten",
-        "mass_out": "Rundschreiben",
+        "massOut": "Rundschreiben",
         "new": "Nachricht schreiben"
     },
     "game.map": {
@@ -632,8 +632,8 @@
     "game.menu.ally": {
         "contracts": "Diplomatie",
         "forum": "Stammesforum",
-        "i_new": "Neuer Beitrag im Stammesforum",
-        "i_old": "Kein neuer Beitrag im Stammesforum",
+        "iNew": "Neuer Beitrag im Stammesforum",
+        "iOld": "Kein neuer Beitrag im Stammesforum",
         "members": "Mitglieder",
         "overview": "Übersicht",
         "profile": "Profil",
@@ -645,9 +645,9 @@
         "address": "Adressbuch",
         "block": "Absender blockieren",
         "groups": "Ordner",
-        "i_new": "Neue Nachricht",
+        "iNew": "Neue Nachricht",
         "in": "Nachrichten",
-        "mass_out": "Rundschreiben",
+        "massOut": "Rundschreiben",
         "new": "Nachricht schreiben",
         "title": "Nachrichten"
     },
@@ -665,7 +665,7 @@
     },
     "game.menu.profile": {
         "achievements": "Errungenschaften",
-        "block_list": "Geblockte Spieler",
+        "blockList": "Geblockte Spieler",
         "friends": "Freunde",
         "inventory": "Inventar",
         "statistics": "Statistiken",
@@ -673,10 +673,10 @@
     },
     "game.menu.ranking": {
         "ally": "Stämme",
-        "con_ally": "Kontinent Stämme",
-        "con_player": "Kontinent Spieler",
-        "kill_ally": "Besiegte Gegner Stämme",
-        "kill_player": "Besiegte Gegner",
+        "conAlly": "Kontinent Stämme",
+        "conPlayer": "Kontinent Spieler",
+        "killAlly": "Besiegte Gegner Stämme",
+        "killPlayer": "Besiegte Gegner",
         "player": "Spieler",
         "points": "({rank}.|{points} P)",
         "title": "Rangliste",
@@ -689,7 +689,7 @@
         "defense": "Verteidigung",
         "filter": "Filter",
         "forwarded": "Weitergeleitet",
-        "i_new": "Neuer Bericht",
+        "iNew": "Neuer Bericht",
         "other": "Sonstiges",
         "public": "Öffentliche Berichte",
         "support": "Unterstützung",
@@ -698,7 +698,7 @@
     },
     "game.menu.settings": {
         "block": "Spieler blockieren",
-        "change_passwd": "Passwort ändern",
+        "changePasswd": "Passwort ändern",
         "delete": "Account löschen",
         "logins": "Logins",
         "notify": "Benachrichtigungen",
@@ -712,36 +712,36 @@
         "toolbar": "Toolbar"
     },
     "game.overview": {
-        "beginner_protection": "Dein Angriffsschutz endet {date}",
+        "beginnerProtection": "Dein Angriffsschutz endet {date}",
         "build": "Gebäude ausbauen",
-        "cancel_build": "Willst du den Bauauftrag wirklich abbrechen?",
-        "classical_overview": "zur klassischen Dorfübersicht",
+        "cancelBuild": "Willst du den Bauauftrag wirklich abbrechen?",
+        "classicalOverview": "zur klassischen Dorfübersicht",
         "forAll": "» Für alle Dörfer übernehmen",
         "forAllConfirm": "Wirklich für alle Dörfer übernehmen?",
-        "graphical_overview": "zur graphischen Dorfübersicht",
-        "hide_levels": "Gebäudestufen ausblenden",
+        "graphicalOverview": "zur graphischen Dorfübersicht",
+        "hideLevels": "Gebäudestufen ausblenden",
         "level": "(Stufe {x}{extra})",
-        "prod_hour": "{x} pro Stunde",
-        "prod_minute": "{x} pro Minute",
-        "prod_second": "{x} pro Sekunde",
+        "prodHour": "{x} pro Stunde",
+        "prodMinute": "{x} pro Minute",
+        "prodSecond": "{x} pro Sekunde",
         "recruit": "» rekrutieren",
         "reset": "» Übersicht zurücksetzen",
         "resourceLabel1": "Bauzeit: {t}",
         "resourceLabel2": "Bauzeit: {t1}freie Bevölkerung: {t2}",
         "setDefault": "» Als Standard festlegen",
-        "show_all": "Alle Widgets anzeigen",
-        "show_levels": "Gebäudestufen anzeigen"
+        "showAll": "Alle Widgets anzeigen",
+        "showLevels": "Gebäudestufen anzeigen"
     },
     "game.overview.widgets": {
         "belief": "Glauben",
         "buildqueue": "Bauschleife",
         "flags": "Flaggen",
         "groups": "Gruppenzugehörigkeit",
-        "incoming_units": "Ankommende Truppen",
+        "incomingUnits": "Ankommende Truppen",
         "loyalty": "Zustimmung",
         "newbie": "Angriffsschutz",
         "notes": "Notizen",
-        "outgoing_units": "Deine Truppen",
+        "outgoingUnits": "Deine Truppen",
         "prod": "Produktion",
         "secret": "Geheimnis",
         "summary": "Gebäude",
@@ -763,15 +763,15 @@
         "from": "Von",
         "losses": "Verluste",
         "loyalty": "Zustimmung",
-        "loyalty_change": "Gesunken von <b>{from}<\/b> auf <b>{to}<\/b>",
+        "loyaltyChange": "Gesunken von <b>{from}<\/b> auf <b>{to}<\/b>",
         "luck": "Angreiferglück",
         "new": "neu",
-        "no_def_info": "Keiner deiner Kämpfer ist lebend zurückgekehrt. <br>Es konnten keine Informationen über die Truppenstärke des Gegners erlangt werden.",
-        "normal_luck": "Glück",
+        "noDefInfo": "Keiner deiner Kämpfer ist lebend zurückgekehrt. <br>Es konnten keine Informationen über die Truppenstärke des Gegners erlangt werden.",
+        "normalLuck": "Glück",
         "origin": "Herkunft",
         "received": "Empfangen",
         "rename": "Umbenennen",
-        "select_all": "Alle auswählen",
+        "selectAll": "Alle auswählen",
         "subject": "Betreff",
         "support": "{fromUser} ({fromVillage}) unterstützt {toVillage}",
         "target": "Ziel",
@@ -796,25 +796,25 @@
     "game.title": {
         "attacks": "Eintreffende Angriffe",
         "close": "schließen",
-        "first_village": "Zum ersten Gruppendorf",
+        "firstVillage": "Zum ersten Gruppendorf",
         "group": "Gruppe:",
         "supports": "Eintreffende Unterstützung",
         "village": "Dorf"
     },
     "game.train": {
         "desc": "In dieser Übersicht kannst du jegliche Art von Einheiten produzieren, insofern du über die notwendigen Gebäude und Technologien verfügst.",
-        "mode_decommission": "Ausmusterung",
-        "mode_train": "Rekrutierung",
-        "not_enough": "Nicht genügend Ressourcen vorhanden",
-        "mode_massrecruitment": "Massenrekrutierung",
-        "mode_massdecomission": "Massenausmusterung"
+        "modeDecommission": "Ausmusterung",
+        "modeTrain": "Rekrutierung",
+        "notEnough": "Nicht genügend Ressourcen vorhanden",
+        "modeMassrecruitment": "Massenrekrutierung",
+        "modeMassdecomission": "Massenausmusterung"
     },
     "game.train.queue": {
         "cancel": "abbrechen",
-        "cancel_all": "Alle abbrechen",
-        "cancel_back": "* (90% der Ressourcen werden erstattet)",
-        "cancel_sure": "Bist du dir sicher, dass du diese Rekrutierungen abbrechen willst?",
-        "cancel_title": "* abbrechen",
+        "cancelAll": "Alle abbrechen",
+        "cancelBack": "* (90% der Ressourcen werden erstattet)",
+        "cancelSure": "Bist du dir sicher, dass du diese Rekrutierungen abbrechen willst?",
+        "cancelTitle": "* abbrechen",
         "completion": "Fertigstellung",
         "drag": "Hier kannst du die Reihenfolge der Aufträge ändern, in dem du sie zur gewünschten Stelle bewegst.",
         "duration": "Dauer",
@@ -822,28 +822,28 @@
         "train": "Rekrutierung"
     },
     "game.unit": {
-        "already_researched": "bereits erforscht",
-        "attack_strength": "Angriffsstärke",
+        "alreadyResearched": "bereits erforscht",
+        "attackStrength": "Angriffsstärke",
         "capacity": "Trägekapazität",
-        "combat_values": "Kampfwerte",
-        "defense_archer": "Verteidigung Bogenschützen",
-        "defense_cav": "Verteidigung Kavallerie",
-        "defense_general": "Verteidigung allgemein",
-        "not_available": "Noch nicht verfügbar",
+        "combatValues": "Kampfwerte",
+        "defenseArcher": "Verteidigung Bogenschützen",
+        "defenseCav": "Verteidigung Kavallerie",
+        "defenseGeneral": "Verteidigung allgemein",
+        "notAvailable": "Noch nicht verfügbar",
         "recruit": "Rekrutieren",
-        "recruit_started": "Rekrutierung angefangen",
+        "recruitStarted": "Rekrutierung angefangen",
         "requirements": "Voraussetzungen um die Einheit zu erforschen",
-        "research_costs": "Forschungskosten",
-        "research_time": "Forschungszeit",
-        "tech_level": "Tech-Level",
+        "researchCosts": "Forschungskosten",
+        "researchTime": "Forschungszeit",
+        "techLevel": "Tech-Level",
         "decommission": "Ausmustern"
     },
     "game.village": {
         "name": "{user} Dorf",
-        "name_left": "Barbarendorf",
-        "special_chars": "sxz",
-        "username_normal": "{user}s",
-        "username_special": "{user}'"
+        "nameLeft": "Barbarendorf",
+        "specialChars": "sxz",
+        "usernameNormal": "{user}s",
+        "usernameSpecial": "{user}'"
     },
     "index": {
         "activeWorlds": "Aktive Welten",
@@ -886,9 +886,9 @@
         "spear": "Eidgenössische Hellebarde",
         "spy": "Kalids Fernrohr",
         "sword": "Ullrichs Langschwert",
-        "no_item": "Kein Gegenstand"
+        "noItem": "Kein Gegenstand"
     },
-    "knight_items_desc": {
+    "knightItemsDesc": {
         "archer": "Erhöht die Kampfkraft der Bogenschützen im Angriff um %atk und um %def in der Verteidigung.",
         "axe": "Erhöht die Kampfkraft der Axtkämpfer im Angriff um %atk und um %def in der Verteidigung.",
         "catapult": "Erhöht den Schaden der Katapulte um %special.",
@@ -947,7 +947,7 @@
         "register": "Registrieren",
         "title": "Registrieren"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "content": "Deine Sitzung ist abgelaufen. Logge dich bitte auf der {link} neu ein",
         "index": "Startseite",
         "link": "{t} Startseite",
@@ -958,90 +958,90 @@
     "time": {
         "days": "Tagen",
         "ident": "um",
-        "ident_day": "am",
-        "ident_noun": "Uhr",
+        "identDay": "am",
+        "identNoun": "Uhr",
         "onDay": "am {day}",
         "onTime": "{day} um {time} Uhr",
         "today": "heute",
         "tomorrow": "morgen"
     },
-    "unit_archer": {
+    "unitArcher": {
         "desc": "Der Bogenschütze ist ein effektiver Verteidiger. Selbst gepanzerte Rüstungen werden im Pfeilhagel durchschlagen.",
         "name": "Bogenschütze",
         "plural": "Bogenschützen",
         "short": "Bogenschütze"
     },
-    "unit_axe": {
+    "unitAxe": {
         "desc": "Der Axtkämpfer ist eine starke Offensiveinheit. Mit Sturmgebrüll rasen diese wilden Krieger auf die feindlichen Truppen zu.",
         "name": "Axtkämpfer",
         "plural": "Axtkämpfer",
         "short": "Axt"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "desc": "Das Katapult ist besonders geeignet, um gegnerische Gebäude zu zerstören.",
         "name": "Katapult",
         "plural": "Katapulte",
         "short": "Kata"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "desc": "Die Schwere Kavallerie ist die Elite deiner Truppen. Die meist adligen Reiter verfügen über gehärtete Waffen und starke Panzerung.",
         "name": "Schwere Kavallerie",
         "plural": "Schwere Kavallerie",
         "short": "SKAV"
     },
-    "unit_knight": {
+    "unitKnight": {
         "desc": "Der edle Paladin beschützt dein Dorf und deine Verbündeten vor feindlichen Angreifern. Jeder Spieler kann nur einen Paladin haben.",
         "name": "Paladin",
         "short": "Pala"
     },
-    "unit_light": {
+    "unitLight": {
         "desc": "Die leichte Kavallerie ist vor allem geeignet, um Überraschungsangriffe auf gegnerische Dörfer durchzuführen.",
         "name": "Leichte Kavallerie",
         "plural": "Leichte Kavallerie",
         "short": "LKAV"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "desc": "Der berittene Bogenschütze ist besonders geeignet, um mit präzisen Schüssen feindliche Bogenschützen von der Mauer zu holen.",
         "name": "Berittener Bogenschütze",
         "plural": "Berittene Bogenschützen",
         "short": "BBogen"
     },
-    "unit_militia": {
+    "unitMilitia": {
         "name": "Miliz"
     },
-    "unit_movement": {
+    "unitMovement": {
         "attack": "Angriff auf {to}",
         "back": "Rückzug von {to}",
         "cancel": "Abgebrochener Befehl nach {from}",
-        "other_back": "Zurückgeschickt von {to}",
+        "otherBack": "Zurückgeschickt von {to}",
         "return": "Rückkehr von {from}",
         "support": "Unterstützung für {to}"
     },
-    "unit_ram": {
+    "unitRam": {
         "desc": "Der Rammbock unterstützt dich bei Angriffen, da er den gegnerischen Wall beschädigt.",
         "name": "Rammbock",
         "plural": "Rammen",
         "short": "Rammbock"
     },
-    "unit_snob": {
+    "unitSnob": {
         "desc": "Das Adelsgeschlecht kann durch Angriffe die Zustimmung des gegnerischen Dorfes verringern. Anschließend kann das Dorf erobert werden. Die Kosten für Adelsgeschlechter wachsen mit jedem eroberten Dorf und jedem vorhandenen oder in Produktion befindlichen Adelsgeschlecht.",
         "name": "Adelsgeschlecht",
         "plural": "Adelsgeschlechter",
         "short": "AG"
     },
-    "unit_spear": {
+    "unitSpear": {
         "desc": "Der Speerträger ist die einfachste Einheit. Er ist besonders effektiv in der Verteidigung gegen Reiter.",
         "name": "Speerträger",
         "plural": "Speerträger",
         "short": "Speer"
     },
-    "unit_spy": {
+    "unitSpy": {
         "desc": "Der Späher schleicht sich in feindliche Dörfer ein, um Informationen zu erlangen.",
         "name": "Späher",
         "plural": "Späher",
         "short": "Späher"
     },
-    "unit_sword": {
+    "unitSword": {
         "desc": "Der Schwertkämpfer ist vor allem zur Verteidigung gegen Infanterie geeignet. Er ist allerdings relativ langsam.",
         "name": "Schwertkämpfer",
         "plural": "Schwertkämpfer",

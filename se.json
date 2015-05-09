@@ -10,39 +10,39 @@
         "login": "Logga in",
         "password": "Lösenord"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Kaserner"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Kyrka"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Bondgård"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Verkstad"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Järngruva"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Bygg",
-        "build_time": "Konstruktionstid",
+        "buildTime": "Konstruktionstid",
         "building": "Byggnader",
         "cancel": "Avbryt",
-        "change_name": "Byt bynamn",
-        "event_time": "Varaktighet",
-        "mode_build": "Bygg",
-        "mode_destroy": "Demolering",
+        "changeName": "Byt bynamn",
+        "eventTime": "Varaktighet",
+        "modeBuild": "Bygg",
+        "modeDestroy": "Demolering",
         "name": "Högkvarter"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Marknad"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Alla",
         "arrival": "Ankomst",
-        "arrival_in": "Ankomst om",
+        "arrivalIn": "Ankomst om",
         "attack": "Anfall",
         "attacker": "Anfallare",
         "attackingArmy": "Anfallare",
@@ -59,51 +59,51 @@
         "wall": "Mur",
         "withdraw": "Dra tillbaka"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Kommandon"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produktion"
     },
-    "building_smith": {
-        "event_time": "Varaktighet"
+    "buildingSmith": {
+        "eventTime": "Varaktighet"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Totalt"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Skapa"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Stall"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventarium",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventarium",
         "name": "Staty",
-        "pala_name": "Namn"
+        "palaName": "Namn"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Lergrop"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Lagringskapacitet",
         "name": "Lager",
-        "table_head": "Lagret är fullt"
+        "tableHead": "Lagret är fullt"
     },
-    "building_wall": {
-        "basic_defense": "Grundförsvar",
+    "buildingWall": {
+        "basicDefense": "Grundförsvar",
         "name": "Mur"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Sågverk"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Bekräfta"
     },
     "game": {
-        "_none": "Inget",
+        "None": "Inget",
         "booty": "Byte",
         "buddies": "Vänner",
         "cancel": "Avbryt",
@@ -147,7 +147,7 @@
         "create": "Skapa",
         "delete": "Radera",
         "forum": "Forum",
-        "last_post": "Senaste inlägg",
+        "lastPost": "Senaste inlägg",
         "newpoll": "Ny undersökning",
         "replies": "Svara",
         "reply": "Svar",
@@ -215,7 +215,7 @@
         "title": "Stam"
     },
     "game.menu.mails": {
-        "i_new": "Nytt meddelande",
+        "iNew": "Nytt meddelande",
         "in": "Meddelanden",
         "title": "Meddelanden"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Stammar",
-        "kill_player": "Motståndare besegrade",
+        "killPlayer": "Motståndare besegrade",
         "player": "Spelare",
         "title": "Rankingar"
     },
@@ -249,7 +249,7 @@
         "trade": "Handel"
     },
     "game.menu.settings": {
-        "change_passwd": "Ändra lösenord",
+        "changePasswd": "Ändra lösenord",
         "poll": "Undersökningar",
         "profile": "Profil",
         "settings": "Inställningar",
@@ -271,7 +271,7 @@
         "defender": "Försvarare",
         "from": "från",
         "losses": "Förluster",
-        "normal_luck": "Tur",
+        "normalLuck": "Tur",
         "origin": "Ursprung",
         "target": "Mål",
         "title": "Rapporter",
@@ -289,7 +289,7 @@
         "village": "By"
     },
     "game.train": {
-        "mode_train": "Värva"
+        "modeTrain": "Värva"
     },
     "game.train.queue": {
         "cancel": "Avbryt",
@@ -297,10 +297,10 @@
         "train": "Värva"
     },
     "game.unit": {
-        "attack_strength": "Anfallskraft"
+        "attackStrength": "Anfallskraft"
     },
     "game.village": {
-        "name_left": "Barbarby"
+        "nameLeft": "Barbarby"
     },
     "index": {
         "availableWorlds": "Öppna världar",
@@ -330,46 +330,46 @@
         "register": "Registrera dig",
         "title": "Registrera dig"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Hem"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Bågskytt",
         "short": "Bågskytt"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Yxkrigare",
         "plural": "Yxkrigare",
         "short": "Yxa"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Tungt kavalleri",
         "plural": "Tungt kavalleri"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Lätt kavalleri",
         "plural": "Lätt kavalleri"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Beriden bågskytt"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Murbräcka",
         "short": "Murbräcka"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Adelsman"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Spjut"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Svärdsman",
         "plural": "Svärdsman",
         "short": "Svärd"

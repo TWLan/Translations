@@ -10,39 +10,39 @@
         "login": "Zaloguj",
         "password": "Hasło"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Koszary"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Kościół"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Farma"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Warsztat"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Huta żelaza"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Wybuduj",
-        "build_time": "Czas budowy",
+        "buildTime": "Czas budowy",
         "building": "Budynki",
         "cancel": "Anuluj",
-        "change_name": "Zmień nazwę wioski",
-        "event_time": "Czas trwania",
-        "mode_build": "Wybuduj",
-        "mode_destroy": "Wyburzanie",
+        "changeName": "Zmień nazwę wioski",
+        "eventTime": "Czas trwania",
+        "modeBuild": "Wybuduj",
+        "modeDestroy": "Wyburzanie",
         "name": "Ratusz"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Rynek"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Wszystkie",
         "arrival": "Przybycie",
-        "arrival_in": "Przybycie za",
+        "arrivalIn": "Przybycie za",
         "attack": "zaatakuj",
         "attacker": "Najeźdźca",
         "attackingArmy": "Najeźdźca",
@@ -59,51 +59,51 @@
         "wall": "Mury obronne",
         "withdraw": "Wycofaj"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Rozkazy"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produkcja"
     },
-    "building_smith": {
-        "event_time": "Czas trwania"
+    "buildingSmith": {
+        "eventTime": "Czas trwania"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Ogółem"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Utwórz"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Stajnia"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Rycerz",
-        "mode_inventory": "Ekwipunek",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Rycerz",
+        "modeInventory": "Ekwipunek",
         "name": "Piedestał",
-        "pala_name": "Nazwa"
+        "palaName": "Nazwa"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Kopalnia gliny"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Przestrzeń magazynowa",
         "name": "Magazyn",
-        "table_head": "Zapełnienie magazynu"
+        "tableHead": "Zapełnienie magazynu"
     },
-    "building_wall": {
-        "basic_defense": "Podstawowa obrona",
+    "buildingWall": {
+        "basicDefense": "Podstawowa obrona",
         "name": "Mury obronne"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Tartak"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Zatwierdź"
     },
     "game": {
-        "_none": "Brak",
+        "None": "Brak",
         "booty": "Łup",
         "buddies": "Znajomi",
         "cancel": "Anuluj",
@@ -147,7 +147,7 @@
         "create": "Utwórz",
         "delete": "Usuń",
         "forum": "Forum",
-        "last_post": "Ostatni post",
+        "lastPost": "Ostatni post",
         "newpoll": "Nowa ankieta",
         "replies": "Odpowiedz",
         "reply": "Odpowiedź",
@@ -215,7 +215,7 @@
         "title": "Plemię"
     },
     "game.menu.mails": {
-        "i_new": "Nowa wiadomość",
+        "iNew": "Nowa wiadomość",
         "in": "Wiadomości",
         "title": "Wiadomości"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Plemiona",
-        "kill_player": "Pokonani przeciwnicy",
+        "killPlayer": "Pokonani przeciwnicy",
         "player": "Gracz",
         "title": "Ranking"
     },
@@ -249,7 +249,7 @@
         "trade": "Handel"
     },
     "game.menu.settings": {
-        "change_passwd": "Zmień hasło",
+        "changePasswd": "Zmień hasło",
         "poll": "Ankiety",
         "profile": "Profil",
         "settings": "Ustawienia",
@@ -271,7 +271,7 @@
         "defender": "Obrońca",
         "from": "z",
         "losses": "Straty",
-        "normal_luck": "Szczęście",
+        "normalLuck": "Szczęście",
         "origin": "Pochodzenie",
         "target": "Cel",
         "title": "Raporty",
@@ -289,7 +289,7 @@
         "village": "Wioska"
     },
     "game.train": {
-        "mode_train": "Rekrutacja"
+        "modeTrain": "Rekrutacja"
     },
     "game.train.queue": {
         "cancel": "Anuluj",
@@ -297,10 +297,10 @@
         "train": "Rekrutacja"
     },
     "game.unit": {
-        "attack_strength": "Siła Ataku"
+        "attackStrength": "Siła Ataku"
     },
     "game.village": {
-        "name_left": "Wioska barbarzyńska"
+        "nameLeft": "Wioska barbarzyńska"
     },
     "index": {
         "availableWorlds": "Otwarte światy",
@@ -330,46 +330,46 @@
         "register": "Zarejestruj",
         "title": "Zarejestruj"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Strona główna"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Łucznik",
         "short": "Łucznik"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Topornik",
         "plural": "Topornik",
         "short": "Topór"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapulta"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Ciężki kawalerzysta",
         "plural": "Ciężki kawalerzysta"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Rycerz"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Lekki kawalerzysta",
         "plural": "Lekki kawalerzysta"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Łucznik na koniu"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Taran",
         "short": "Taran"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Szlachcic"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Pika"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Miecznik",
         "plural": "Miecznik",
         "short": "Miecz"

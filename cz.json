@@ -40,72 +40,72 @@
     },
     "building": {
         "level": "Úroveň {x}",
-        "no_level": "není postaveno"
+        "noLevel": "není postaveno"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "description": "V kasárnách lze rekrutovat pěchotu. Čím vyšši je stupeň, tím rychleji se rekrutují.",
         "name": "Kasárna"
     },
-    "building_church": {
+    "buildingChurch": {
         "description": "Kostel poskytuje tvému obyvatelsvu víru. Pokud vojsko bojuje ve víře je jeho účinnost 100% místo 50%.",
         "name": "Kostel"
     },
-    "building_church_f": {
+    "buildingChurchF": {
         "description": "První kostel poskytuje tvému obyvatelsvu víru. Pokud vojsko bojuje ve víře je jeho účinnost 100% místo 50%. První kostel je prvotně vystaven v první vesnici a může být jen jeden.",
         "name": "První kostel"
     },
-    "building_farm": {
+    "buildingFarm": {
         "description": "Selský dvůr zásobuje tvé vojáky potravou. Bez rozšíření selského dvora nemůže tvá vesnice růst. Čím vyšší úroveň, tím více vojáků zásobí.",
         "name": "Selský dvůr"
     },
-    "building_garage": {
+    "buildingGarage": {
         "description": "V dílně se staví beranidla a katapulty. Čím vyšši je stupeň, tím rychleji se staví.",
         "name": "Dílna"
     },
-    "building_hide": {
+    "buildingHide": {
         "description": "Surovinz uložené ve skrýši nemuhou být drancovány nepřáteli. Čím vyšši úroveň, tím více surovin je před nepřáteli uschováno. Dokonce ani špehové nevidí tyto suroviny.",
         "name": "Skrýš"
     },
-    "building_iron": {
+    "buildingIron": {
         "description": "V železném lomu tví pracovníci těží rudu, ze které získáváš železo potřebné pro rekrutaci vojáků. Čím vyšší úroveň, tím více železa se těží.",
         "name": "Železný důl"
     },
-    "building_main": {
-        "ajax_build": "Budova byla přidána do fronty.",
-        "ajax_noBuilding": "Žádná budova!",
+    "buildingMain": {
+        "ajaxBuild": "Budova byla přidána do fronty.",
+        "ajaxNoBuilding": "Žádná budova!",
         "build": "Postavit",
-        "build_time": "Čas stavby",
-        "build_to": "Rozšířit na uroveň {x}",
+        "buildTime": "Čas stavby",
+        "buildTo": "Rozšířit na uroveň {x}",
         "building": "Budovy",
         "cancel": "Zrušit",
         "cannotBuild": "Nelze postavit v této vesnici",
         "change": "Změnit",
-        "change_name": "Změint název vesnice",
-        "change_order": "Zde můžete měnit pořadí stavební fronty přetažením na požadované místo myší.",
+        "changeName": "Změint název vesnice",
+        "changeOrder": "Zde můžete měnit pořadí stavební fronty přetažením na požadované místo myší.",
         "costs": "Požadavky",
         "description": "V hlavní budově můžete stavět nové budovy nebo zvyšovat úroveň stávajících. Čím vyšši je úroveň hlavní budovy tím rychleji probíhá stavba ostatních. Pokud hlavní budova dosáhne stupně 15, budete moct budovy demolovat.",
         "destroy": "Demolovat",
-        "destroy_level": "Demolovat o jeden stupeň",
-        "destroy_time": "Čas demolice",
-        "event_building": "Stavební příkaz",
-        "event_cancel": "Zrušení",
-        "event_finish": "Dokončení",
-        "event_time": "Trvání",
+        "destroyLevel": "Demolovat o jeden stupeň",
+        "destroyTime": "Čas demolice",
+        "eventBuilding": "Stavební příkaz",
+        "eventCancel": "Zrušení",
+        "eventFinish": "Dokončení",
+        "eventTime": "Trvání",
         "farmTooSmall": "Selský dvůr je malý",
         "forgetIt": "Výroba vyžaduje zdroje",
-        "fully_built": "Budova je kompletně vystavěna",
-        "fully_destroyed": "Budova nemůže být dále demolována",
-        "hide_completed": "Skrýt dostavěné budovy",
-        "level_destroy": "Stupeň demolice",
-        "mode_build": "Postavit",
-        "mode_destroy": "Demolice",
+        "fullyBuilt": "Budova je kompletně vystavěna",
+        "fullyDestroyed": "Budova nemůže být dále demolována",
+        "hideCompleted": "Skrýt dostavěné budovy",
+        "levelDestroy": "Stupeň demolice",
+        "modeBuild": "Postavit",
+        "modeDestroy": "Demolice",
         "name": "Hlavní budova",
         "nameTooShort": "Jméno vesnice musí mít alespoň 3 znaky",
         "noDestroy": "Budovy nelze demolovat!",
         "orderSuccess": "Budova byla přidána do fronty.",
         "queueBuild": "Výstavba bude vyžadovat více surovin. Chcete přidat tuto výstavbu ?",
-        "queue_info": "Dodatečné náklady na další stupeň ve stavební frontě: {x}",
-        "queue_text": "Neexistuje žádná náhrada zvýšených nákladů, které byly použity k zařazení budovy do fronty",
+        "queueInfo": "Dodatečné náklady na další stupeň ve stavební frontě: {x}",
+        "queueText": "Neexistuje žádná náhrada zvýšených nákladů, které byly použity k zařazení budovy do fronty",
         "requirementsNot": "Požadavky nejsou splněny",
         "requires": "Zapotřebí:",
         "storageTooSmall": "Skladiště je malé",
@@ -115,14 +115,14 @@
         "tooLate": "Pozdě",
         "unknownBuilding": "Tato budova neexistuje."
     },
-    "building_market": {
+    "buildingMarket": {
         "description": "Na tržišti můžeš obchodovat s ostatními hráči.",
         "name": "Tržiště"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Vše",
         "arrival": "Příchod",
-        "arrival_in": "Příchod za",
+        "arrivalIn": "Příchod za",
         "attack": "Zaútočit",
         "attacker": "Útočník",
         "attackingArmy": "Útočník",
@@ -141,58 +141,58 @@
         "wall": "Hradby",
         "withdraw": "Odvolat"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Příkazy"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produkce"
     },
-    "building_smith": {
+    "buildingSmith": {
         "description": "V kovárně se zkoumají a vylepšují zbraně. Vyšší stupeň umožňuje výzkum lepších zbraní a snižuje čas jejich výzkumu.",
-        "event_time": "Doba trvání",
+        "eventTime": "Doba trvání",
         "name": "Kovárna"
     },
-    "building_snob": {
+    "buildingSnob": {
         "description": "V panském dvoře se rekrutují šlechtici, kteři vám pomohou dobýt další vesnice.",
         "name": "Panský dvůr",
         "overall": "Celkem"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Vytvořit"
     },
-    "building_stable": {
+    "buildingStable": {
         "description": "Ve stáji se rekrutují jezdci. Čím vyšši je stupeň, tím rychleji se rekrutují.",
         "name": "Stáj"
     },
-    "building_statue": {
+    "buildingStatue": {
         "description": "U sochy vzdávají vesničané poctu tvému paladinovi. Pokud tvůj paladin padne, můžeš jednoho pojovníka povýšit na paladina.",
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventář",
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventář",
         "name": "Socha",
-        "pala_name": "Jméno"
+        "palaName": "Jméno"
     },
-    "building_stone": {
+    "buildingStone": {
         "description": "V lomu tví pracovníci těží hlínu, která je zapotřebí pro výstavbu budov. Čím vyšší úroveň, tím více hlíny těží.",
         "name": "Lom na těžbu hlíny"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Kapacita skladiště",
         "description": "Ve skladišti ukládáš suroviny. Čím vyšší úroveň, tím více surovin se do skladiště vejde.",
         "full": "plný",
         "name": "Skladiště",
-        "table_head": "Skladiště plné"
+        "tableHead": "Skladiště plné"
     },
-    "building_wall": {
-        "basic_defense": "Základní obrana",
+    "buildingWall": {
+        "basicDefense": "Základní obrana",
         "description": "Opevnění chrání tvoji vesnici proti nepřátelům. Čím vyšší úroveň, tím vyšší je základní obrana tvé vesnice. To také zvyšuje obranou sílu vojska ve tvé vesnici.",
         "name": "Opevnění"
     },
-    "building_wood": {
+    "buildingWood": {
         "description": "Mimo tvou vesnici v temných lesích tvoji dřevorubci kácejí masivní stromy, aby si mel dostatek dřeva, které je potřebné pro budovy a zbraně. Čím vyšší úroveň, tím více dřeva se těží.",
         "name": "Dřevorubec"
     },
-    "create_village": {
+    "createVillage": {
         "creationFailed": "Vesnice nemůže být vytvořena.",
         "dally": "V centru kmene",
         "description": "V které oblasti chcete vytvořit novou vesnici?",
@@ -207,7 +207,7 @@
         "title": "Vytvořit novou vesnici"
     },
     "game": {
-        "_none": "Žádné výsledky",
+        "None": "Žádné výsledky",
         "booty": "Kořist",
         "buddies": "Přátelé",
         "cancel": "Zrušit",
@@ -217,7 +217,7 @@
         "date": "d.m.Y",
         "edit": "editovat",
         "errorWorld": "Svět {world} neexistuje!",
-        "gen_time": "generováno {time} ms",
+        "genTime": "generováno {time} ms",
         "iron": "Železo",
         "ok": "OK",
         "options": "Možnosti",
@@ -238,7 +238,7 @@
         "unit": "Jednotka",
         "village": "Vesnice",
         "wood": "Dřevo",
-        "thousand_delimeter": "'"
+        "thousandDelimeter": "'"
     },
     "game.ally": {
         "accept": "Souhlasím",
@@ -297,7 +297,7 @@
         "create": "Vytvořit",
         "delete": "Smazat",
         "forum": "Fórum",
-        "last_post": "Poslední příspěvek",
+        "lastPost": "Poslední příspěvek",
         "newpoll": "Nová anketa",
         "replies": "Odpověď",
         "reply": "Odpověď",
@@ -319,7 +319,7 @@
     "game.ally.navi": {
         "contracts": "Diplomacie",
         "forum": "Kmnenové fórum",
-        "intro_igm": "Vítejte",
+        "introIgm": "Vítejte",
         "invite": "Rekrutace",
         "members": "Členové",
         "overview": "Přehled",
@@ -388,8 +388,8 @@
     "game.menu.ally": {
         "contracts": "Diplomacie",
         "forum": "Kmenová fóra",
-        "i_new": "Nový příspěvek na kmenovém fórum",
-        "i_old": "Žádný nový příspěvek na kmenovém fórum",
+        "iNew": "Nový příspěvek na kmenovém fórum",
+        "iOld": "Žádný nový příspěvek na kmenovém fórum",
         "members": "Členové",
         "overview": "Přehled",
         "profile": "Profil",
@@ -401,9 +401,9 @@
         "address": "Adresář kontaktů",
         "block": "Blokovat odesílatele",
         "groups": "Soubor",
-        "i_new": "Nová zpráva",
+        "iNew": "Nová zpráva",
         "in": "Pošta",
-        "mass_out": "Hromadná zpráva",
+        "massOut": "Hromadná zpráva",
         "new": "Napsat zprávu",
         "title": "Pošta"
     },
@@ -426,10 +426,10 @@
     },
     "game.menu.ranking": {
         "ally": "Kmeny",
-        "con_ally": "Kmeny na kontinentu",
-        "con_player": "Hráči na kontinentu",
-        "kill_ally": "Poražený protivník - kmeny",
-        "kill_player": "Poražený protivník",
+        "conAlly": "Kmeny na kontinentu",
+        "conPlayer": "Hráči na kontinentu",
+        "killAlly": "Poražený protivník - kmeny",
+        "killPlayer": "Poražený protivník",
         "player": "Hráči",
         "points": "({rank}.|{points} B)",
         "title": "Žebříček",
@@ -442,7 +442,7 @@
         "defense": "Opevnění",
         "filter": "Filtr",
         "forwarded": "Předáno",
-        "i_new": "Nový report",
+        "iNew": "Nový report",
         "other": "Smíšený",
         "public": "Zveřejněné zprávy",
         "support": "Podpora",
@@ -451,7 +451,7 @@
     },
     "game.menu.settings": {
         "block": "Blokovat hráče",
-        "change_passwd": "Změnit heslo",
+        "changePasswd": "Změnit heslo",
         "delete": "Smazat účet",
         "logins": "Přihlášení",
         "notify": "Oznámení",
@@ -465,33 +465,33 @@
         "toolbar": "Panel nástrojů"
     },
     "game.overview": {
-        "beginner_protection": "Začátečnická ochrana končí {date}",
+        "beginnerProtection": "Začátečnická ochrana končí {date}",
         "build": "Obnovit budovy",
-        "cancel_build": "Opravdu přerušit příkaz?",
-        "classical_overview": "ke klasickému náhledu vesnice",
+        "cancelBuild": "Opravdu přerušit příkaz?",
+        "classicalOverview": "ke klasickému náhledu vesnice",
         "forAll": "» Použit pro všechny vesnice",
         "forAllConfirm": "Opravdu použít pro všechny vesnice ?",
-        "graphical_overview": "ke grafickému náhledu vesnice",
-        "hide_levels": "Skrýt stupně upgradu",
+        "graphicalOverview": "ke grafickému náhledu vesnice",
+        "hideLevels": "Skrýt stupně upgradu",
         "level": "(Úroveň {x}{extra})",
-        "prod_hour": "{x} za hodinu",
-        "prod_minute": "{x} za minutu",
+        "prodHour": "{x} za hodinu",
+        "prodMinute": "{x} za minutu",
         "reset": "» Smazat seznam",
         "resourceLabel1": "Čas výstavby: {t}",
         "resourceLabel2": "Čas výstavby: {t1} uvolnění populace: {t2}",
         "setDefault": "» Použít jako přednastavenou",
-        "show_all": "Zobrazit všechy komponenty",
-        "show_levels": "Zobrazit stupně upgradu"
+        "showAll": "Zobrazit všechy komponenty",
+        "showLevels": "Zobrazit stupně upgradu"
     },
     "game.overview.widgets": {
         "belief": "Víra",
         "buildqueue": "Fronta staveb",
         "flags": "Vlajky",
         "groups": "Skupimy sdružení",
-        "incoming_units": "Příchozí vojska",
+        "incomingUnits": "Příchozí vojska",
         "newbie": "Začátečniká ochrana",
         "notes": "Poznámky",
-        "outgoing_units": "Tvoje jednotky",
+        "outgoingUnits": "Tvoje jednotky",
         "prod": "Produkce",
         "secret": "Tajné",
         "summary": "Stavby",
@@ -511,7 +511,7 @@
         "defender": "Obránce",
         "from": "od",
         "losses": "Ztráty",
-        "normal_luck": "Štěstí",
+        "normalLuck": "Štěstí",
         "origin": "Původ",
         "target": "Cíl",
         "title": "Hlášení",
@@ -527,14 +527,14 @@
     "game.title": {
         "attacks": "Příchozí útoky",
         "close": "zavřít",
-        "first_village": "První vesnice této skupiny",
+        "firstVillage": "První vesnice této skupiny",
         "group": "Skupina:",
         "supports": "Příchozí podpory",
         "village": "Vesnice"
     },
     "game.train": {
-        "mode_decommission": "Vyřazení",
-        "mode_train": "Nábor"
+        "modeDecommission": "Vyřazení",
+        "modeTrain": "Nábor"
     },
     "game.train.queue": {
         "cancel": "Zrušit",
@@ -542,14 +542,14 @@
         "train": "Rekrutovat"
     },
     "game.unit": {
-        "attack_strength": "Útočná síla"
+        "attackStrength": "Útočná síla"
     },
     "game.village": {
         "name": "{user} vesnice",
-        "name_left": "Vesnice barbarů",
-        "special_chars": "sxz",
-        "username_normal": "{user}'s",
-        "username_special": "{user}'"
+        "nameLeft": "Vesnice barbarů",
+        "specialChars": "sxz",
+        "usernameNormal": "{user}'s",
+        "usernameSpecial": "{user}'"
     },
     "index": {
         "availableWorlds": "Otevřené světy",
@@ -633,7 +633,7 @@
         "register": "Registrace",
         "title": "Registrace"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "content": "Vaše sezení uplynulo. Prosím přihlašte se zde {link}.",
         "index": "Domovská stránka",
         "link": "{t} Domovská stránka",
@@ -647,50 +647,50 @@
         "today": "dnes",
         "tomorrow": "zítra"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Lučištník",
         "short": "Lučištník"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Sekerník",
         "plural": "Sekerník",
         "short": "Sekera"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Těžká kavalérie",
         "plural": "Těžká kavalérie"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Lehká kavalérie",
         "plural": "Lehká kavalérie"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Lučištník na koni"
     },
-    "unit_militia": {
+    "unitMilitia": {
         "name": "Milice"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Beranidlo",
         "short": "Beranidlo"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Šlechtic"
     },
-    "unit_spear": {
+    "unitSpear": {
         "name": "Kopiník",
         "short": "Kopí"
     },
-    "unit_spy": {
+    "unitSpy": {
         "name": "Špeh"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Šermíř",
         "plural": "Šermíř",
         "short": "Meč"

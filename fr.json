@@ -10,39 +10,39 @@
         "login": "Connexion",
         "password": "Mot de passe"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Caserne"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Église"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Ferme"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Atelier"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Mine de fer"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Construire",
-        "build_time": "Durée de construction",
+        "buildTime": "Durée de construction",
         "building": "Bâtiments",
         "cancel": "Annuler",
-        "change_name": "Changer le nom du village",
-        "event_time": "Durée",
-        "mode_build": "Construire",
-        "mode_destroy": "Destruction",
+        "changeName": "Changer le nom du village",
+        "eventTime": "Durée",
+        "modeBuild": "Construire",
+        "modeDestroy": "Destruction",
         "name": "Quartier Général"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Marché"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Total",
         "arrival": "Arrivée",
-        "arrival_in": "Arrivée dans",
+        "arrivalIn": "Arrivée dans",
         "attack": "Attaque",
         "attacker": "Attaquant",
         "attackingArmy": "Attaquant",
@@ -59,51 +59,51 @@
         "wall": "Muraille",
         "withdraw": "Retirer"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Ordres"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Production"
     },
-    "building_smith": {
-        "event_time": "Durée"
+    "buildingSmith": {
+        "eventTime": "Durée"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Total"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Envoyer"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Écurie"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladin",
-        "mode_inventory": "Inventaire",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladin",
+        "modeInventory": "Inventaire",
         "name": "Statue",
-        "pala_name": "Nom"
+        "palaName": "Nom"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Carrière d'argile"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Capacité de stockage",
         "name": "Stock",
-        "table_head": "Espace de stockage plein"
+        "tableHead": "Espace de stockage plein"
     },
-    "building_wall": {
-        "basic_defense": "Défense de base",
+    "buildingWall": {
+        "basicDefense": "Défense de base",
         "name": "Muraille"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Camp de bûcherons"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Confirmer"
     },
     "game": {
-        "_none": "Aucun",
+        "None": "Aucun",
         "booty": "Butin",
         "buddies": "Amis",
         "cancel": "Annuler",
@@ -147,7 +147,7 @@
         "create": "Envoyer",
         "delete": "Supprimer",
         "forum": "Forum",
-        "last_post": "Dernière publication",
+        "lastPost": "Dernière publication",
         "newpoll": "Nouveau sondage",
         "replies": "Répondre",
         "reply": "Répondre",
@@ -215,7 +215,7 @@
         "title": "Tribu"
     },
     "game.menu.mails": {
-        "i_new": "Nouveau message",
+        "iNew": "Nouveau message",
         "in": "Messages",
         "title": "Messages"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Tribus",
-        "kill_player": "Adversaires vaincus",
+        "killPlayer": "Adversaires vaincus",
         "player": "Personnage",
         "title": "Classements"
     },
@@ -249,7 +249,7 @@
         "trade": "Échange"
     },
     "game.menu.settings": {
-        "change_passwd": "Modifier le mot de passe",
+        "changePasswd": "Modifier le mot de passe",
         "poll": "Sondages",
         "profile": "Profil",
         "settings": "Paramètres",
@@ -271,7 +271,7 @@
         "defender": "Défenseur",
         "from": "de",
         "losses": "Pertes",
-        "normal_luck": "Chance",
+        "normalLuck": "Chance",
         "origin": "Origine",
         "target": "Cible",
         "title": "Rapports",
@@ -289,7 +289,7 @@
         "village": "Village"
     },
     "game.train": {
-        "mode_train": "Recrutement"
+        "modeTrain": "Recrutement"
     },
     "game.train.queue": {
         "cancel": "Annuler",
@@ -297,10 +297,10 @@
         "train": "Recrutement"
     },
     "game.unit": {
-        "attack_strength": "Force de combat"
+        "attackStrength": "Force de combat"
     },
     "game.village": {
-        "name_left": "Village barbare"
+        "nameLeft": "Village barbare"
     },
     "index": {
         "availableWorlds": "Mondes ouverts",
@@ -330,46 +330,46 @@
         "register": "S'inscrire",
         "title": "S'inscrire"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Accueil"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Archer",
         "short": "Archer"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Guerrier à la hache",
         "plural": "Guerrier à la hache",
         "short": "Hache"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Catapulte"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Cavalier Lourd",
         "plural": "Cavalier Lourd"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladin"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Cavalier Léger",
         "plural": "Cavalier Léger"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Archer Monté"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Bélier",
         "short": "Bélier"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Noble"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Lance"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Épéiste",
         "plural": "Épéiste",
         "short": "Épée"

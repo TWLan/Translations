@@ -10,39 +10,39 @@
         "login": "Connetti",
         "password": "Password"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Caserma"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Chiesa"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Fattoria"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Officina"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Miniera di ferro"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Costruisci",
-        "build_time": "Tempo di costruzione",
+        "buildTime": "Tempo di costruzione",
         "building": "Edifici",
         "cancel": "Cancella",
-        "change_name": "Modifica nome villaggio",
-        "event_time": "Durata",
-        "mode_build": "Costruisci",
-        "mode_destroy": "Demolizione",
+        "changeName": "Modifica nome villaggio",
+        "eventTime": "Durata",
+        "modeBuild": "Costruisci",
+        "modeDestroy": "Demolizione",
         "name": "Quartier Generale"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Mercato"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Tutte",
         "arrival": "Arrivo",
-        "arrival_in": "Arrivo previsto tra",
+        "arrivalIn": "Arrivo previsto tra",
         "attack": "Attacca",
         "attacker": "Attaccante",
         "attackingArmy": "Attaccante",
@@ -59,51 +59,51 @@
         "wall": "Mura",
         "withdraw": "Ritira"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Comandi"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produzione"
     },
-    "building_smith": {
-        "event_time": "Durata"
+    "buildingSmith": {
+        "eventTime": "Durata"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Totali"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Rispondi"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Stalla"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladino",
-        "mode_inventory": "Inventario",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladino",
+        "modeInventory": "Inventario",
         "name": "Statua",
-        "pala_name": "Nome"
+        "palaName": "Nome"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Cava d'argilla"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Capacità di immagazzinamento",
         "name": "Deposito",
-        "table_head": "Il Magazzino è pieno"
+        "tableHead": "Il Magazzino è pieno"
     },
-    "building_wall": {
-        "basic_defense": "Difesa di base",
+    "buildingWall": {
+        "basicDefense": "Difesa di base",
         "name": "Mura"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Taglialegna"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Conferma"
     },
     "game": {
-        "_none": "Nessuno",
+        "None": "Nessuno",
         "booty": "Bottino",
         "buddies": "Amici",
         "cancel": "Cancella",
@@ -147,7 +147,7 @@
         "create": "Rispondi",
         "delete": "Elimina",
         "forum": "Forum",
-        "last_post": "Ultimo post",
+        "lastPost": "Ultimo post",
         "newpoll": "Nuovo sondaggio",
         "replies": "Rispondi",
         "reply": "Risposta",
@@ -215,7 +215,7 @@
         "title": "Tribù"
     },
     "game.menu.mails": {
-        "i_new": "Nuovo messaggio",
+        "iNew": "Nuovo messaggio",
         "in": "Messaggi",
         "title": "Messaggi"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Tribù",
-        "kill_player": "Avversari sconfitti",
+        "killPlayer": "Avversari sconfitti",
         "player": "Giocatore",
         "title": "Classifica"
     },
@@ -249,7 +249,7 @@
         "trade": "Commercio"
     },
     "game.menu.settings": {
-        "change_passwd": "Modifica password",
+        "changePasswd": "Modifica password",
         "poll": "Sondaggi",
         "profile": "Profilo",
         "settings": "Impostazioni",
@@ -271,7 +271,7 @@
         "defender": "Difensore",
         "from": "da",
         "losses": "Vittime",
-        "normal_luck": "Fortuna",
+        "normalLuck": "Fortuna",
         "origin": "Partenza",
         "target": "Destinazione",
         "title": "Rapporti",
@@ -289,7 +289,7 @@
         "village": "Villaggio"
     },
     "game.train": {
-        "mode_train": "Arruola"
+        "modeTrain": "Arruola"
     },
     "game.train.queue": {
         "cancel": "Cancella",
@@ -297,10 +297,10 @@
         "train": "Arruola"
     },
     "game.unit": {
-        "attack_strength": "Potere attacco"
+        "attackStrength": "Potere attacco"
     },
     "game.village": {
-        "name_left": "Villaggio barbaro"
+        "nameLeft": "Villaggio barbaro"
     },
     "index": {
         "availableWorlds": "Apri Mondi",
@@ -330,46 +330,46 @@
         "register": "Registrati",
         "title": "Registrati"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Home"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Arciere",
         "short": "Arciere"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Guerriero con ascia",
         "plural": "Guerriero con ascia",
         "short": "Ascia"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Catapulta"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Cavalleria pesante",
         "plural": "Cavalleria pesante"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladino"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Cavalleria leggera",
         "plural": "Cavalleria leggera"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Arciere a cavallo"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Ariete",
         "short": "Ariete"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Nobile"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Lancia"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Spadaccino",
         "plural": "Spadaccino",
         "short": "Spada"

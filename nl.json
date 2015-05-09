@@ -10,39 +10,39 @@
         "login": "Inloggen",
         "password": "Wachtwoord"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Kazerne"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Kerk"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Boerderij"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Werkplaats"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "IJzermijn"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Bouwen",
-        "build_time": "Bouwtijd",
+        "buildTime": "Bouwtijd",
         "building": "Gebouwen",
         "cancel": "Annuleren",
-        "change_name": "Pas dorpsnaam aan",
-        "event_time": "Duur",
-        "mode_build": "Bouwen",
-        "mode_destroy": "Sloop",
+        "changeName": "Pas dorpsnaam aan",
+        "eventTime": "Duur",
+        "modeBuild": "Bouwen",
+        "modeDestroy": "Sloop",
         "name": "Hoofdgebouw"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Marktplaats"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Alle",
         "arrival": "Aankomst",
-        "arrival_in": "Aankomst in",
+        "arrivalIn": "Aankomst in",
         "attack": "aanvallen",
         "attacker": "Aanvaller",
         "attackingArmy": "Aanvaller",
@@ -59,51 +59,51 @@
         "wall": "Muur",
         "withdraw": "Intrekken"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Bevelen"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Productie"
     },
-    "building_smith": {
-        "event_time": "Duur"
+    "buildingSmith": {
+        "eventTime": "Duur"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Totaal"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Aanmaken"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Stal"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladijn",
-        "mode_inventory": "Inventaris",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladijn",
+        "modeInventory": "Inventaris",
         "name": "Standbeeld",
-        "pala_name": "Naam"
+        "palaName": "Naam"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Leemgroeve"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Opslagcapaciteit",
         "name": "Opslag",
-        "table_head": "Opslag vol"
+        "tableHead": "Opslag vol"
     },
-    "building_wall": {
-        "basic_defense": "Basisverdediging",
+    "buildingWall": {
+        "basicDefense": "Basisverdediging",
         "name": "Muur"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Houthakkers"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Bevestigen"
     },
     "game": {
-        "_none": "Geen",
+        "None": "Geen",
         "booty": "Buit",
         "buddies": "Vrienden",
         "cancel": "Annuleren",
@@ -147,7 +147,7 @@
         "create": "Aanmaken",
         "delete": "Verwijderen",
         "forum": "Forum",
-        "last_post": "Laatste bericht",
+        "lastPost": "Laatste bericht",
         "newpoll": "Nieuwe enquête",
         "replies": "Beantwoorden",
         "reply": "Beantwoorden",
@@ -215,7 +215,7 @@
         "title": "Stam"
     },
     "game.menu.mails": {
-        "i_new": "Nieuw bericht",
+        "iNew": "Nieuw bericht",
         "in": "Berichten",
         "title": "Berichten"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Stammen",
-        "kill_player": "Tegenstanders verslagen",
+        "killPlayer": "Tegenstanders verslagen",
         "player": "Speler",
         "title": "Ranglijst"
     },
@@ -249,7 +249,7 @@
         "trade": "Handel"
     },
     "game.menu.settings": {
-        "change_passwd": "Wachtwoord wijzigen",
+        "changePasswd": "Wachtwoord wijzigen",
         "poll": "Enquêtes",
         "profile": "Profiel",
         "settings": "Instellingen",
@@ -271,7 +271,7 @@
         "defender": "Verdediger",
         "from": "van",
         "losses": "Slachtoffers",
-        "normal_luck": "Geluk",
+        "normalLuck": "Geluk",
         "origin": "Afkomst",
         "target": "Bestemming",
         "title": "Rapporten",
@@ -289,7 +289,7 @@
         "village": "Dorp"
     },
     "game.train": {
-        "mode_train": "Rekruteren"
+        "modeTrain": "Rekruteren"
     },
     "game.train.queue": {
         "cancel": "Annuleren",
@@ -297,10 +297,10 @@
         "train": "Rekruteren"
     },
     "game.unit": {
-        "attack_strength": "Aanvallende kracht"
+        "attackStrength": "Aanvallende kracht"
     },
     "game.village": {
-        "name_left": "Barbarendorp"
+        "nameLeft": "Barbarendorp"
     },
     "index": {
         "availableWorlds": "Open werelden",
@@ -330,46 +330,46 @@
         "register": "Registreren",
         "title": "Registreren"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Home"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Boogschutter",
         "short": "Boogschutter"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Bijlvechter",
         "plural": "Bijlvechter",
         "short": "Bijl"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Gepantserde Cavalerist",
         "plural": "Gepantserde Cavalerist"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladijn"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Cavalerist",
         "plural": "Cavalerist"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Boogschutter te paard"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Ram",
         "short": "Ram"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Edelman"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Speer"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Zwaardvechter",
         "plural": "Zwaardvechter",
         "short": "Zwaard"

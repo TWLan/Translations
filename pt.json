@@ -40,72 +40,72 @@
     },
     "building": {
         "level": "Nível {x}",
-        "no_level": "não construídos"
+        "noLevel": "não construídos"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "description": "No Quartel pode treinar infantaria. Quanto maior o seu nível, mais rapidamente serão treinadas novas tropas.",
         "name": "Quartel"
     },
-    "building_church": {
+    "buildingChurch": {
         "description": "A igreja ajuda os aldeões religiosos nas aldeias vizinhas. Sem uma igreja as suas tropas na região afetadas por outra igreja perderão grande capacidade de combate.",
         "name": "Igreja"
     },
-    "building_church_f": {
+    "buildingChurchF": {
         "description": "A primeira igreja dá crença a todas as aldeias mais próxima. Quando uma aldeia tem crença, as suas tropas lutam com uma eficácia de 100% em vez de 50%. A primeira igreja foi construída por padrão na sua primeira aldeia, e só pode ser construída uma vez.",
         "name": "Primeira Igreja"
     },
-    "building_farm": {
+    "buildingFarm": {
         "description": "A Fazenda sustenta os habitantes da sua aldeia. Sem o desenvolvimento da Fazenda a sua aldeia não poderá crescer. Quanto maior o nível da Fazenda, mais habitantes estarão à sua disposição.",
         "name": "Fazenda"
     },
-    "building_garage": {
+    "buildingGarage": {
         "description": "Na Oficina podem ser produzidas máquinas de guerra. Quanto maior for o nível da Oficina, mais rapidamente serão produzidas novas máquinas.",
         "name": "Oficina"
     },
-    "building_hide": {
+    "buildingHide": {
         "description": "No Esconderijo são escondidos recursos que, em caso de ataque inimigo, estes não serão roubados. Os Batedores inimigos não conseguem descobrir quantos recursos estão guardados no Esconderijo.",
         "name": "Esconderijo"
     },
-    "building_iron": {
+    "buildingIron": {
         "description": "Da Mina de Ferro é extraído o precioso ferro para batalhas no Tribos. Quanto maior for o seu nível, maior será a sua produção.",
         "name": "Mina de Ferro"
     },
-    "building_main": {
-        "ajax_build": "Construção adicionada à fila.",
-        "ajax_noBuilding": "Nenhuma construção!",
+    "buildingMain": {
+        "ajaxBuild": "Construção adicionada à fila.",
+        "ajaxNoBuilding": "Nenhuma construção!",
         "build": "Construir",
-        "build_time": "Tempo de construção",
-        "build_to": "Melhorar para o nível {x}",
+        "buildTime": "Tempo de construção",
+        "buildTo": "Melhorar para o nível {x}",
         "building": "Edifícios",
         "cancel": "cancelar",
         "cannotBuild": "Não pode ser construído na aldeia",
         "change": "Mudar",
-        "change_name": "Alterar nome da aldeia",
-        "change_order": "Aqui você pode alterar a ordem da sua fila de construção, arrastando-os para o local desejado com o rato.",
+        "changeName": "Alterar nome da aldeia",
+        "changeOrder": "Aqui você pode alterar a ordem da sua fila de construção, arrastando-os para o local desejado com o rato.",
         "costs": "Requisitos",
         "description": "No Edifício Principal pode construir ou melhorar outros edifícios. Quanto maior o nível, mais rápida será a construção de edifícios. Assim que o nível do Edifício Principal for superior a 15, poderá demolir edifícios.",
         "destroy": "Demolir",
-        "destroy_level": "Demolir um nível",
-        "destroy_time": "Tempo de demolição",
-        "event_building": "Atribuição de construção",
-        "event_cancel": "Cancelamento",
-        "event_finish": "Realização",
-        "event_time": "Duração",
+        "destroyLevel": "Demolir um nível",
+        "destroyTime": "Tempo de demolição",
+        "eventBuilding": "Atribuição de construção",
+        "eventCancel": "Cancelamento",
+        "eventFinish": "Realização",
+        "eventTime": "Duração",
         "farmTooSmall": "Fazenda demasiado pequena",
         "forgetIt": "Produção de recursos necessários",
-        "fully_built": "Construção concluída",
-        "fully_destroyed": "Construção não pode ser demolida",
-        "hide_completed": "Ocultar edifícios concluídos",
-        "level_destroy": "demolir nível",
-        "mode_build": "Construção",
-        "mode_destroy": "Demolição",
+        "fullyBuilt": "Construção concluída",
+        "fullyDestroyed": "Construção não pode ser demolida",
+        "hideCompleted": "Ocultar edifícios concluídos",
+        "levelDestroy": "demolir nível",
+        "modeBuild": "Construção",
+        "modeDestroy": "Demolição",
         "name": "Edifício Principal",
         "nameTooShort": "O nome da aldeia tem de conter pelo menos 3 caracteres.",
         "noDestroy": "Você não pode demolir edifícios!",
         "orderSuccess": "Construção adicionada à fila.",
         "queueBuild": "Atribuições adicionais à fila de construção vão custar mais. Ainda quer adicionar esta tarefa?",
-        "queue_info": "Custo adicional para o próximo trabalho na fila de construção: {x}",
-        "queue_text": "Não há nenhum reembolso para os custos adicionais que foram acusados de colocar um edifício na fila de construção",
+        "queueInfo": "Custo adicional para o próximo trabalho na fila de construção: {x}",
+        "queueText": "Não há nenhum reembolso para os custos adicionais que foram acusados de colocar um edifício na fila de construção",
         "requirementsNot": "Requisitos não atendidos",
         "requires": "Requisitos:",
         "storageTooSmall": "Armazém demasiado pequeno",
@@ -115,14 +115,14 @@
         "tooLate": "tarde demais",
         "unknownBuilding": "Este edifício não existe."
     },
-    "building_market": {
+    "buildingMarket": {
         "description": "No Mercado pode negociar com outros jogadores.",
         "name": "Mercado"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Todas",
         "arrival": "Chegada",
-        "arrival_in": "Chegada em",
+        "arrivalIn": "Chegada em",
         "attack": "Atacar",
         "attacker": "Atacante",
         "attackingArmy": "Atacante",
@@ -141,58 +141,58 @@
         "wall": "Muralha",
         "withdraw": "Retirar"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Comandos"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Produção"
     },
-    "building_smith": {
+    "buildingSmith": {
         "description": "No Ferreiro pode pesquisar e melhorar suas armas. Quanto maior o nível do Ferreiro melhores serão as armas que poderá pesquisar e menores os tempos necessários de tais pesquisas.",
-        "event_time": "Duração",
+        "eventTime": "Duração",
         "name": "Ferreiro"
     },
-    "building_snob": {
+    "buildingSnob": {
         "description": "Na Academia pode treinar Nobres, com os quais irá conquistar outras aldeias.",
         "name": "Academia",
         "overall": "Total"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Criar"
     },
-    "building_stable": {
+    "buildingStable": {
         "description": "No Estábulo você pode formar novos cavaleiros. Quanto maior o seu nível, mais rapidamente poderão ser recrutadas novas tropas.",
         "name": "Estábulo"
     },
-    "building_statue": {
+    "buildingStatue": {
         "description": "Perante a Estátua os habitantes da sua aldeia prestam homenagem ao seu Paladino. Caso o Paladino morra poderá apontar outro guerreiro como novo Paladino.",
-        "do_cancel": "Cancel",
-        "mode_index": "Paladino",
-        "mode_inventory": "Inventário",
+        "doCancel": "Cancel",
+        "modeIndex": "Paladino",
+        "modeInventory": "Inventário",
         "name": "Estátua",
-        "pala_name": "Nome"
+        "palaName": "Nome"
     },
-    "building_stone": {
+    "buildingStone": {
         "description": "No Poço de Argila trabalham muitos dos seus habitantes para fornecer à sua aldeia com o importante barro. Quanto maior for o seu nível maior será a sua capacidade de produção.",
         "name": "Poço de Argila"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Capacidade de armazenamento",
         "description": "No Armazém são guardados os recursos produzidos pela aldeia. Quanto maior for o nível do Armazém, maior será a sua capacidade de armazenamento.",
         "full": "completo",
         "name": "Armazém",
-        "table_head": "Armazém cheio"
+        "tableHead": "Armazém cheio"
     },
-    "building_wall": {
-        "basic_defense": "Defesa base",
+    "buildingWall": {
+        "basicDefense": "Defesa base",
         "description": "A Muralha oferece proteção contra tropas inimigas. Por meio dela é aumentada tanto a defesa básica da aldeia como a força defensiva de suas tropas.",
         "name": "Muralha"
     },
-    "building_wood": {
+    "buildingWood": {
         "description": "Os lenhadores cortam madeira dos bosques que rodeiam as aldeias. Tal madeira é necessária para o desenvolvimento da própria aldeia, assim como para a recruta do exército. Quanto mais alto o nível do bosque mais madeira será produzida.",
         "name": "Bosque"
     },
-    "create_village": {
+    "createVillage": {
         "creationFailed": "A aldeia não pode ser criada.",
         "dally": "Centro da minha tribo",
         "description": "Em que área gostaria que sua nova aldeia fosse colocada?",
@@ -207,7 +207,7 @@
         "title": "Criar uma nova aldeia"
     },
     "game": {
-        "_none": "Nenhum",
+        "None": "Nenhum",
         "booty": "Saque",
         "buddies": "Amigos",
         "cancel": "Cancelar",
@@ -217,7 +217,7 @@
         "date": "d.m.Y",
         "edit": "editar",
         "errorWorld": "O mundo {world} não existe!",
-        "gen_time": "gerada em {time} ms",
+        "genTime": "gerada em {time} ms",
         "iron": "Ferro",
         "ok": "OK",
         "options": "Opções",
@@ -238,7 +238,7 @@
         "unit": "Unidade",
         "village": "Aldeia",
         "wood": "Madeira",
-        "thousand_delimeter": "'"
+        "thousandDelimeter": "'"
     },
     "game.ally": {
         "accept": "Aceitar",
@@ -297,7 +297,7 @@
         "create": "Criar",
         "delete": "Eliminar",
         "forum": "Fórum",
-        "last_post": "Última publicação",
+        "lastPost": "Última publicação",
         "newpoll": "Novo questionário",
         "replies": "Responder",
         "reply": "Responder",
@@ -319,7 +319,7 @@
     "game.ally.navi": {
         "contracts": "Diplomacia",
         "forum": "Fórum Tribal",
-        "intro_igm": "Bem-vindo",
+        "introIgm": "Bem-vindo",
         "invite": "Recrutamento",
         "members": "Membros",
         "overview": "Visão global",
@@ -388,8 +388,8 @@
     "game.menu.ally": {
         "contracts": "Diplomacia",
         "forum": "Fórum Tribal",
-        "i_new": "Novas mensagens no fórum da tribo",
-        "i_old": "Não há novas mensagens no fórum da tribo",
+        "iNew": "Novas mensagens no fórum da tribo",
+        "iOld": "Não há novas mensagens no fórum da tribo",
         "members": "Membros",
         "overview": "Visão global",
         "profile": "Perfil",
@@ -401,9 +401,9 @@
         "address": "Livro de endereços",
         "block": "Bloquear remetente",
         "groups": "Arquivo",
-        "i_new": "Nova mensagem",
+        "iNew": "Nova mensagem",
         "in": "Mensagens",
-        "mass_out": "Mensagens circular",
+        "massOut": "Mensagens circular",
         "new": "Escrever mensagem",
         "title": "Mensagens"
     },
@@ -426,10 +426,10 @@
     },
     "game.menu.ranking": {
         "ally": "Tribos",
-        "con_ally": "Tribos por continente",
-        "con_player": "Jogadores por continente",
-        "kill_ally": "Adversários derrotados por classificação da tribo",
-        "kill_player": "Adversários derrotados",
+        "conAlly": "Tribos por continente",
+        "conPlayer": "Jogadores por continente",
+        "killAlly": "Adversários derrotados por classificação da tribo",
+        "killPlayer": "Adversários derrotados",
         "player": "Jogadores",
         "points": "({rank}.|{points} P)",
         "title": "Posição",
@@ -442,7 +442,7 @@
         "defense": "Defesas",
         "filter": "Filtrar",
         "forwarded": "Transmitido",
-        "i_new": "Novo relatório",
+        "iNew": "Novo relatório",
         "other": "Diverso",
         "public": "Relatórios divulgados",
         "support": "Apoiar",
@@ -451,7 +451,7 @@
     },
     "game.menu.settings": {
         "block": "Bloco do jogador",
-        "change_passwd": "Alterar senha",
+        "changePasswd": "Alterar senha",
         "delete": "Eliminar conta",
         "logins": "Logins",
         "notify": "Notificações",
@@ -465,33 +465,33 @@
         "toolbar": "Barra de ferramentas"
     },
     "game.overview": {
-        "beginner_protection": "A sua proteção de iniciante termina a {date}",
+        "beginnerProtection": "A sua proteção de iniciante termina a {date}",
         "build": "Atualizar edifícios",
-        "cancel_build": "Tem certeza de que deseja cancelar a tarefa?",
-        "classical_overview": "mudar para visão geral clássica da aldeia",
+        "cancelBuild": "Tem certeza de que deseja cancelar a tarefa?",
+        "classicalOverview": "mudar para visão geral clássica da aldeia",
         "forAll": "» Usar para todas as aldeias",
         "forAllConfirm": "Realmente usar para todas as aldeias?",
-        "graphical_overview": "mudar para visão geral gráfica da aldeia",
-        "hide_levels": "Ocultar níveis de atualização",
+        "graphicalOverview": "mudar para visão geral gráfica da aldeia",
+        "hideLevels": "Ocultar níveis de atualização",
         "level": "(Level {x}{extra})",
-        "prod_hour": "{x} por hora",
-        "prod_minute": "{x} por minuto",
+        "prodHour": "{x} por hora",
+        "prodMinute": "{x} por minuto",
         "reset": "» Reiniciar visão geral",
         "resourceLabel1": "Tempo de construção: {t}",
         "resourceLabel2": "Tempo de construção: {t1} população livre: {t2}",
         "setDefault": "» Usar como padrão",
-        "show_all": "Ver todos os widgets",
-        "show_levels": "Mostrar níveis de atualização"
+        "showAll": "Ver todos os widgets",
+        "showLevels": "Mostrar níveis de atualização"
     },
     "game.overview.widgets": {
         "belief": "Crença",
         "buildqueue": "Fila de construção",
         "flags": "Bandeiras",
         "groups": "Grupo de associação",
-        "incoming_units": "Tropas de entrada",
+        "incomingUnits": "Tropas de entrada",
         "newbie": "proteção de iniciantes",
         "notes": "Notas",
-        "outgoing_units": "Suas tropas",
+        "outgoingUnits": "Suas tropas",
         "prod": "Produção",
         "secret": "Segredo",
         "summary": "edifícios",
@@ -511,7 +511,7 @@
         "defender": "Defensor",
         "from": "de",
         "losses": "Baixas",
-        "normal_luck": "Sorte",
+        "normalLuck": "Sorte",
         "origin": "Origem",
         "target": "Alvo",
         "title": "Relatórios",
@@ -527,14 +527,14 @@
     "game.title": {
         "attacks": "Ataques recebidos",
         "close": "fechar",
-        "first_village": "Para a primeira vila deste grupo",
+        "firstVillage": "Para a primeira vila deste grupo",
         "group": "Grupo:",
         "supports": "Apoios recebidas",
         "village": "Aldeia"
     },
     "game.train": {
-        "mode_decommission": "Desativação",
-        "mode_train": "Recrutamento"
+        "modeDecommission": "Desativação",
+        "modeTrain": "Recrutamento"
     },
     "game.train.queue": {
         "cancel": "Cancelar",
@@ -542,14 +542,14 @@
         "train": "Recrutar"
     },
     "game.unit": {
-        "attack_strength": "Poder de ataque"
+        "attackStrength": "Poder de ataque"
     },
     "game.village": {
         "name": "{user} aldeia",
-        "name_left": "Aldeia Bárbara",
-        "special_chars": "sxz",
-        "username_normal": "{user}'s",
-        "username_special": "{user}'"
+        "nameLeft": "Aldeia Bárbara",
+        "specialChars": "sxz",
+        "usernameNormal": "{user}'s",
+        "usernameSpecial": "{user}'"
     },
     "index": {
         "availableWorlds": "Mundos Abertos",
@@ -633,7 +633,7 @@
         "register": "Registrar",
         "title": "Registrar"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "content": "Sua sessão expirou. Faça login outra vez em {link}.",
         "index": "Página Inicial",
         "link": "{t} Página Inicial",
@@ -647,50 +647,50 @@
         "today": "hoje",
         "tomorrow": "amanhã"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Arqueiro",
         "short": "Arqueiro"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Viking",
         "plural": "Viking",
         "short": "Machado"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Catapulta"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Cavalaria Pesada",
         "plural": "Cavalaria Pesada"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladino"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Cavalaria Leve",
         "plural": "Cavalaria Leve"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Arqueiro a Cavalo"
     },
-    "unit_militia": {
+    "unitMilitia": {
         "name": "Milícia"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Aríete",
         "short": "Aríete"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Nobre"
     },
-    "unit_spear": {
+    "unitSpear": {
         "name": "Lanceiro",
         "short": "Lança"
     },
-    "unit_spy": {
+    "unitSpy": {
         "name": "Batedor"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Espadachim",
         "plural": "Espadachim",
         "short": "Espada"

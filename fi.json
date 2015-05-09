@@ -10,39 +10,39 @@
         "login": "Kirjaudu sisään",
         "password": "Salasana"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Kasarmi"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Kirkko"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Maatila"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Työpaja"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Rautakaivos"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Rakenna",
-        "build_time": "Rakennusaika",
+        "buildTime": "Rakennusaika",
         "building": "Rakennukset",
         "cancel": "Peruu",
-        "change_name": "Vaihda kylän nimeä",
-        "event_time": "Kesto",
-        "mode_build": "Rakenna",
-        "mode_destroy": "Purkaminen",
+        "changeName": "Vaihda kylän nimeä",
+        "eventTime": "Kesto",
+        "modeBuild": "Rakenna",
+        "modeDestroy": "Purkaminen",
         "name": "Päämaja"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Kauppapaikka"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Kaikki",
         "arrival": "Saapuminen",
-        "arrival_in": "Saapuminen kohteeseen",
+        "arrivalIn": "Saapuminen kohteeseen",
         "attack": "hyökkää",
         "attacker": "Hyökkääjä",
         "attackingArmy": "Hyökkääjä",
@@ -59,51 +59,51 @@
         "wall": "Muuri",
         "withdraw": "Vedä takaisin"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Komennot"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Tuotanto"
     },
-    "building_smith": {
-        "event_time": "Kesto"
+    "buildingSmith": {
+        "eventTime": "Kesto"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Yhteensä"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Luo"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Talli"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Paladiini",
-        "mode_inventory": "Inventaario",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Paladiini",
+        "modeInventory": "Inventaario",
         "name": "Patsas",
-        "pala_name": "Nimi"
+        "palaName": "Nimi"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Savikuoppa"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Varaston kapasiteetti",
         "name": "Varasto",
-        "table_head": "Varasto täynnä"
+        "tableHead": "Varasto täynnä"
     },
-    "building_wall": {
-        "basic_defense": "Peruspuolustus",
+    "buildingWall": {
+        "basicDefense": "Peruspuolustus",
         "name": "Muuri"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Saha"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Vahvista"
     },
     "game": {
-        "_none": "Ei mitään",
+        "None": "Ei mitään",
         "booty": "Ryöstö",
         "buddies": "Ystävät",
         "cancel": "Peruu",
@@ -147,7 +147,7 @@
         "create": "Luo",
         "delete": "Poista",
         "forum": "Foorumi",
-        "last_post": "Viimeinen viesti",
+        "lastPost": "Viimeinen viesti",
         "newpoll": "Uusi kysely",
         "replies": "Vastaa",
         "reply": "Vastaus",
@@ -215,7 +215,7 @@
         "title": "Heimo"
     },
     "game.menu.mails": {
-        "i_new": "Uusi viesti",
+        "iNew": "Uusi viesti",
         "in": "Viestit",
         "title": "Viestit"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Heimot",
-        "kill_player": "Lyödyt vastustajat",
+        "killPlayer": "Lyödyt vastustajat",
         "player": "Pelaaja",
         "title": "Sijoitukset"
     },
@@ -249,7 +249,7 @@
         "trade": "Kauppa"
     },
     "game.menu.settings": {
-        "change_passwd": "Vaihda salasana",
+        "changePasswd": "Vaihda salasana",
         "poll": "Kyselyt",
         "profile": "Profiili",
         "settings": "Asetukset",
@@ -271,7 +271,7 @@
         "defender": "Puolustaja",
         "from": "kohteesta",
         "losses": "Haavoittuneet",
-        "normal_luck": "Onni",
+        "normalLuck": "Onni",
         "origin": "Alkuperä",
         "target": "Kohde",
         "title": "Raportit",
@@ -289,7 +289,7 @@
         "village": "Kylä"
     },
     "game.train": {
-        "mode_train": "Rekrytoi"
+        "modeTrain": "Rekrytoi"
     },
     "game.train.queue": {
         "cancel": "Peruu",
@@ -297,10 +297,10 @@
         "train": "Rekrytoi"
     },
     "game.unit": {
-        "attack_strength": "Hyökkäysvoima"
+        "attackStrength": "Hyökkäysvoima"
     },
     "game.village": {
-        "name_left": "Barbaarikylä"
+        "nameLeft": "Barbaarikylä"
     },
     "index": {
         "availableWorlds": "Avoimet maailmat",
@@ -330,46 +330,46 @@
         "register": "Rekisteröidy",
         "title": "Rekisteröidy"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Koti"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Jousimies",
         "short": "Jousimies"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Kirvestaistelija",
         "plural": "Kirvestaistelija",
         "short": "Kirves"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapultti"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Raskas ratsuväki",
         "plural": "Raskas ratsuväki"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Paladiini"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Kevyt ratsuväki",
         "plural": "Kevyt ratsuväki"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Ratsastava jousimies"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Muurinmurtaja",
         "short": "Muurinmurtaja"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Aatelinen"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Keihäs"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Miekkamies",
         "plural": "Miekkamies",
         "short": "Miekka"

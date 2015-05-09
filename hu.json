@@ -10,39 +10,39 @@
         "login": "Belépés",
         "password": "Jelszó"
     },
-    "building_barracks": {
+    "buildingBarracks": {
         "name": "Barakk"
     },
-    "building_church": {
+    "buildingChurch": {
         "name": "Templom"
     },
-    "building_farm": {
+    "buildingFarm": {
         "name": "Tanya"
     },
-    "building_garage": {
+    "buildingGarage": {
         "name": "Műhely"
     },
-    "building_iron": {
+    "buildingIron": {
         "name": "Vasbánya"
     },
-    "building_main": {
+    "buildingMain": {
         "build": "Építés",
-        "build_time": "Építési idő",
+        "buildTime": "Építési idő",
         "building": "Épületek",
         "cancel": "Mégse",
-        "change_name": "Változtassa meg a falu nevét",
-        "event_time": "Időtartam",
-        "mode_build": "Építés",
-        "mode_destroy": "Lebontás",
+        "changeName": "Változtassa meg a falu nevét",
+        "eventTime": "Időtartam",
+        "modeBuild": "Építés",
+        "modeDestroy": "Lebontás",
         "name": "Főhadiszállás"
     },
-    "building_market": {
+    "buildingMarket": {
         "name": "Piac"
     },
-    "building_place": {
+    "buildingPlace": {
         "all": "Összes",
         "arrival": "Érkezés",
-        "arrival_in": "Érkezés:",
+        "arrivalIn": "Érkezés:",
         "attack": "Támadás",
         "attacker": "Támadó",
         "attackingArmy": "Támadó",
@@ -59,51 +59,51 @@
         "wall": "Fal",
         "withdraw": "Visszavonás"
     },
-    "building_place_navi": {
+    "buildingPlaceNavi": {
         "command": "Parancsok"
     },
-    "building_res": {
+    "buildingRes": {
         "prod": "Gyártás"
     },
-    "building_smith": {
-        "event_time": "Időtartam"
+    "buildingSmith": {
+        "eventTime": "Időtartam"
     },
-    "building_snob": {
+    "buildingSnob": {
         "overall": "Összesen"
     },
-    "building_snob_navi": {
+    "buildingSnobNavi": {
         "train": "Létrehozás"
     },
-    "building_stable": {
+    "buildingStable": {
         "name": "Istálló"
     },
-    "building_statue": {
-        "do_cancel": "Cancel",
-        "mode_index": "Lovag",
-        "mode_inventory": "Jutalomtár",
+    "buildingStatue": {
+        "doCancel": "Cancel",
+        "modeIndex": "Lovag",
+        "modeInventory": "Jutalomtár",
         "name": "Szobor",
-        "pala_name": "Név"
+        "palaName": "Név"
     },
-    "building_stone": {
+    "buildingStone": {
         "name": "Agyagbánya"
     },
-    "building_storage": {
+    "buildingStorage": {
         "capacity": "Tárolási kapacitás",
         "name": "Tárolás",
-        "table_head": "Raktár teljes feltöltése"
+        "tableHead": "Raktár teljes feltöltése"
     },
-    "building_wall": {
-        "basic_defense": "Alapvédelem",
+    "buildingWall": {
+        "basicDefense": "Alapvédelem",
         "name": "Fal"
     },
-    "building_wood": {
+    "buildingWood": {
         "name": "Fatelep"
     },
-    "create_village": {
+    "createVillage": {
         "submit": "Megerősítés"
     },
     "game": {
-        "_none": "Nincs",
+        "None": "Nincs",
         "booty": "Zsákmány",
         "buddies": "Barátok",
         "cancel": "Mégse",
@@ -147,7 +147,7 @@
         "create": "Létrehozás",
         "delete": "Törlés",
         "forum": "Fórum",
-        "last_post": "Utolsó hozzászólás",
+        "lastPost": "Utolsó hozzászólás",
         "newpoll": "Új felmérés",
         "replies": "Válasz",
         "reply": "Válasz",
@@ -215,7 +215,7 @@
         "title": "Klán"
     },
     "game.menu.mails": {
-        "i_new": "Új üzenet",
+        "iNew": "Új üzenet",
         "in": "Üzenetek",
         "title": "Üzenetek"
     },
@@ -234,7 +234,7 @@
     },
     "game.menu.ranking": {
         "ally": "Klánok",
-        "kill_player": "Legyőzött ellenfelek",
+        "killPlayer": "Legyőzött ellenfelek",
         "player": "Játékos",
         "title": "Ranglista"
     },
@@ -249,7 +249,7 @@
         "trade": "Kereskedelem"
     },
     "game.menu.settings": {
-        "change_passwd": "Jelszó módosítása",
+        "changePasswd": "Jelszó módosítása",
         "poll": "Felmérések",
         "profile": "Profil",
         "settings": "Beállítások",
@@ -271,7 +271,7 @@
         "defender": "Védekező",
         "from": "Ettől a játékostól:",
         "losses": "Veszteségek",
-        "normal_luck": "Szerencse",
+        "normalLuck": "Szerencse",
         "origin": "Kiindulás",
         "target": "Cél",
         "title": "Jelentések",
@@ -289,7 +289,7 @@
         "village": "Falu"
     },
     "game.train": {
-        "mode_train": "Toborzás"
+        "modeTrain": "Toborzás"
     },
     "game.train.queue": {
         "cancel": "Mégse",
@@ -297,10 +297,10 @@
         "train": "Toborzás"
     },
     "game.unit": {
-        "attack_strength": "Támadóerő"
+        "attackStrength": "Támadóerő"
     },
     "game.village": {
-        "name_left": "Barbár falu"
+        "nameLeft": "Barbár falu"
     },
     "index": {
         "availableWorlds": "Nyílt világok",
@@ -330,46 +330,46 @@
         "register": "Regisztráció",
         "title": "Regisztráció"
     },
-    "sid_wrong": {
+    "sidWrong": {
         "index": "Kezdőlap"
     },
-    "unit_archer": {
+    "unitArcher": {
         "name": "Íjász",
         "short": "Íjász"
     },
-    "unit_axe": {
+    "unitAxe": {
         "name": "Bárdos",
         "plural": "Bárdos",
         "short": "Fejsze"
     },
-    "unit_catapult": {
+    "unitCatapult": {
         "name": "Katapult"
     },
-    "unit_heavy": {
+    "unitHeavy": {
         "name": "Nehézlovas",
         "plural": "Nehézlovas"
     },
-    "unit_knight": {
+    "unitKnight": {
         "name": "Lovag"
     },
-    "unit_light": {
+    "unitLight": {
         "name": "Könnyűlovas",
         "plural": "Könnyűlovas"
     },
-    "unit_marcher": {
+    "unitMarcher": {
         "name": "Lovasíjász"
     },
-    "unit_ram": {
+    "unitRam": {
         "name": "Faltörő kos",
         "short": "Faltörő kos"
     },
-    "unit_snob": {
+    "unitSnob": {
         "name": "Nemes"
     },
-    "unit_spear": {
+    "unitSpear": {
         "short": "Lándzsa"
     },
-    "unit_sword": {
+    "unitSword": {
         "name": "Kardforgató",
         "plural": "Kardforgató",
         "short": "Kard"
