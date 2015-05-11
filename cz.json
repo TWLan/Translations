@@ -431,7 +431,7 @@
         "killAlly": "Poražený protivník - kmeny",
         "killPlayer": "Poražený protivník",
         "player": "Hráči",
-        "points": "({rank}.|{points} B)",
+        "points": "B",
         "title": "Žebříček",
         "wars": "Války"
     },

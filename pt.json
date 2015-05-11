@@ -431,7 +431,7 @@
         "killAlly": "Adversários derrotados por classificação da tribo",
         "killPlayer": "Adversários derrotados",
         "player": "Jogadores",
-        "points": "({rank}.|{points} P)",
+        "points": "P",
         "title": "Posição",
         "wars": "Guerras"
     },

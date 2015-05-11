@@ -671,7 +671,7 @@
         "killAlly": "Opponents defeated tribal ranking",
         "killPlayer": "Opponents defeated",
         "player": "Players",
-        "points": "({rank}.|{points} P)",
+        "points": "P",
         "title": "Ranking",
         "wars": "Wars"
     },

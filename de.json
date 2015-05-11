@@ -678,7 +678,7 @@
         "killAlly": "Besiegte Gegner Stämme",
         "killPlayer": "Besiegte Gegner",
         "player": "Spieler",
-        "points": "({rank}.|{points} P)",
+        "points": "P",
         "title": "Rangliste",
         "wars": "Stammeskriege"
     },
