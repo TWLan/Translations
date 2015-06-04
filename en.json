@@ -6,7 +6,8 @@
         "mainFunctions": "Menu",
         "title": "Admin Panel",
         "insufficientPermissions": "Insufficient permissions!",
-        "adminTaskStatus": "{tasks} admin tasks in queue - current task: {task} <b>({progress})<\/b>"
+        "adminTaskStatus": "{tasks} admin tasks in queue - current task: {task} <b>({progress})<\/b>",
+        "fileNotFound": "File not found: {path}"
     },
     "admin.configeditor": {
         "confignotfound": "The configuration file for the config editor could not be found",
@@ -50,7 +51,13 @@
     "admin.nav": {
         "dashboard": "Dashboard",
         "worlds": "Worlds",
-        "manageVillages": "manage villages"
+        "create": "Create",
+        "players": "Players",
+        "global": "Global",
+        "adminer": "Adminer",
+        "villages": "Villages",
+        "edit": "Edit",
+        "subnode": "{parent} - {child}"
     },
     "admin.world": {
         "generalInfo": "General information",
