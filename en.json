@@ -395,7 +395,8 @@
         "birthday": "Birthday",
         "banned": "Banned",
         "basedOn": "Based on",
-        "version": "Version"
+        "version": "Version",
+        "search": "Search"
     },
     "game.ally": {
         "accept": "Accept",
@@ -680,7 +681,8 @@
         "player": "Players",
         "points": "P",
         "title": "Ranking",
-        "wars": "Wars"
+        "wars": "Wars",
+        "awards": "Achievements"
     },
     "game.menu.reports": {
         "all": "All reports",

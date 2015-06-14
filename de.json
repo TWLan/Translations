@@ -395,7 +395,8 @@
         "birthday": "Geburtstag",
         "banned": "Gesperrt",
         "basedOn": "Basierend auf",
-        "version": "Version"
+        "version": "Version",
+        "search": "Suche"
     },
     "game.ally": {
         "accept": "Akzeptieren",
@@ -680,7 +681,8 @@
         "player": "Spieler",
         "points": "P",
         "title": "Rangliste",
-        "wars": "Stammeskriege"
+        "wars": "Stammeskriege",
+        "awards": "Erfolge"
     },
     "game.menu.reports": {
         "all": "Alle Berichte",
