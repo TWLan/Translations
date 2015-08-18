@@ -361,6 +361,7 @@
         "options": "Options",
         "overdue": "overdue",
         "points": "Points",
+        "totalPoints": "Total points",
         "population": "Population",
         "preview": "Preview",
         "resources": "Resources",
@@ -556,6 +557,7 @@
         "properties": "Properties",
         "memberCount": "Number of members",
         "pointsBest40": "Points of the best 40 players",
+        "pointsPerPlayer": "Punkte pro Spieler",
         "pointsOverall": "Total points",
         "pointsAverage": "Average points",
         "defeatedEnemies": "Opponents defeated",
@@ -586,6 +588,9 @@
         "normal": "Normal",
         "large": "Large",
         "veryLarge": "Very large"
+    },
+    "game.ranking": {
+        "pointsPerVillage": "Points per village"
     },
     "game.error": {
         "methodNotFound": "\"{controller}\" doesn't have a function called \"{method}\".",

@@ -368,6 +368,7 @@
         "overdue": "überfällig",
         "page": "Seite",
         "points": "Punkte",
+        "totalPoints": "Gesamtpunkte",
         "population": "Bevölkerung",
         "preview": "Vorschau",
         "resources": "Rohstoffe",
@@ -435,7 +436,7 @@
         "nap": "Nicht-Angriffs-Pakt (NAP)",
         "new": "Neue Beziehung hinzufügen",
         "partner": "Verbündete",
-        "tag": "Stammestag"
+        "tag": "Stammes-Tag"
     },
     "game.ally.events": {
         "1": "Der Stamm wurde von {fromPlayer} gegründet.",
@@ -556,12 +557,16 @@
         "properties": "Eigenschaften",
         "memberCount": "Mitgliederanzahl",
         "pointsBest40": "Punkte der 40 besten Spieler",
+        "pointsPerPlayer": "Punkte pro Spieler",
         "pointsOverall": "Punkte insgesamt",
         "pointsAverage": "Punktedurchschnitt",
         "defeatedEnemies": "Besiegte Gegner",
         "members": "Mitglieder",
         "startpage": "Startseite",
         "irc": "IRC-Channel"
+    },
+    "game.ranking": {
+        "pointsPerVillage": "Punkte pro Dorf"
     },
     "game.bbcode": {
         "address": "Adresse",
