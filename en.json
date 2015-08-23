@@ -650,7 +650,7 @@
     "game.menu.mails": {
         "address": "Address book",
         "block": "Block sender",
-        "groups": "Ordner",
+        "groups": "Folders",
         "iNew": "New mail",
         "in": "Mail",
         "massOut": "Circular mail",
