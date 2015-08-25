@@ -621,10 +621,13 @@
     },
     "game.map": {
         "barbarian": "Barbarendörfer",
+        "barbarians": "Barbaren",
         "enemys": "Feinde",
         "naps": "Nicht-Angriffs-Pakt (NAP)",
         "owntribe": "Eigener Stamm",
-        "partners": "Verbündete"
+        "partners": "Verbündete",
+        "yourAlly": "Eigener Stamm",
+        "own": "Eigene"
     },
     "game.market": {
         "traders": "Händler"

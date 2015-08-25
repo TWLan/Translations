@@ -621,10 +621,13 @@
     },
     "game.map": {
         "barbarian": "Barbarian villages",
+        "barbarians": "Barbarians",
         "enemys": "Enemies",
         "naps": "Non-Aggression-Pact (NAP)",
         "owntribe": "Your tribe",
-        "partners": "Allies"
+        "partners": "Allies",
+        "yourAlly": "Your tribe",
+        "own": "Your own"
     },
     "game.market": {
         "traders": "Merchants"
