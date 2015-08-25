@@ -489,14 +489,14 @@
         "flags": "Vlajky",
         "groups": "Skupimy sdružení",
         "incomingUnits": "Příchozí vojska",
+        "loyalty": "Oddanost",
         "newbie": "Začátečniká ochrana",
         "notes": "Poznámky",
         "outgoingUnits": "Tvoje jednotky",
         "prod": "Produkce",
         "secret": "Tajné",
         "summary": "Stavby",
-        "units": "Jednotky",
-        "loyalty": "Oddanost"
+        "units": "Jednotky"
     },
     "game.overviews": {
         "amount": "Částka",

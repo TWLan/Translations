@@ -489,14 +489,14 @@
         "flags": "Bandeiras",
         "groups": "Grupo associado",
         "incomingUnits": "Tropas recebidas",
+        "loyalty": "Lealdade",
         "newbie": "Proteção de iniciantes",
         "notes": "Notas",
         "outgoingUnits": "Suas tropas",
         "prod": "Produção",
         "secret": "Segredo",
         "summary": "Edifícios",
-        "units": "Unidades",
-        "loyalty": "Lealdade"
+        "units": "Unidades"
     },
     "game.overviews": {
         "amount": "Quantidade",
