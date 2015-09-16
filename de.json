@@ -7,7 +7,12 @@
         "title": "Admin Panel",
         "insufficientPermissions": "Nicht genügend Rechte!",
         "adminTaskStatus": "{tasks} Aktionen in Bearbeitung - Aktuelle Aktion: {task} <b>({progress})<\/b>",
-        "fileNotFound": "Datei nicht gefunden: {path}"
+        "fileNotFound": "Datei nicht gefunden: {path}",
+        "actions": "Aktionen",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "chooseAction": "Aktion auswählen",
+        "cancel": "Abbrechen"
     },
     "admin.configeditor": {
         "confignotfound": "Die Konfigurationsdatei für den Konfigeditor konnte nicht gefunden werden",
@@ -57,11 +62,25 @@
         "villages": "Dörfer",
         "create": "Erstellen",
         "edit": "Bearbeiten",
+        "delete": "Löschen",
         "subnode": "{parent} - {child}"
     },
     "admin.world": {
         "generalInfo": "Generelle Informationen",
         "players": "Spieler"
+    },
+    "admin.world.managePlayers": {
+        "name": "Spielername",
+        "rank": "Rang",
+        "points": "Punkte",
+        "villages": "Dörfer",
+        "ally": "Stamm",
+        "playerNotFound": "Spieler wurde nicht gefunden!",
+        "moveUserNotFound": "Angegebener Spieler '{player}' nicht gefunden!",
+        "deletePlayer": "Spieler löschen",
+        "villageHandleQuestion": "Was soll mit den Dörfern des Spielers geschehen?",
+        "transferToPlayer": "Zu Spieler transferieren",
+        "makeBarbarians": "Zu Barbarendörfer machen"
     },
     "building": {
         "level": "Stufe {x}",
@@ -380,7 +399,7 @@
         "storage": "Speicherkapazität",
         "support": "Support",
         "text": "Text",
-        "thousandDelimeter": "'",
+        "thousandDelimeter": ".",
         "time": "H:i:s",
         "microtime": "H:i:s:u",
         "unit": "Einheit",

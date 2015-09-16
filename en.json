@@ -7,7 +7,12 @@
         "title": "Admin Panel",
         "insufficientPermissions": "Insufficient permissions!",
         "adminTaskStatus": "{tasks} admin tasks in queue - current task: {task} <b>({progress})<\/b>",
-        "fileNotFound": "File not found: {path}"
+        "fileNotFound": "File not found: {path}",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "chooseAction": "Choose action",
+        "cancel": "Cancel"
     },
     "admin.configeditor": {
         "confignotfound": "The configuration file for the config editor could not be found",
@@ -57,11 +62,25 @@
         "adminer": "Adminer",
         "villages": "Villages",
         "edit": "Edit",
+        "delete": "Delete",
         "subnode": "{parent} - {child}"
     },
     "admin.world": {
         "generalInfo": "General information",
         "players": "Players"
+    },
+    "admin.world.managePlayers": {
+        "name": "Player name",
+        "rank": "Rank",
+        "points": "Points",
+        "villages": "Villages",
+        "ally": "Ally",
+        "playerNotFound": "Player was not found!",
+        "moveUserNotFound": "Given player '{player}' not found!",
+        "deletePlayer": "Delete player",
+        "villageHandleQuestion": "What should happen with the villages of the player?",
+        "transferToPlayer": "Transfer to player",
+        "makeBarbarians": "Make barbarian villages"
     },
     "building": {
         "level": "Level {x}",
