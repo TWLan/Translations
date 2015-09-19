@@ -584,9 +584,6 @@
         "startpage": "Startseite",
         "irc": "IRC-Channel"
     },
-    "game.ranking": {
-        "pointsPerVillage": "Punkte pro Dorf"
-    },
     "game.bbcode": {
         "address": "Adresse",
         "ally": "Stamm",
@@ -782,6 +779,9 @@
         "norec": "Keine Rekrutierung",
         "teccomplete": "Technologien komplett erforscht",
         "villagespersite": "Dörfer pro Seite"
+    },
+    "game.ranking": {
+        "pointsPerVillage": "Punkte pro Dorf"
     },
     "game.report": {
         "amount": "Anzahl",

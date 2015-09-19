@@ -396,7 +396,8 @@
         "banned": "Geband",
         "basedOn": "Gebaseerd op",
         "version": "Versie",
-        "search": "Zoeken"
+        "search": "Zoeken",
+        "totalPoints": "Totaal aantal punten:"
     },
     "game.ally": {
         "accept": "Accepteer",
@@ -561,7 +562,8 @@
         "defeatedEnemies": "Verslagen tegenstanders",
         "members": "Leden",
         "startpage": "Homepagina",
-        "irc": "IRC-Channel"
+        "irc": "IRC-Channel",
+        "pointsPerPlayer": "Punten per speler"
     },
     "game.bbcode": {
         "address": "adres",
@@ -755,6 +757,9 @@
         "norec": "Geen rekrutering",
         "teccomplete": "Technologie volledig ontwikkeld",
         "villagespersite": "Dorpen per pagina"
+    },
+    "game.ranking": {
+        "pointsPerVillage": "Punten per dorp"
     },
     "game.report": {
         "amount": "Hoeveelheid",

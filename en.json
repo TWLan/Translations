@@ -608,9 +608,6 @@
         "large": "Large",
         "veryLarge": "Very large"
     },
-    "game.ranking": {
-        "pointsPerVillage": "Points per village"
-    },
     "game.error": {
         "methodNotFound": "\"{controller}\" doesn't have a function called \"{method}\".",
         "pageNotFound": "The page \"{page}\" couldn't be found.",
@@ -782,6 +779,9 @@
         "norec": "No recruitment",
         "teccomplete": "Technologies fully researched",
         "villagespersite": "Villages per page"
+    },
+    "game.ranking": {
+        "pointsPerVillage": "Points per village"
     },
     "game.report": {
         "amount": "Amount",
