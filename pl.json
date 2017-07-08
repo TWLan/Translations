@@ -1,29 +1,66 @@
 {
     "admin": {
-        "logout": "Wyloguj"
+        "logout": "Wyloguj",
+        "adminPanel": "Panel Admina",
+        "configEditor": "Edytor Ustawień",
+        "mainFunctions": "Menu",
+        "title": "Panel Admina",
+        "insufficientPermissions": "Brak uprawnień!",
+        "adminTaskStatus": "{tasks} zadania admina w kolejce - aktualne zadanie: {task} <b>({progress})</b>",
+        "fileNotFound": "Plik nie znaleziony: {path}",
+        "actions": "Akcje",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "chooseAction": "Wybierz akcję",
+        "cancel": "Anuluj"
     },
     "admin.configeditor": {
         "reload": "Odśwież",
-        "save": "Zapisz ustawienia"
+        "save": "Zapisz ustawienia",
+        "confignotfound": "Nie można znaleźć pliku konfiguracyjnego dla edytora ustawień",
+        "confirm": "Czy jesteś pewien?",
+        "defaultWorld": "Domyślna konfiguracja świata",
+        "deleteworld": "Usuń świat",
+        "entername": "Podaj nazwę świata:",
+        "global": "Ogólna konfiguracja",
+        "invalidinput": "Podałeś za mało znaków, bądź nazwa jest niepoprawna",
+        "mkdir": "Nie można utworzyć folderu!",
+        "newworld": "Utwórz nowy świat",
+        "rmdir": "Nie można usunąć tego folderu!",
+        "saved": "Ustawienia zapisane!",
+        "standard": "Domyślne wartości",
+        "title": "Edytor ustawień",
+        "warningNoDefaultValues": "Domyślna konfiguracja nie znaleziona.",
+        "world": "Ustawienia świata",
+        "worldcreated": "Świat został stworzony. Teraz możesz go konfigurować.",
+        "worlddeleted": "Świat został usunięty.",
+        "worldexists": "Taki świat już istnieje!"
     },
     "admin.login": {
         "login": "Zaloguj",
-        "password": "Hasło"
+        "password": "Hasło",
+        "default": "Cał czas twoje hasło jest takie samo jak domyślne! <b>(editme)</b>",
+        "fail": "Złe hasło!"
     },
     "buildingBarracks": {
-        "name": "Koszary"
+        "name": "Koszary",
+        "description": "W koszarach możesz rekrutować piechotę. Im wyższy poziom koszar, tym szybciej jednostki będą rekrutowane."
     },
     "buildingChurch": {
-        "name": "Kościół"
+        "name": "Kościół",
+        "description": "Kościół daje wszystkim wioskom w okolicy wiarę. Gdy wioska ma wiarę, jej jednostki będą walczyły ze 100% skutecznością, zamiast 50%."
     },
     "buildingFarm": {
-        "name": "Farma"
+        "name": "Farma",
+        "description": "Farma wyżywia Twoich pracowników i wojska. Bez rozbudowania farmy Twoja wioska nie może się rozrastać. Im wyższy stopień rozbudowania, tym więcej mieszkańców może być wyżywionych."
     },
     "buildingGarage": {
-        "name": "Warsztat"
+        "name": "Warsztat",
+        "description": "W warsztacie możesz produkować tarany oraz katapulty. Im wyższy poziom, tym szybciej będą one produkowane."
     },
     "buildingIron": {
-        "name": "Huta żelaza"
+        "name": "Huta żelaza",
+        "description": "W hucie żelaza twoi pracownicy wytapiają żelazo. Im wyższy poziom huty, tym więcej żelaza będzie można pozyskiwać."
     },
     "buildingMain": {
         "build": "Wybuduj",
@@ -34,73 +71,237 @@
         "eventTime": "Czas trwania",
         "modeBuild": "Wybuduj",
         "modeDestroy": "Wyburzanie",
-        "name": "Ratusz"
+        "name": "Ratusz",
+        "ajaxBuild": "Polecenie budowy dodano do kolejki.",
+        "buildTo": "Rozbuduj na poziom {x}",
+        "cannotBuild": "Ten budynek nie może być zbudowany w tej wiosce",
+        "change": "Zmień",
+        "ajaxNoBuilding": "Nie podano budynku!",
+        "changeOrder": "Tutaj możesz zmienić kolejność budynków w kolejce budowy przeciągając je na wybrane miejsce myszką.",
+        "costs": "Wymagania",
+        "description": "W ratuszu możesz budować nowe budynki oraz rozbudowywać. Im wyższy poziom ratuszu, tym szybciej budowa będzie kończona. Jak tylko ratusz osiągnie poziom 15 będziesz mógł wyburzać budynki w tej wiosce.",
+        "destroy": "Wyburz",
+        "destroyTime": "Czas wyburzania",
+        "destroyLevel": "Zburz jeden poziom",
+        "eventBuilding": "Zadanie budowy",
+        "eventCancel": "Anuluj",
+        "eventFinish": "Ukończono",
+        "farmTooSmall": "Farma za mała",
+        "forgetIt": "Wymagana produkcja surowców",
+        "fullyBuilt": "Budynek ukończony w pełni",
+        "fullyDestroyed": "Reszty budynku nie da się wyburzyć",
+        "hideCompleted": "Ukryj ukończone budynki",
+        "levelDestroy": "Zburz poziom",
+        "orderSuccess": "Budowa budynku została dodana do kolejki.",
+        "nameTooShort": "Nazwa wioski musi zawierać co najmniej 3 znaki.",
+        "noDestroy": "Nie możesz wyburzać budynków",
+        "queueBuild": "Polecenie budowy będzie kosztować więcej niż zamierzono. Czy nadal chcesz dodać polecenie do kolejki?",
+        "queueInfo": "Dodatkowe koszty kolejnego polecenia w kolejce budowy: {x}",
+        "queueText": "Nie będzie zwrotu za dodatkowe koszty dodania budynku do kolejki budowy",
+        "requirements": "Wymagania",
+        "requirementsNot": "Wymagania nie spełnione",
+        "requires": "Wymagane:",
+        "storageTooSmall": "Spichlerz za mały",
+        "storageTooSmallQueue": "Spichlerz za mały by dodać do kolejki",
+        "tooFewRes": "Surowce dostępne {when}",
+        "tooFewResQueue": "Za mało surowców, by dodać polecenie do kolejki budowy.",
+        "tooLate": "za późno",
+        "unknownBuilding": "Taki budynek nie istnieje.",
+        "unmet": "Nie dostępne"
     },
     "buildingMarket": {
-        "name": "Rynek"
+        "name": "Rynek",
+        "description": "Na rynku możesz handlować z innymi graczami."
     },
     "buildingPlace": {
         "all": "Wszystkie",
         "arrival": "Przybycie",
         "arrivalIn": "Przybycie za",
-        "attack": "zaatakuj",
-        "attacker": "Najeźdźca",
-        "attackingArmy": "Najeźdźca",
+        "attack": "Zaatakuj",
+        "attacker": "Agresor",
+        "attackingArmy": "Agresor",
         "church": "Kościół",
         "defender": "Obrońca",
         "defendingArmy": "Obrońca",
         "duration": "Czas trwania",
         "losses": "Straty",
         "moral": "Morale",
-        "support": "wesprzyj",
+        "support": "Wesprzyj",
         "target": "Cel",
         "total": "Ogółem",
         "units": "Jednostki",
         "wall": "Mury obronne",
-        "withdraw": "Wycofaj"
+        "withdraw": "Wycofaj",
+        "description": "Na placu stoją wojska. Tu możesz wydawać im rozkazy.",
+        "name": "Miejsce najazdu",
+        "simulator": "Symulacja",
+        "believing": "Religia",
+        "calculate": "Oblicz",
+        "catapult": "Poziom celu katapult",
+        "catapultDamage": "Obrażenia katapult",
+        "command": "Daj rozkazy",
+        "damagedWall": "Mur został zniszczony oraz zburzony z poziomu <b>{before}<b/> do poziomu <b>{after}</b>",
+        "errorNoTroops": "Nie wybrano żadnych jednostek",
+        "confirmAttack": "Potwierdź atak na {name}",
+        "confirmSupport": "Potwierdź wsparcie dla {name}",
+        "damagedBuilding": "Budynek został zniszczony oraz zburzony z poziomu <b>{before}</b> do poziomu <b>{after}</b>",
+        "defenderBonus": "100% bonusu dla muru",
+        "errorInvalidTarget": "Cel nie istnieje",
+        "errorNoTarget": "Musisz podać koordynaty x oraz  ycelu.",
+        "errorNotEnoughTroops": "Nie masz tylu jednostek dostępnych",
+        "foreignCommands": "Wrogie rozkazy",
+        "fromThisVillage": "Z tej wioski",
+        "luck": "Szczęście (od negatywnych 25% do pozytywnych 25%)",
+        "moralCalc": "Obliczanie morali",
+        "ramDamage": "Obrażenia taranów",
+        "resetAttacker": "Zresetuj ustawienia agresora",
+        "resetDefender": "Zresetuj ustawienia obrońcy",
+        "night": "Noc",
+        "ownCommands": "Twoje rozkazy",
+        "sendback": "Odeślij",
+        "some": "Trochę",
+        "troopMovements": "Ruchy armii",
+        "troopsOtherVillages": "Armie w innych wioskach"
     },
     "buildingPlaceNavi": {
-        "command": "Rozkazy"
+        "command": "Rozkazy",
+        "secrets": "Sekret",
+        "sim": "Symulacja",
+        "templates": "Szablony wojsk",
+        "units": "Wojska"
     },
     "buildingRes": {
-        "prod": "Produkcja"
+        "prod": "Produkcja",
+        "baseProd": "Produkcja bazowa",
+        "currentProd": "Obecna produkcja",
+        "amountPerHourLvl": "Jednostki na godzinę przy poziomie {lvl}",
+        "amountPerHour": "Jednostki na godzinę"
     },
     "buildingSmith": {
-        "eventTime": "Czas trwania"
+        "eventTime": "Czas trwania",
+        "costs": "Wymagania",
+        "description": "W kuźni możesz badać i ulepszać jednostki. Rozbudowywanie kuźni pozwoli na badanie lepszych jednostek oraz zmniejszy ich czas badania.",
+        "eventCancel": "Anuluj",
+        "eventFinish": "Ukończone",
+        "name": "Kuźnia",
+        "research": "Badaj",
+        "eventResearch": "Polecenie badania",
+        "researchConditionsUnmet": "Nie spełniono wymagań",
+        "technology": "Technologia",
+        "completlyResearched": "Technologia zbadana",
+        "errorMaxLevel": "Technologia zbadana"
     },
     "buildingSnob": {
-        "overall": "Ogółem"
+        "overall": "Ogółem",
+        "actionCreateCoin": "Bij",
+        "coinMinted": "Wybiłeś monetę",
+        "coinsPlural": "Monety",
+        "coinsSingular": "Moneta",
+        "createCoins": "Bij monety",
+        "created": "Wybiłeś {x}!",
+        "description": "W pałacu możesz szkolić szlachciców. Pozwolą oni na podbijanie innych wiosek poprzez redukcję ich poparcia.",
+        "farmTooSmall": "Farma za mała",
+        "name": "Pałac",
+        "resAvailable": "Surowce są dostępne",
+        "amountCreatable": "Liczba szlachciców możliwych do szkolenia",
+        "alreadyCreated": "Liczba oszczędności na szlachcica: {x}",
+        "amountEnnobled": "Liczba wiosek",
+        "amountStillProducable": "Możesz ciągle szkolić",
+        "currentAmount": "Liczba szlachciców",
+        "currentLimit": "Obecny limit szlachciców",
+        "currentProdAmount": "Szlachcic w trakcie szkolenia",
+        "limit": "Limit szlachciców",
+        "stillMissing": "Brakuje do limit szlachciców {x}",
+        "coinHint": "By szkolić więcej szlachciców musisz wybić więcej monet. Im więcej masz monet tym więcej możesz mieć wiosek.",
+        "limitReached": "Nie można już szkolić więcej szlachcicó",
+        "doCreateHeader": "Szkól",
+        "resEnough": "Surowce dostępne",
+        "storageToosmall": "Spichlerz za mały",
+        "choseAmount": "Wybierz ilość",
+        "doCreate": "Szkól jednostkę"
     },
     "buildingSnobNavi": {
-        "train": "Utwórz"
+        "train": "Utwórz",
+        "coin": "Bij monety"
     },
     "buildingStable": {
-        "name": "Stajnia"
+        "name": "Stajnia",
+        "description": "W stajni możesz rekrutować kawalerię. Im większy poziom stajni, tym sybciej rekrutowanie będzie postępować."
     },
     "buildingStatue": {
-        "doCancel": "Cancel",
+        "doCancel": "Anuluj",
         "modeIndex": "Rycerz",
         "modeInventory": "Ekwipunek",
         "name": "Piedestał",
-        "palaName": "Nazwa"
+        "palaName": "Nazwa",
+        "description": "Przy piedestale możesz powołać rycerza. Jeśli twój rycerz umrze, możesz powołać tu kolejnego.",
+        "doRecruit": "Rerutuj",
+        "duration": "Czas trwania",
+        "findingProgress": "Postęp do znalezienia kolejnego przedmiotu:",
+        "finish": "Ukończenie",
+        "inventoryDes": "Efekty przedmiotów działają tylko na jednostki przy których walczy Rycerz z danym przedmiotem.",
+        "need": "Wymagania",
+        "palaAtt": "%p atakuje %v.",
+        "palaDoRename": "Zmień nazwę",
+        "palaExists": "Każdy gracz może mieć tylko jednego rycerza",
+        "palaIdle": "%p stacjonuje w %v.",
+        "palaMove": "» Przenieś do tej wioski",
+        "palaMoving": "%p przenosi się do %v. Przybędzie za: %t",
+        "palaNameError": "Nazwa musi mieć od 3 do 50 znaków",
+        "palaRename": "Zmień nazwę Rycerza",
+        "palaReturn": "@p wraca z @v.",
+        "palaSupp": "@p wspiera @v.",
+        "recruit": "Rerutacja",
+        "thisVillage1": "ta wioska",
+        "thisVillage2": "ta wioska",
+        "time": "Czas",
+        "unit": "Jednostka",
+        "yourPala": "Twój rycerz",
+        "create": "Rekrutuj Rycerza",
+        "cancelInfo": "90% z użytych surowców wróci do twojego spichlerza",
+        "cancel": "Anuluj",
+        "amount": "Tutaj/ogólnie",
+        "allItemsFound": "Twój Rycerz znalazł już wszystkie przedmioty."
     },
     "buildingStone": {
-        "name": "Kopalnia gliny"
+        "name": "Cegielnia",
+        "description": "W cegielni twoi pracownicy wydobywają glinę, która jest potrzebna do budowania nowych budynków. Im wyższy będzie poziom cegielni, tym więcej gliny będzie pordukowane."
     },
     "buildingStorage": {
-        "capacity": "Przestrzeń magazynowa",
-        "name": "Magazyn",
-        "tableHead": "Zapełnienie magazynu"
+        "capacity": "Pojemność spichlerza",
+        "name": "Spichlerz",
+        "tableHead": "Spichlerz pełny",
+        "full": "pełno",
+        "description": "Spichlerz przechowuje twoje zasoby. Im wyższy poziom spichlerza, tym więej surowców może być przechowywane.",
+        "capacityAtLevel": "Pojemność spichlerza na poziomie",
+        "currentCapacity": "Obecna pojemność spichlerza",
+        "amountPerRes": "Jednostek każdego surowca",
+        "timeDescription": "czas (gg:mm:ss)",
+        "isFull": "Spichlerz pełny. Nie można przechowywać większej ilości surowców@"
     },
     "buildingWall": {
-        "basicDefense": "Podstawowa obrona",
-        "name": "Mury obronne"
+        "basicDefense": "Obrona bazowa",
+        "name": "Mury obronne",
+        "description": "Mur chroni twoją wioskę przed armią wroga. Im wyższy poziom muru, tym większa obrona bazowa wioski. Mur zwiększa też siłę obrony jednostek stacjonujących w wiosce.",
+        "defensiveBonus": "Bonus obronny"
     },
     "buildingWood": {
-        "name": "Tartak"
+        "name": "Tartak",
+        "description": "Poza twoją wioską w mrocznym lesie twoi drwale ścinają masywną ilość drzew do produkcji drwna w trataku, które jest potrzebne do budowania budynków oraz jednostek. Im wyższy poziom tartaku, tym więcej drzewa będzie produkowane."
     },
     "createVillage": {
-        "submit": "Zatwierdź"
+        "submit": "Zatwierdź",
+        "creationFailed": "Ta wioska nie może być stworzona.",
+        "dally": "Środek mojego plemienia",
+        "description": "Gdzie chciałbyś żeby twoja wioska się mieściła?",
+        "dno": "Północny wschód",
+        "dnw": "Północny zachód",
+        "drandom": "Losowo",
+        "dso": "Połodniowy wschód",
+        "dsw": "Południowy zachód",
+        "noDirection": "Nie wybrano miejsca",
+        "noRestart": "Nie możesz stworzyć więcej nowych wiosek.",
+        "title": "Stwórz nową wioskę"
     },
     "game": {
         "None": "Brak",
@@ -119,12 +320,43 @@
         "send": "Wyślij",
         "speed": "Szybkość",
         "stone": "Glina",
-        "storage": "Przestrzeń magazynowa",
+        "storage": "Pojemność magazynu",
         "support": "Pomoc techniczna",
         "text": "Tekst",
         "unit": "Jednostka",
         "village": "Wioska",
-        "wood": "Drewno"
+        "wood": "Drewno",
+        "date": "d.m.R",
+        "edit": "edytuj",
+        "errorWorld": "Świat {world} nie istnieje!",
+        "genTime": "stworzono w {time} ms",
+        "overdue": "przeterminowany",
+        "totalPoints": "Punkty ogólne",
+        "population": "Populacja",
+        "preview": "Przegląd",
+        "servertime": "Czas serwera:",
+        "time": "G:i:s",
+        "microtime": "G:i:s:u",
+        "chose": "Wybór",
+        "decimalDelimeter": ".",
+        "important": "Ważne",
+        "inVillage": "W wiosce/ogólnie",
+        "notexist": "{user} nie istnieje!",
+        "onLevel": "Na poziomie {level}",
+        "page": "Strona",
+        "thousandDelimeter": ".",
+        "vote": "głosuj",
+        "votes": "głosy",
+        "name": "nazwa",
+        "rank": "pozycja",
+        "globalRank": "Ranking globalny",
+        "villages": "Wioski",
+        "yes": "Tak",
+        "birthday": "Urodziny",
+        "banned": "Zbanowany",
+        "basedOn": "Na podstawie",
+        "version": "Wersja",
+        "search": "Szukaj"
     },
     "game.ally": {
         "date": "Data",
@@ -133,11 +365,37 @@
         "leave": "Opuść Plemię",
         "nameOfTribe": "Nazwa Plemienia",
         "reject": "Odrzuć",
-        "tribe": "Plemię"
+        "tribe": "Plemię",
+        "accept": "Akceptuj",
+        "alreadyexists": "Nazwa już jest używana przez inne plemię.",
+        "announcement": "Tekst wewnętrzny",
+        "confirmLeave": "Czy na pewno chcesz opóścić plemię",
+        "defaultAnnouncement": "Jeśli masz pytanie, skieruj się do [player={owner}][/player][br][br][i]Ten tekst mogą zmieniać administratorzy plemienia.[/i]",
+        "defaultDescription": "Plemię to zostało założone przez [player={owner}][/player]. Jeśli masz pytanie, skieruj się do [player={owner}][/player].[br][br][i]Ten tekst mogą zmienić dyplomaci plemienia.[/i]",
+        "enter": "By dołączyć do plemienia musisz mieć od niego zaproszenie.",
+        "event": "Akcja",
+        "expression": "Skrót",
+        "invalidinput": "Nieprawidłowa nazwa",
+        "max": "nie więcej niż {max} letters",
+        "notfound": "Nie znaleziono plemienia",
+        "reasons": "Otwórz",
+        "description": "Opis",
+        "application": "Podanie",
+        "mayApply": "Gracze mogą wysyłać podania o dołączenie",
+        "applyTemplate": "Wzór",
+        "disband": "Rozwiąż plemię",
+        "disbandConfirm": "Czy na pewno chcesz rozwiązać twoje plemię?",
+        "coatOfArms": "Godło plemienia"
     },
     "game.ally.diplomaty": {
         "enemy": "Wrogowie",
-        "partner": "Sojusznicy"
+        "partner": "Sojusznicy",
+        "alreadyrelation": "Z tym plemieniem został już nawiązany kontakt dyplomatczny.",
+        "end": "Zakończ",
+        "head": "Na tej stronie można zarządać stosunkami dyplomatycznymi z innymi plemionami. Ustawienia <strong> nie obowiązują w praktyce</strong>, ale wioski ustalonych plemion będą ukazywane w innych kolorach dla rozróżnienia. Stosunki te są widoczne tylko dla członków plemienia i mogą być zmieniane wyłącznie przez osoby posiadające odpowiednie prawa w plemieniu.",
+        "nap": "Pakt o nieagresji (PON)",
+        "new": "Dodaj nowy stosunek",
+        "tag": "Tag plemienny"
     },
     "game.ally.forum": {
         "add": "Dodaj",
@@ -149,28 +407,64 @@
         "forum": "Forum",
         "lastPost": "Ostatni post",
         "newpoll": "Nowa ankieta",
-        "replies": "Odpowiedz",
-        "reply": "Odpowiedź",
-        "title": "Tytuł"
+        "replies": "Odpowiedzi",
+        "reply": "Odpowiedz",
+        "title": "Tytuł",
+        "edit": "Edytuj",
+        "chooseAll": "Wybierz wszystkie",
+        "confirmDeleteThread": "Czy jesteś pewien, że chcesz usunąć ten temat?",
+        "confirmDeleteThreads": "Czy jesteś pewien, że chcesz usunąć te tematy?",
+        "createNewpoll": "Nowa ankietę",
+        "createNewthread": "Nowy temat",
+        "editedBy": "Ostatnio edytowane przez",
+        "endPollAfter": "Zakończ ankietę po",
+        "isClosed": "Zamknięty",
+        "isRead": "Przeczytane",
+        "markallasread": "Oznacz wszystkie fora jako przeczytane",
+        "markasread": "Oznacz forum jako przeczytane",
+        "modify": "Modyfikuj",
+        "move": "Przenieś",
+        "newthread": "Nowy temat",
+        "open": "Otwórz",
+        "poll": "Ankieta",
+        "question": "pytanie",
+        "showResults": "Pokaż wyniki przed zagłosowaniem",
+        "topics": "Wątki",
+        "vote": "głosuj"
     },
     "game.ally.forum.admin": {
         "action": "Działanie",
-        "loading": "Ładowanie"
+        "loading": "Ładowanie",
+        "access": "dostęp",
+        "accessToThisForum": "Dostęp do tego forum",
+        "addTribes": "Dodaj plemiona",
+        "createNew": "Utwórz nowe forum",
+        "forumName": "Nazwa forum",
+        "modifyableOrder": "Tutaj możesz zmienić kolejność forów przeciągając je myszką w wybrane miejsce.",
+        "notYetConfirmed": "To plemię nie zaakceptowało jeszcze dzielenia forum",
+        "rename": "Zmień nazwę",
+        "visibility": "Widoczność"
     },
     "game.ally.invite": {
         "invitations": "Zaproszenia",
         "invite": "Zaproś",
         "name": "Nazwa",
-        "redraw": "Wycofaj"
+        "redraw": "Wycofaj",
+        "not": "Gracz nie istnieje",
+        "notagain": "Ten gracz otrzymał już zaproszenie.",
+        "selfnot": "Nie możesz zaprosić siebie."
     },
     "game.ally.navi": {
         "contracts": "Dyplomacja",
         "forum": "Forum plemienia",
         "invite": "Rekrutacja",
-        "members": "Współplemieńcy",
+        "members": "Członkowie",
         "overview": "Przegląd",
         "profile": "Profil",
-        "reservations": "Szlachetny planista"
+        "reservations": "Planer podbojów",
+        "introIgm": "Witaj",
+        "properties": "Właściwości",
+        "wars": "Wojny"
     },
     "game.bbcode": {
         "ally": "Plemię",
@@ -183,41 +477,80 @@
         "report": "Raport",
         "spoiler": "Spoiler",
         "underline": "Podkreślenie",
-        "units": "Jednostki"
+        "units": "Jednostki",
+        "address": "Adres",
+        "picture": "Zdjęcie",
+        "quote": "Cytat",
+        "size": "Wielkość czcionki",
+        "strikethrough": "Przekreślenie",
+        "table": "Lista",
+        "verySmall": "Bardzo mały",
+        "small": "Mały",
+        "normal": "Normalny",
+        "large": "Duży",
+        "veryLarge": "Bardzo duży"
     },
     "game.groups": {
         "all": "Wszystkie",
-        "delete": "Usuń grupę"
+        "delete": "Usuń grupę",
+        "create": "Utwórz grupę",
+        "edit": "Edytuj grupę",
+        "erroralready": "Grupa o takiej nazwię już istnieje.",
+        "nogroups": "Nie masz żadnych grup",
+        "noun": "Grupy",
+        "rename": "Zmień nazwę grupy",
+        "applyGroups": "Ustaw grupy",
+        "assignedGroups": "Przydzał grup"
     },
     "game.mail": {
         "msgs": "Wiadomości"
     },
     "game.mail.modes": {
-        "in": "Wiadomości"
+        "in": "Wiadomości",
+        "block": "Zablokuj nadawcę",
+        "massOut": "Wiadomość grupowa",
+        "new": "Napisz wiadomość"
     },
     "game.map": {
         "enemys": "Wrogowie",
-        "partners": "Sojusznicy"
+        "partners": "Twoje",
+        "barbarian": "Wioski barbarzyńskie",
+        "barbarians": "Barbarzyńcy",
+        "naps": "Pakt o nieagresji (PON)",
+        "owntribe": "Twoje plemię",
+        "yourAlly": "Twoje plemię",
+        "own": "Twoje aktualna wioska"
     },
     "game.market": {
         "traders": "Kupcy"
     },
     "game.menu": {
-        "logout": "Wyloguj"
+        "logout": "Wyloguj",
+        "flags": "Flagi",
+        "map": "Mapa",
+        "memo": "Notatki"
     },
     "game.menu.ally": {
         "contracts": "Dyplomacja",
         "forum": "Forum plemienia",
-        "members": "Współplemieńcy",
+        "members": "Członkowie",
         "overview": "Przegląd",
         "profile": "Profil",
-        "reservations": "Szlachetny planista",
-        "title": "Plemię"
+        "reservations": "Planer podbojów",
+        "title": "Plemię",
+        "iNew": "Nowe posty na forum plemiennym",
+        "iOld": "Brak nowych postów na forum plemiennym",
+        "tribalwars": "Wojny"
     },
     "game.menu.mails": {
         "iNew": "Nowa wiadomość",
         "in": "Wiadomości",
-        "title": "Wiadomości"
+        "title": "Wiadomości",
+        "address": "Książka adresowa",
+        "block": "Zablokuj nadawcę",
+        "groups": "Foldery",
+        "massOut": "Wiadomość grupowa",
+        "new": "Napisz wiadomość"
     },
     "game.menu.overview": {
         "buildings": "Budynki",
@@ -225,18 +558,31 @@
         "commands": "Rozkazy",
         "groups": "Grupy",
         "prod": "Produkcja",
-        "title": "Przegląd"
+        "title": "Przegląd",
+        "incomings": "Nadchodzące",
+        "tech": "Badania",
+        "units": "Wojska",
+        "trader": "Transport"
     },
     "game.menu.profile": {
         "friends": "Znajomi",
         "inventory": "Ekwipunek",
-        "title": "Profil"
+        "title": "Profil",
+        "achievements": "Odznaczenia",
+        "blockList": "Zablokowani gracze",
+        "statistics": "Statystyki"
     },
     "game.menu.ranking": {
         "ally": "Plemiona",
         "killPlayer": "Pokonani przeciwnicy",
         "player": "Gracz",
-        "title": "Ranking"
+        "title": "Pozycja",
+        "conAlly": "Plemiona na kontynencie",
+        "conPlayer": "Gracze na kontynencie",
+        "killAlly": "Pokonani przeciwnicy (Plemię)",
+        "points": "P",
+        "wars": "Wojny",
+        "awards": "Odznaczenia"
     },
     "game.menu.reports": {
         "attack": "Ataki",
@@ -246,27 +592,65 @@
         "other": "Różne",
         "support": "Wsparcie",
         "title": "Raporty",
-        "trade": "Handel"
+        "trade": "Handel",
+        "all": "Wszystkie raporty",
+        "block": "Zablokuj nadawcę",
+        "iNew": "Nowy raport",
+        "public": "Opublikowane raporty"
     },
     "game.menu.settings": {
         "changePasswd": "Zmień hasło",
         "poll": "Ankiety",
         "profile": "Profil",
         "settings": "Ustawienia",
-        "title": "Ustawienia"
+        "title": "Ustawienia",
+        "block": "Zablokuj gracza",
+        "delete": "Usuń konto",
+        "logins": "Loginy",
+        "notify": "Powiadomienia",
+        "push": "iPhone i Android",
+        "quickbar": "Edytuj pasek skrótów",
+        "ticket": "Pytanie do supportu",
+        "toolbar": "Pasek skrótó"
     },
     "game.overview": {
-        "build": "Ulepsz budynek"
+        "build": "Ulepsz budynek",
+        "beginnerProtection": "Twoja ochrona początkowa skończy się {date}",
+        "cancelBuild": "Czy jesteś pewien, że chcesz anulować polecenie?",
+        "classicalOverview": "do klasycznego przeglądu wioski",
+        "forAll": "» Uzj dla wszystkich wiosek",
+        "forAllConfirm": "Na pewno użyć dla wszystkich wiosek?",
+        "graphicalOverview": "zmień na graficzny przegląd wioski",
+        "hideLevels": "Ukryj poziomy budynków",
+        "level": "{poziom {x}{extra})",
+        "prodHour": "{x} na godzinę",
+        "prodMinute": "{x} na minutę",
+        "prodSecond": "{x} na sekundę",
+        "recruit": "» rekrutuj",
+        "reset": "» Resetuj przegląd",
+        "resourceLabel1": "Czas budowy: {t}",
+        "resourceLabel2": "Czas budowy {t1} wolna populacja: {t2}",
+        "setDefault": "» Użyj jako domyślne",
+        "showAll": "Pokaż wszystkie widżety",
+        "showLevels": "Pokaż poziomy budynków"
     },
     "game.overview.widgets": {
         "buildqueue": "Kolejka",
-        "newbie": "Ochrona przed Atakiem",
+        "newbie": "Ochrona początkowa",
         "prod": "Produkcja",
         "summary": "Budynki",
-        "units": "Jednostki"
+        "units": "Jednostki",
+        "belief": "Wiara",
+        "flags": "Flagi",
+        "groups": "Grupa",
+        "incomingUnits": "Nadchodzące wojska",
+        "loyalty": "Poparcie",
+        "notes": "Notatki",
+        "outgoingUnits": "Twoje wojska",
+        "secret": "Sekret"
     },
     "game.report": {
-        "attacker": "Najeźdźca",
+        "attacker": "Agresor",
         "badluck": "Pech",
         "defender": "Obrońca",
         "from": "z",
@@ -275,103 +659,422 @@
         "origin": "Pochodzenie",
         "target": "Cel",
         "title": "Raporty",
-        "units": "Jednostki"
+        "units": "Jednostki",
+        "amount": "Ilość",
+        "attack": "{fromUser} ({fromVillage}) atakuje {toVillage}",
+        "loyalty": "Poparcie",
+        "loyaltyChange": "Poparcie zmalało z <b>{from}</b> do <b>{to}</b>",
+        "luck": "Szczęście agresora",
+        "new": "nowy",
+        "received": "Otrzymano",
+        "rename": "zmień nazwę",
+        "selectAll": "zaznacz wszystkie",
+        "subject": "Temat",
+        "support": "{fromUser} ({fromVillage}) wspiera {toVillage}",
+        "time": "Czas",
+        "to": "do",
+        "won": "{player} wygrał",
+        "noDefInfo": "Żadne z twoich jednostek nie wrócił.<br> Nie zgromadzono informacji o sile armii wroga"
     },
     "game.report.navi": {
         "all": "Wszystkie",
         "attack": "Ataki",
         "defense": "Obrona",
         "filter": "Filtr",
-        "trade": "Handel"
+        "trade": "Handel",
+        "forwarded": "Przesłane",
+        "groups": "Plik",
+        "other": "Inne",
+        "public": "Publiczne",
+        "support": "Wsparcie"
     },
     "game.title": {
         "close": "Zamknij",
-        "village": "Wioska"
+        "village": "Wioska",
+        "attacks": "Nadchodzące ataki",
+        "firstVillage": "Do pierwszej wioski z tej grupy",
+        "group": "Grupa:",
+        "supports": "Nadchodzące wsparcia"
     },
     "game.train": {
-        "modeTrain": "Rekrutacja"
+        "modeTrain": "Rekrutacja",
+        "desc": "W tym przeglądzie możesz rerutować wszystkie typy jednostek, jeśli zbudowałeś wymagane dla nich budynki oraz zbadałeś potrzebne technologie.",
+        "modeDecommission": "Zwalnianie",
+        "notEnough": "Za mało surowców",
+        "modeMassrecruitment": "Masowa rekrutacja",
+        "modeMassdecomission": "Masowe zwalnianie"
     },
     "game.train.queue": {
         "cancel": "Anuluj",
         "duration": "Czas trwania",
-        "train": "Rekrutacja"
+        "train": "Rekrutacja",
+        "cancelAll": "Anuluj wszystkie",
+        "cancelBack": "* (90% użytych zasobów zostanie zwrócone do skarbca)",
+        "cancelSure": "Czy jesteś pewien, że chcesz anulować wszystkie polecenia rerutacji?",
+        "cancelTitle": "Anuluj *",
+        "completion": "Ukończono",
+        "drag": "Tutaj możesz zmienić kolejność kolejki przesuwając pozycje myszką w wybrane miejsce.",
+        "next": "Ukończenie rekrutacji kolejnej jednostki ({unit}):"
     },
     "game.unit": {
-        "attackStrength": "Siła Ataku"
+        "attackStrength": "Siła Ataku",
+        "notAvailable": "rekrutuj",
+        "recruit": "Rekrutuj",
+        "capacity": "Udźwig",
+        "combatValues": "Statystyki bitwy",
+        "defenseArcher": "Obrona Łucznika",
+        "defenseCav": "Obrona Kawalerii",
+        "defenseGeneral": "Ogólna Obrona",
+        "researchCosts": "Koszty badania",
+        "techLevel": "Poziom technologii",
+        "researchTime": "Czas badania",
+        "recruitStarted": "Rekrutacja rozpoczęta",
+        "requirements": "Wymagania",
+        "alreadyResearched": "Zbadano",
+        "decommission": "Zwolnij"
     },
     "game.village": {
-        "nameLeft": "Wioska barbarzyńska"
+        "nameLeft": "Wioska barbarzyńska",
+        "name": "Wioska gracza {user}",
+        "specialChars": "sxz",
+        "usernameNormal": "{user}",
+        "usernameSpecial": "{user}'"
     },
     "index": {
         "availableWorlds": "Otwarte światy",
         "login": "Zaloguj",
         "logout": "Wyloguj",
         "password": "Hasło",
-        "username": "Nazwa użytkownika"
+        "username": "Nazwa użytkownika",
+        "forgotPassword": "Straciłeś hasło?/Zmiana hasła",
+        "imageTitle": "Plemiona",
+        "register": "Zarejestruj się teraz!",
+        "stayLoggedIn": "Pozostań zalogowany",
+        "title": "Plemiona",
+        "twlan": "TWlan.org",
+        "twlanLink": "TWlan.org",
+        "wrongIP": "Grać może tylko gracz z twojej lokalnej sieci",
+        "activeWorlds": "Aktywne światy",
+        "followUs": "Śledź nas na",
+        "loginTitle": "Witaj {user}, na którym świecie chciałbyś zagrać?"
     },
     "knight": {
         "archer": "Długi łuk Nimroda",
         "axe": "Bojowy topór Thorgarda",
-        "catapult": "Pochodnia Aletei",
+        "catapult": "Pochodnia Alethei",
         "heavy": "Chorągiew Baptystów",
         "light": "Lanca Mieszka",
         "marcher": "Kompozytowy łuk Nimroda",
         "ram": "Gwiazda poranna Karola",
         "snob": "Berło Vasca",
         "spear": "Halabarda Guan Yu",
-        "sword": "Długi miecz Paracelsusa"
+        "sword": "Długi miecz Paracelsusa",
+        "items": "Przedmioty",
+        "nothing": "Brak przedmiotu",
+        "spy": "Teleskop Kalida",
+        "noItem": "Brak przedmiotu"
     },
     "logout": {
-        "title": "Wyloguj"
+        "title": "Wyloguj",
+        "index": "{t} Strona główna",
+        "message": "Dziękujemy za odwiedziny!",
+        "over": "Logowanie udane"
     },
     "register": {
         "password": "Hasło",
         "passwordConfirm": "Powtórz hasło",
         "register": "Zarejestruj",
-        "title": "Zarejestruj"
+        "title": "Zarejestruj",
+        "failure": "Błąd podczas rejestracji!",
+        "name": "Nazwa użytkownika",
+        "nameInvalid": "Niepoprawna nazwa!",
+        "nameMissing": "Nie podano nazwy użytkownika!",
+        "nameTaken": "Nazwa użytkownika zajęta!",
+        "nameTooLong": "Nazwa nie może przekraczać 50 znaków",
+        "nameTooShort": "Nazwa musi mieć co najmniej 4 znaki!",
+        "passwordEqualsName": "Hasło nie może być takie samo jak nazwa użytkownika!",
+        "passwordMissing": "Nie podano hasła!",
+        "passwordTooLong": "Hasło nie może przzekraczać 50 znaków",
+        "passwordTooShort": "Hasło musi mieć co najmniej 4 znaki!",
+        "passwordsDontMatch": "Hasło musi być podane dwa razy, i musi być takie samo."
     },
     "sidWrong": {
-        "index": "Strona główna"
+        "index": "Strona główna",
+        "content": "Twoja sesja wygasłą. Zaloguj się tutaj {link}.",
+        "link": "{t} Strona główna",
+        "max": "Nie jesteś częścią 25 graczy tego świata, z tego powodu nie możesz grać na tym świecie.",
+        "title": "Sesja wygasłą",
+        "title2": "Sesja nie mogła zostać stworzona."
     },
     "unitArcher": {
         "name": "Łucznik",
-        "short": "Łucznik"
+        "short": "Łucznik",
+        "desc": "Łucznik to bardzo efektywna jednostka. Jego strzały przebijają nawet najtwardszą zbroję.",
+        "plural": "Łucznicy"
     },
     "unitAxe": {
         "name": "Topornik",
-        "plural": "Topornik",
-        "short": "Topór"
+        "plural": "Topornicy",
+        "short": "Topór",
+        "desc": "Topornik to mocna ofensywna jednostka. Ale łatwo zapomina o ochranianiu siebie."
     },
     "unitCatapult": {
-        "name": "Katapulta"
+        "name": "Katapulta",
+        "desc": "Katapulty są bardzo dobre w niszczeniu budynków twoich wrogów.",
+        "plural": "Katapulty",
+        "short": "Katapulta"
     },
     "unitHeavy": {
         "name": "Ciężki kawalerzysta",
-        "plural": "Ciężki kawalerzysta"
+        "plural": "Ciężcy kawalerzyści",
+        "desc": "Ciężka kawaleria to twój elitarny oddział. Jej jednostki mają potężne bronie oraz ciężką i mocną zbroję.",
+        "short": "CK"
     },
     "unitKnight": {
-        "name": "Rycerz"
+        "name": "Rycerz",
+        "short": "Rycerz",
+        "desc": "Rycerz chroni ciebie i twoje sojusznicze wioski przed atakami wroga. Każdy gracz może mieć tylko jednego rycerza."
     },
     "unitLight": {
         "name": "Lekki kawalerzysta",
-        "plural": "Lekki kawalerzysta"
+        "plural": "Lekcy kawalerzyści",
+        "short": "LK",
+        "desc": "Lekka kawaleria to dobra ofensywna jednostka. Jedną z ich umiejętności jest prędkość."
     },
     "unitMarcher": {
-        "name": "Łucznik na koniu"
+        "name": "Łucznik na koniu",
+        "plural": "Łucznicy na koniu",
+        "short": "Łucznik na koniu",
+        "desc": "Łucznik na koniu jest niezwykle przydatny w usuwaniu wrogich łuczników z murów."
     },
     "unitRam": {
         "name": "Taran",
-        "short": "Taran"
+        "short": "Taran",
+        "plural": "Tarany",
+        "desc": "Tarany wspierają twoje jednostki uszkadzając wrogi mur."
     },
     "unitSnob": {
-        "name": "Szlachcic"
+        "name": "Szlachcic",
+        "plural": "Szlachcice",
+        "short": "Szlachcic",
+        "desc": "Szclachcic zmniejszy poparcie w wrogich wioskach. Jeżeli poparcie wioski spadnie poniżej zera, ty przejmujesz władzę na wioską. Koszt każdego Szlachcica wzrośnie z każdą podbitą wioską oraz każdym wyszkolonym szlachciem."
     },
     "unitSpear": {
-        "short": "Pika"
+        "short": "Pik",
+        "name": "Pikinier",
+        "plural": "Pikinierzy",
+        "desc": "Pikinier to najbardziej podstawowa jednostka. Jest dobra w obronie przed kawalerią oraz do plądrowania innych wiosek."
     },
     "unitSword": {
         "name": "Miecznik",
-        "plural": "Miecznik",
-        "short": "Miecz"
+        "plural": "Miecznicy",
+        "short": "Miecz",
+        "desc": "Miecznik jest powolną jednostką defensywną, szczególnie przeciwko piechocie."
+    },
+    "admin.configeditor.types": {
+        "buildings": "Ustawienia budynków",
+        "units": "Ustawienia jednostek"
+    },
+    "admin.manageVillages": {
+        "createAbandoned": "Stwórz opuszczone wioski",
+        "unitAmount": "Ilość jednostek",
+        "generalSettings": "Ustawienia ogólne",
+        "villageAmount": "Ilość wiosek",
+        "createVillages": "Stwórz wioski"
+    },
+    "admin.nav": {
+        "dashboard": "Panel główny",
+        "worlds": "Światy",
+        "create": "Stwórz",
+        "players": "Gracze",
+        "global": "Ogólny",
+        "adminer": "Administrator",
+        "villages": "Wioski",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "subnode": "{parent} - {child}"
+    },
+    "admin.world": {
+        "generalInfo": "Informacje ogólne",
+        "players": "Gracze"
+    },
+    "admin.world.managePlayers": {
+        "name": "Nazwa gracza",
+        "rank": "Pozycja",
+        "points": "Punkty",
+        "villages": "Wioski",
+        "ally": "Plemię",
+        "playerNotFound": "Gracz nie został znaleziony!",
+        "moveUserNotFound": "Gracz '{player}' nie znaleziony!",
+        "deletePlayer": "Usuń gracza",
+        "villageHandleQuestion": "Co ma się stać z wioskami gracza?",
+        "transferToPlayer": "Przenieś do gracza",
+        "makeBarbarians": "Uczyń wioskami barbarzyńskimi"
+    },
+    "building": {
+        "level": "Poziom {x}",
+        "noLevel": "Nie zbudowano"
+    },
+    "buildingChurchF": {
+        "name": "Pierwszy kościół",
+        "description": "Kościół daje wszystkim wioskom w okolicy wiarę. Gdy wioska ma wiarę, jej jednostki będą walczyły ze 100% skutecznością, zamiast 50%. Pierwszy kościół jest budowany domyślnie w twojej pierwszej wiosce, i może być zbudowany tylko raz."
+    },
+    "buildingHide": {
+        "name": "Schowek",
+        "description": "Surowce w schowku nie będą splądrowane przez wrogów. Im będzie on większy, tym więcej zmieści. Niestety nie ma miejsca na schowanie twoich wojsk. Nawet jeśli szpiedzy wroga nie poznają surowców schowanych w schowku.",
+        "currentSize": "Obecna pojemność",
+        "marketPlunder": "Oferty na rynku mogą być splądrowane nawet jeśli surowce mieszczą się w schowku.",
+        "plunderRes": "Surowce możliwe do zrabowania",
+        "sizeAtLevel": "Pojemność przy poziomie {lvl}",
+        "size": "Obecna pojemność"
+    },
+    "error": {
+        "technical": "Wystąpił błąd techniczny :("
+    },
+    "game.ally.events": {
+        "1": "Plemię zostało stworzone przez {fromPlayer}",
+        "2": "{fromPlayer} zmienił tekst wewnętrzny.",
+        "3": "Od teraz plemię ma sojusznika w postaci {toTribe}.",
+        "4": "Od teraz plmię ma PON z {toTribe}.",
+        "5": "Od teraz plemię ma wroga w postaci {toTribe}.",
+        "6": "{toPlayer} został zaproszony przez {fromPlayer}.",
+        "7": "{fromPlayer} zmienił właściwości plemienia.",
+        "8": "Zaproszenie \"toPlayer\" zostało cofnięty przez {fromPlayer}.",
+        "9": "{fromPlayer} zmienił właściwości oraz przydomek \"toPlayer\".",
+        "10": "{fromPlayer} opóścił plemię.",
+        "11": "{toPlayer} został wyrzucony przez {fromPlayer}.",
+        "12": "{fromPlayer} zmienił opis plemienia.",
+        "13": "{fromPlayer} dołączył do plemienia.",
+        "14": "{fromPlayer} odrzucił zaproszenie do plemienia.",
+        "666": "Plemię anulowało sojusz z {toTribe}."
+    },
+    "game.ally.forum.type": {
+        "private": "Prywatne",
+        "public": "Publiczne",
+        "trusted": "Ukryte forum"
+    },
+    "game.ally.members": {
+        "diplomacy": "Dyplomacja",
+        "founder": "Założyciel plemienia",
+        "lead": "Administacja plemienia",
+        "invite": "Zaproś",
+        "massMail": "Wiadomości grupowe",
+        "forumMod": "Moderator forum wewnętrznego",
+        "internalForum": "Ukryte forum",
+        "trustedMember": "Zaufany członek",
+        "chooseAction": "Wybierz akcję...",
+        "rights": "Prawa i tytuł",
+        "kick": "Wyrzuć",
+        "editRights": "Edytuj prawa",
+        "status": "Status",
+        "active": "Aktywny",
+        "saveRights": "Zapisz prawa",
+        "modifyPermissions": "Zmień prawa gracza {player}",
+        "permissionDesc": "Tu możesz zmieniać prawa członkom plemienia. Prawa powinieneś dać graczom, których znasz i którym ufasz.",
+        "founderDesc": "Wybranie założyciela plemienia. Będzie on posiadał prawa rozwiązania plemienia, zmieniania nazwy, wpisywania strony, administrowania forum plemiennym i rozdawania praw operatorskich.",
+        "leadDesc": "Administratorzy mogą rozdawać prawa i tytuły innym graczom, mogą wypraszać graczy i mają wszystkie inne prawa.",
+        "title": "Tytuł",
+        "externalTitle": "Tytuł widoczny również poza plemieniem",
+        "titleInally": "Tytuł w plemieniu"
+    },
+    "game.ally.profile": {
+        "properties": "Właściwości",
+        "memberCount": "Liczba członków",
+        "pointsBest40": "Punkty 40 najlepszych graczy",
+        "pointsPerPlayer": "Średnia punktów",
+        "pointsOverall": "Liczba punktów (ogólnie)",
+        "pointsAverage": "Średnio punktów",
+        "defeatedEnemies": "Pokonani przeciwnicy",
+        "members": "Członkowie",
+        "startpage": "Strona główna",
+        "irc": "Kanał IRC"
+    },
+    "game.error": {
+        "methodNotFound": "\"{controller}\" nie ma funkcji \"{method}\".",
+        "pageNotFound": "Strona \"{page}\" nie została znaleziona.",
+        "pageNotValid": "\"{controller}\" nie może zostać stworzony.",
+        "viewNotFound": "Wzór \"{page}\" nie został znaleziony."
+    },
+    "game.overviews": {
+        "amount": "Ilość",
+        "noprod": "Brak produkcji",
+        "norec": "Brak rekrutacji",
+        "teccomplete": "Wszystkie technologie odblokowane",
+        "villagespersite": "Wiosek na stronę"
+    },
+    "game.ranking": {
+        "pointsPerVillage": "Średnia punktów"
+    },
+    "join": {
+        "description": "Opis:",
+        "join": "Dołącz",
+        "registerDeactivated": "Dołączanie do tego świata zostało wyłączone.",
+        "settings": "{t} Ustawienia świata {world}",
+        "title": "Dołącz",
+        "wannaJoin": "Czy chcesz dołączyć do {world}",
+        "worldFull": "Maksymalna liczba graczy na tym świecie została osiągnięta."
+    },
+    "knightItemsDesc": {
+        "archer": "Zwiększa moc w walce ofensywnej twoich łuczników o %atk i defensywnej o %def.",
+        "axe": "Zwiększa moc w walce ofensywnej twoich toporników o %atk i defensywnej o %def.",
+        "catapult": "Zwiększa obrażenia zadane katapultami o %special.",
+        "heavy": "Zwiększa moc w walce ofensywnej twojej ciężkiej kawalerii o %atk oraz defensywnej o %def.",
+        "light": "Zwiększa moc w walce ofensywnej twojej lekkiej kawalerii o %atk oraz defensywnej o %def.",
+        "marcher": "Zwiększa moc w walce ofensywnej twoich łuczników na koniu o %atk oraz defensywnej o %def.",
+        "ram": "Zwiększa obrażenia zadane taranami o %special.",
+        "snob": "Szachcic obniża poparcie o przynajmniej %special.",
+        "spear": "Zwiększa moc w walce ofensywnej twoich pikinierów o %atk oraz defensywnej o %def.",
+        "spy": "Zwiadowcy umią widzieć nawet te jednostki z podpatrywanej wioski, które akurat zostały gdzieś wysłane.",
+        "sword": "Zwiększa moc w walce ofensywnej twoich mieczników o %atk oraz defensywnej o %def"
+    },
+    "lang": {
+        "arr": "Pirat",
+        "ch": "Szwajcarski",
+        "de": "Niemiecki",
+        "en": "Angielski",
+        "pl": "Polski"
+    },
+    "login": {
+        "invalidAccount": "Konto nie istnieje",
+        "invalidWorld": "Niepoprawny świat",
+        "undefined": "Nie podano informacji",
+        "wrongPassword": "Złe hasło"
+    },
+    "menu": {
+        "admin": "Panel admina",
+        "pma": "phpMyAdmin",
+        "rounds": "Rundy",
+        "rules": "Zasady",
+        "stats": "Statystyki"
+    },
+    "news": {
+        "format": "d.m.r G:i"
+    },
+    "time": {
+        "days": "dni",
+        "ident": "w",
+        "identDay": "na",
+        "identNoun": "<span class=\"pusto\"></span>",
+        "onDay": "w {day}",
+        "onTime": "{day} o {time}",
+        "today": "dzisiaj",
+        "tomorrow": "jutro"
+    },
+    "unitMilitia": {
+        "name": "Milicja"
+    },
+    "unitMovement": {
+        "attack": "Atak na {to}",
+        "back": "Wróć od {to}",
+        "cancel": "Anuluj atak na {to}",
+        "otherBack": "Pwrócono z {to}",
+        "return": "Powrócono z {to}",
+        "support": "Wspieranie {to}"
+    },
+    "unitSpy": {
+        "name": "Zwiadowca",
+        "plural": "Zwiadowcy",
+        "short": "Zwiadowca",
+        "desc": "Zwiadowca zakrada się do wiosek twoich wrogów i zbiera wartościowe informacje."
     }
 }
